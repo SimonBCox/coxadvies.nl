@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cox Constructieadvies | Constructieberekeningen voor verbouwingen</title>
+<meta name="description" content="Constructieberekeningen en constructietekeningen voor draagmuurdoorbraken, uitbouwen en opbouwen. Vanuit Malden bij Nijmegen, voor woningeigenaren door heel Nederland.">
+<link rel="canonical" href="https://coxadvies.nl/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Cox Constructieadvies | Constructieberekeningen voor verbouwingen">
+<meta property="og:description" content="Constructieberekeningen en constructietekeningen voor draagmuurdoorbraken, uitbouwen en opbouwen. Voor woningeigenaren door heel Nederland.">
+<meta property="og:locale" content="nl_NL">
+<meta property="og:url" content="https://coxadvies.nl/">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --ink:#16212e;
+    --ink-soft:#4c5965;
+    --paper:#eceef0;
+    --surface:#ffffff;
+    --line:#d3d8dd;
+    --accent:#bf4a28;
+    --accent-deep:#9b3a1e;
+    --maxw:1120px;
+    --pad:clamp(20px,5vw,64px);
+  }
+
+  *{box-sizing:border-box;margin:0;padding:0}
+
+  html{scroll-behavior:smooth}
+
+  body{
+    font-family:"IBM Plex Sans",system-ui,sans-serif;
+    color:var(--ink);
+    background:var(--paper);
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+
+  .wrap{max-width:var(--maxw);margin:0 auto;padding-left:var(--pad);padding-right:var(--pad)}
+
+  .mono{font-family:"IBM Plex Mono",monospace}
+
+  .eyebrow{
+    font-family:"IBM Plex Mono",monospace;
+    font-size:.72rem;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--ink-soft);
+  }
+
+  a{color:inherit}
+
+  /* ---------- header ---------- */
+  .site-head{
+    position:sticky;top:0;z-index:20;
+    background:rgba(236,238,240,.86);
+    backdrop-filter:saturate(140%) blur(8px);
+    border-bottom:1px solid var(--line);
+  }
+  .head-inner{
+    display:flex;align-items:center;justify-content:space-between;
+    gap:24px;padding-top:16px;padding-bottom:16px;
+  }
+  .brand{display:flex;align-items:baseline;gap:9px;text-decoration:none;line-height:1}
+  .brand-mark{
+    font-family:"Space Grotesk",sans-serif;font-weight:700;
+    font-size:1.18rem;letter-spacing:-.01em;color:var(--ink);
+  }
+  .brand-sub{
+    font-family:"IBM Plex Mono",monospace;font-size:.68rem;
+    letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);
+  }
+  .nav{display:flex;align-items:center;gap:28px}
+  .nav-link{
+    font-size:.92rem;font-weight:500;text-decoration:none;color:var(--ink-soft);
+  }
+  .nav-link:hover{color:var(--ink)}
+  .nav-links{display:none;gap:28px}
+  @media(min-width:760px){.nav-links{display:flex}}
+
+  .btn{
+    display:inline-flex;align-items:center;gap:8px;
+    font-family:"IBM Plex Sans",sans-serif;font-weight:600;font-size:.92rem;
+    text-decoration:none;cursor:pointer;border:none;
+    padding:11px 18px;border-radius:2px;
+    background:var(--accent);color:#fff;
+    transition:background .18s ease;
+  }
+  .btn:hover{background:var(--accent-deep)}
+  .btn-ghost{
+    background:transparent;color:var(--ink);
+    border:1px solid var(--line);padding:10px 17px;
+  }
+  .btn-ghost:hover{background:#fff;border-color:var(--ink)}
+
+  /* ---------- hero ---------- */
+  .hero{padding-top:clamp(40px,7vw,84px);padding-bottom:clamp(48px,7vw,90px)}
+  .hero-grid{display:grid;grid-template-columns:1fr;gap:clamp(32px,5vw,56px);align-items:center}
+  @media(min-width:880px){.hero-grid{grid-template-columns:1.05fr .95fr}}
+
+  .hero h1{
+    font-family:"Space Grotesk",sans-serif;font-weight:700;
+    font-size:clamp(2.1rem,5.4vw,3.5rem);line-height:1.04;
+    letter-spacing:-.02em;margin:18px 0 22px;color:var(--ink);
+    max-width:15ch;
+  }
+  .hero p.lead{font-size:clamp(1.02rem,1.6vw,1.18rem);color:var(--ink-soft);max-width:46ch;margin-bottom:30px}
+  .hero-cta{display:flex;flex-wrap:wrap;gap:14px}
+
+  .diagram-card{
+    background:var(--surface);border:1px solid var(--line);border-radius:3px;
+    padding:22px 22px 16px;
+    box-shadow:0 1px 0 rgba(22,33,46,.04),0 18px 40px -28px rgba(22,33,46,.4);
+  }
+  .diagram-card svg{width:100%;height:auto;display:block}
+  .diagram-cap{
+    margin-top:10px;font-family:"IBM Plex Mono",monospace;font-size:.7rem;
+    letter-spacing:.06em;color:var(--ink-soft);display:flex;justify-content:space-between;
+  }
+
+  /* ---------- generic section ---------- */
+  .section{padding-top:clamp(54px,8vw,96px);padding-bottom:clamp(54px,8vw,96px)}
+  .section-alt{background:var(--surface)}
+  .section-head{max-width:60ch;margin-bottom:clamp(34px,5vw,52px)}
+  .section-head h2{
+    font-family:"Space Grotesk",sans-serif;font-weight:700;
+    font-size:clamp(1.6rem,3.4vw,2.3rem);line-height:1.1;letter-spacing:-.015em;
+    margin:12px 0 14px;color:var(--ink);
+  }
+  .section-head p{color:var(--ink-soft);font-size:1.05rem;max-width:52ch}
+
+  /* ---------- services ---------- */
+  .svc-list{display:grid;grid-template-columns:1fr;gap:1px;background:var(--line);border:1px solid var(--line);border-radius:3px;overflow:hidden}
+  @media(min-width:780px){.svc-list{grid-template-columns:repeat(3,1fr)}}
+  .svc{background:var(--surface);padding:28px 26px 32px}
+  .svc-tag{font-family:"IBM Plex Mono",monospace;font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+  .svc h3{font-family:"Space Grotesk",sans-serif;font-weight:500;font-size:1.28rem;margin:14px 0 10px;letter-spacing:-.01em}
+  .svc p{color:var(--ink-soft);font-size:.97rem}
+
+  /* ---------- steps (real sequence -> numbered) ---------- */
+  .steps{display:grid;grid-template-columns:1fr;gap:26px;counter-reset:step}
+  @media(min-width:680px){.steps{grid-template-columns:repeat(2,1fr);gap:34px 48px}}
+  .step{display:flex;gap:18px;align-items:flex-start}
+  .step-num{
+    flex:0 0 auto;font-family:"IBM Plex Mono",monospace;font-weight:500;
+    font-size:.92rem;color:var(--accent);
+    border:1px solid var(--accent);border-radius:50%;
+    width:38px;height:38px;display:grid;place-items:center;margin-top:2px;
+  }
+  .step h3{font-family:"IBM Plex Sans",sans-serif;font-weight:600;font-size:1.06rem;margin-bottom:5px}
+  .step p{color:var(--ink-soft);font-size:.97rem}
+
+  /* ---------- trust ---------- */
+  .trust-grid{display:grid;grid-template-columns:1fr;gap:clamp(28px,4vw,46px);align-items:start}
+  @media(min-width:820px){.trust-grid{grid-template-columns:1.2fr .8fr}}
+  .trust-lead{font-family:"Space Grotesk",sans-serif;font-weight:500;font-size:clamp(1.25rem,2.4vw,1.7rem);line-height:1.3;letter-spacing:-.01em;color:var(--ink)}
+  .trust-lead span{color:var(--accent)}
+  .trust-body p{color:var(--ink-soft);margin-bottom:14px}
+  .specs{list-style:none;display:grid;gap:0}
+  .specs li{
+    display:flex;gap:12px;align-items:baseline;
+    padding:13px 0;border-top:1px solid var(--line);
+    font-size:.95rem;
+  }
+  .specs li:last-child{border-bottom:1px solid var(--line)}
+  .specs .k{font-family:"IBM Plex Mono",monospace;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);flex:0 0 42%}
+  .specs .v{font-weight:500;color:var(--ink)}
+
+  /* ---------- contact ---------- */
+  .contact{background:var(--ink);color:#e7ebef}
+  .contact .section-head h2{color:#fff}
+  .contact .section-head p{color:#aab4bd}
+  .contact-row{display:flex;flex-wrap:wrap;gap:14px;margin-top:6px}
+  .contact .btn-ghost{color:#fff;border-color:#3a4753}
+  .contact .btn-ghost:hover{background:#22303d;border-color:#5d6d79}
+  .contact-note{margin-top:22px;font-family:"IBM Plex Mono",monospace;font-size:.72rem;letter-spacing:.05em;color:#7f8b95;max-width:50ch;line-height:1.7}
+
+  /* ---------- footer ---------- */
+  .site-foot{background:var(--ink);color:#8c97a1;padding-top:30px;padding-bottom:40px}
+  .foot-inner{display:flex;flex-wrap:wrap;justify-content:space-between;gap:18px;align-items:baseline;border-top:1px solid #2a3742;padding-top:26px}
+  .foot-brand{font-family:"Space Grotesk",sans-serif;font-weight:700;color:#dfe5ea;font-size:1.02rem}
+  .foot-meta{font-family:"IBM Plex Mono",monospace;font-size:.72rem;letter-spacing:.05em;line-height:1.9}
+  .foot-meta a{text-decoration:none;color:#aab4bd}
+  .foot-meta a:hover{color:#fff}
+
+  /* ---------- reveal ---------- */
+  .reveal{opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease}
+  .reveal.in{opacity:1;transform:none}
+  @media(prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto}
+    .reveal{opacity:1;transform:none;transition:none}
+  }
+
+  :focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
+</style>
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap head-inner">
+    <a class="brand" href="#top" aria-label="Cox Constructieadvies, naar boven">
+      <span class="brand-mark">Cox</span>
+      <span class="brand-sub">Constructieadvies</span>
+    </a>
+    <nav class="nav" aria-label="Hoofdmenu">
+      <div class="nav-links">
+        <a class="nav-link" href="#diensten">Diensten</a>
+        <a class="nav-link" href="#werkwijze">Werkwijze</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </div>
+      <a class="btn" href="#contact">Offerte aanvragen</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="reveal">
+        <p class="eyebrow">Constructeur &middot; Malden bij Nijmegen &middot; heel Nederland</p>
+        <h1>Een goede constructieberekening is pas het begin.</h1>
+        <p class="lead">Ik ben Simon Cox, zelfstandig constructeur. Ik maak constructieberekeningen en constructietekeningen voor draagmuurdoorbraken, uitbouwen en opbouwen &mdash; klaar voor uw omgevingsvergunning, en zo dat uw aannemer er direct mee verder kan.</p>
+        <div class="hero-cta">
+          <a class="btn" href="#contact">Stuur uw tekeningen voor een offerte</a>
+          <a class="btn btn-ghost" href="#diensten">Bekijk wat ik doe</a>
+        </div>
+      </div>
+
+      <div class="diagram-card reveal" aria-hidden="true">
+        <svg viewBox="0 0 460 380" role="img" xmlns="http://www.w3.org/2000/svg">
+          <!-- ground -->
+          <line x1="40" y1="330" x2="420" y2="330" stroke="#16212e" stroke-width="2"/>
+          <g stroke="#9aa3ab" stroke-width="1.4">
+            <line x1="52" y1="330" x2="42" y2="344"/>
+            <line x1="80" y1="330" x2="70" y2="344"/>
+            <line x1="108" y1="330" x2="98" y2="344"/>
+            <line x1="352" y1="330" x2="342" y2="344"/>
+            <line x1="380" y1="330" x2="370" y2="344"/>
+            <line x1="408" y1="330" x2="398" y2="344"/>
+          </g>
+          <!-- columns -->
+          <rect x="70" y="150" width="28" height="180" fill="none" stroke="#16212e" stroke-width="2"/>
+          <rect x="362" y="150" width="28" height="180" fill="none" stroke="#16212e" stroke-width="2"/>
+          <!-- steel I-beam in elevation -->
+          <g stroke="#16212e" stroke-width="2" fill="none">
+            <line x1="58" y1="124" x2="402" y2="124"/>
+            <line x1="58" y1="150" x2="402" y2="150"/>
+            <line x1="58" y1="124" x2="58" y2="150"/>
+            <line x1="402" y1="124" x2="402" y2="150"/>
+            <line x1="62" y1="137" x2="398" y2="137" stroke-width="1.3"/>
+          </g>
+          <!-- distributed load -->
+          <line x1="78" y1="78" x2="382" y2="78" stroke="#bf4a28" stroke-width="1.6"/>
+          <g stroke="#bf4a28" stroke-width="1.6">
+            <line x1="92" y1="80" x2="92" y2="116"/><polygon points="88,108 96,108 92,118" fill="#bf4a28" stroke="none"/>
+            <line x1="150" y1="80" x2="150" y2="116"/><polygon points="146,108 154,108 150,118" fill="#bf4a28" stroke="none"/>
+            <line x1="208" y1="80" x2="208" y2="116"/><polygon points="204,108 212,108 208,118" fill="#bf4a28" stroke="none"/>
+            <line x1="266" y1="80" x2="266" y2="116"/><polygon points="262,108 270,108 266,118" fill="#bf4a28" stroke="none"/>
+            <line x1="324" y1="80" x2="324" y2="116"/><polygon points="320,108 328,108 324,118" fill="#bf4a28" stroke="none"/>
+            <line x1="368" y1="80" x2="368" y2="116"/><polygon points="364,108 372,108 368,118" fill="#bf4a28" stroke="none"/>
+          </g>
+          <text x="230" y="66" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="12" fill="#9b3a1e">belasting verdieping &amp; dak</text>
+          <!-- beam leader label -->
+          <line x1="408" y1="137" x2="436" y2="137" stroke="#9aa3ab" stroke-width="1.2"/>
+          <text x="436" y="134" text-anchor="end" font-family="'IBM Plex Mono',monospace" font-size="11" fill="#4c5965">stalen ligger</text>
+          <!-- span dimension -->
+          <g stroke="#4c5965" stroke-width="1.2">
+            <line x1="98" y1="360" x2="362" y2="360"/>
+            <line x1="98" y1="352" x2="98" y2="368"/>
+            <line x1="362" y1="352" x2="362" y2="368"/>
+            <polygon points="98,360 108,356 108,364" fill="#4c5965" stroke="none"/>
+            <polygon points="362,360 352,356 352,364" fill="#4c5965" stroke="none"/>
+          </g>
+          <text x="230" y="356" text-anchor="middle" font-family="'IBM Plex Mono',monospace" font-size="11" fill="#4c5965">overspanning</text>
+        </svg>
+        <div class="diagram-cap"><span>doorsnede &mdash; doorbraak</span><span>belasting &rarr; ligger &rarr; fundering</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIENSTEN -->
+  <section class="section section-alt" id="diensten">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">Wat ik voor u doe</p>
+        <h2>Constructie voor verbouwingen aan woningen</h2>
+        <p>Berekening én tekening, afgestemd op uw bestaande huis en klaar voor de gemeente. Dit zijn de klussen die ik het vaakst doe.</p>
+      </div>
+      <div class="svc-list reveal">
+        <article class="svc">
+          <p class="svc-tag">doorbraak</p>
+          <h3>Draagmuurdoorbraak</h3>
+          <p>Een muur eruit, de ruimte open. Ik bereken de stalen ligger en de kolommen die de last overnemen, en lever de tekening waarmee uw aannemer aan de slag kan.</p>
+        </article>
+        <article class="svc">
+          <p class="svc-tag">aanbouw</p>
+          <h3>Uitbouw</h3>
+          <p>Meer ruimte aan de achter- of zijkant. Constructie voor de uitbouw, de fundering en een nette aansluiting op de bestaande woning.</p>
+        </article>
+        <article class="svc">
+          <p class="svc-tag">optopping</p>
+          <h3>Opbouw</h3>
+          <p>Een extra verdieping of dakopbouw. Ik reken na of de bestaande constructie en fundering het extra gewicht kunnen dragen, en bereken wat er nodig is.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- WERKWIJZE -->
+  <section class="section" id="werkwijze">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">Zo werkt het</p>
+        <h2>Van uw tekening tot een goedgekeurde aanvraag</h2>
+        <p>Een vast, overzichtelijk traject. U weet steeds waar u aan toe bent.</p>
+      </div>
+      <div class="steps reveal">
+        <div class="step">
+          <div class="step-num">1</div>
+          <div><h3>U stuurt uw tekeningen</h3><p>Bestaande bouwtekeningen en een paar foto's van de situatie zijn genoeg om te beginnen.</p></div>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <div><h3>Ik reken en teken</h3><p>U krijgt vooraf een heldere, vaste prijs. Daarna maak ik de constructieberekening en de bijbehorende tekening.</p></div>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <div><h3>Klaar voor de gemeente</h3><p>Een complete onderbouwing waarmee u de omgevingsvergunning aanvraagt en uw aannemer direct verder kan.</p></div>
+        </div>
+        <div class="step">
+          <div class="step-num">4</div>
+          <div><h3>Ik blijf bereikbaar</h3><p>Komt de gemeente met vragen, of loopt u tijdens de bouw ergens tegenaan? Dan kunt u mij gewoon bellen.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST / OVER -->
+  <section class="section section-alt" id="over">
+    <div class="wrap trust-grid">
+      <div class="reveal">
+        <p class="eyebrow">Waarom Cox Constructieadvies</p>
+        <p class="trust-lead" style="margin-top:14px">U heeft direct contact met de constructeur die uw project doet. <span>Geen callcenter, geen tussenpersonen.</span></p>
+        <div class="trust-body" style="margin-top:22px">
+          <p>Als constructeur ben ik verantwoordelijk voor het constructieve ontwerp en daarvoor verzekerd. U krijgt geen losse berekening die u zelf maar moet zien te regelen, maar iemand die u door het hele traject loodst.</p>
+        </div>
+      </div>
+      <ul class="specs reveal">
+        <li><span class="k">Werkgebied</span><span class="v">Heel Nederland</span></li>
+        <li><span class="k">Basis</span><span class="v">Malden bij Nijmegen</span></li>
+        <li><span class="k">Prijs</span><span class="v">Vaste prijs vooraf</span></li>
+        <li><span class="k">Aansprakelijkheid</span><span class="v">Verantwoordelijk &amp; verzekerd</span></li>
+        <li><span class="k">Contact</span><span class="v">Rechtstreeks met de constructeur</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow" style="color:#d98a6e">Contact</p>
+        <h2>Stuur uw tekeningen voor een vrijblijvende offerte</h2>
+        <p>U krijgt snel een heldere, vaste prijs terug. Geen verrassingen achteraf.</p>
+      </div>
+      <div class="contact-row reveal">
+        <a class="btn" href="mailto:simon.cox@coxadvies.nl?subject=Aanvraag%20constructieberekening">simon.cox@coxadvies.nl</a>
+        <a class="btn btn-ghost" href="tel:+31615902335">06 1590 2335</a>
+      </div>
+      <p class="contact-note reveal">Mail uw bestaande bouwtekeningen en een korte beschrijving van wat u wilt veranderen. Heeft u nog geen tekeningen? Stuur dan een paar foto's en uw adres, dan kijk ik wat er nodig is.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-foot">
+  <div class="wrap foot-inner">
+    <div>
+      <div class="foot-brand">Cox Constructieadvies</div>
+      <div class="foot-meta">Constructieberekeningen &amp; constructietekeningen &middot; heel Nederland</div>
+    </div>
+    <div class="foot-meta">
+      Malden bij Nijmegen<br>
+      <a href="mailto:simon.cox@coxadvies.nl">simon.cox@coxadvies.nl</a><br>
+      KvK 86134191
+    </div>
+  </div>
+</footer>
+
+<script>
+  (function(){
+    var els = document.querySelectorAll('.reveal');
+    if(!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+      els.forEach(function(e){e.classList.add('in')});
+      return;
+    }
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target);}
+      });
+    },{threshold:.14});
+    els.forEach(function(e){io.observe(e)});
+  })();
+</script>
+
+</body>
+</html>
