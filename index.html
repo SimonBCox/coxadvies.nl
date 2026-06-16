@@ -104,17 +104,22 @@
   /* before / after */
   .ba{position:relative;border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow);aspect-ratio:16/10;user-select:none;touch-action:pan-y}
   .ba-layer{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
-  .ba-after{}
-  .ba-before{clip-path:inset(0 calc(100% - var(--pos,50%)) 0 0)}
-  .ba-tag{position:absolute;top:16px;padding:6px 13px;border-radius:999px;font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase}
+  .ba-na{}
+  .ba-tijdens{clip-path:inset(0 calc(100% - var(--pos2,66%)) 0 0)}
+  .ba-voor{clip-path:inset(0 calc(100% - var(--pos1,33%)) 0 0)}
+  .ba-tag{position:absolute;top:16px;padding:6px 13px;border-radius:999px;font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;z-index:1}
   .ba-tag.l{left:16px;background:rgba(28,36,48,.72);color:#fff}
+  .ba-tag.m{left:50%;transform:translateX(-50%);background:rgba(28,36,48,.72);color:#fff;pointer-events:none}
   .ba-tag.r{right:16px;background:rgba(0,78,146,.92);color:#fff}
-  .ba-mid{font-family:"Lora",serif;font-size:1.1rem}
-  .ba-after .ba-mid{color:#5d6873}
-  .ba-before .ba-mid{color:#ccd6e0}
-  .ba-divider{position:absolute;top:0;bottom:0;left:var(--pos,50%);width:2px;background:#fff;box-shadow:0 0 0 1px rgba(0,0,0,.06);transform:translateX(-1px)}
-  .ba-handle{position:absolute;top:50%;left:var(--pos,50%);width:46px;height:46px;border-radius:50%;background:#fff;box-shadow:var(--shadow);transform:translate(-50%,-50%);display:grid;place-items:center;color:var(--accent);font-weight:700;pointer-events:none}
-  .ba-range{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:ew-resize}
+  .ba-divider{position:absolute;top:0;bottom:0;width:2px;background:#fff;box-shadow:0 0 0 1px rgba(0,0,0,.06);transform:translateX(-1px);z-index:1}
+  #divider1{left:var(--pos1,33%)}
+  #divider2{left:var(--pos2,66%)}
+  .ba-handle{position:absolute;top:50%;width:46px;height:46px;border-radius:50%;background:#fff;box-shadow:var(--shadow);transform:translate(-50%,-50%);display:grid;place-items:center;color:var(--accent);font-weight:700;pointer-events:none;z-index:2}
+  #handle1{left:var(--pos1,33%)}
+  #handle2{left:var(--pos2,66%)}
+  .ba-range{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:ew-resize;pointer-events:none;-webkit-appearance:none;z-index:3}
+  .ba-range::-webkit-slider-thumb{pointer-events:auto;width:46px;height:100vh;-webkit-appearance:none}
+  .ba-range::-moz-range-thumb{pointer-events:auto;width:46px;height:100vh;border:none}
 
   /* services */
   .grid3{display:grid;grid-template-columns:1fr;gap:22px}
@@ -229,13 +234,18 @@
         <p>Sleep de schuif. Dat is in de kern wat ik mogelijk maak: ik bereken de ligger en de kolommen die de last overnemen, zodat die muur veilig weg kan.</p>
       </div>
       <div class="ba reveal" id="ba">
-        <img class="ba-layer ba-after"  src="img/na.png"   alt="Na de doorbraak">
-        <img class="ba-layer ba-before" src="img/voor.png" alt="Voor de doorbraak">
+        <img class="ba-layer ba-na" src="img/na.png" alt="Na de doorbraak">
+        <img class="ba-layer ba-tijdens" src="img/tijdens.jpeg" alt="Tijdens de verbouwing">
+        <img class="ba-layer ba-voor" src="img/voor.png" alt="Voor de doorbraak">
         <span class="ba-tag l">Vóór</span>
+        <span class="ba-tag m">Tijdens</span>
         <span class="ba-tag r">Ná</span>
-        <div class="ba-divider"></div>
-        <div class="ba-handle">&#8596;</div>
-        <input class="ba-range" type="range" min="0" max="100" value="50" aria-label="Sleep om voor en na te vergelijken">
+        <div class="ba-divider" id="divider1"></div>
+        <div class="ba-divider" id="divider2"></div>
+        <div class="ba-handle" id="handle1">&#8596;</div>
+        <div class="ba-handle" id="handle2">&#8596;</div>
+        <input class="ba-range" id="range1" type="range" min="0" max="100" value="33" aria-label="Sleep om voor en tijdens te vergelijken">
+        <input class="ba-range" id="range2" type="range" min="0" max="100" value="66" aria-label="Sleep om tijdens en na te vergelijken">
       </div>
     </div>
   </section>
@@ -344,10 +354,16 @@
   // before/after slider
   (function(){
     var ba=document.getElementById('ba');if(!ba)return;
-    var range=ba.querySelector('.ba-range');
-    var set=function(v){ba.style.setProperty('--pos',v+'%')};
-    set(range.value);
-    range.addEventListener('input',function(){set(range.value)});
+    var r1=document.getElementById('range1'), r2=document.getElementById('range2');
+    var set=function(e){
+      var v1=parseInt(r1.value), v2=parseInt(r2.value);
+      if(v1>v2){ if(e&&e.target===r1) r1.value=v2; else r2.value=v1; }
+      ba.style.setProperty('--pos1',r1.value+'%');
+      ba.style.setProperty('--pos2',r2.value+'%');
+    };
+    set();
+    r1.addEventListener('input',set);
+    r2.addEventListener('input',set);
   })();
 
   // scroll reveal
