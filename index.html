@@ -131,17 +131,17 @@
   .ba-tabs{display:flex;gap:10px;margin-bottom:18px}
   .ba-tab{font-size:.82rem;font-weight:600;padding:8px 18px;border-radius:999px;border:1.5px solid var(--line);background:transparent;cursor:pointer;color:var(--muted);transition:background .15s,color .15s,border-color .15s;font-family:"Hanken Grotesk",sans-serif}
   .ba-tab.active{background:var(--navy);color:#fff;border-color:var(--navy)}
-  .ba{position:relative;border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow);aspect-ratio:16/10;user-select:none;touch-action:pan-y}
+  .ba{position:relative;border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow);aspect-ratio:16/10}
   .ba-layer{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
-  .ba-voor{clip-path:inset(0 calc(100% - var(--pos,50%)) 0 0)}
-  .ba-tag{position:absolute;top:16px;padding:6px 13px;border-radius:999px;font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;z-index:1}
+  .ba-na{opacity:0;transition:opacity .04s linear}
+  .ba-tag{position:absolute;top:16px;padding:6px 13px;border-radius:999px;font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;z-index:1;transition:opacity .04s linear}
   .ba-tag.l{left:16px;background:rgba(28,36,48,.72);color:#fff}
   .ba-tag.r{right:16px;background:rgba(0,78,146,.92);color:#fff}
-  .ba-divider{position:absolute;top:0;bottom:0;left:var(--pos,50%);width:2px;background:#fff;box-shadow:0 0 0 1px rgba(0,0,0,.06);transform:translateX(-1px);z-index:1}
-  .ba-handle{position:absolute;top:50%;left:var(--pos,50%);width:46px;height:46px;border-radius:50%;background:#fff;box-shadow:var(--shadow);transform:translate(-50%,-50%);display:grid;place-items:center;color:var(--accent);font-weight:700;pointer-events:none;z-index:2}
-  .ba-range{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:ew-resize;z-index:3;-webkit-appearance:none}
-  .ba-range::-webkit-slider-thumb{pointer-events:auto;width:46px;height:100vh;-webkit-appearance:none}
-  .ba-range::-moz-range-thumb{pointer-events:auto;width:46px;height:100vh;border:none}
+  .ba-ctrl{display:flex;align-items:center;gap:14px;margin-top:14px}
+  .ba-ctrl-lbl{font-size:.74rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);white-space:nowrap}
+  .ba-range{flex:1;-webkit-appearance:none;appearance:none;height:3px;border-radius:2px;outline:none;cursor:pointer;background:linear-gradient(to right,var(--navy) var(--pct,0%),var(--line) var(--pct,0%))}
+  .ba-range::-webkit-slider-thumb{-webkit-appearance:none;width:22px;height:22px;border-radius:50%;background:#fff;border:2px solid var(--navy);box-shadow:0 1px 6px rgba(0,0,0,.18);cursor:pointer}
+  .ba-range::-moz-range-thumb{width:22px;height:22px;border-radius:50%;background:#fff;border:2px solid var(--navy);cursor:pointer}
 
   /* services */
   .grid3{display:grid;grid-template-columns:1fr;gap:22px}
@@ -291,13 +291,15 @@
         <button class="ba-tab" data-voor="img/uitbouw_1_voor.jpeg" data-na="img/uitbouw_1_na.jpeg">Uitbouw</button>
       </div>
       <div class="ba reveal" id="ba">
-        <img class="ba-layer" id="ba-na" src="img/draagmuur_doorbraak_1_na.jpeg" alt="Na de draagmuurdoorbraak">
-        <img class="ba-layer ba-voor" id="ba-voor" src="img/draagmuur_doorbraak_1_voor.jpeg" alt="Vóór de draagmuurdoorbraak">
-        <span class="ba-tag l">Vóór</span>
-        <span class="ba-tag r">Ná</span>
-        <div class="ba-divider"></div>
-        <div class="ba-handle">&#8596;</div>
-        <input class="ba-range" id="ba-range" type="range" min="0" max="100" value="50" aria-label="Sleep om voor en na te vergelijken">
+        <img class="ba-layer" id="ba-voor" src="img/draagmuur_doorbraak_1_voor.jpeg" alt="Vóór de draagmuurdoorbraak">
+        <img class="ba-layer ba-na" id="ba-na" src="img/draagmuur_doorbraak_1_na.jpeg" alt="Na de draagmuurdoorbraak">
+        <span class="ba-tag l" id="ba-tag-voor">Vóór</span>
+        <span class="ba-tag r" id="ba-tag-na">Ná</span>
+      </div>
+      <div class="ba-ctrl reveal">
+        <span class="ba-ctrl-lbl">Vóór</span>
+        <input class="ba-range" id="ba-range" type="range" min="0" max="100" value="0" aria-label="Sleep om voor en na te vergelijken">
+        <span class="ba-ctrl-lbl">Ná</span>
       </div>
     </div>
   </section>
@@ -410,7 +412,15 @@
     var range=document.getElementById('ba-range');
     var imgVoor=document.getElementById('ba-voor');
     var imgNa=document.getElementById('ba-na');
-    var set=function(){ba.style.setProperty('--pos',range.value+'%')};
+    var tagVoor=document.getElementById('ba-tag-voor');
+    var tagNa=document.getElementById('ba-tag-na');
+    var set=function(){
+      var v=range.value/100;
+      imgNa.style.opacity=v;
+      tagVoor.style.opacity=1-v;
+      tagNa.style.opacity=v;
+      range.style.setProperty('--pct',range.value+'%');
+    };
     set();
     range.addEventListener('input',set);
     var tabs=document.querySelectorAll('.ba-tab');
@@ -420,7 +430,7 @@
         tab.classList.add('active');
         imgVoor.src=tab.dataset.voor;
         imgNa.src=tab.dataset.na;
-        range.value=50;set();
+        range.value=0;set();
       });
     });
   })();
