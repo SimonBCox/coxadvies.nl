@@ -3,14 +3,17 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cox Constructieadvies | Constructieberekeningen voor verbouwingen</title>
+<title>Constructeur voor draagmuur &amp; uitbouw | Cox Constructieadvies</title>
 <meta name="description" content="Constructieberekeningen en constructietekeningen voor draagmuurdoorbraken, uitbouwen en opbouwen. Vanuit Malden bij Nijmegen, voor woningeigenaren door heel Nederland.">
 <link rel="canonical" href="https://coxadvies.nl/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Cox Constructieadvies | Constructieberekeningen voor verbouwingen">
+<meta property="og:title" content="Constructeur voor draagmuur &amp; uitbouw | Cox Constructieadvies">
 <meta property="og:description" content="Constructieberekeningen en constructietekeningen voor draagmuurdoorbraken, uitbouwen en opbouwen. Voor woningeigenaren door heel Nederland.">
 <meta property="og:locale" content="nl_NL">
 <meta property="og:url" content="https://coxadvies.nl/">
+<meta property="og:image" content="https://coxadvies.nl/img/simon.jpg">
+<meta property="og:image:width" content="800">
+<meta property="og:image:height" content="800">
 <link rel="icon" type="image/png" href="img/favicon.png">
 <link rel="apple-touch-icon" href="img/favicon.png">
 
@@ -42,9 +45,11 @@
     -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
   }
   .wrap{max-width:var(--maxw);margin:0 auto;padding-left:var(--pad);padding-right:var(--pad)}
-  h1,h2,h3{font-family:"Lora",Georgia,serif;font-weight:500;letter-spacing:-.01em;line-height:1.08}
+  h1,.visual-head,h2,h3{font-family:"Lora",Georgia,serif;font-weight:500;letter-spacing:-.01em;line-height:1.08}
   a{color:inherit}
-  .eyebrow{font-size:.74rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--accent)}
+  .eyebrow{font-size:.74rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);font-family:"Hanken Grotesk",sans-serif}
+  .visual-head{font-size:clamp(2.4rem,5.6vw,4rem);margin:20px 0 22px;max-width:14ch}
+  .visual-head em{font-style:italic;color:var(--accent)}
 
   .btn{
     display:inline-flex;align-items:center;gap:9px;font-family:"Hanken Grotesk",sans-serif;
@@ -71,8 +76,6 @@
   .hero{padding-top:clamp(28px,5vw,60px);padding-bottom:clamp(48px,7vw,96px)}
   .hero-grid{display:grid;grid-template-columns:1fr;gap:clamp(34px,5vw,60px);align-items:center}
   @media(min-width:920px){.hero-grid{grid-template-columns:1.04fr .96fr}}
-  .hero h1{font-size:clamp(2.4rem,5.6vw,4rem);margin:20px 0 22px;max-width:14ch}
-  .hero h1 em{font-style:italic;color:var(--accent)}
   .hero .lead{font-size:clamp(1.05rem,1.6vw,1.22rem);color:var(--muted);max-width:46ch;margin-bottom:28px}
   .hero-cta{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:30px}
   .chips{display:flex;flex-wrap:wrap;gap:10px}
@@ -181,6 +184,37 @@
   @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}}
   :focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Cox Constructieadvies",
+  "url": "https://coxadvies.nl/",
+  "logo": "https://coxadvies.nl/img/logo.png",
+  "image": "https://coxadvies.nl/img/simon.jpg",
+  "telephone": "+31615902335",
+  "email": "simon.cox@coxadvies.nl",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Malden",
+    "addressRegion": "Gelderland",
+    "addressCountry": "NL"
+  },
+  "areaServed": {"@type": "Country", "name": "NL"},
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Constructieve diensten",
+    "itemListElement": [
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Constructieberekening draagmuurdoorbraak"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Constructieberekening uitbouw"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Constructieberekening opbouw"}}
+    ]
+  },
+  "description": "Constructieberekeningen en constructietekeningen voor draagmuurdoorbraken, uitbouwen en opbouwen. Heel Nederland.",
+  "priceRange": "€€",
+  "knowsAbout": ["Eurocode", "NEN-normen", "Bouwbesluit", "Omgevingsvergunning"]
+}
+</script>
 </head>
 <body id="top">
 
@@ -202,8 +236,8 @@
   <section class="hero">
     <div class="wrap hero-grid">
       <div class="reveal">
-        <p class="eyebrow">Constructeur &middot; Malden bij Nijmegen &middot; heel Nederland</p>
-        <h1>Een goede berekening is pas <em>het begin.</em></h1>
+        <h1 class="eyebrow">Constructeur &middot; Malden bij Nijmegen &middot; heel Nederland</h1>
+        <p class="visual-head">Een goede berekening is pas <em>het begin.</em></p>
         <p class="lead">Ik ben Simon Cox, zelfstandig constructeur. Ik maak constructieberekeningen en constructietekeningen voor draagmuurdoorbraken, uitbouwen en opbouwen &mdash; klaar voor uw omgevingsvergunning, en zo dat uw aannemer er direct mee verder kan.</p>
         <div class="hero-cta">
           <a class="btn" href="#contact">Stuur uw tekeningen voor een offerte</a>
@@ -216,7 +250,7 @@
         </div>
       </div>
       <div class="hero-media reveal">
-        <img src="img/woonkamer.jpg" alt="Open woonkamer na een doorbraak" class="photo">
+        <img src="img/woonkamer.jpg" alt="Open woonkamer na een draagmuurdoorbraak, stalen ligger zichtbaar" class="photo">
         <div class="float-card">
           <div class="fc-k">Doorbraak</div>
           <div class="fc-v">Muur eruit, ruimte open</div>
