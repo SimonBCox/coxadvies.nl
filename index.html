@@ -128,22 +128,18 @@
   .sec-head p{color:var(--muted);font-size:1.08rem;max-width:54ch}
 
   /* before / after */
+  .ba-tabs{display:flex;gap:10px;margin-bottom:18px}
+  .ba-tab{font-size:.82rem;font-weight:600;padding:8px 18px;border-radius:999px;border:1.5px solid var(--line);background:transparent;cursor:pointer;color:var(--muted);transition:background .15s,color .15s,border-color .15s;font-family:"Hanken Grotesk",sans-serif}
+  .ba-tab.active{background:var(--navy);color:#fff;border-color:var(--navy)}
   .ba{position:relative;border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow);aspect-ratio:16/10;user-select:none;touch-action:pan-y}
   .ba-layer{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
-  .ba-na{}
-  .ba-tijdens{clip-path:inset(0 calc(100% - var(--pos2,66%)) 0 0)}
-  .ba-voor{clip-path:inset(0 calc(100% - var(--pos1,33%)) 0 0)}
+  .ba-voor{clip-path:inset(0 calc(100% - var(--pos,50%)) 0 0)}
   .ba-tag{position:absolute;top:16px;padding:6px 13px;border-radius:999px;font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;z-index:1}
   .ba-tag.l{left:16px;background:rgba(28,36,48,.72);color:#fff}
-  .ba-tag.m{left:50%;transform:translateX(-50%);background:rgba(28,36,48,.72);color:#fff;pointer-events:none}
   .ba-tag.r{right:16px;background:rgba(0,78,146,.92);color:#fff}
-  .ba-divider{position:absolute;top:0;bottom:0;width:2px;background:#fff;box-shadow:0 0 0 1px rgba(0,0,0,.06);transform:translateX(-1px);z-index:1}
-  #divider1{left:var(--pos1,33%)}
-  #divider2{left:var(--pos2,66%)}
-  .ba-handle{position:absolute;top:50%;width:46px;height:46px;border-radius:50%;background:#fff;box-shadow:var(--shadow);transform:translate(-50%,-50%);display:grid;place-items:center;color:var(--accent);font-weight:700;pointer-events:none;z-index:2}
-  #handle1{left:var(--pos1,33%)}
-  #handle2{left:var(--pos2,66%)}
-  .ba-range{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:ew-resize;pointer-events:none;-webkit-appearance:none;z-index:3}
+  .ba-divider{position:absolute;top:0;bottom:0;left:var(--pos,50%);width:2px;background:#fff;box-shadow:0 0 0 1px rgba(0,0,0,.06);transform:translateX(-1px);z-index:1}
+  .ba-handle{position:absolute;top:50%;left:var(--pos,50%);width:46px;height:46px;border-radius:50%;background:#fff;box-shadow:var(--shadow);transform:translate(-50%,-50%);display:grid;place-items:center;color:var(--accent);font-weight:700;pointer-events:none;z-index:2}
+  .ba-range{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;cursor:ew-resize;z-index:3;-webkit-appearance:none}
   .ba-range::-webkit-slider-thumb{pointer-events:auto;width:46px;height:100vh;-webkit-appearance:none}
   .ba-range::-moz-range-thumb{pointer-events:auto;width:46px;height:100vh;border:none}
 
@@ -189,7 +185,7 @@
   .cta-row{display:flex;flex-wrap:wrap;gap:14px;margin-top:6px}
   .cta .btn{background:#fff;color:var(--navy)}
   .cta .btn:hover{background:#dce8f3;box-shadow:0 10px 22px -12px rgba(0,0,0,.35)}
-  .cta .btn-ghost{color:#fff;border-color:rgba(255,255,255,.28)}
+  .cta .btn-ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.28)}
   .cta .btn-ghost:hover{background:rgba(255,255,255,.08);border-color:#fff}
   .cta-note{margin-top:24px;font-size:.92rem;color:#93a2b2;max-width:52ch;line-height:1.7}
 
@@ -290,19 +286,18 @@
         <h2>Van een gesloten muur naar een open ruimte</h2>
         <p>Sleep de schuif om te zien wat ik mogelijk maak. Ik bereken de vervangende staalconstructie zodat de draagmuur veilig kan worden verwijderd.</p>
       </div>
+      <div class="ba-tabs reveal">
+        <button class="ba-tab active" data-voor="img/draagmuur_doorbraak_1_voor.jpeg" data-na="img/draagmuur_doorbraak_1_na.jpeg">Draagmuurdoorbraak</button>
+        <button class="ba-tab" data-voor="img/uitbouw_1_voor.jpeg" data-na="img/uitbouw_1_na.jpeg">Uitbouw</button>
+      </div>
       <div class="ba reveal" id="ba">
-        <img class="ba-layer ba-na" src="img/na.jpg" alt="Na de doorbraak">
-        <img class="ba-layer ba-tijdens" src="img/tijdens.jpeg" alt="Tijdens de verbouwing">
-        <img class="ba-layer ba-voor" src="img/voor.jpg" alt="Voor de doorbraak">
+        <img class="ba-layer" id="ba-na" src="img/draagmuur_doorbraak_1_na.jpeg" alt="Na de draagmuurdoorbraak">
+        <img class="ba-layer ba-voor" id="ba-voor" src="img/draagmuur_doorbraak_1_voor.jpeg" alt="Vóór de draagmuurdoorbraak">
         <span class="ba-tag l">Vóór</span>
-        <span class="ba-tag m">Tijdens</span>
         <span class="ba-tag r">Ná</span>
-        <div class="ba-divider" id="divider1"></div>
-        <div class="ba-divider" id="divider2"></div>
-        <div class="ba-handle" id="handle1">&#8596;</div>
-        <div class="ba-handle" id="handle2">&#8596;</div>
-        <input class="ba-range" id="range1" type="range" min="0" max="100" value="33" aria-label="Sleep om voor en tijdens te vergelijken">
-        <input class="ba-range" id="range2" type="range" min="0" max="100" value="66" aria-label="Sleep om tijdens en na te vergelijken">
+        <div class="ba-divider"></div>
+        <div class="ba-handle">&#8596;</div>
+        <input class="ba-range" id="ba-range" type="range" min="0" max="100" value="50" aria-label="Sleep om voor en na te vergelijken">
       </div>
     </div>
   </section>
@@ -409,19 +404,25 @@
   var onScroll=function(){nav.classList.toggle('scrolled',window.scrollY>12)};
   onScroll();window.addEventListener('scroll',onScroll,{passive:true});
 
-  // before/after slider
+  // before/after slider + project switcher
   (function(){
     var ba=document.getElementById('ba');if(!ba)return;
-    var r1=document.getElementById('range1'), r2=document.getElementById('range2');
-    var set=function(e){
-      var v1=parseInt(r1.value), v2=parseInt(r2.value);
-      if(v1>v2){ if(e&&e.target===r1) r1.value=v2; else r2.value=v1; }
-      ba.style.setProperty('--pos1',r1.value+'%');
-      ba.style.setProperty('--pos2',r2.value+'%');
-    };
+    var range=document.getElementById('ba-range');
+    var imgVoor=document.getElementById('ba-voor');
+    var imgNa=document.getElementById('ba-na');
+    var set=function(){ba.style.setProperty('--pos',range.value+'%')};
     set();
-    r1.addEventListener('input',set);
-    r2.addEventListener('input',set);
+    range.addEventListener('input',set);
+    var tabs=document.querySelectorAll('.ba-tab');
+    tabs.forEach(function(tab){
+      tab.addEventListener('click',function(){
+        tabs.forEach(function(t){t.classList.remove('active')});
+        tab.classList.add('active');
+        imgVoor.src=tab.dataset.voor;
+        imgNa.src=tab.dataset.na;
+        range.value=50;set();
+      });
+    });
   })();
 
   // scroll reveal
