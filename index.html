@@ -16,29 +16,6 @@
 <meta property="og:image:height" content="800">
 <link rel="icon" type="image/png" href="img/favicon.png">
 <link rel="apple-touch-icon" href="img/favicon.png">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "ProfessionalService",
-  "name": "Cox Constructieadvies",
-  "image": "https://coxadvies.nl/img/woonkamer.jpg",
-  "url": "https://coxadvies.nl/",
-  "email": "simon.cox@coxadvies.nl",
-  "telephone": "+31615902335",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Rijksweg 44",
-    "postalCode": "6581 EN",
-    "addressLocality": "Malden",
-    "addressCountry": "NL"
-  },
-  "areaServed": "Nijmegen en omgeving",
-  "founder": {
-    "@type": "Person",
-    "name": "Simon Cox"
-  }
-}
-</script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -166,15 +143,14 @@
   /* about */
   .about-grid{display:grid;grid-template-columns:1fr;gap:clamp(30px,4vw,52px);align-items:center}
   @media(min-width:820px){.about-grid{grid-template-columns:.85fr 1.15fr}}
-  .about-grid .photo{aspect-ratio:1/1;object-position:center 35%}
+  .about-grid .photo{aspect-ratio:4/5;object-position:center 35%}
   .about h2{font-size:clamp(1.7rem,3.2vw,2.4rem);margin:14px 0 18px;max-width:18ch}
   .about h2 em{font-style:italic;color:var(--accent)}
   .about-body p{color:var(--muted);margin-bottom:16px;max-width:50ch}
-  .specs{list-style:none;margin-top:8px}
-  .specs li{display:flex;gap:14px;align-items:baseline;padding:14px 0;border-top:1px solid var(--line);font-size:.96rem}
-  .specs li:last-child{border-bottom:1px solid var(--line)}
-  .specs .k{flex:0 0 44%;font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
-  .specs .v{font-weight:600}
+  .specs-bar{list-style:none;display:grid;grid-template-columns:repeat(2,1fr);gap:24px 32px;border-top:1px solid var(--line);margin-top:clamp(40px,6vw,72px);padding-top:clamp(28px,4vw,48px)}
+  @media(min-width:700px){.specs-bar{grid-template-columns:repeat(4,1fr)}}
+  .specs-bar .k{display:block;font-size:.68rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+  .specs-bar .v{display:block;font-weight:600;font-size:.95rem}
 
   /* cta */
   .cta{background:var(--navy);color:#e9eef3}
@@ -197,6 +173,15 @@
   .foot a{color:#b7c4d3;text-decoration:none}
   .foot a:hover{color:#fff}
 
+  .hero-hint{font-size:.85rem;color:var(--muted);margin-top:-14px;margin-bottom:18px}
+  .card-link{display:inline-block;margin-top:16px;font-size:.88rem;font-weight:600;color:var(--accent);text-decoration:none}
+  .card-link:hover{text-decoration:underline}
+
+  /* werkgebied */
+  .steden{display:flex;flex-wrap:wrap;gap:10px}
+  .stad-link{font-size:.92rem;font-weight:500;color:var(--ink);background:var(--surface);border:1px solid var(--line);padding:9px 18px;border-radius:999px;text-decoration:none;transition:border-color .15s,color .15s}
+  .stad-link:hover{border-color:var(--accent);color:var(--accent)}
+
   /* reveal + a11y */
   .reveal{opacity:0;transform:translateY(16px);transition:opacity .65s ease,transform .65s ease}
   .reveal.in{opacity:1;transform:none}
@@ -206,7 +191,7 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "ProfessionalService",
+  "@type": ["LocalBusiness", "ProfessionalService"],
   "name": "Cox Constructieadvies",
   "url": "https://coxadvies.nl/",
   "logo": "https://coxadvies.nl/img/logo.png",
@@ -215,11 +200,20 @@
   "email": "simon.cox@coxadvies.nl",
   "address": {
     "@type": "PostalAddress",
+    "streetAddress": "Rijksweg 44",
+    "postalCode": "6581 EN",
     "addressLocality": "Malden",
     "addressRegion": "Gelderland",
     "addressCountry": "NL"
   },
   "areaServed": {"@type": "Country", "name": "NL"},
+  "founder": {
+    "@type": "Person",
+    "name": "Simon Cox",
+    "alumniOf": {"@type": "CollegeOrUniversity", "name": "Technische Universiteit Eindhoven"},
+    "hasCredential": {"@type": "EducationalOccupationalCredential", "credentialCategory": "Master", "educationalLevel": "WO", "name": "Master Constructief Ontwerpen"},
+    "hasOccupation": {"@type": "Occupation", "name": "Constructeur", "occupationLocation": {"@type": "Country", "name": "NL"}}
+  },
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Constructieve diensten",
@@ -229,9 +223,9 @@
       {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Constructieberekening opbouw"}}
     ]
   },
-  "description": "Constructieberekeningen en constructietekeningen voor draagmuurdoorbraken, uitbouwen en opbouwen. Heel Nederland.",
+  "description": "Constructieberekeningen en constructietekeningen voor draagmuurdoorbraken, uitbouwen en opbouwen. Compleet pakket binnen 2 weken. Vaste prijs vooraf. Heel Nederland.",
   "priceRange": "€€",
-  "knowsAbout": ["Eurocode", "NEN-normen", "Bouwbesluit", "Omgevingsvergunning"]
+  "knowsAbout": ["Eurocode", "NEN-normen", "Bouwbesluit 2012", "Omgevingsvergunning", "Wet kwaliteitsborging", "Staalbouw", "Funderingstechnieken"]
 }
 </script>
 </head>
@@ -241,9 +235,10 @@
   <div class="wrap nav-inner">
     <a class="brand" href="#top"><img src="img/logo.png" alt="Cox Constructieadvies"></a>
     <nav class="nav-links" aria-label="Hoofdmenu">
-      <a href="#voorbeeld">Voorbeeld</a>
+      <a href="#voorbeeld">Projecten</a>
       <a href="#diensten">Diensten</a>
       <a href="#werkwijze">Werkwijze</a>
+      <a href="#over">Over</a>
       <a href="#contact">Contact</a>
     </nav>
     <a class="btn" href="#contact">Offerte aanvragen</a>
@@ -255,24 +250,26 @@
   <section class="hero">
     <div class="wrap hero-grid">
       <div class="reveal">
-        <h1 class="eyebrow">Constructeur &middot; Malden bij Nijmegen &middot; heel Nederland</h1>
-        <p class="visual-head">Een goede berekening is pas <em>het begin.</em></p>
-        <p class="lead">Ik ben Simon Cox, zelfstandig constructeur. Ik maak constructieberekeningen en constructietekeningen voor draagmuurdoorbraken, uitbouwen en opbouwen &mdash; klaar voor uw omgevingsvergunning, en zo dat uw aannemer er direct mee verder kan.</p>
+        <p class="eyebrow">Constructeur &middot; Malden bij Nijmegen &middot; heel Nederland</p>
+        <h1 class="visual-head">Constructeur voor <em>draagmuurdoorbraken</em> en uitbouwen</h1>
+        <p class="lead">Ik ben Simon Cox, zelfstandig constructeur. Ik maak constructieberekeningen en constructietekeningen voor draagmuurdoorbraken, uitbouwen en opbouwen: klaar voor uw omgevingsvergunning, zodat uw aannemer er direct mee aan de slag kan.</p>
         <div class="hero-cta">
-          <a class="btn" href="#contact">Stuur uw tekeningen voor een offerte</a>
+          <a class="btn" href="#contact">Vraag een vrijblijvende offerte aan</a>
           <a class="btn btn-ghost" href="#voorbeeld">Zie een voorbeeld</a>
         </div>
+        <p class="hero-hint">Bellen mag ook. Ik denk graag mee over uw plannen.</p>
         <div class="chips">
           <span class="chip"><b>&#10003;</b>Verzekerd</span>
           <span class="chip"><b>&#10003;</b>Vaste prijs vooraf</span>
+          <span class="chip"><b>&#10003;</b>Compleet pakket binnen 2 weken</span>
           <span class="chip"><b>&#10003;</b>Bereikbaar tijdens de hele bouw</span>
         </div>
       </div>
       <div class="hero-media reveal">
         <img src="img/woonkamer.jpg" alt="Open woonkamer na een draagmuurdoorbraak, stalen ligger zichtbaar" class="photo">
         <div class="float-card">
-          <div class="fc-k">Doorbraak</div>
-          <div class="fc-v">Muur eruit, ruimte open</div>
+          <div class="fc-k">Draagmuurdoorbraak</div>
+          <div class="fc-v">Berekend, getekend, klaar</div>
         </div>
       </div>
     </div>
@@ -284,7 +281,7 @@
       <div class="sec-head reveal">
         <p class="eyebrow">Zie wat een doorbraak doet</p>
         <h2>Van een gesloten muur naar een open ruimte</h2>
-        <p>Sleep de schuif om te zien wat ik mogelijk maak. Ik bereken de vervangende staalconstructie zodat de draagmuur veilig kan worden verwijderd.</p>
+        <p>Sleep de schuif om te zien wat ik mogelijk maak. Ik bereken de stalen ligger die de draagmuur vervangt, zodat de muur veilig verwijderd kan worden.</p>
       </div>
       <div class="ba-tabs reveal">
         <button class="ba-tab active" data-voor="img/draagmuur_doorbraak_1_voor.jpg" data-na="img/draagmuur_doorbraak_1_na.jpeg">Draagmuurdoorbraak</button>
@@ -315,16 +312,19 @@
           <p class="tag">Doorbraak</p>
           <h3>Draagmuurdoorbraak</h3>
           <p>Een muur eruit, de ruimte open. Ik bereken de stalen ligger en de kolommen die de last overnemen, en lever de tekening waarmee uw aannemer aan de slag kan.</p>
+          <a class="card-link" href="#contact">Offerte aanvragen &rarr;</a>
         </article>
         <article class="card">
           <p class="tag">Aanbouw</p>
           <h3>Uitbouw</h3>
           <p>Meer ruimte aan de achter- of zijkant. Constructie voor de uitbouw, de fundering en een nette aansluiting op de bestaande woning.</p>
+          <a class="card-link" href="#contact">Offerte aanvragen &rarr;</a>
         </article>
         <article class="card">
-          <p class="tag">Optopping</p>
+          <p class="tag">Dakopbouw</p>
           <h3>Opbouw</h3>
           <p>Een extra verdieping of dakopbouw. Ik reken na of de bestaande constructie en fundering het extra gewicht kunnen dragen, en bereken wat er nodig is.</p>
+          <a class="card-link" href="#contact">Offerte aanvragen &rarr;</a>
         </article>
       </div>
     </div>
@@ -335,37 +335,66 @@
     <div class="wrap">
       <div class="sec-head reveal">
         <p class="eyebrow">Zo werkt het</p>
-        <h2>Van uw tekening tot een goedgekeurde aanvraag</h2>
+        <h2>Van uw situatie tot een goedgekeurde aanvraag</h2>
         <p>Een vast, overzichtelijk traject. U weet steeds waar u aan toe bent.</p>
       </div>
       <div class="steps reveal">
-        <div class="step"><div class="n">1</div><div><h3>U stuurt uw tekeningen</h3><p>Bestaande bouwtekeningen en een paar foto's van de situatie zijn genoeg om te beginnen.</p></div></div>
-        <div class="step"><div class="n">2</div><div><h3>Ik reken en teken</h3><p>U krijgt vooraf een heldere, vaste prijs. Daarna maak ik de constructieberekening en de bijbehorende tekening.</p></div></div>
+        <div class="step"><div class="n">1</div><div><h3>U vertelt uw plan</h3><p>Bel, mail of stuur een berichtje. Tekeningen meesturen mag, maar hoeft niet. Ik kan ze voor u opzoeken of opvragen bij de gemeente.</p></div></div>
+        <div class="step"><div class="n">2</div><div><h3>Ik reken en teken</h3><p>U krijgt vooraf een vaste prijs. Daarna maak ik de constructieberekening en bijbehorende tekening. Compleet pakket binnen 2 weken nadat ik de tekeningen heb.</p></div></div>
         <div class="step"><div class="n">3</div><div><h3>Klaar voor de gemeente</h3><p>Een complete onderbouwing waarmee u de omgevingsvergunning aanvraagt en uw aannemer direct verder kan.</p></div></div>
         <div class="step"><div class="n">4</div><div><h3>Ik blijf bereikbaar</h3><p>Heeft de gemeente nog een vraag, moet de aannemer iets afstemmen over de uitvoering, of loopt u tijdens de bouw tegen iets aan? Dan kunt u mij gewoon bellen.</p></div></div>
       </div>
     </div>
   </section>
 
+  <!-- WERKGEBIED -->
+  <section class="section tint" id="werkgebied">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">Werkgebied</p>
+        <h2>Actief in de regio Nijmegen en omgeving</h2>
+        <p>Ik werk door heel Nederland, maar ben het vaakst actief in een straal van 50 km rondom Malden bij Nijmegen.</p>
+      </div>
+      <div class="steden reveal">
+        <a href="/constructeur-nijmegen/" class="stad-link">Nijmegen</a>
+        <a href="/constructeur-arnhem/" class="stad-link">Arnhem</a>
+        <a href="/constructeur-den-bosch/" class="stad-link">Den Bosch</a>
+        <a href="/constructeur-oss/" class="stad-link">Oss</a>
+        <a href="/constructeur-doetinchem/" class="stad-link">Doetinchem</a>
+        <a href="/constructeur-ede/" class="stad-link">Ede</a>
+        <a href="/constructeur-tiel/" class="stad-link">Tiel</a>
+        <a href="/constructeur-wageningen/" class="stad-link">Wageningen</a>
+        <a href="/constructeur-wijchen/" class="stad-link">Wijchen</a>
+        <a href="/constructeur-cuijk/" class="stad-link">Cuijk</a>
+        <a href="/constructeur-veenendaal/" class="stad-link">Veenendaal</a>
+        <a href="/constructeur-zevenaar/" class="stad-link">Zevenaar</a>
+      </div>
+    </div>
+  </section>
+
   <!-- OVER -->
   <section class="section about" id="over">
-    <div class="wrap about-grid">
-      <div class="reveal">
-        <img src="img/simon.jpg" alt="Simon Cox, constructeur" class="photo">
-      </div>
-      <div class="reveal">
-        <p class="eyebrow">Waarom Cox Constructieadvies</p>
-        <h2>U heeft direct contact met de constructeur die uw project doet. <em>Geen callcenter.</em></h2>
-        <div class="about-body">
-          <p>Als constructeur ben ik verantwoordelijk voor het constructieve ontwerp en daarvoor verzekerd. U krijgt geen losse berekening die u zelf maar moet zien te regelen, maar iemand die u door het hele traject loodst.</p>
+    <div class="wrap">
+      <div class="about-grid">
+        <div class="reveal">
+          <img src="img/simon.jpg" alt="Simon Cox, constructeur" class="photo">
         </div>
-        <ul class="specs">
-          <li><span class="k">Werkgebied</span><span class="v">Heel Nederland</span></li>
-          <li><span class="k">Basis</span><span class="v">Malden bij Nijmegen</span></li>
-          <li><span class="k">Prijs</span><span class="v">Vaste prijs vooraf</span></li>
-          <li><span class="k">Aansprakelijkheid</span><span class="v">Verantwoordelijk &amp; verzekerd</span></li>
-        </ul>
+        <div class="reveal">
+          <p class="eyebrow">Waarom Cox Constructieadvies</p>
+          <h2>Van tekentafel tot bouwplaats. <em>Een persoon, het hele traject.</em></h2>
+          <div class="about-body">
+            <p>Bij Royal HaskoningDHV was het werk vooral theoretisch: ontwerpen die jaren later pas gebouwd werden. Hier is het praktisch. De aannemer belt mij op video terwijl hij op de bouwplaats staat, om even te sparren over de uitvoering. Dat directe contact, dat korte lijntje tussen tekentafel en bouwplaats: dat is wat dit werk voor mij zo leuk maakt.</p>
+            <p>Ik kan de constructiewereld niet loslaten. De snelheid, het directe contact, het gevoel dat mijn berekening vandaag al het verschil maakt op iemands bouwplaats: dat geeft voldoening die ik nergens anders vind.</p>
+            <p>Wat klanten mij terugvertellen: ik ben betrouwbaar, ik leg het gewoon uit, en ik laat u niet los als de berekening af is. Want de berekening is pas het begin.</p>
+          </div>
+        </div>
       </div>
+      <ul class="specs-bar reveal">
+        <li><span class="k">Opleiding</span><span class="v">Master Constructief Ontwerpen<br>TU Eindhoven</span></li>
+        <li><span class="k">Ervaring</span><span class="v">Meer dan 10 jaar</span></li>
+        <li><span class="k">Werkgebied</span><span class="v">Heel Nederland</span></li>
+        <li><span class="k">Aansprakelijkheid</span><span class="v">Verantwoordelijk &amp; verzekerd</span></li>
+      </ul>
     </div>
   </section>
 
@@ -374,14 +403,14 @@
     <div class="wrap">
       <div class="sec-head reveal">
         <p class="eyebrow cta-eye">Contact</p>
-        <h2>Stuur uw tekeningen voor een vrijblijvende offerte</h2>
+        <h2>Vraag een vrijblijvende offerte aan</h2>
         <p>U krijgt snel een heldere, vaste prijs terug. Geen verrassingen achteraf.</p>
       </div>
       <div class="cta-row reveal">
-        <a class="btn" href="mailto:simon.cox@coxadvies.nl?subject=Aanvraag%20constructieberekening">simon.cox@coxadvies.nl</a>
+        <a class="btn" href="mailto:simon.cox@coxadvies.nl?subject=Aanvraag%20constructieberekening">Stuur een e-mail</a>
         <a class="btn btn-ghost" href="tel:+31615902335">06 1590 2335</a>
       </div>
-      <p class="cta-note reveal">Mail uw bestaande bouwtekeningen en een korte beschrijving van wat u wilt veranderen. Heeft u nog geen tekeningen? Stuur dan een paar foto's en uw adres, dan kijk ik wat er nodig is.</p>
+      <p class="cta-note reveal">Vertel wat u wilt verbouwen. Tekeningen meesturen mag, maar hoeft niet: ik kan ze voor u opzoeken of opvragen bij de gemeente. Bellen mag ook gewoon.</p>
     </div>
   </section>
 </main>
@@ -393,6 +422,7 @@
       Rijksweg 44, 6581 EN Malden<br>
       <a href="mailto:simon.cox@coxadvies.nl">simon.cox@coxadvies.nl</a><br>
       <a href="tel:+31615902335">06 1590 2335</a><br>
+      <a href="https://www.linkedin.com/in/simonbcox/" target="_blank" rel="noopener">LinkedIn</a><br>
       KvK 86134191
     </div>
   </div>
