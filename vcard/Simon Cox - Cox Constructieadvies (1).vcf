@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Cox;Simon;;;
+FN:Simon Cox
+ORG:Cox Constructieadvies
+TITLE:Constructeur
+TEL;TYPE=CELL,VOICE:+31615902335
+EMAIL;TYPE=INTERNET:simon.cox@coxadvies.nl
+URL:https://coxadvies.nl/
+ADR;TYPE=WORK:;;Rijksweg 44;Malden;Gelderland;6581 EN;Nederland
+NOTE:Constructieberekeningen en constructietekeningen voor draagmuurdoorbraken, uitbouwen en opbouwen.
+END:VCARD
