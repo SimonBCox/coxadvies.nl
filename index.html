@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Constructeur voor draagmuur &amp; uitbouw | Cox Constructieadvies</title>
-<meta name="description" content="Constructieberekeningen en constructietekeningen voor draagmuurdoorbraken, uitbouwen en opbouwen. Vanuit Malden bij Nijmegen, voor woningeigenaren door heel Nederland.">
+<meta name="description" content="Constructieberekening én constructietekening voor draagmuurdoorbraken, uitbouwen en opbouwen. Een doorbraak kost € 850 incl. btw, klaar binnen 5 werkdagen. Vanuit Malden bij Nijmegen, door heel Nederland.">
 <link rel="canonical" href="https://coxadvies.nl/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Constructeur voor draagmuur &amp; uitbouw | Cox Constructieadvies">
@@ -31,7 +31,7 @@
     --navy:#0c3a64;
     --navy-deep:#071f33;
     --accent:#004e92;
-    --accent-deep:#00396b;
+    --accent-deep:#00396b;--warm:#e39a4e;
     --maxw:1160px;
     --pad:clamp(20px,5vw,68px);
     --r:14px;
@@ -136,7 +136,8 @@
   .steps{display:grid;grid-template-columns:1fr;gap:26px}
   @media(min-width:700px){.steps{grid-template-columns:repeat(2,1fr);gap:38px 52px}}
   .step{display:flex;gap:18px;align-items:flex-start}
-  .step .n{flex:0 0 auto;width:46px;height:46px;border-radius:50%;background:var(--navy);color:#eef2f6;font-family:"Lora",serif;font-size:1.2rem;display:grid;place-items:center;margin-top:2px}
+  .step .n{flex:0 0 auto;width:46px;height:46px;border-radius:50%;background:var(--navy);color:#fff;font-family:"Lora",serif;font-size:1.15rem;display:grid;place-items:center;margin-top:2px;box-shadow:0 0 0 4px rgba(227,154,78,.16)}
+  .step:first-child .n{background:var(--warm);color:#2b1c07}
   .step h3{font-size:1.18rem;margin-bottom:5px}
   .step p{color:var(--muted);font-size:.98rem}
 
@@ -221,12 +222,12 @@
     "@type": "OfferCatalog",
     "name": "Constructieve diensten",
     "itemListElement": [
-      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Constructieberekening draagmuurdoorbraak"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Constructieberekening draagmuurdoorbraak"}, "price": "850.00", "priceCurrency": "EUR", "valueAddedTaxIncluded": true, "url": "https://coxadvies.nl/kosten/"},
       {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Constructieberekening uitbouw"}},
       {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Constructieberekening opbouw"}}
     ]
   },
-  "description": "Constructieberekeningen en constructietekeningen voor draagmuurdoorbraken, uitbouwen en opbouwen. Compleet pakket binnen 2 weken. Vaste prijs vooraf. Heel Nederland.",
+  "description": "Constructieberekeningen en constructietekeningen voor draagmuurdoorbraken, uitbouwen en opbouwen. Compleet pakket binnen 5 werkdagen. Vaste prijs vooraf. Heel Nederland.",
   "priceRange": "€€",
   "knowsAbout": ["Eurocode", "NEN-normen", "Bouwbesluit 2012", "Omgevingsvergunning", "Wet kwaliteitsborging", "Staalbouw", "Funderingstechnieken"]
 }
@@ -240,11 +241,12 @@
     <nav class="nav-links" aria-label="Hoofdmenu">
       <a href="#voorbeeld">Projecten</a>
       <a href="#diensten">Diensten</a>
+      <a href="/kosten/">Kosten</a>
       <a href="#werkwijze">Werkwijze</a>
       <a href="#over">Over</a>
       <a href="#contact">Contact</a>
     </nav>
-    <a class="btn" href="#contact">Offerte aanvragen</a>
+    <a class="btn" href="#contact">Neem contact op</a>
   </div>
 </header>
 
@@ -253,26 +255,28 @@
   <section class="hero">
     <div class="wrap hero-grid">
       <div class="reveal">
-        <p class="eyebrow">Constructeur &middot; Malden bij Nijmegen &middot; heel Nederland</p>
-        <h1 class="visual-head">Constructeur voor <em>draagmuur&shy;doorbraken</em> en uitbouwen</h1>
-        <p class="lead">Ik ben Simon Cox, zelfstandig constructeur. Ik maak constructieberekeningen en constructietekeningen voor draagmuurdoorbraken, uitbouw en opbouw: klaar voor uw omgevingsvergunning, zodat uw aannemer er direct mee aan de slag kan.</p>
+        <p class="eyebrow">Constructeur &middot; Malden bij Nijmegen</p>
+        <h1 class="visual-head" style="max-width:19ch">Een draagmuur eruit, en <em>zeker weten dat het goed zit</em>.</h1>
+        <p class="lead">Ik ben Simon Cox, zelfstandig constructeur. Ik maak de constructieberekening &eacute;n de constructietekening voor draagmuurdoorbraken, uitbouwen en opbouwen. Klaar voor uw omgevingsvergunning, zodat uw aannemer er direct mee verder kan.</p>
         <div class="hero-cta">
-          <a class="btn" href="#contact">Vraag een vrijblijvende offerte aan</a>
-          <a class="btn btn-ghost" href="#voorbeeld">Zie een voorbeeld</a>
+          <a class="btn" href="tel:+31615902335">Bel gerust: 06 1590 2335</a>
+          <a class="btn btn-ghost" href="/kosten/">Wat het kost</a>
         </div>
-        <p class="hero-hint">Bellen mag ook. Ik denk graag mee over uw plannen.</p>
+        <p class="hero-hint">Ook als u nog niet zeker weet of uw muur wel draagt. Even meekijken kost niets.</p>
         <div class="chips">
-          <span class="chip"><b>&#10003;</b>Verzekerd</span>
-          <span class="chip"><b>&#10003;</b>Vaste prijs vooraf</span>
-          <span class="chip"><b>&#10003;</b>Compleet pakket binnen 2 weken</span>
+          <span class="chip"><b>&euro;&nbsp;850</b>incl. btw voor een doorbraak</span>
+          <span class="chip"><b>&#10003;</b>Berekening &eacute;n tekening</span>
+          <span class="chip"><b>&#10003;</b>Binnen 5 werkdagen</span>
           <span class="chip"><b>&#10003;</b>Bereikbaar tijdens de hele bouw</span>
         </div>
       </div>
       <div class="hero-media reveal">
         <img src="img/woonkamer.jpg" alt="Open woonkamer na een draagmuurdoorbraak, stalen ligger zichtbaar" class="photo">
+        <!-- Annotatielaag hero: hier komen de echte maten van het gekozen project
+             (overspanning, profiel). Nog niet ingevuld; wacht op fotokeuze. -->
         <div class="float-card">
-          <div class="fc-k">Draagmuurdoorbraak</div>
-          <div class="fc-v">Berekend, getekend, klaar</div>
+          <div class="fc-k">Zo kijk ik naar uw huis</div>
+          <div class="fc-v">Waar de last heen gaat, en wat dat draagt</div>
         </div>
       </div>
     </div>
@@ -284,7 +288,7 @@
       <div class="sec-head reveal">
         <p class="eyebrow">Zie wat een doorbraak doet</p>
         <h2>Van een gesloten muur naar een open ruimte</h2>
-        <p>Sleep de schuif om te zien wat ik mogelijk maak. Ik bereken de stalen ligger die de draagmuur vervangt, zodat de muur veilig verwijderd kan worden.</p>
+        <p>Sleep de schuif om het verschil te zien. Wat u rechts niet ziet is de stalen ligger die de draagmuur vervangt. Die zit weggewerkt in het plafond, en dat is precies de bedoeling.</p>
       </div>
       <div class="ba-tabs reveal">
         <button class="ba-tab active" data-voor="img/draagmuur_doorbraak_1_voor.jpg" data-na="img/draagmuur_doorbraak_1_na.jpeg">Draagmuurdoorbraak</button>
@@ -314,20 +318,20 @@
         <article class="card">
           <p class="tag">Doorbraak</p>
           <h3>Draagmuurdoorbraak</h3>
-          <p>Een muur eruit, de ruimte open. Ik bereken de stalen ligger en de kolommen die de ligger aan weerszijden ondersteunen, en lever de tekening waarmee uw aannemer aan de slag kan.</p>
-          <a class="card-link" href="#contact">Offerte aanvragen &rarr;</a>
+          <p>Een muur eruit, de ruimte open. Ik bereken de stalen ligger, de penanten waar hij op rust en of de bestaande fundering die extra last aankan. Meestal blijkt niet de ligger het lastige deel, maar de opleggingen eronder.</p>
+          <a class="card-link" href="/kosten/">Wat er voor &euro;&nbsp;850 incl. btw bij zit &rarr;</a>
         </article>
         <article class="card">
           <p class="tag">Aanbouw</p>
           <h3>Uitbouw</h3>
-          <p>Meer ruimte aan de achter- of zijkant. Constructie voor de uitbouw, de fundering en een nette aansluiting op de bestaande woning.</p>
-          <a class="card-link" href="#contact">Offerte aanvragen &rarr;</a>
+          <p>Meer ruimte aan de achter- of zijkant. Constructie voor de uitbouw, de fundering en de aansluiting op de bestaande woning. Bij een oudere woning kijk ik ook of de bestaande fundering het nieuwe deel kan dragen.</p>
+          <a class="card-link" href="/kosten/">Wat een uitbouw kost &rarr;</a>
         </article>
         <article class="card">
           <p class="tag">Dakopbouw</p>
           <h3>Opbouw</h3>
-          <p>Een extra verdieping of dakopbouw. Ik beoordeel of de bestaande constructie en fundering het extra gewicht kunnen dragen, en bereken wat er nodig is.</p>
-          <a class="card-link" href="#contact">Offerte aanvragen &rarr;</a>
+          <p>Een extra verdieping of dakopbouw. Alle last komt uiteindelijk op wat er al staat, dus begin ik onderaan: draagt de fundering het, en dragen de muren eronder het? Daarna pas de opbouw zelf.</p>
+          <a class="card-link" href="/kosten/">Wat een opbouw kost &rarr;</a>
         </article>
       </div>
     </div>
@@ -339,11 +343,11 @@
       <div class="sec-head reveal">
         <p class="eyebrow">Zo werkt het</p>
         <h2>Van uw situatie tot een goedgekeurde aanvraag</h2>
-        <p>Een vast, overzichtelijk traject. U weet steeds waar u aan toe bent.</p>
+        <p>Vier stappen, en op elk moment weet u waar we staan. U hoeft zelf niets uit te zoeken.</p>
       </div>
       <div class="steps reveal">
         <div class="step"><div class="n">1</div><div><h3>U vertelt uw plan</h3><p>Bel, mail of stuur een berichtje. Tekeningen meesturen mag, maar hoeft niet. Ik kan ze voor u opzoeken of opvragen bij de gemeente.</p></div></div>
-        <div class="step"><div class="n">2</div><div><h3>Ik reken en teken</h3><p>U krijgt vooraf een vaste prijs. Daarna maak ik de constructieberekening en bijbehorende tekening. Compleet pakket binnen 2 weken nadat ik de tekeningen heb.</p></div></div>
+        <div class="step"><div class="n">2</div><div><h3>Ik reken en teken</h3><p>U krijgt vooraf een vaste prijs. Daarna maak ik de constructieberekening en bijbehorende tekening. Compleet pakket binnen 5 werkdagen nadat ik alle gegevens heb.</p></div></div>
         <div class="step"><div class="n">3</div><div><h3>Klaar voor de gemeente</h3><p>De constructieberekening en bijbehorende tekening waarmee u de omgevingsvergunning aanvraagt en uw aannemer direct verder kan.</p></div></div>
         <div class="step"><div class="n">4</div><div><h3>Ik blijf bereikbaar</h3><p>Heeft de gemeente nog een vraag, moet de aannemer iets afstemmen over de uitvoering, of loopt u tijdens de bouw tegen iets aan? Dan kunt u mij gewoon bellen.</p></div></div>
       </div>
@@ -356,31 +360,17 @@
       <div class="sec-head reveal">
         <p class="eyebrow">Werkgebied</p>
         <h2>Actief in de regio Nijmegen en omgeving</h2>
-        <p>Ik werk door heel Nederland, maar ben het vaakst actief in een straal van 50 km rondom Malden bij Nijmegen.</p>
+        <p>Ik werk door heel Nederland, maar het meeste van mijn werk ligt binnen een half uur rijden van Malden. Dat betekent dat ik bij u langs kan komen kijken als dat helpt.</p>
       </div>
       <div class="steden reveal">
         <a href="/constructeur-nijmegen/" class="stad-link">Nijmegen</a>
         <a href="/constructeur-arnhem/" class="stad-link">Arnhem</a>
-        <a href="/constructeur-den-bosch/" class="stad-link">Den Bosch</a>
-        <a href="/constructeur-oss/" class="stad-link">Oss</a>
-        <a href="/constructeur-doetinchem/" class="stad-link">Doetinchem</a>
-        <a href="/constructeur-ede/" class="stad-link">Ede</a>
-        <a href="/constructeur-tiel/" class="stad-link">Tiel</a>
-        <a href="/constructeur-wageningen/" class="stad-link">Wageningen</a>
-        <a href="/constructeur-wijchen/" class="stad-link">Wijchen</a>
-        <a href="/constructeur-cuijk/" class="stad-link">Cuijk</a>
-        <a href="/constructeur-veenendaal/" class="stad-link">Veenendaal</a>
-        <a href="/constructeur-zevenaar/" class="stad-link">Zevenaar</a>
-        <a href="/constructeur-boxmeer/" class="stad-link">Boxmeer</a>
-        <a href="/constructeur-beuningen/" class="stad-link">Beuningen</a>
-        <a href="/constructeur-grave/" class="stad-link">Grave</a>
-        <a href="/constructeur-gennep/" class="stad-link">Gennep</a>
-        <a href="/constructeur-druten/" class="stad-link">Druten</a>
-        <a href="/constructeur-elst/" class="stad-link">Elst</a>
-        <a href="/constructeur-uden/" class="stad-link">Uden</a>
         <a href="/constructeur-groesbeek/" class="stad-link">Groesbeek</a>
-        <a href="/constructeur-berg-en-dal/" class="stad-link">Berg en Dal</a>
+        <a href="/constructeur-beuningen/" class="stad-link">Beuningen</a>
+        <a href="/constructeur-ede/" class="stad-link">Ede</a>
+        <a href="/constructeur-zevenaar/" class="stad-link">Zevenaar</a>
       </div>
+      <p style="margin-top:22px;color:var(--muted);max-width:60ch">Daarnaast werkte ik onder meer in Huissen, Bemmel, Milsbeek, Lent, Malden en Renkum. Voor projecten verder weg, tot in Amsterdam, Utrecht en Almere, kom ik ook gewoon.</p>
     </div>
   </section>
 
@@ -415,14 +405,14 @@
     <div class="wrap">
       <div class="sec-head reveal">
         <p class="eyebrow cta-eye">Contact</p>
-        <h2>Vraag een vrijblijvende offerte aan</h2>
-        <p>U krijgt snel een heldere, vaste prijs terug. Geen verrassingen achteraf.</p>
+        <h2>Vertel me wat u wilt verbouwen</h2>
+        <p>Dan zeg ik u wat er constructief moet gebeuren en wat het kost. Blijkt uw muur niet te dragen, dan hoort u dat ook. Dat scheelt u een berekening.</p>
       </div>
       <div class="cta-row reveal">
         <a class="btn" href="mailto:simon.cox@coxadvies.nl?subject=Aanvraag%20constructieberekening">Stuur een e-mail</a>
         <a class="btn btn-ghost" href="tel:+31615902335">06 1590 2335</a>
       </div>
-      <p class="cta-note reveal">Vertel wat u wilt verbouwen. Tekeningen meesturen mag, maar hoeft niet: ik kan ze voor u opzoeken of opvragen bij de gemeente. Bellen mag ook gewoon.</p>
+      <p class="cta-note reveal">Tekeningen meesturen mag, maar hoeft niet: ik kan ze voor u opzoeken of opvragen bij de gemeente. Een paar foto's en de globale maten zijn vaak al genoeg om te beginnen.</p>
       <div class="cta-qr reveal">
         <a href="vcard/simon-cox.vcf" download="Simon Cox - Cox Constructieadvies.vcf" aria-label="Download contactgegevens als vCard">
           <img src="img/qr-contact.svg" width="120" height="120" alt="QR-code om contactgegevens van Simon Cox in uw telefoon op te slaan">
