@@ -127,6 +127,20 @@ a{color:inherit}
 .cta .btn-ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.28)}
 .cta .btn-ghost:hover{background:rgba(255,255,255,.08);border-color:#fff}
 .cta-note{margin-top:24px;font-size:.92rem;color:#93a2b2;max-width:52ch;line-height:1.7}
+  /* contactformulier */
+  .form{margin-top:26px;display:grid;gap:15px;max-width:580px;text-align:left}
+  .form .rij{display:grid;gap:15px}
+  @media(min-width:620px){.form .rij{grid-template-columns:1fr 1fr}}
+  .form label{display:block;font-size:.84rem;font-weight:600;margin-bottom:6px;color:#e9eef3}
+  .form input,.form select,.form textarea{width:100%;font-family:inherit;font-size:.95rem;padding:11px 14px;border-radius:10px;border:1px solid rgba(255,255,255,.22);background:rgba(255,255,255,.07);color:#fff}
+  .form input::placeholder,.form textarea::placeholder{color:rgba(255,255,255,.42)}
+  .form input:focus,.form select:focus,.form textarea:focus{outline:none;border-color:#fff;background:rgba(255,255,255,.13)}
+  .form select option{color:#1c2430}
+  .form textarea{min-height:112px;resize:vertical}
+  .form button{justify-self:start;margin-top:2px}
+  .form .noot{font-size:.82rem;color:#93a2b2;line-height:1.65;margin:0}
+  .form .noot a{color:#cfe0f0}
+  .hp{position:absolute!important;left:-9999px;width:1px;height:1px;opacity:0}
 
 /* footer */
 .foot{background:var(--navy-deep);color:#93a2b2;padding:40px 0}

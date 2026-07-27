@@ -165,6 +165,20 @@
   .cta .btn-ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.28)}
   .cta .btn-ghost:hover{background:rgba(255,255,255,.08);border-color:#fff}
   .cta-note{margin-top:24px;font-size:.92rem;color:#93a2b2;max-width:52ch;line-height:1.7}
+  /* contactformulier */
+  .form{margin-top:26px;display:grid;gap:15px;max-width:580px;text-align:left}
+  .form .rij{display:grid;gap:15px}
+  @media(min-width:620px){.form .rij{grid-template-columns:1fr 1fr}}
+  .form label{display:block;font-size:.84rem;font-weight:600;margin-bottom:6px;color:#e9eef3}
+  .form input,.form select,.form textarea{width:100%;font-family:inherit;font-size:.95rem;padding:11px 14px;border-radius:10px;border:1px solid rgba(255,255,255,.22);background:rgba(255,255,255,.07);color:#fff}
+  .form input::placeholder,.form textarea::placeholder{color:rgba(255,255,255,.42)}
+  .form input:focus,.form select:focus,.form textarea:focus{outline:none;border-color:#fff;background:rgba(255,255,255,.13)}
+  .form select option{color:#1c2430}
+  .form textarea{min-height:112px;resize:vertical}
+  .form button{justify-self:start;margin-top:2px}
+  .form .noot{font-size:.82rem;color:#93a2b2;line-height:1.65;margin:0}
+  .form .noot a{color:#cfe0f0}
+  .hp{position:absolute!important;left:-9999px;width:1px;height:1px;opacity:0}
   .cta-qr{display:flex;align-items:center;gap:16px;margin-top:32px;padding-top:28px;border-top:1px solid rgba(255,255,255,.14)}
   .cta-qr img{width:72px;height:72px;border-radius:8px;background:#fff;padding:5px;flex:0 0 auto}
   .cta-qr p{font-size:.85rem;color:#93a2b2;max-width:22ch;line-height:1.5;margin:0}
@@ -409,9 +423,38 @@
         <p>Dan zeg ik u wat er constructief moet gebeuren en wat het kost. Blijkt uw muur niet te dragen, dan hoort u dat ook. Dat scheelt u een berekening.</p>
       </div>
       <div class="cta-row reveal">
-        <a class="btn" href="mailto:simon.cox@coxadvies.nl?subject=Aanvraag%20constructieberekening">Stuur een e-mail</a>
-        <a class="btn btn-ghost" href="tel:+31615902335">06 1590 2335</a>
+        <a class="btn btn-ghost" href="tel:+31615902335">Liever bellen? 06 1590 2335</a>
       </div>
+      <form class="form reveal" action="https://api.web3forms.com/submit" method="POST">
+        <!-- Haal de sleutel op via web3forms.com (e-mailadres invullen, komt per mail) en vervang de regel hieronder. -->
+        <input type="hidden" name="access_key" value="VUL_HIER_DE_WEB3FORMS_SLEUTEL_IN">
+        <input type="hidden" name="subject" value="Nieuwe aanvraag via coxadvies.nl">
+        <input type="hidden" name="from_name" value="coxadvies.nl">
+        <input type="hidden" name="redirect" value="https://www.coxadvies.nl/bedankt/">
+        <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="rij">
+          <div><label for="f-naam">Uw naam</label><input id="f-naam" name="naam" required autocomplete="name"></div>
+          <div><label for="f-mail">E-mailadres</label><input id="f-mail" type="email" name="email" required autocomplete="email"></div>
+        </div>
+        <div class="rij">
+          <div><label for="f-tel">Telefoonnummer</label><input id="f-tel" type="tel" name="telefoon" autocomplete="tel"></div>
+          <div><label for="f-adres">Adres van de woning</label><input id="f-adres" name="adres" placeholder="Straat, nummer, plaats"></div>
+        </div>
+        <div>
+          <label for="f-plan">Wat wilt u verbouwen?</label>
+          <textarea id="f-plan" name="plan" required placeholder="Bijvoorbeeld: de draagmuur tussen keuken en woonkamer eruit, ongeveer 3 meter breed."></textarea>
+        </div>
+        <div>
+          <label for="f-tek">Heeft u bouwtekeningen?</label>
+          <select id="f-tek" name="tekeningen">
+            <option>Ja, die heb ik</option>
+            <option>Nee</option>
+            <option>Weet ik niet</option>
+          </select>
+        </div>
+        <button class="btn" type="submit">Versturen</button>
+        <p class="noot">Heeft u tekeningen, dan vraag ik ze na uw bericht op. U hoort binnen één werkdag van mij. Wat er met uw gegevens gebeurt staat in de <a href="/privacy/">privacyverklaring</a>.</p>
+      </form>
       <p class="cta-note reveal">Tekeningen meesturen mag, maar hoeft niet: ik kan ze voor u opzoeken of opvragen bij de gemeente. Een paar foto's en de globale maten zijn vaak al genoeg om te beginnen.</p>
       <div class="cta-qr reveal">
         <a href="vcard/simon-cox.vcf" download="Simon Cox - Cox Constructieadvies.vcf" aria-label="Download contactgegevens als vCard">
@@ -430,6 +473,7 @@
       Rijksweg 44, 6581 EN Malden<br>
       <a href="mailto:simon.cox@coxadvies.nl">simon.cox@coxadvies.nl</a><br>
       <a href="tel:+31615902335">06 1590 2335</a><br>
+      <a href="/privacy/">Privacyverklaring</a><br>
       <a href="https://www.linkedin.com/in/simonbcox/" target="_blank" rel="noopener">LinkedIn</a><br>
       KvK 86134191
     </div>
@@ -471,6 +515,22 @@
     }
     var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}})},{threshold:.12});
     els.forEach(function(e){io.observe(e)});
+  })();
+
+  // Vangnet: zolang de Web3Forms-sleutel niet is ingevuld, niet verzenden maar
+  // doorverwijzen naar mail en telefoon. Verdwijnt vanzelf zodra de sleutel er staat.
+  (function(){
+    Array.prototype.forEach.call(document.querySelectorAll('form.form'),function(f){
+      var k=f.querySelector('[name="access_key"]');
+      if(!k||k.value.indexOf('VUL_HIER')===-1)return;
+      f.addEventListener('submit',function(e){
+        e.preventDefault();
+        var n=f.querySelector('.noot');
+        if(n)n.innerHTML='Het formulier is nog niet actief. Mail of bel gerust: '+
+          '<a href="mailto:simon.cox@coxadvies.nl">simon.cox@coxadvies.nl</a> of '+
+          '<a href="tel:+31615902335">06 1590 2335</a>.';
+      });
+    });
   })();
 </script>
 </body>
