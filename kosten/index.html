@@ -303,22 +303,6 @@
     var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}})},{threshold:.12});
     els.forEach(function(e){io.observe(e)});
   })();
-
-  // Vangnet: zolang de Web3Forms-sleutel niet is ingevuld, niet verzenden maar
-  // doorverwijzen naar mail en telefoon. Verdwijnt vanzelf zodra de sleutel er staat.
-  (function(){
-    Array.prototype.forEach.call(document.querySelectorAll('form.form'),function(f){
-      var k=f.querySelector('[name="access_key"]');
-      if(!k||k.value.indexOf('VUL_HIER')===-1)return;
-      f.addEventListener('submit',function(e){
-        e.preventDefault();
-        var n=f.querySelector('.noot');
-        if(n)n.innerHTML='Het formulier is nog niet actief. Mail of bel gerust: '+
-          '<a href="mailto:simon.cox@coxadvies.nl">simon.cox@coxadvies.nl</a> of '+
-          '<a href="tel:+31615902335">06 1590 2335</a>.';
-      });
-    });
-  })();
 </script>
 </body>
 </html>
