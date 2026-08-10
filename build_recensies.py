@@ -43,6 +43,34 @@ GOOGLE_G = (
 )
 
 
+PIJL_LINKS = ('<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" '
+              'stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">'
+              '<polyline points="15 18 9 12 15 6"/></svg>')
+PIJL_RECHTS = ('<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" '
+               'stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">'
+               '<polyline points="9 18 15 12 9 6"/></svg>')
+
+# De pijltjes schuiven de strook een kaart op; op aanraakschermen wordt geveegd en blijven
+# ze verborgen (zie de hover/pointer-mediaquery in de pagina-CSS). Zonder JavaScript toont
+# de noscript-regel een dunne schuifbalk, zodat de strook altijd bereikbaar blijft.
+STRIP_SCRIPT = """<script>
+  (function(){
+    var strip=document.getElementById('rec-strip');
+    if(!strip)return;
+    var terug=document.querySelector('.rec-pijl.links'),verder=document.querySelector('.rec-pijl.rechts');
+    var zacht=window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth';
+    function stap(){var k=strip.querySelector('.recensie');return k?k.getBoundingClientRect().width+20:320}
+    function bijwerken(){terug.disabled=strip.scrollLeft<=4;verder.disabled=strip.scrollLeft>=strip.scrollWidth-strip.clientWidth-4}
+    terug.addEventListener('click',function(){strip.scrollBy({left:-stap(),behavior:zacht})});
+    verder.addEventListener('click',function(){strip.scrollBy({left:stap(),behavior:zacht})});
+    strip.addEventListener('scroll',bijwerken,{passive:true});
+    window.addEventListener('resize',bijwerken);
+    bijwerken();
+  })();
+  </script>
+  <noscript><style>.recensies{scrollbar-width:thin}.rec-pijl{display:none!important}</style></noscript>"""
+
+
 def datum_nl(waarde: str) -> str:
     """'2026-07' -> 'juli 2026'."""
     if not waarde or "-" not in waarde:
@@ -102,13 +130,18 @@ def bouw_blok(data: dict) -> str:
         <span class="rec-kop-tekst"><b>{aantal} beoordelingen</b><br>op Google</span>
         <a href="{leesurl}" target="_blank" rel="noopener">Bekijk op Google</a>
       </div>
-      <div class="recensies reveal">
+      <div class="rec-wrap reveal">
+        <button class="rec-pijl links" type="button" aria-label="Vorige recensies" disabled>{PIJL_LINKS}</button>
+        <div class="recensies" id="rec-strip" tabindex="0" role="region" aria-label="Recensies van klanten">
 
 {kaarten}
 
+        </div>
+        <button class="rec-pijl rechts" type="button" aria-label="Volgende recensies">{PIJL_RECHTS}</button>
       </div>
     </div>
   </section>
+  {STRIP_SCRIPT}
   {EIND}"""
 
 

@@ -175,8 +175,19 @@
   .g-mark{display:inline-flex;align-items:center;gap:6px;font-size:.76rem;font-weight:600;color:var(--muted)}
   .g-mark svg{width:14px;height:14px;flex:none}
 
-  .recensies{display:grid;grid-template-columns:1fr;gap:20px}
-  @media(min-width:820px){.recensies{grid-template-columns:repeat(3,1fr)}}
+  .rec-wrap{position:relative}
+  .recensies{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;scrollbar-width:none;padding-bottom:4px}
+  .recensies::-webkit-scrollbar{display:none}
+  .recensies .recensie{flex:0 0 88%;scroll-snap-align:start}
+  @media(min-width:620px){.recensies .recensie{flex-basis:calc((100% - 20px)/2)}}
+  @media(min-width:820px){.recensies .recensie{flex-basis:calc((100% - 40px)/3)}}
+  .rec-pijl{position:absolute;top:50%;transform:translateY(-50%);width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:var(--surface);color:var(--ink);display:none;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 10px 22px -14px rgba(0,0,0,.35);z-index:2;transition:opacity .25s,border-color .2s,color .2s}
+  .rec-pijl:hover{border-color:var(--accent);color:var(--accent)}
+  .rec-pijl[disabled]{opacity:0;pointer-events:none}
+  .rec-pijl svg{width:17px;height:17px}
+  .rec-pijl.links{left:-16px}
+  .rec-pijl.rechts{right:-16px}
+  @media(hover:hover) and (pointer:fine){.rec-pijl{display:flex}}
   .recensie{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:22px 24px 0;display:flex;flex-direction:column}
   .rec-hoofd{display:flex;align-items:center;gap:11px;margin-bottom:13px}
   .avatar{width:38px;height:38px;border-radius:50%;flex:none;display:grid;place-items:center;background:var(--navy);color:#fff;font-weight:600;font-size:.95rem;line-height:1}
@@ -469,7 +480,9 @@
         <span class="rec-kop-tekst"><b>9 beoordelingen</b><br>op Google</span>
         <a href="https://share.google/SNu4BlGeXYmKo3u03" target="_blank" rel="noopener">Bekijk op Google</a>
       </div>
-      <div class="recensies reveal">
+      <div class="rec-wrap reveal">
+        <button class="rec-pijl links" type="button" aria-label="Vorige recensies" disabled><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></button>
+        <div class="recensies" id="rec-strip" tabindex="0" role="region" aria-label="Recensies van klanten">
 
         <article class="recensie geen-project">
           <div class="rec-hoofd">
@@ -587,9 +600,27 @@
           <p class="project">Draagmuurdoorbraak</p>
         </article>
 
+        </div>
+        <button class="rec-pijl rechts" type="button" aria-label="Volgende recensies"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></button>
       </div>
     </div>
   </section>
+  <script>
+  (function(){
+    var strip=document.getElementById('rec-strip');
+    if(!strip)return;
+    var terug=document.querySelector('.rec-pijl.links'),verder=document.querySelector('.rec-pijl.rechts');
+    var zacht=window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth';
+    function stap(){var k=strip.querySelector('.recensie');return k?k.getBoundingClientRect().width+20:320}
+    function bijwerken(){terug.disabled=strip.scrollLeft<=4;verder.disabled=strip.scrollLeft>=strip.scrollWidth-strip.clientWidth-4}
+    terug.addEventListener('click',function(){strip.scrollBy({left:-stap(),behavior:zacht})});
+    verder.addEventListener('click',function(){strip.scrollBy({left:stap(),behavior:zacht})});
+    strip.addEventListener('scroll',bijwerken,{passive:true});
+    window.addEventListener('resize',bijwerken);
+    bijwerken();
+  })();
+  </script>
+  <noscript><style>.recensies{scrollbar-width:thin}.rec-pijl{display:none!important}</style></noscript>
   <!-- RECENSIES:EIND -->
   <!-- CONTACT -->
   <section class="section cta" id="contact">
