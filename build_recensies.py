@@ -1,4 +1,4 @@
-"""Genereert het recensieblok op coxadvies.nl uit bedrijfsdocumenten/recensies.json.
+"""Genereert het recensieblok op coxadvies.nl uit administratie/recensies.json.
 
 Gebruik na het toevoegen of wijzigen van een recensie:
 
@@ -17,7 +17,7 @@ import sys
 from pathlib import Path
 
 HIER = Path(__file__).resolve().parent
-BRON = HIER.parent.parent / "bedrijfsdocumenten" / "recensies.json"
+BRON = HIER.parent.parent / "administratie" / "recensies.json"
 DOELEN = [HIER / "index.html"]
 
 START = "<!-- RECENSIES:START (gegenereerd door build_recensies.py, niet met de hand wijzigen) -->"
