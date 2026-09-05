@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aanvraag ontvangen | Cox Constructieadvies</title>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://www.coxadvies.nl/bedankt-bouwdossier/">
+<link rel="icon" type="image/png" href="/img/favicon.png">
+<link rel="apple-touch-icon" href="/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,500;1,600&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+<style>
+  .stappen{margin:26px 0 0;padding:0;list-style:none;max-width:60ch}
+  .stappen li{position:relative;padding:0 0 18px 34px;border-left:1px solid var(--line);
+    margin-left:9px}
+  .stappen li:last-child{border-left-color:transparent;padding-bottom:0}
+  .stappen li::before{content:"";position:absolute;left:-6px;top:5px;width:11px;height:11px;
+    border-radius:50%;background:var(--accent)}
+  .stappen b{display:block}
+  .betaal{margin-top:28px;padding:22px clamp(18px,4vw,28px);background:var(--bg);
+    border:1px solid var(--line);border-radius:12px;max-width:60ch}
+  .betaal p{margin:0 0 14px}
+  .betaal .bedrag{font-size:1.5rem;font-weight:700;color:var(--navy)}
+</style>
+</head>
+<body id="top">
+
+<header class="nav-bar" id="navbar">
+  <div class="wrap nav-inner">
+    <a class="brand" href="/"><img src="/img/logo.png" alt="Cox Constructieadvies"></a>
+    <nav class="nav-links" aria-label="Hoofdmenu">
+      <a href="/projecten/">Projecten</a>
+      <a href="/#diensten">Diensten</a>
+      <a href="/kosten/">Kosten</a>
+      <a href="/faq/">Vragen</a>
+      <a href="/#werkwijze">Werkwijze</a>
+      <a href="/#over">Over</a>
+    </nav>
+    <a class="btn" href="tel:+31615902335">06 1590 2335</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Aanvraag ontvangen</p>
+      <h1 class="visual-head" style="max-width:20ch">Uw aanvraag staat bij mij op de lijst.</h1>
+      <p class="lead" style="max-width:58ch">Nog &eacute;&eacute;n stap: de betaling. Zodra die
+        binnen is gaat de aanvraag dezelfde dag naar het archief.</p>
+
+      <div class="betaal">
+        <p class="bedrag">&euro; 100 inclusief btw</p>
+        <!-- Rabo Betaalverzoek Zakelijk, aangemaakt 2026-09-05 met de optie "vaker
+             betalen". LET OP: deze link verloopt op 4 september 2028. Maak dan een nieuwe
+             aan en vervang hem hier, anders staat er een dode betaalknop op de site.
+             Zolang hier VUL_BETAALLINK_IN staat, verbergt het script onderaan de knop. -->
+        <p><a class="btn" id="betaalknop"
+              href="https://betaalverzoek.rabobank.nl/betaalverzoek/?id=6oxUH-R4RmmM9tU50YNJ4Q">Betaal
+          met iDEAL</a></p>
+        <p class="hero-hint" style="margin:0">Liever overmaken of achteraf betalen? Bel of mail
+          gerust, dan regelen we het zo.</p>
+      </div>
+
+      <ol class="stappen">
+        <li><b>Ik dien de aanvraag in</b>bij het loket dat bij uw adres en bouwjaar hoort,
+          op de dag dat de betaling binnen is.</li>
+        <li><b>Ik houd hem in de gaten</b>en laat het u weten als het archief lang stil
+          blijft. Hoe lang het duurt verschilt sterk per gemeente, van een paar dagen tot
+          een paar weken. Die doorlooptijd is van het archief en niet van mij, dus ik beloof
+          er geen datum bij.</li>
+        <li><b>U krijgt het dossier</b>digitaal doorgestuurd, met een leeswijzer erbij:
+          welke jaren erin zitten, wat er op welk blad staat en wat er ontbreekt.</li>
+        <li><b>Levert het archief niets</b>, dan krijgt u het bedrag terug. Wat er w&eacute;l
+          ligt kan tegenvallen; soms is alleen het gevelaanzicht bewaard gebleven. Dat is
+          dan het dossier, en daar kan ik niets aan veranderen.</li>
+      </ol>
+
+      <p class="lead" style="max-width:58ch;margin-top:28px">Laat u de constructieberekening
+        daarna bij mij maken, dan gaat deze &euro; 100 er weer af.</p>
+
+      <div class="hero-cta">
+        <a class="btn btn-ghost" href="/kosten/">Bekijk de tarieven</a>
+        <a class="btn btn-ghost" href="/">Terug naar de site</a>
+      </div>
+      <p class="hero-hint">Vragen tussendoor? Bel gerust: <a href="tel:+31615902335">06 1590 2335</a>.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-inner">
+    <div><b>Cox Constructieadvies</b><div class="meta">Constructieberekeningen &amp; constructietekeningen &middot; heel Nederland</div></div>
+    <div class="meta">Rijksweg 44, 6581 EN Malden<br><a href="mailto:simon.cox@coxadvies.nl">simon.cox@coxadvies.nl</a><br><a href="tel:+31615902335">06 1590 2335</a><br><a href="/privacy/">Privacyverklaring</a><br>KvK 86134191</div>
+  </div>
+</footer>
+
+<script>
+  var nav=document.getElementById('navbar');
+  var onScroll=function(){nav.classList.toggle('scrolled',window.scrollY>12)};
+  onScroll();window.addEventListener('scroll',onScroll,{passive:true});
+
+  /* Een knop die naar een niet-ingevulde link wijst is erger dan geen knop: de bezoeker
+     denkt dat hij betaald heeft. Zolang de link niet is ingevuld staat hier de reden. */
+  var knop=document.getElementById('betaalknop');
+  if(knop && knop.getAttribute('href').indexOf('VUL_')===0){
+    var p=document.createElement('p');
+    p.style.margin='0';
+    p.textContent='De betaallink staat nog niet ingesteld. Bel of mail even, dan stuur ik '+
+      'u het betaalverzoek rechtstreeks.';
+    knop.parentNode.replaceChild(p,knop);
+  }
+</script>
+</body>
+</html>

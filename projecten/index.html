@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Uitgevoerde projecten | Cox Constructieadvies</title>
+<meta name="description" content="Twee verbouwingen van dichte muur tot geplaatst staal, met de maten en profielen uit de constructieberekening van datzelfde project. Een draagmuurdoorbraak en een aanbouw op buispalen.">
+<link rel="canonical" href="https://www.coxadvies.nl/projecten/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Uitgevoerde projecten | Cox Constructieadvies">
+<meta property="og:description" content="Van dichte muur tot geplaatst staal. Foto's van de bouw, met de maten en profielen uit de berekening erbij.">
+<meta property="og:locale" content="nl_NL">
+<meta property="og:url" content="https://www.coxadvies.nl/projecten/">
+<meta property="og:image" content="https://www.coxadvies.nl/img/projecten/bemmel-03-ligger.jpg">
+<link rel="icon" type="image/png" href="/img/favicon.png">
+<link rel="apple-touch-icon" href="/img/favicon.png">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+{"@type":"ListItem","position":1,"name":"Home","item":"https://www.coxadvies.nl/"},
+{"@type":"ListItem","position":2,"name":"Projecten","item":"https://www.coxadvies.nl/projecten/"}]}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,500;1,600&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+<style>
+  /* de drie fasen naast elkaar, vanaf hetzelfde standpunt gefotografeerd */
+  .reeks{display:grid;grid-template-columns:1fr;gap:26px;margin-top:8px}
+  @media(min-width:860px){.reeks{grid-template-columns:repeat(3,1fr);gap:22px}}
+  .fase{margin:0}
+  .fase img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:var(--r);box-shadow:var(--shadow);display:block;background:var(--line)}
+  .fase figcaption{display:flex;gap:11px;align-items:baseline;margin-top:13px;font-size:.92rem;color:var(--muted);line-height:1.5}
+  .fase .n{flex:0 0 auto;width:25px;height:25px;border-radius:50%;background:var(--navy);color:#fff;font-family:"Lora",serif;font-size:.84rem;display:grid;place-items:center;transform:translateY(3px)}
+  .fase b{color:var(--ink);font-weight:600}
+
+  /* tekst naast een staande foto */
+  .duo{display:grid;grid-template-columns:1fr;gap:clamp(28px,4vw,50px);align-items:center;margin-top:clamp(34px,4vw,52px)}
+  @media(min-width:860px){.duo{grid-template-columns:.82fr 1.18fr}.duo.omgekeerd{grid-template-columns:1.18fr .82fr}.duo.omgekeerd .duo-beeld{order:2}}
+  .duo-beeld{margin:0}
+  .duo-beeld img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;border-radius:var(--r);box-shadow:var(--shadow);display:block;background:var(--line)}
+  .duo-beeld figcaption{margin-top:12px;font-size:.88rem;color:var(--muted);line-height:1.55}
+  .duo-tekst p{color:var(--muted);margin-bottom:15px;max-width:56ch}
+  .duo-tekst p:last-child{margin-bottom:0}
+
+  /* projectkop en lopende tekst */
+  .proj+.proj{border-top:1px solid var(--line)}
+  .proj h2{font-size:clamp(1.75rem,3.6vw,2.5rem);margin:13px 0 18px;max-width:20ch}
+  .proj-intro{max-width:60ch}
+  .proj-intro p{color:var(--muted);font-size:1.05rem;margin-bottom:15px}
+  .proj-intro p:last-child{margin-bottom:0}
+
+  /* de getallen uit de berekening */
+  .feiten{list-style:none;display:grid;grid-template-columns:repeat(2,1fr);gap:22px 30px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:clamp(34px,4vw,50px);padding:clamp(26px,3vw,34px) 0}
+  @media(min-width:760px){.feiten{grid-template-columns:repeat(4,1fr)}}
+  .feiten .k{display:block;font-size:.68rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+  .feiten .v{display:block;font-weight:600;font-size:.98rem}
+  .feiten .v small{display:block;font-weight:400;font-size:.82rem;color:var(--muted);margin-top:3px}
+  .bron{font-size:.84rem;color:var(--muted);margin-top:16px;max-width:60ch}
+
+  /* citaat van de opdrachtgever */
+  .citaat{background:var(--surface);border:1px solid var(--line);border-left:3px solid var(--warm);border-radius:var(--r);padding:24px 28px;margin-top:clamp(30px,4vw,42px);max-width:62ch}
+  .citaat p{font-family:"Lora",Georgia,serif;font-size:1.1rem;line-height:1.6;color:var(--ink)}
+  .citaat .wie{display:block;margin-top:12px;font-family:"Hanken Grotesk",sans-serif;font-size:.86rem;color:var(--muted)}
+  .citaat .sterren{color:var(--warm);letter-spacing:.12em;font-size:.9rem;margin-right:7px}
+
+  /* foto naast het tekeningfragment van datzelfde punt */
+  .bewijs{display:grid;grid-template-columns:1fr;gap:24px;margin-top:clamp(30px,4vw,44px)}
+  @media(min-width:860px){.bewijs{grid-template-columns:1.05fr .95fr;gap:28px;align-items:stretch}}
+  .bewijs figure{margin:0;display:flex;flex-direction:column}
+  .bewijs .kop{font-size:.68rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:9px}
+  .bewijs img{width:100%;height:auto;border-radius:var(--r);display:block}
+  .bewijs .fotokant img{aspect-ratio:3/2;object-fit:cover;box-shadow:var(--shadow);background:var(--line)}
+  .bewijs .tekeningkant{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:18px 20px 16px}
+  .bewijs .tekeningkant img{object-fit:contain;max-height:430px;width:auto;margin:0 auto}
+  .bewijs figcaption{margin-top:13px;font-size:.88rem;color:var(--muted);line-height:1.55}
+
+  .vervolg{max-width:60ch;margin-top:clamp(34px,4vw,50px)}
+  .vervolg p{color:var(--muted);font-size:1.05rem;margin-bottom:15px}
+  .vervolg p:last-child{margin-bottom:0}
+
+  /* .photo in style.css kent geen height:auto; met width- en height-attributen
+     op de img wint het attribuut anders van de aspect-ratio */
+  .hero-media .photo{height:auto}
+</style>
+</head>
+<body id="top">
+
+<header class="nav-bar" id="navbar">
+  <div class="wrap nav-inner">
+    <a class="brand" href="/"><img src="/img/logo.png" alt="Cox Constructieadvies"></a>
+    <nav class="nav-links" aria-label="Hoofdmenu">
+      <a href="/projecten/">Projecten</a>
+      <a href="/#diensten">Diensten</a>
+      <a href="/kosten/">Kosten</a>
+      <a href="/faq/">Vragen</a>
+      <a href="/#werkwijze">Werkwijze</a>
+      <a href="/#over">Over</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn" href="#contact">Neem contact op</a>
+  </div>
+</header>
+
+<nav class="breadcrumb" aria-label="Kruimelpad">
+  <div class="wrap breadcrumb-inner">
+    <a href="/">Home</a><span aria-hidden="true"> &rsaquo; </span><span>Projecten</span>
+  </div>
+</nav>
+
+<main>
+  <!-- INTRO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="reveal">
+        <p class="eyebrow">Uitgevoerde projecten</p>
+        <h1 class="visual-head" style="max-width:17ch">Van dichte muur tot <em>geplaatst staal</em>.</h1>
+        <p class="lead">Twee verbouwingen die ik heb berekend en getekend, gefotografeerd op de bouw. De maten en de profielen die u erbij ziet staan komen uit de berekening van datzelfde project, niet uit een voorbeeld.</p>
+        <div class="chips">
+          <span class="chip"><a href="#doorbraak" style="text-decoration:none">Draagmuurdoorbraak</a></span>
+          <span class="chip"><a href="#aanbouw" style="text-decoration:none">Aanbouw op palen</a></span>
+        </div>
+      </div>
+      <div class="hero-media reveal">
+        <img src="/img/projecten/utrecht-02-inhijsen.jpg" width="1000" height="1250" decoding="async" alt="Een kraan tilt een compacte heistelling over de schutting een ingesloten patio in" class="photo">
+        <div class="float-card">
+          <div class="fc-k">Aanbouw op palen</div>
+          <div class="fc-v">De heistelling moest over de schutting naar binnen</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECT 1: BEMMEL -->
+  <section class="section tint proj" id="doorbraak">
+    <div class="wrap">
+      <div class="proj-intro reveal">
+        <p class="eyebrow">Draagmuurdoorbraak</p>
+        <h2>De muur tussen keuken en woonkamer eruit</h2>
+        <p>In deze tussenwoning uit 1972 moesten de keuken en de woonkamer &eacute;&eacute;n ruimte worden. De muur ertussen was dragend. Hij droeg de verdiepingsvloer, en uit de oorspronkelijke kaptekening van 1971 bleek dat ook de gordingen van het dak erop uitkwamen.</p>
+        <p>De ligger zelf was niet het lastige deel. Wat eerst als een gelijkmatige last over de hele muurlengte naar beneden ging, komt na de doorbraak op twee plekken samen: op het metselwerk aan weerszijden van de opening en op de bestaande strookfundering daaronder. Die twee heb ik apart nagerekend, want daar zit bij een doorbraak meestal de grens.</p>
+      </div>
+
+      <div class="reeks reveal">
+        <figure class="fase">
+          <img src="/img/projecten/bemmel-01-dichte-wand.jpg" width="1200" height="800" loading="lazy" decoding="async" alt="Woonkamer met de dragende binnenwand nog dicht, met een deur naar de keuken">
+          <figcaption><span class="n" aria-hidden="true">1</span><span><b>Zoals het was.</b> De dragende wand met de deur naar de keuken.</span></figcaption>
+        </figure>
+        <figure class="fase">
+          <img src="/img/projecten/bemmel-02-gestempeld.jpg" width="1200" height="800" loading="lazy" decoding="async" alt="Dezelfde wand afgetekend met de tekst eruit, met stempels en een houten kesp tegen het plafond">
+          <figcaption><span class="n" aria-hidden="true">2</span><span><b>Gestempeld.</b> De vloer erboven staat op stempels voordat er ook maar een steen uit gaat.</span></figcaption>
+        </figure>
+        <figure class="fase">
+          <img src="/img/projecten/bemmel-03-ligger.jpg" width="1200" height="800" loading="lazy" decoding="async" alt="Dezelfde ruimte met de wand verwijderd en de stalen ligger op zijn plaats boven de opening">
+          <figcaption><span class="n" aria-hidden="true">3</span><span><b>Ligger erin.</b> Vanaf hier neemt het staal over wat de muur deed.</span></figcaption>
+        </figure>
+      </div>
+
+      <ul class="feiten reveal">
+        <li><span class="k">Woning</span><span class="v">Tussenwoning 1972<small>Rijwoning in een blok van zes</small></span></li>
+        <li><span class="k">Opening</span><span class="v">2,52 m<small>Dagmaat tussen de opleggingen</small></span></li>
+        <li><span class="k">Ligger</span><span class="v">IPE&nbsp;240 in S235<small>Rekenoverspanning 2,87 m</small></span></li>
+        <li><span class="k">Oplegging</span><span class="v">350 mm per zijde<small>Op het bestaande metselwerk</small></span></li>
+      </ul>
+      <p class="bron reveal">Deze gegevens komen uit de constructieberekening van dit project. De opdrachtgever kreeg de berekening en de constructietekening samen, klaar voor de gemeente.</p>
+
+      <div class="vervolg reveal">
+        <p>Het plan is onderweg drie keer gewijzigd. De opdrachtgever wilde de opening zo breed mogelijk, en dus het stuk muur dat blijft staan zo smal mogelijk. Juist dat stuk vangt de last van de ligger op, dus elke centimeter minder muur telt daar dubbel.</p>
+        <p>Bij elke wijziging is de berekening opnieuw meegegaan. Een van de gevraagde maten haalde het niet, en dat heb ik teruggemeld in plaats van het glad te strijken. Wat er wel kon is doorgerekend en op tekening gezet, met erbij wat er op de bouw gecontroleerd moet worden voordat de smalste variant mag.</p>
+      </div>
+
+      <div class="bewijs reveal">
+        <figure class="fotokant">
+          <p class="kop">Op de bouw</p>
+          <img src="/img/projecten/bemmel-oplegging.jpg" width="1200" height="800" loading="lazy" decoding="async" alt="De geplaatste stalen ligger gezien vanaf de keukenzijde, met rechts het wandstuk waarop hij landt">
+          <figcaption>Vanaf de keukenzijde. Rechts landt de ligger op het stuk wand dat blijft staan, met daarop nog het potloodmerk van de sloper.</figcaption>
+        </figure>
+        <figure class="tekeningkant">
+          <p class="kop">Op de tekening</p>
+          <img src="/img/projecten/bemmel-tekening.png" width="659" height="809" loading="lazy" decoding="async" alt="Aanzicht van de doorbraak uit de constructietekening, met de ligger IPE 240, de dagmaat 2520 mm en de opleglengte 350 mm">
+          <figcaption>Hetzelfde punt uit de constructietekening. Dit fragment wordt gemaakt uit hetzelfde bestand als de berekening, zodat het niet stil kan gaan afwijken van het blad dat de opdrachtgever heeft.</figcaption>
+        </figure>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECT 2: UTRECHT -->
+  <section class="section proj" id="aanbouw">
+    <div class="wrap">
+      <div class="proj-intro reveal">
+        <p class="eyebrow">Aanbouw met doorbraak</p>
+        <h2>Een aanbouw op vier palen, in een patio waar niets in kon</h2>
+        <p>Bij deze rijwoning uit ongeveer 1972 werd de ingesloten patio aan de voorzijde dichtgezet tot woonruimte, met een doorbraak in de bestaande voorgevel erbij. De patio ligt klem tussen de eigen woning en de buren, en is vanaf de straat alleen via de woning te bereiken.</p>
+        <p>Van de bestaande fundering waren geen betrouwbare gegevens te vinden. Zonder die gegevens kunt u er ook geen extra last op zetten. De aanbouw is daarom volledig zelfdragend gemaakt: een betonvloer op vier eigen palen, met een voeg naar de bestaande bouw en ankers die alleen de wind afdragen. Zo hoeft de oude fundering niets extra&rsquo;s te doen.</p>
+      </div>
+
+      <div class="duo reveal">
+        <figure class="duo-beeld">
+          <img src="/img/projecten/utrecht-01-patio.jpg" width="1000" height="1250" loading="lazy" decoding="async" alt="De ingesloten patio zoals hij was, een bemoste vloer tussen twee bakstenen muren">
+          <figcaption>De patio zoals hij was, ingesloten tussen de eigen woning en de buren. Hier komt de aanbouw.</figcaption>
+        </figure>
+        <div class="duo-tekst">
+          <p>Voor de fundering zijn de originele sondeerstaten uit 1973 en 1976 opgezocht en opnieuw afgelezen. Daaruit bleek dat de ondiepe zandlaag waar het ontwerp eerst op mikte te dun was en te wisselend om op te bouwen. De paalpunt is verlegd naar de diepe draaglaag daaronder.</p>
+          <p>Op de tekening staat daarom niet alleen hoe diep de palen moeten, maar ook dat dieper heien is toegestaan en ondieper niet. Op de bouw is dat het verschil tussen twijfelen en doorgaan.</p>
+          <p>De vergunning is in &eacute;&eacute;n keer verleend.</p>
+        </div>
+      </div>
+
+      <ul class="feiten reveal">
+        <li><span class="k">Woning</span><span class="v">Rijwoning ca. 1972<small>Half verdiepte bouwwijze</small></span></li>
+        <li><span class="k">Aanbouw</span><span class="v">4,15 &times; 3,05 m<small>Op de bestaande patio</small></span></li>
+        <li><span class="k">Fundering</span><span class="v">4 buispalen &oslash;&nbsp;168 mm<small>Paalpunt 5,50 m onder NAP</small></span></li>
+        <li><span class="k">Vloer</span><span class="v">200 mm beton C20/25<small>Zelfdragend op de palen</small></span></li>
+      </ul>
+      <p class="bron reveal">Deze gegevens komen uit de constructieberekening van dit project. Boven de doorbraak in de voorgevel ligt een HEA&nbsp;140, met een hoekstalen latei die het buitenblad draagt. Alle zes de constructie-onderdelen voldoen; de betonvloer op de palen is het maatgevende onderdeel.</p>
+
+      <div class="duo omgekeerd reveal">
+        <figure class="duo-beeld">
+          <img src="/img/projecten/utrecht-03-heistelling.jpg" width="1000" height="1250" loading="lazy" decoding="async" alt="De heistelling opgesteld in de smalle patio, met de stalen buispalen ernaast klaar om geheid te worden">
+          <figcaption>Opgesteld tussen de bestaande muren, met de buispalen ernaast.</figcaption>
+        </figure>
+        <div class="duo-tekst">
+          <p>Vier palen, geheid tot in de diepe zandlaag. De betonvloer erboven draagt de hele aanbouw: de houtskeletbouwwanden, het platte dak en de pui aan de tuinzijde.</p>
+          <p>Op zo&rsquo;n dak naast een bestaande kap hoopt sneeuw zich op tegen de hogere gevel. Dat is meegenomen in de belasting, want juist die ophoping is bij een lage aanbouw tegen een hoog huis vaak het zwaarste geval.</p>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <!-- WAT HIER NIET STAAT -->
+  <section class="section tint proj">
+    <div class="wrap">
+      <div class="proj-intro reveal">
+        <p class="eyebrow">Voor de volledigheid</p>
+        <h2>Wat hier niet staat</h2>
+        <p>Op deze pagina staan twee projecten. Dat is niet alles wat ik heb gedaan, maar wel alles waarvan de foto&rsquo;s, de berekening en de tekening bij elkaar te vinden zijn. Van ouder werk liggen er foto&rsquo;s zonder dat vastligt welke berekening erbij hoort, en dan hoort er ook geen maat bij.</p>
+        <p>U ziet hier ook geen opgeleverde kamer. Bij beide projecten stonden de stempels er nog toen deze opnamen gemaakt werden. Zodra er een foto van het eindresultaat ligt, komt die erbij.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section cta" id="contact">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow cta-eye">Contact</p>
+        <h2>Vertel me wat u van plan bent</h2>
+        <p>Stuur uw plan of een paar foto&rsquo;s van de situatie. Dan zeg ik u wat er constructief nodig is en wat het kost. Ook als u nog niet zeker weet of uw muur wel draagt.</p>
+      </div>
+      <div class="cta-row reveal">
+        <a class="btn btn-ghost" href="tel:+31615902335">Liever bellen? 06 1590 2335</a>
+      </div>
+      <form class="form reveal" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="8a8702ac-508a-4135-b189-6002a71b4bb7">
+        <input type="hidden" name="subject" value="Aanvraag via de projectenpagina op coxadvies.nl">
+        <input type="hidden" name="from_name" value="coxadvies.nl">
+        <input type="hidden" name="redirect" value="https://www.coxadvies.nl/bedankt/">
+        <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="rij">
+          <div><label for="f-naam">Uw naam</label><input id="f-naam" name="naam" required autocomplete="name"></div>
+          <div><label for="f-mail">E-mailadres</label><input id="f-mail" type="email" name="email" required autocomplete="email"></div>
+        </div>
+        <div class="rij">
+          <div><label for="f-tel">Telefoonnummer</label><input id="f-tel" type="tel" name="telefoon" autocomplete="tel"></div>
+          <div><label for="f-adres">Adres van de woning</label><input id="f-adres" name="adres" placeholder="Straat, nummer, plaats"></div>
+        </div>
+        <div>
+          <label for="f-plan">Wat bent u van plan?</label>
+          <textarea id="f-plan" name="plan" required placeholder="Bijvoorbeeld: de muur tussen de keuken en de woonkamer zou eruit moeten, over ongeveer drie meter."></textarea>
+        </div>
+        <div>
+          <label for="f-tek">Heeft u bouwtekeningen?</label>
+          <select id="f-tek" name="tekeningen">
+            <option>Ja, die heb ik</option>
+            <option>Nee</option>
+            <option>Weet ik niet</option>
+          </select>
+        </div>
+        <button class="btn" type="submit">Versturen</button>
+        <p class="noot">U hoort binnen &eacute;&eacute;n werkdag van mij. Wat er met uw gegevens gebeurt staat in de <a href="/privacy/">privacyverklaring</a>.</p>
+      </form>
+      <p class="cta-note reveal">Oude bouwtekeningen kan ik voor u opzoeken of opvragen bij de gemeente. Bij beide projecten hierboven kwam het archiefdossier uit die route.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-inner">
+    <div><b>Cox Constructieadvies</b><div class="meta">Constructieberekeningen &amp; constructietekeningen &middot; heel Nederland</div></div>
+    <div class="meta">Rijksweg 44, 6581 EN Malden<br><a href="mailto:simon.cox@coxadvies.nl">simon.cox@coxadvies.nl</a><br><a href="tel:+31615902335">06 1590 2335</a><br><a href="/privacy/">Privacyverklaring</a><br><a href="https://www.linkedin.com/in/simonbcox/" target="_blank" rel="noopener">LinkedIn</a><br>KvK 86134191</div>
+  </div>
+</footer>
+
+<script src="/js/main.js"></script>
+</body>
+</html>

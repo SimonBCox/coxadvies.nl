@@ -1,0 +1,562 @@
+{
+ "bron": "documentatie/kennis/bestaande_bouw/gebouwendossiers.md",
+ "let_op": "Gegenereerd door tools/website/genereer_loketten.py. Niet met de hand wijzigen.",
+ "aantal": 11,
+ "gemeenten": [
+  {
+   "gemeente": "Almere",
+   "kernen": [
+    "Almere Stad",
+    "Almere Buiten",
+    "Almere Haven",
+    "Almere Poort",
+    "Almere Hout"
+   ],
+   "gecheckt": "2026-07-10",
+   "route": "balie",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "<p>Periodegrens ligt op <strong>1998</strong>. Almere zelf bestaat pas sinds 1976/1984, dus vrijwel alle naoorlogse woningbouw (incl. de RIJP-/Heembeton-wijken uit de jaren '80) valt in het papieren archief.</p>",
+   "perioden": [
+    {
+     "kop": "1963–1998",
+     "van": 1963,
+     "tot": 1998,
+     "geldt_voor": "",
+     "loket": "Stadsarchief Almere",
+     "route": "balie",
+     "wij": false,
+     "html": "<p>(papier, niet gedigitaliseerd): <strong>Stadsarchief Almere</strong>. Opvragen per mail: <strong><a href=\"mailto:stadsarchief@almere.nl\">stadsarchief@almere.nl</a></strong>. Geef straat + huisnummer en of het om bouwvergunning, bouwtekeningen en/of constructieberekening gaat. Inzage op afspraak, Stadhuispromenade 2 (onder de bibliotheek), di-do 12:00-16:00. <strong>Gratis.</strong> Geen kopieën/scans, zelf fotograferen mag. <a href=\"https://stadsarchief.almere.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://stadsarchief.almere.nl/bouwdossiers</a></p><ul><li>Let op: het archief legt de stukken ± 1× per week klaar; medewerkers zoeken niet inhoudelijk mee. Eén dossier beslaat vaak een <strong>heel bouwblok</strong> i.p.v. één adres, en de vroegste tekeningen zijn geordend op <strong>kavelnummer</strong>, niet op straatadres.</li></ul>"
+    },
+    {
+     "kop": "vanaf 1998",
+     "van": 1998,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "digid",
+     "wij": false,
+     "html": "<p>(digitaal): gemeente Almere, afdeling Vergunningen, Toezicht &amp; Handhaving: digitaal formulier met DigiD, afhandeling ± 25 werkdagen. Kosten <strong>€ 26,65</strong> per adres (zoekopdracht). <a href=\"https://www.almere.nl/vergunningen-toezicht-handhaving/inzage-bouwarchief\" target=\"_blank\" rel=\"noopener\">https://www.almere.nl/vergunningen-toezicht-handhaving/inzage-bouwarchief</a> Tel. 14 036, <a href=\"mailto:info@almere.nl.\">info@almere.nl.</a></p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Amersfoort",
+   "kernen": [
+    "Amersfoort",
+    "Hoogland",
+    "Hooglanderveen"
+   ],
+   "gecheckt": "2026-08-18",
+   "route": "wij-mail",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "<p>Periodegrens ligt op <strong>oktober 2010</strong>.</p>",
+   "perioden": [
+    {
+     "kop": "1856 t/m oktober 2010",
+     "van": 1856,
+     "tot": 2010,
+     "geldt_voor": "",
+     "loket": "Archief Eemland",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p><strong>Archief Eemland</strong>. Aanvragen per mail: <strong><a href=\"mailto:archiefeemland@amersfoort.nl\">archiefeemland@amersfoort.nl</a></strong>. Geef straat + huisnummer en zeg er expliciet bij wat je zoekt (plattegronden, constructietekeningen, constructieberekening, originele bouw of laatst vergunde toestand). Verwerkingstijd ongeveer <strong>vijf werkdagen</strong>. <strong>Kosteloos</strong>, ook digitaal; alleen bij een niet-gedigitaliseerd dossier met meer dan vijf scans worden kosten berekend. Tel. 033 469 5017, bezoek Het Eemhuis (3e verdieping), Eemplein 73. <a href=\"https://www.archiefeemland.nl/bronnen/bouwtekeningen/\" target=\"_blank\" rel=\"noopener\">https://www.archiefeemland.nl/bronnen/bouwtekeningen/</a></p><ul><li>Levert per vergunningnummer een complete set; oude fabrieksdossiers zitten er gewoon bij (2026DB13 kreeg 1967, 1989 en 2000 in één keer).<ul><li>Dossiers <strong>1979–2010</strong> zijn retrospectief vervangen (gescand, papier vernietigd), dus die zijn per definitie digitaal.</li></ul></li></ul>"
+    },
+    {
+     "kop": "vanaf oktober 2010",
+     "van": 2010,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Amersfoort",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p><strong>gemeente Amersfoort</strong>, afdeling Vergunningen, via een informatieverzoek naar <strong><a href=\"mailto:info@amersfoort.nl\">info@amersfoort.nl</a></strong>. <a href=\"https://www.amersfoort.nl/een-informatieverzoek\" target=\"_blank\" rel=\"noopener\">https://www.amersfoort.nl/een-informatieverzoek</a></p>"
+    },
+    {
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p>Het commerciële tussenkanaal bouwarchief.nl heeft Amersfoort gepauzeerd; niet nodig ook, want het archief levert zelf gratis.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Arnhem",
+   "kernen": [
+    "Schaarsbergen",
+    "Elden"
+   ],
+   "gecheckt": "2026-09-05",
+   "route": "onbekend",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "kop": "Tot 1979",
+     "van": null,
+     "tot": 1979,
+     "geldt_voor": "",
+     "loket": "Gelders Archief",
+     "route": "wij-formulier",
+     "wij": true,
+     "html": "<p><strong>Gelders Archief</strong>, bouwdossiers op adres doorzoekbaar via <a href=\"https://www.geldersarchief.nl/bronnen/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.geldersarchief.nl/bronnen/bouwdossiers</a>. Scans gratis via \"scanning on request\", levering per mail. Zoekhulp: <a href=\"https://www.geldersarchief.nl/informatie/zoekhulp/983-bouwtekeningen-bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.geldersarchief.nl/informatie/zoekhulp/983-bouwtekeningen-bouwdossiers</a>.</p>"
+    },
+    {
+     "kop": "1-1-1979 t/m 30-9-2012",
+     "van": null,
+     "tot": 2012,
+     "geldt_voor": "",
+     "loket": "gemeente Arnhem",
+     "route": "digid",
+     "wij": false,
+     "html": "<p><strong>gemeente Arnhem</strong>, online per adres via <a href=\"https://eloket.arnhem.nl/f/95814\" target=\"_blank\" rel=\"noopener\">https://eloket.arnhem.nl/f/95814</a>. Eén aanvraag per adres; het dossier staat binnen 5 werkdagen klaar in MijnArnhem, en daar komt alleen de eigenaar zelf met zijn DigiD in. Deze periode is dus niet namens iemand anders op te halen. Vragen: 0800-1809. {{Gecheckt 2026-09-05 op arnhem.nl. Commerciele tussenpartijen noemen een mailroute <a href=\"mailto:loketbwl1@arnhem.nl\">loketbwl1@arnhem.nl</a> voor 1979 tot 2015; dat adres staat niet op de gemeentepagina, dus eerst navragen voordat je erop vertrouwt.}}</p>"
+    },
+    {
+     "kop": "Vanaf okt 2012",
+     "van": 2012,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "Omgevingsdienst Groene Metropool",
+     "route": "wij-formulier",
+     "wij": true,
+     "html": "<p><strong>Omgevingsdienst Groene Metropool</strong> (ODGM, voorheen ODRA), webformulier op <a href=\"https://www.odgroenemetropool.nl/bouwplannen-en-bouwtekeningen-inzien/\" target=\"_blank\" rel=\"noopener\">https://www.odgroenemetropool.nl/bouwplannen-en-bouwtekeningen-inzien/</a>, tel. regio Arnhem 026 - 377 1600. Hun eigen pagina noemt voor Arnhem \"vanaf 2015\"; de gemeentepagina verwijst vanaf okt 2012 al naar de omgevingsdienst. Voor 2012-2014 dus bij beide loketten kunnen uitkomen; begin bij ODGM en laat je doorverwijzen.</p>"
+    },
+    {
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p>Dossiers bevatten volgens de gemeentepagina ook constructieberekeningen. Bij dossiers jonger dan 5 jaar worden contactgegevens en kosten afgeschermd, en sommige dossiers vragen toestemming van de eigenaar.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Ede",
+   "kernen": [
+    "Ede",
+    "Bennekom",
+    "Lunteren",
+    "Otterlo",
+    "Harskamp",
+    "Wekerom",
+    "De Klomp",
+    "Ederveen",
+    "Deelen"
+   ],
+   "gecheckt": "2026-08-27",
+   "route": "wij-zelfzoeken",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "kop": "1903 t/m 1999",
+     "van": 1903,
+     "tot": 1999,
+     "geldt_voor": "",
+     "loket": "Gemeentearchief Ede",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Gemeentearchief Ede</strong>, digitaal archief, zelf doorzoekbaar op adres via <a href=\"https://digitaalarchief.ede.nl\" target=\"_blank\" rel=\"noopener\">https://digitaalarchief.ede.nl</a>. De bouwadministratie begint in 1903; van daarvoor is er niets.</p>"
+    },
+    {
+     "kop": "Vanaf 2000",
+     "van": 2000,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p>Kaartviewer <a href=\"https://geo.ede.nl/?@Vergunningen\" target=\"_blank\" rel=\"noopener\">https://geo.ede.nl/?@Vergunningen</a>, waarin de latere vergunningen op de kaart staan.</p>"
+    },
+    {
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Bestellen.</strong> Vind je zelf het dossiernummer in een van die twee viewers, dan is de digitale levering <strong>gratis</strong> via het aanvraagformulier op ede.nl. Laat je het archief zoeken, dan kost het <strong>€ 18,85 per adres</strong>, te betalen met iDEAL. Levering in beide gevallen binnen 5 werkdagen. Route: <a href=\"https://www.ede.nl/aanvragen-en-regelen/verleende-vergunningen-inzien-en-opvragen/\" target=\"_blank\" rel=\"noopener\">https://www.ede.nl/aanvragen-en-regelen/verleende-vergunningen-inzien-en-opvragen/</a>, of de archivaris via tel. 14 0318.</p>"
+    },
+    {
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p>Dossiers met een <strong>W-nummer</strong> zijn wederopbouwdossiers en alleen in de studiezaal in te zien.</p>"
+    },
+    {
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p>Zoek dus altijd eerst zelf het nummer op: dat scheelt € 18,85 en een wachtronde.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Gennep",
+   "kernen": [
+    "Gennep",
+    "Milsbeek",
+    "Ottersum",
+    "Ven-Zelderheide",
+    "Heijen"
+   ],
+   "gecheckt": "2026-07-04",
+   "route": "wij-mail",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p>Alleen de <strong>inventaris</strong> is gedigitaliseerd (via Erfgoed Maas en Niers); de dossiers zelf inzien = afspraak op het gemeentekantoor of aanvraag per mail: <strong><a href=\"mailto:archief@gennep.nl\">archief@gennep.nl</a></strong>. Zie <a href=\"https://www.gennep.nl/bouwtekeningen-opvragen\" target=\"_blank\" rel=\"noopener\">https://www.gennep.nl/bouwtekeningen-opvragen</a>.</p>"
+    },
+    {
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p>Gratis als je zelf de inventaris doorzoekt en een medewerker de stukken klaarlegt.</p>"
+    },
+    {
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p>Alleen vergunde bouwwerken zitten in het archief.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Heumen",
+   "kernen": [
+    "Malden",
+    "Heumen",
+    "Overasselt",
+    "Nederasselt"
+   ],
+   "gecheckt": "2026-09-01",
+   "route": "wij-mail",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "kop": "Bouwvergunningen t/m september 2010",
+     "van": null,
+     "tot": 2010,
+     "geldt_voor": "",
+     "loket": "Regionaal Archief Nijmegen",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p>(inclusief de voormalige gemeenten Heumen en Overasselt van vóór 1990): <strong>Regionaal Archief Nijmegen</strong>. Ruim 13.000 dossiers zijn gescand en op adres doorzoekbaar in de Digitale Studiezaal: <a href=\"https://studiezaal.nijmegen.nl/bouwvergunningen\" target=\"_blank\" rel=\"noopener\">https://studiezaal.nijmegen.nl/bouwvergunningen</a>. PDF's van de tekeningen zijn gratis aan te vragen, de downloadlink komt per mail. Vóór 1934 alleen op papier in te zien bij het RAN (Mariënburg 27, Nijmegen). Volledig dossier: <a href=\"mailto:hetarchief@nijmegen.nl\">hetarchief@nijmegen.nl</a>, (024) 329 23 07.</p>"
+    },
+    {
+     "kop": "Omgevingsvergunningen oktober 2010 t/m 2017",
+     "van": 2010,
+     "tot": 2017,
+     "geldt_voor": "",
+     "loket": "gemeente Heumen",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p><strong>gemeente Heumen</strong>, <a href=\"mailto:bml@heumen.nl\">bml@heumen.nl</a>, tel. 14 024. De gemeentepagina noemt op één plek ook <a href=\"mailto:bouwloket@heumen.nl\">bouwloket@heumen.nl</a> en \"2011 t/m 2018\"; begin bij bml@ en laat je zo nodig doorverwijzen. Levering per mail; voor archiefdossiers kunnen kosten gelden. Benoem welke stukken je wilt (plattegronden, gevels, doorsneden, constructieberekening).</p>"
+    },
+    {
+     "kop": "Vanaf 2018",
+     "van": 2018,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "Omgevingsdienst Groene Metropool",
+     "route": "wij-formulier",
+     "wij": true,
+     "html": "<p><strong>Omgevingsdienst Groene Metropool</strong> (ODGM, regio Nijmegen), webformulier op <a href=\"https://www.odgroenemetropool.nl/bouwplannen-en-bouwtekeningen-inzien/\" target=\"_blank\" rel=\"noopener\">https://www.odgroenemetropool.nl/bouwplannen-en-bouwtekeningen-inzien/</a> (Heumen staat in hun gemeentelijst, Malden als plaats), tel. regio Nijmegen 024 - 751 7700. Zaaknummer of exact adres bij de hand houden. Zelfde dienst als voor Arnhem en Lingewaard.</p>"
+    },
+    {
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p>Bronnen: <a href=\"https://www.heumen.nl/omgevingsvergunningen-of-bouwtekeningen-inzien-of-opvragen\" target=\"_blank\" rel=\"noopener\">https://www.heumen.nl/omgevingsvergunningen-of-bouwtekeningen-inzien-of-opvragen</a> en <a href=\"https://www.heumen.nl/bouwvergunningenarchief-heumen-digitaal-beschikbaar\" target=\"_blank\" rel=\"noopener\">https://www.heumen.nl/bouwvergunningenarchief-heumen-digitaal-beschikbaar</a>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Heusden",
+   "kernen": [
+    "Vlijmen",
+    "Drunen",
+    "Heusden",
+    "Elshout",
+    "Nieuwkuijk",
+    "Haarsteeg",
+    "Herpt",
+    "Oudheusden"
+   ],
+   "gecheckt": "2026-08-27",
+   "route": "wij-zelfzoeken",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "kop": "1905 t/m 2002",
+     "van": 1905,
+     "tot": 2002,
+     "geldt_voor": "",
+     "loket": "Streekarchief Langstraat Heusden Altena (SALHA)",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Streekarchief Langstraat Heusden Altena (SALHA)</strong>. Het hele bouwdossierbestand van de kernen Heusden, Vlijmen en Drunen (30.221 dossiers) is in 2023 gescand en staat als pdf online. Op adres doorzoekbaar via <a href=\"https://salha.nl/bronnen/bouwtekeningen\" target=\"_blank\" rel=\"noopener\">https://salha.nl/bronnen/bouwtekeningen</a> (JavaScript-app, en de site weigert). Zoeken doe je op straatnaam in het veld Adres; huisnummer mag, maar een oud dossier staat soms onder een afwijkende nummering, dus begin breed. Welke kernen en jaren er precies in zitten staat in het <a href=\"https://salha.nl/bronnen/bouwtekeningen/overzicht-beschikbare-bouwvergunningen\" target=\"_blank\" rel=\"noopener\">https://salha.nl/bronnen/bouwtekeningen/overzicht-beschikbare-bouwvergunningen</a>. <a href=\"mailto:info@salha.nl\">info@salha.nl</a>, (0416) 66 19 01.</p>"
+    },
+    {
+     "kop": "Vanaf 2003",
+     "van": 2003,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Heusden",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Heusden</strong>, via <a href=\"https://www.heusden.nl/mijn-loket\" target=\"_blank\" rel=\"noopener\">https://www.heusden.nl/mijn-loket</a> of 14 0416.</p>"
+    },
+    {
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p>Anders dan bij SAMH Gouda hoeft er niets ter plaatse besteld te worden: de scans zijn direct te downloaden. Dit is dus het eerste loket bij elk pand in deze gemeente, vóór je de klant om foto's van zijn eigen tekeningen vraagt.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Krimpenerwaard",
+   "kernen": [
+    "Bergambacht",
+    "Lekkerkerk",
+    "Nederlek",
+    "Ouderkerk",
+    "Schoonhoven",
+    "Vlist"
+   ],
+   "gecheckt": "2026-08-26",
+   "route": "balie",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "<p>Periodegrens ligt bij de fusie van 2015. Alles daarvóór zit bij het streekarchief in Gouda, dat de dossiers van alle voormalige gemeenten beheert.</p>",
+   "perioden": [
+    {
+     "kop": "t/m 1994 (Lekkerkerk)",
+     "van": null,
+     "tot": 1994,
+     "geldt_voor": "Lekkerkerk",
+     "loket": "Streekarchief Midden-Holland (SAMH)",
+     "route": "balie",
+     "wij": false,
+     "html": "<p><strong>Streekarchief Midden-Holland (SAMH)</strong>, Klein Amerika 20, 2806 CA Gouda. Beschrijvingen online doorzoekbaar op adres: <a href=\"https://samh.nl/bronnen/vergunningen/\" target=\"_blank\" rel=\"noopener\">https://samh.nl/bronnen/vergunningen/</a>. De dossiers zelf zijn niet gedigitaliseerd. <a href=\"mailto:info@samh.nl\">info@samh.nl</a>, (0182) 52 18 21, WhatsApp (06) 248 44 486. Studiezaal reserveren: <a href=\"https://samh.nl/reserveren-studiezaal\" target=\"_blank\" rel=\"noopener\">https://samh.nl/reserveren-studiezaal</a>. Vóór 15:00 uur op een werkdag aangevraagd betekent de volgende dag klaar. De andere kernen lopen door tot 2014 (Bergambacht 1904, Ammerstol 1903, Berkenwoude 1906, Gouderak 1906, Haastrecht 1900, Krimpen aan de Lek 1906, Ouderkerk aan den IJssel 1900, Schoonhoven 1905, Stolwijk 1907, Vlist 1900).</p><ul><li><strong>Let op</strong>: scans van bouwtekeningen zijn niet telefonisch of schriftelijk te bestellen. Je moet het dossier zelf in Gouda inzien en daar aanwijzen welke bladen gescand worden. Inzage gratis; scans € 6,00 opdrachtkosten plus € 6,00 per blad, pdf op 200 dpi binnen 5 werkdagen. Onderzoek door een medewerker € 15,00 per kwartier. (Tarieven per 01-01-2026.)</li></ul>"
+    },
+    {
+     "kop": "1995 t/m 2014 (Lekkerkerk)",
+     "van": 1995,
+     "tot": 2014,
+     "geldt_voor": "Lekkerkerk",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p>nog te verifiëren. De gemeente verwijst alles t/m 2016 naar SAMH, terwijl het SAMH-overzicht Lekkerkerk bij 1994 laat ophouden en de andere kernen wél tot 2014 doorlopen. Bel bij een dossier uit deze jaren eerst SAMH; levert dat niets op, dan de gemeente via 14 0182, team VTH.</p>"
+    },
+    {
+     "kop": "vanaf 2015",
+     "van": 2015,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Krimpenerwaard",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p><strong>gemeente Krimpenerwaard</strong>, <a href=\"mailto:info@krimpenerwaard.nl\">info@krimpenerwaard.nl</a> of 14 0182, vragen naar team VTH. Vermeld naam, adres en e-mailadres. <a href=\"https://www.krimpenerwaard.nl/bouwdossiers-en-bouwtekeningen\" target=\"_blank\" rel=\"noopener\">https://www.krimpenerwaard.nl/bouwdossiers-en-bouwtekeningen</a></p><ul><li>Omgevingsdienst Midden-Holland (ODMH) noemt Krimpenerwaard niet bij de gemeenten waarvan zij het bouwarchief beheren. Loopt de gemeenteroute vast, dan is <a href=\"mailto:bwt@odmh.nl\">bwt@odmh.nl</a> / 088-54 50 001 de terugvaloptie (nog te verifiëren).</li></ul>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Lingewaard",
+   "kernen": [
+    "Huissen",
+    "Bemmel",
+    "Gendt",
+    "Angeren",
+    "Doornenburg",
+    "Haalderen"
+   ],
+   "gecheckt": "2026-07-04",
+   "route": "wij-zelfzoeken",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "kop": "t/m 2000",
+     "van": null,
+     "tot": 2000,
+     "geldt_voor": "",
+     "loket": "Regionaal Archief Nijmegen",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p>(voormalige gemeenten Huissen, Bemmel en Gendt): <strong>Regionaal Archief Nijmegen</strong>, op adres doorzoekbaar via de Digitale Studiezaal: <a href=\"https://studiezaal.nijmegen.nl/bouwvergunningen\" target=\"_blank\" rel=\"noopener\">https://studiezaal.nijmegen.nl/bouwvergunningen</a> (scans deels online). Contact: <a href=\"mailto:hetarchief@nijmegen.nl\">hetarchief@nijmegen.nl</a>, (024) 329 23 07.</p>"
+    },
+    {
+     "kop": "2001–2014",
+     "van": 2001,
+     "tot": 2014,
+     "geldt_voor": "",
+     "loket": "gemeente Lingewaard",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p>opvragen bij <strong>gemeente Lingewaard</strong>, dossiers 2001–2015 online in te zien met DigiD via <a href=\"https://www.lingewaard.nl/bouwplannen-en-bouwtekeningen-bekijken\" target=\"_blank\" rel=\"noopener\">https://www.lingewaard.nl/bouwplannen-en-bouwtekeningen-bekijken</a>.</p>"
+    },
+    {
+     "kop": "vanaf 2015",
+     "van": 2015,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "Omgevingsdienst Groene Metropool (ODGM)",
+     "route": "wij-formulier",
+     "wij": true,
+     "html": "<p><strong>Omgevingsdienst Groene Metropool (ODGM)</strong>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Nijmegen",
+   "kernen": [
+    "Lent",
+    "Oosterhout-Nijmegen"
+   ],
+   "gecheckt": "2026-07-19",
+   "route": "wij-formulier",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-formulier",
+     "wij": true,
+     "html": "<p><strong>Vrijwel alles is gedigitaliseerd</strong> en op adres doorzoekbaar via het <strong>Digitaal Gebouwenarchief Nijmegen</strong>: <a href=\"https://studiezaal.nijmegen.nl/digitaalgebouwenarchiefnijmegen.php\" target=\"_blank\" rel=\"noopener\">https://studiezaal.nijmegen.nl/digitaalgebouwenarchiefnijmegen.php</a> (adres exact invoeren). Bouwvergunningen van gesloopte panden + 19e-eeuws: collectie 1335 \"Bouwvergunningen gemeente Nijmegen 1816–2005\", via <a href=\"https://studiezaal.nijmegen.nl/bouwvergunningen\" target=\"_blank\" rel=\"noopener\">https://studiezaal.nijmegen.nl/bouwvergunningen</a>.</p>"
+    },
+    {
+     "kop": "t/m 31-12-2023",
+     "van": null,
+     "tot": 2023,
+     "geldt_voor": "",
+     "loket": "Regionaal Archief Nijmegen",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p><strong>Regionaal Archief Nijmegen</strong>, <a href=\"mailto:hetarchief@nijmegen.nl\">hetarchief@nijmegen.nl</a>, (024) 329 23 07, <a href=\"https://regionaalarchiefnijmegen.nl\" target=\"_blank\" rel=\"noopener\">https://regionaalarchiefnijmegen.nl</a>.</p>"
+    },
+    {
+     "kop": "vanaf 1-1-2024",
+     "van": 2024,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Nijmegen",
+     "route": "wij-formulier",
+     "wij": true,
+     "html": "<p><strong>gemeente Nijmegen</strong> zelf, tel. 14 024, contactformulier <a href=\"https://formulier.nijmegen.nl/contactformulier/startpagina/\" target=\"_blank\" rel=\"noopener\">https://formulier.nijmegen.nl/contactformulier/startpagina/</a>. Zie <a href=\"https://www.nijmegen.nl/diensten/bouwen/opvragen-bouw-of-sloopplan/\" target=\"_blank\" rel=\"noopener\">https://www.nijmegen.nl/diensten/bouwen/opvragen-bouw-of-sloopplan/</a>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Zevenaar",
+   "kernen": [
+    "Zevenaar",
+    "Angerlo",
+    "Babberich",
+    "Giesbeek",
+    "Lathum",
+    "Ooy",
+    "Oud-Zevenaar",
+    "Lobith",
+    "Tolkamer",
+    "Aerdt",
+    "Herwen",
+    "Pannerden",
+    "Spijk"
+   ],
+   "gecheckt": "2026-07-10",
+   "route": "onbekend",
+   "wij": false,
+   "voorbehoud": "de online-zoeklink en het mailadres van deze gemeente zijn nog niet bevestigd.",
+   "intro_html": "",
+   "perioden": [
+    {
+     "kop": "recent (vanaf ± 2013)",
+     "van": 2013,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "Omgevingsdienst Groene Metropool (ODGM)",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p>omgevingsvergunningen voor Zevenaar worden afgehandeld door de <strong>Omgevingsdienst Groene Metropool (ODGM)</strong>, de voormalige Omgevingsdienst Regio Arnhem (ODRA) is hierin opgegaan (bevestigd: <code>odra.nl</code> → 301 → <code>odgroenemetropool.nl</code>, 2026-07-10). <strong>Maar let op</strong>: op 2026-09-05 noemt ODGM op zijn eigen inzagepagina alleen Arnhem, Berg en Dal, Beuningen, Doesburg, Heumen, Lingewaard en Renkum, en Zevenaar staat daar niet bij. Waar de recente Zevenaarse dossiers dan wel liggen is nog niet vastgesteld; begin bij de gemeente zelf.</p>"
+    },
+    {
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p><strong>ouder / vergunningen vóór ODRA (incl. bouwjaren ± 2010)</strong>: opvragen bij de <strong>gemeente Zevenaar</strong> zelf (het pand kreeg zijn vergunning vóór de omgevingsdienst- overdracht). Algemeen: <a href=\"mailto:info@zevenaar.nl\">info@zevenaar.nl</a>, tel. 0316-595111, <a href=\"https://www.zevenaar.nl\" target=\"_blank\" rel=\"noopener\">https://www.zevenaar.nl</a>. Meld adres + bouwjaar + perceel en vraag naar bouwtekeningen, doorsneden, funderingsgegevens en constructieberekening.</p>"
+    },
+    {
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "Liemers",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>historisch (Liemers)</strong>: regionaal archief = <strong>Erfgoedcentrum Achterhoek en Liemers (ECAL)</strong>, Doetinchem, voor oudere bouwdossiers van de Liemersgemeenten. (Domein/zoeklink nog te verifiëren.)</p>"
+    }
+   ]
+  }
+ ]
+}

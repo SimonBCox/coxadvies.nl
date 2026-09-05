@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bouwdossier opvragen: waar vindt u de bouwtekening van uw huis? | Cox Constructieadvies</title>
+<meta name="description" content="Vul uw adres in. Ik zoek het bouwjaar op en laat zien bij welk archief of loket het bouwdossier van uw woning ligt, met de link erbij. Voor elf gemeenten uitgezocht en gedateerd.">
+<link rel="canonical" href="https://www.coxadvies.nl/bouwdossier/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Waar vindt u de bouwtekening van uw huis? | Cox Constructieadvies">
+<meta property="og:description" content="Vul uw adres in. Ik zoek het bouwjaar op en laat zien bij welk loket het bouwdossier ligt, met de link erbij.">
+<meta property="og:locale" content="nl_NL">
+<meta property="og:url" content="https://www.coxadvies.nl/bouwdossier/">
+<meta property="og:image" content="https://www.coxadvies.nl/img/simon.jpg">
+<link rel="icon" type="image/png" href="/img/favicon.png">
+<link rel="apple-touch-icon" href="/img/favicon.png">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+{"@type":"ListItem","position":1,"name":"Home","item":"https://www.coxadvies.nl/"},
+{"@type":"ListItem","position":2,"name":"Bouwdossier opvragen","item":"https://www.coxadvies.nl/bouwdossier/"}]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Waar vraag ik de bouwtekening van mijn huis op?","acceptedAnswer":{"@type":"Answer","text":"Dat hangt niet alleen af van de gemeente maar vooral van het jaar waarin de bouwvergunning is verleend. Oudere dossiers liggen meestal bij een regionaal of streekarchief, dossiers van de laatste decennia bij de gemeente zelf, en de recentste bij de omgevingsdienst. Voor een woning uit 1962 in Huissen is dat bijvoorbeeld het Regionaal Archief Nijmegen, terwijl een vergunning uit 2018 op hetzelfde adres bij de Omgevingsdienst Groene Metropool ligt."}},
+{"@type":"Question","name":"Is het opvragen van een bouwdossier gratis?","acceptedAnswer":{"@type":"Answer","text":"Inzage is bij de meeste archieven gratis. Voor scans rekenen sommige archieven wel kosten. Het Streekarchief Midden-Holland in Gouda vraagt bijvoorbeeld zes euro opdrachtkosten plus zes euro per blad, en daar moet u het dossier bovendien ter plaatse inzien om aan te wijzen welke bladen gescand worden."}},
+{"@type":"Question","name":"Staat er altijd een constructieberekening in het bouwdossier?","acceptedAnswer":{"@type":"Answer","text":"Nee. Een dossier kan onvolledig zijn. Het komt regelmatig voor dat alleen de gevelaanzichten en de plattegrond bewaard zijn gebleven en de constructieve gegevens ontbreken. Bij oudere woningen ontbreekt soms het hele dossier, bijvoorbeeld door oorlogsschade of doordat het pand later is herbouwd."}}]}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,500;1,600&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+<style>
+  /* Zoekveld */
+  .zoek{max-width:620px}
+  .zoek label{display:block;font-weight:600;margin-bottom:6px}
+  .zoek-veld{position:relative}
+  .zoek input{width:100%;padding:14px 16px;font:inherit;color:var(--ink);
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--r)}
+  .zoek input:focus{outline:2px solid var(--accent);outline-offset:2px}
+  .sug{position:absolute;z-index:900;left:0;right:0;top:calc(100% + 6px);margin:0;padding:6px;
+    list-style:none;background:var(--surface);border:1px solid var(--line);
+    border-radius:var(--r);box-shadow:var(--shadow)}
+  .sug:empty{display:none}
+  .sug li{padding:10px 12px;border-radius:10px;cursor:pointer}
+  .sug li:hover{background:var(--bg)}
+  .zoek .noot{margin-top:10px;color:var(--muted);font-size:.92rem}
+  .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+  /* Antwoordkaart */
+  .uitslag{margin-top:28px}
+  /* Het antwoord is waar de bezoeker voor komt; het was smaller dan de uitleg eronder. */
+  .aw{max-width:1000px;background:var(--surface);border:1px solid var(--line);
+    border-radius:var(--r);box-shadow:var(--shadow);overflow:hidden}
+
+  .aw-hoofd{background:var(--navy);color:#fff;padding:26px clamp(20px,4vw,34px) 28px;
+    border-bottom:3px solid var(--warm)}
+  .aw-adres{font-size:.9rem;color:#b7c4d3;margin:0 0 14px}
+  .aw-jaar{font-size:.74rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;
+    color:#9cc3ea;margin:0 0 7px}
+  .aw-kop{font-family:"Lora",Georgia,serif;font-weight:500;letter-spacing:-.01em;
+    font-size:clamp(1.5rem,4vw,2.15rem);line-height:1.14;color:#fff;margin:0}
+  .aw-zin{color:#b7c4d3;margin:13px 0 0;max-width:46ch}
+
+  .aw-doen{padding:24px clamp(20px,4vw,34px) 26px}
+  .aw-doen>p{max-width:58ch}
+  .aw-letop{border-left:3px solid var(--warm);background:var(--bg);
+    border-radius:0 10px 10px 0;padding:13px 17px;margin:0 0 18px;font-size:.95rem}
+  .aw-actie{margin:18px 0 0}
+  .aw-fijn{margin:14px 0 0;font-size:.92rem;color:var(--muted);max-width:60ch}
+  .aw-fijn a,.aw-inhoud a{color:var(--accent)}
+  .aw-doen ul{padding-left:20px;max-width:60ch}
+  .aw-doen li{margin-bottom:8px}
+  .aw-gecheckt{margin:20px 0 0;padding-top:15px;border-top:1px solid var(--line);
+    font-size:.85rem;color:var(--muted)}
+
+  .aw-meer{border-top:1px solid var(--line)}
+  .aw-meer>summary{cursor:pointer;list-style:none;display:flex;align-items:center;
+    justify-content:space-between;gap:16px;padding:16px clamp(20px,4vw,34px);
+    font-weight:600;font-size:.97rem}
+  .aw-meer>summary::-webkit-details-marker{display:none}
+  .aw-meer>summary::after{content:"+";color:var(--accent);font-size:1.35rem;
+    font-weight:400;line-height:1;flex:none}
+  .aw-meer[open]>summary::after{content:"\2212"}
+  .aw-meer>summary:hover{background:var(--bg)}
+  .aw-meer>summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+  .aw-meer[open]>summary{border-bottom:1px solid var(--line)}
+  .aw-inhoud{padding:18px clamp(20px,4vw,34px) 24px;color:var(--muted);font-size:.96rem}
+  .aw-inhoud ul{padding-left:20px}
+  .aw-periodes{list-style:none;display:grid;gap:20px;margin:16px 0 0;padding:0}
+  .aw-periode{border-left:2px solid var(--line);padding-left:16px}
+  .aw-jaren{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--muted);margin:0 0 4px}
+  .aw-periode .aw-body{color:var(--ink)}
+  .aw-periode .aw-body p{margin:0 0 8px}
+  /* Hoger dan de oorspronkelijke 230, want op een perceelgrens moet je iets kunnen zien. */
+  .aw-kaart{height:320px;border:1px solid var(--line);border-radius:10px;background:var(--bg)}
+  .aw-kaart .leaflet-container{border-radius:10px;font:inherit}
+
+  .aw-uit{margin:0;padding:15px clamp(20px,4vw,34px);background:var(--bg);
+    border-top:1px solid var(--line);font-size:.92rem;color:var(--muted)}
+  .aw-uit a{color:var(--accent);font-weight:600}
+
+  /* De huisstijl maakt .sec-head p, .card p en .step p op, maar een losse alinea in een
+     sectie krijgt niets: geen ruimte eronder en geen maximale regellengte. Vier alinea's
+     achter elkaar werden daardoor één blok tekst van honderdvijftig tekens breed. */
+  .section .wrap > p{max-width:62ch;margin:0 0 18px}
+  .section .wrap > p:last-child{margin-bottom:0}
+
+  /* Het bedrag staat op één lijn met de belknop, in dezelfde hoogte als de knop zelf,
+     zodat het antwoord op "wat kost het" er niet als een voetnoot bij hangt. */
+  .prijs{margin:0;align-self:center;font-size:1.05rem;color:var(--ink)}
+  .prijs b{font-size:1.35rem}
+  #aanbod-nee{margin-top:6px}
+
+  /* De jaargangen luchtfoto naast elkaar, met de foto's op ware verhouding. Ze worden
+     op 240 breed opgehaald en op 180 getoond, zodat ze op een scherp scherm scherp zijn. */
+  .tl{display:flex;gap:10px;overflow-x:auto;padding:4px 2px 12px}
+  .tl-jaar{flex:0 0 auto;padding:0;border:1px solid var(--line);background:#fff;
+    border-radius:8px;overflow:hidden;cursor:pointer;font:inherit;line-height:0}
+  .tl-jaar img{display:block;width:180px;height:135px;object-fit:cover;background:var(--bg)}
+  .tl-jaar span{display:block;padding:6px 8px;font-size:.82rem;font-weight:600;
+    line-height:1.2;color:var(--ink);text-align:center}
+  .tl-jaar:hover{border-color:var(--accent)}
+  .tl-jaar[aria-current="true"]{border-color:var(--accent);
+    box-shadow:inset 0 0 0 2px var(--accent)}
+  .tl-jaar[aria-current="true"] span{color:var(--accent)}
+  .tl-meer{flex:0 0 auto;align-self:stretch;padding:0 18px;border:1px dashed var(--line);
+    background:none;border-radius:8px;cursor:pointer;font:inherit;font-size:.9rem;
+    font-weight:600;color:var(--accent)}
+  .tl-meer:hover{border-color:var(--accent);background:var(--bg)}
+  #tijdlijnblok>summary{background:var(--bg)}
+
+  /* Geen scherp antwoord: dezelfde kaart, zonder de stelligheid van navy. */
+  .aw--onzeker .aw-hoofd{background:var(--bg);color:var(--ink);
+    border-bottom:3px solid var(--warm)}
+  .aw--onzeker .aw-adres,.aw--onzeker .aw-zin{color:var(--muted)}
+  .aw--onzeker .aw-jaar{color:var(--accent)}
+  .aw--onzeker .aw-kop{color:var(--navy)}
+
+  @media(max-width:520px){ .aw-doen .btn{width:100%;justify-content:center} }
+</style>
+</head>
+<body>
+
+<header class="nav-bar" id="navbar">
+  <div class="wrap nav-inner">
+    <a class="brand" href="/"><img src="/img/logo.png" alt="Cox Constructieadvies"></a>
+    <nav class="nav-links" aria-label="Hoofdmenu">
+      <a href="/projecten/">Projecten</a>
+      <a href="/#diensten">Diensten</a>
+      <a href="/kosten/">Kosten</a>
+      <a href="/faq/">Vragen</a>
+      <a href="/#werkwijze">Werkwijze</a>
+      <a href="/#over">Over</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn" href="#contact">Neem contact op</a>
+  </div>
+</header>
+
+<nav class="breadcrumb" aria-label="Kruimelpad">
+  <div class="wrap breadcrumb-inner">
+    <a href="/">Home</a><span aria-hidden="true"> &rsaquo; </span><span>Bouwdossier opvragen</span>
+  </div>
+</nav>
+
+<main>
+
+  <section class="section">
+    <div class="wrap">
+      <p class="eyebrow">Gratis hulpmiddel</p>
+      <h1 class="visual-head">Waar vindt u de <em>bouwtekening</em> van uw huis?</h1>
+      <p class="lead">Vul uw adres in. Ik zoek het bouwjaar erbij en laat u zien bij welk
+        archief of loket het dossier van uw woning ligt.</p>
+
+      <div class="zoek">
+        <label for="adres">Adres</label>
+        <div class="zoek-veld">
+          <input id="adres" type="text" autocomplete="off" spellcheck="false"
+                 placeholder="Bijvoorbeeld Berg en Dalseweg 5 Nijmegen"
+                 aria-describedby="zoek-hint" role="combobox" aria-expanded="false"
+                 aria-controls="sug" aria-autocomplete="list">
+          <ul class="sug" id="sug" role="listbox" aria-label="Gevonden adressen"></ul>
+        </div>
+        <p class="noot" id="zoek-hint">Uw adres wordt in uw eigen browser opgezocht bij het
+          Kadaster. Ik sla het niet op en zie het niet.</p>
+      </div>
+
+      <p class="sr" id="melding" role="status" aria-live="polite"></p>
+      <div class="uitslag" id="uitslag" hidden></div>
+    </div>
+  </section>
+
+  <section class="section tint" id="werkwijze">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Waarom het niet één loket is</p>
+        <h2>Het hangt af van het <em>jaar</em>, niet alleen van de gemeente</h2>
+      </div>
+      <p>Vrijwel iedereen zoekt op de naam van zijn gemeente en loopt dan vast. Waar het
+        dossier ligt, wordt namelijk bepaald door het jaar waarin de vergunning is verleend.
+        In Huissen ligt alles tot en met 2000 bij het Regionaal Archief Nijmegen, de jaren
+        2001 tot 2014 bij de gemeente Lingewaard zelf, en alles daarna bij de Omgevingsdienst
+        Groene Metropool. Drie loketten voor één adres.</p>
+      <p>Daarom zoek ik het bouwjaar van uw pand erbij op, uit de Basisregistratie Adressen en
+        Gebouwen. Dat geeft het dossier van de oorspronkelijke bouw, en dat is meestal wat u
+        zoekt als u wilt weten hoe het huis in elkaar zit. Zoekt u een latere verbouwing, dan
+        telt het jaar van díe vergunning; dat staat er apart bij.</p>
+      <p>Gemeenten zijn bovendien gefuseerd. Zoekt u op Lekkerkerk, dan valt dat tegenwoordig
+        onder Krimpenerwaard, en de oude dossiers liggen bij het streekarchief in Gouda.
+        Ik doe dit voor u.</p>
+    </div>
+  </section>
+
+  <section class="section cta" id="contact">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow cta-eye">Liever niet zelf uitzoeken</p>
+        <h2>Ik vraag het dossier voor u op</h2>
+        <p>Het uitzoeken hierboven is gratis. Wilt u het aanvragen ook uit handen geven, dan
+          raadpleeg ik de betrokken bronnen en haal ik op wat er beschikbaar is. Dat bundel
+          ik, met een leeswijzer erbij: welke jaren erin zitten, wat er op welk blad staat en
+          wat er ontbreekt. Zo weet u wat u heeft en wat er van uw dossier ontbreekt.</p>
+      </div>
+
+      <div id="aanbod">
+        <div class="cta-row">
+          <p class="prijs"><b>&euro; 100</b> per adres, inclusief btw.</p>
+          <a class="btn btn-ghost" href="tel:+31615902335">Liever bellen? 06 1590 2335</a>
+        </div>
+        <p>Laat u daarna de constructieberekening bij mij maken, dan wordt dit bedrag
+          verrekend.</p>
+        <p>Rekent het archief zelf kosten voor het zoeken of het scannen, dan zit dat tot
+          &euro; 10 in het bedrag. Komt het archief hoger uit, dan hoort u dat eerst en
+          beslist u zelf of het doorgaat. Levert het archief niets, dan krijgt u uw geld
+          terug.</p>
+      </div>
+
+      <div id="aanbod-nee" hidden>
+        <div class="aw-letop"><b>Dit loket kan ik niet voor u aanvragen.</b>
+          <span id="aanbod-nee-zin"></span> U kunt uw vraag hieronder wel stellen; ik kijk
+          dan mee of er een andere route is, en dat kost u niets.</div>
+      </div>
+
+      <form class="form" action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="8a8702ac-508a-4135-b189-6002a71b4bb7">
+        <input type="hidden" name="subject" value="Aanvraag bouwdossier via coxadvies.nl">
+        <input type="hidden" name="from_name" value="coxadvies.nl">
+        <!-- De bedankpagina met de betaallink verschijnt alleen als het loket ook echt
+             aan mij levert. Bij DigiD, een balie-archief of een periode die ik nog niet
+             heb nagekeken gaat het naar de gewone bedankpagina, zonder betaalverzoek. -->
+        <input type="hidden" name="redirect" id="f-redirect" value="https://www.coxadvies.nl/bedankt-bouwdossier/">
+        <input type="hidden" name="gevonden_loket" id="f-loket" value="">
+        <input type="hidden" name="route" id="f-route" value="">
+        <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <div class="rij">
+          <div><label for="f-naam">Uw naam</label><input id="f-naam" name="naam" required autocomplete="name"></div>
+          <div><label for="f-mail">E-mailadres</label><input id="f-mail" type="email" name="email" required autocomplete="email"></div>
+        </div>
+        <div class="rij">
+          <div><label for="f-tel">Telefoonnummer</label><input id="f-tel" type="tel" name="telefoon" autocomplete="tel"></div>
+          <div><label for="f-adres">Adres van de woning</label><input id="f-adres" name="adres" required placeholder="Straat, nummer, plaats"></div>
+        </div>
+        <div>
+          <label for="f-jaar">Om welk jaar gaat het?</label>
+          <input id="f-jaar" name="jaar" placeholder="Het bouwjaar, of het jaar van de verbouwing die u zoekt">
+        </div>
+        <div>
+          <label for="f-doel">Waar heeft u het dossier voor nodig?</label>
+          <textarea id="f-doel" name="doel" placeholder="Bijvoorbeeld: ik wil de muur tussen keuken en woonkamer weghalen en wil weten hoe de vloer overspant."></textarea>
+        </div>
+        <div>
+          <label for="f-akkoord">Akkoord</label>
+          <div>
+            <label class="noot" style="font-weight:400">
+              <input id="f-akkoord" type="checkbox" name="akkoord_start" value="ja" required
+                     style="width:auto;margin-right:8px">
+              Ik machtig Cox Constructieadvies om dit dossier namens mij bij het archief op
+              te vragen, ga ermee akkoord dat het werk direct begint, en weet dat mijn
+              herroepingsrecht vervalt zodra de aanvraag is ingediend.
+            </label>
+          </div>
+        </div>
+        <button class="btn" type="submit">Aanvraag versturen</button>
+        <p class="noot">Op de volgende pagina betaalt u met iDEAL, en dezelfde dag gaat de
+          aanvraag de deur uit. Hoe lang het archief erover doet verschilt per gemeente, van
+          een paar dagen tot een paar weken; ik houd het in de gaten en laat u weten waar het
+          staat. Wat er met uw gegevens gebeurt staat in de
+          <a href="/privacy/">privacyverklaring</a>.</p>
+      </form>
+
+      <p class="cta-note">Twee dingen vooraf, zodat u weet waar u aan toe bent. Ik kan niet
+        garanderen dat het dossier bestaat of compleet is; archieven hebben gaten, en soms is
+        alleen het gevelaanzicht bewaard gebleven. En het opvragen is een documentendienst en
+        geen constructief advies: of die muur eruit kan, staat er niet in. Dat is een
+        berekening, en die maak ik graag apart voor u.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-inner">
+    <div><b>Cox Constructieadvies</b><div class="meta">Constructieberekeningen &amp; constructietekeningen &middot; heel Nederland</div></div>
+    <div class="meta">Rijksweg 44, 6581 EN Malden<br><a href="mailto:simon.cox@coxadvies.nl">simon.cox@coxadvies.nl</a><br><a href="tel:+31615902335">06 1590 2335</a><br><a href="/privacy/">Privacyverklaring</a><br><a href="https://www.linkedin.com/in/simonbcox/" target="_blank" rel="noopener">LinkedIn</a><br>KvK 86134191</div>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+/* Bouwdossier-zoeker.
+   Alles gebeurt in de browser van de bezoeker. Het adres gaat naar de open diensten van
+   het Kadaster en verder nergens heen; er wordt niets opgeslagen en niets gelogd.
+
+   Vier open bronnen, alle vier zonder sleutel en met Access-Control-Allow-Origin: *
+     1. Locatieserver, suggest en lookup -> adres, gemeente, gemeentecode, coordinaten
+     2. BAG WFS, bag:verblijfsobject     -> het bouwjaar van dit adres
+     3. OGC API Features                 -> de gemeentegrens, alleen die ene gemeente
+     4. BRT-achtergrondkaart             -> de kaarttegels
+
+   De loketten komen uit /data/bouwdossier-loketten.json, dat door
+   tools/website/genereer_loketten.py wordt afgeleid uit documentatie/gebouwendossiers.md.
+   Die markdown blijft de bron; wijzig de json niet met de hand.
+
+   Het bouwjaar is NIET hetzelfde als het vergunningjaar. Het geeft het dossier van de
+   oorspronkelijke bouw; wie een latere verbouwing zoekt heeft het jaar van die vergunning
+   nodig. Daarom staan de andere periodes er altijd bij, achter een uitklap die die vraag
+   letterlijk stelt. */
+(function () {
+  "use strict";
+
+  var LS = "https://api.pdok.nl/bzk/locatieserver/search/v3_1/";
+  var BAG = "https://service.pdok.nl/lv/bag/wfs/v2_0";
+  var GRENS = "https://api.pdok.nl/kadaster/brk-bestuurlijke-gebieden/ogc/v1/collections/gemeentegebied/items";
+  var TEGELS = "https://service.pdok.nl/kadaster/brt-achtergrondkaart/wmts/v2_0/standaard/EPSG:3857/{z}/{x}/{y}.png";
+
+  var invoer = document.getElementById("adres");
+  var suglijst = document.getElementById("sug");
+  var uitslag = document.getElementById("uitslag");
+  var melding = document.getElementById("melding");
+  var formAdres = document.getElementById("f-adres");
+  var formJaar = document.getElementById("f-jaar");
+  var formLoket = document.getElementById("f-loket");
+  var formRoute = document.getElementById("f-route");
+  var formRedirect = document.getElementById("f-redirect");
+
+  /* Wie de aanvraag mag doen, staat per periode in het register. Alleen bij een route
+     die met "wij-" begint bied ik het aan; bij DigiD levert het loket alleen aan de
+     eigenaar zelf, bij een balie-archief valt er niets op afstand te leveren, en bij
+     "onbekend" heb ik het simpelweg nog niet nagekeken. Iets aanbieden wat daarna niet
+     kan, betekent geld terugstorten en dat is de duurste fout op deze pagina. */
+  var ROUTE_ZIN = {
+    digid: "Dit archief levert alleen aan de eigenaar zelf, na inloggen met uw eigen DigiD.",
+    balie: "Dit archief laat de stukken alleen ter plaatse inzien, dus er valt niets op " +
+           "afstand op te vragen.",
+    onbekend: "Voor deze periode heb ik nog niet nagekeken of het archief ook aan mij levert."
+  };
+
+  function zetAanbod(route) {
+    var kan = route && route.indexOf("wij-") === 0;
+    var ja = document.getElementById("aanbod");
+    var nee = document.getElementById("aanbod-nee");
+    if (!ja || !nee) return;
+    ja.hidden = !kan;
+    nee.hidden = !!kan;
+    document.getElementById("aanbod-nee-zin").textContent =
+      ROUTE_ZIN[route] || ROUTE_ZIN.onbekend;
+    formRoute.value = route || "";
+    formRedirect.value = kan ? "https://www.coxadvies.nl/bedankt-bouwdossier/"
+                             : "https://www.coxadvies.nl/bedankt/";
+  }
+
+  /* Het laatst opgezochte adres en de funderingsgegevens erbij. Klikt de bezoeker
+     daarna in de tijdlijn op een jaar, dan wordt het antwoord voor dat jaar opnieuw
+     opgebouwd zonder dat het adres nog een keer wordt opgezocht. */
+  var laatsteRec = null, laatstePaalrot = null, laatsteJaar = null;
+  /* Klapte de bezoeker de reeks open, dan blijft hij open als hij daarna op een jaar
+     klikt. Anders krimpt de strook onder zijn handen weer terug naar vier. */
+  var tijdlijnAlle = false;
+
+  var kaart = null, laagGrens = null, marker = null;
+  var loketten = null, wacht = null, bezig = false;
+
+  function zeg(t) { melding.textContent = t; }
+
+  var MAANDEN = ["januari", "februari", "maart", "april", "mei", "juni", "juli",
+                 "augustus", "september", "oktober", "november", "december"];
+
+  /* 2026-09-01 leest als een bestandsnaam. Op een klantpagina hoort 1 september 2026. */
+  function datum(iso) {
+    var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(iso || ""));
+    if (!m) return String(iso || "");
+    return parseInt(m[3], 10) + " " + MAANDEN[parseInt(m[2], 10) - 1] + " " + m[1];
+  }
+
+  function veilig(s) {
+    var d = document.createElement("div");
+    d.textContent = s == null ? "" : String(s);
+    return d.innerHTML;
+  }
+
+  function puntUitWkt(wkt) {
+    var m = /POINT\(\s*([-\d.]+)\s+([-\d.]+)\s*\)/.exec(wkt || "");
+    return m ? [parseFloat(m[2]), parseFloat(m[1])] : null;
+  }
+
+  function json(url) {
+    return fetch(url).then(function (r) {
+      if (!r.ok) throw new Error(url + " gaf " + r.status);
+      return r.json();
+    });
+  }
+
+  function haalLoketten() {
+    if (loketten) return Promise.resolve(loketten);
+    return json("/data/bouwdossier-loketten.json").then(function (d) {
+      loketten = d;
+      return d;
+    });
+  }
+
+  /* Bouwjaar uit de BAG. Mislukt dit, dan is dat geen fout maar een onbekend jaar:
+     de kaart werkt dan zonder, met alle periodes zichtbaar. */
+  function haalBouwjaar(vboId) {
+    if (!vboId) return Promise.resolve(null);
+    var filter = '<Filter xmlns="http://www.opengis.net/fes/2.0"><PropertyIsEqualTo>' +
+      '<ValueReference>identificatie</ValueReference><Literal>' + vboId +
+      '</Literal></PropertyIsEqualTo></Filter>';
+    var u = BAG + "?service=WFS&version=2.0.0&request=GetFeature" +
+      "&typeNames=bag:verblijfsobject&outputFormat=application/json&count=1" +
+      "&filter=" + encodeURIComponent(filter);
+    return json(u).then(function (d) {
+      var f = d.features && d.features[0];
+      var j = f && f.properties && f.properties.bouwjaar;
+      return typeof j === "number" ? j : null;
+    }).catch(function () { return null; });
+  }
+
+  function toonSuggesties(docs) {
+    suglijst.innerHTML = "";
+    invoer.setAttribute("aria-expanded", docs.length ? "true" : "false");
+    docs.forEach(function (d) {
+      var li = document.createElement("li");
+      li.setAttribute("role", "option");
+      li.textContent = d.weergavenaam;
+      li.addEventListener("mousedown", function (e) { e.preventDefault(); kies(d); });
+      suglijst.appendChild(li);
+    });
+  }
+
+  function zoek(q) {
+    if (q.trim().length < 4) { toonSuggesties([]); return; }
+    json(LS + "suggest?q=" + encodeURIComponent(q) + "&fq=type%3Aadres&rows=8")
+      .then(function (d) {
+        var docs = (d.response && d.response.docs) || [];
+        var gezien = {}, uniek = [];
+        docs.forEach(function (x) {           // PDOK geeft soms hetzelfde adres twee keer
+          if (!gezien[x.weergavenaam]) { gezien[x.weergavenaam] = 1; uniek.push(x); }
+        });
+        toonSuggesties(uniek.slice(0, 6));
+      })
+      .catch(function () { toonSuggesties([]); });
+  }
+
+  function kies(doc) {
+    if (bezig) return;
+    bezig = true;
+    invoer.value = doc.weergavenaam;
+    toonSuggesties([]);
+    zeg("Bezig met opzoeken.");
+
+    var rec = null;
+    laatstePaalrot = null;
+    tijdlijnAlle = false;
+    json(LS + "lookup?id=" + encodeURIComponent(doc.id) +
+         "&fl=weergavenaam,gemeentenaam,gemeentecode,woonplaatsnaam,adresseerbaarobject_id,centroide_ll")
+      .then(function (d) {
+        rec = d.response && d.response.docs && d.response.docs[0];
+        if (!rec) throw new Error("adres niet gevonden");
+        return Promise.all([haalLoketten(), haalBouwjaar(rec.adresseerbaarobject_id),
+                            haalPaalrot(puntUitWkt(rec.centroide_ll))]);
+      })
+      .then(function (res) {
+        laatstePaalrot = res[2];
+        toon(rec, res[1]);
+        return tekenKaart(puntUitWkt(rec.centroide_ll), rec.gemeentecode, rec.gemeentenaam);
+      })
+      .catch(toonFout)
+      .then(function () { bezig = false; });
+  }
+
+  function gemeenteUitRegister(naam) {
+    if (!loketten) return null;
+    var g = null;
+    loketten.gemeenten.forEach(function (x) {
+      if (x.gemeente.toLowerCase() === String(naam).toLowerCase()) g = x;
+    });
+    return g;
+  }
+
+  /* De periode waar dit bouwjaar in valt. Regels zonder jaartal horen bij geen enkel
+     jaar; dat zijn algemene opmerkingen en die komen apart terug. */
+  function kiesPeriode(g, jaar) {
+    if (jaar == null) return null;
+    var gevonden = null;
+    g.perioden.forEach(function (p) {
+      if (p.van == null && p.tot == null) return;
+      if ((p.van == null || jaar >= p.van) && (p.tot == null || jaar <= p.tot)) {
+        if (!gevonden) gevonden = p;
+      }
+    });
+    return gevonden;
+  }
+
+  function periodeHtml(p) {
+    return '<li class="aw-periode"><p class="aw-jaren">' + veilig(p.kop || "Algemeen") +
+      '</p><div class="aw-body">' + p.html + '</div></li>';
+  }
+
+  function kaartblok() {
+    return '<details class="aw-meer" id="kaartblok"><summary>Toon dit adres op de kaart</summary>' +
+      '<div class="aw-inhoud"><div class="aw-kaart" id="kaart"></div>' +
+      '<p class="aw-fijn">De omlijnde vlek is de gemeente waar uw adres onder valt, de speld ' +
+      'staat op het adres zelf. Zet u <b>Perceelgrenzen</b> aan, dan zoomt de kaart in op uw ' +
+      'woning, komen de kadastrale grenzen met de perceelnummers in beeld en licht uw eigen ' +
+      'perceel oranje op, desgewenst over de luchtfoto. Let op: een kadastrale grens is een ' +
+      'eigendomsgrens en geen bouwkundige. Kadastrale kaart en luchtfoto: Kadaster en ' +
+      'PDOK.</p></div></details>';
+  }
+
+  /* ---- Wanneer is er aan dit huis iets veranderd -------------------------
+     De luchtfoto's van PDOK staan per jaargang als eigen laag in dezelfde WMS,
+     open en zonder sleutel. Welke jaargangen er zijn wordt uit de capabilities
+     gelezen en staat niet hier: er komt elk jaar een jaargang bij, en een lijst
+     in deze pagina zou stil verouderen zonder dat iemand het merkt.
+     De beelden worden pas opgehaald als de bezoeker het blok openklapt. Het zijn
+     een stuk of tien verzoeken per adres, en PDOK mag de dienst afknijpen bij te
+     zwaar gebruik; dat willen we niet over ons afroepen voor plaatjes die de
+     helft van de bezoekers niet opent. */
+  var LUCHTFOTO = "https://service.pdok.nl/hwh/luchtfotorgb/wms/v1_0";
+  var LUCHTFOTO_VOORKEUR = ["orthoHR", "ortho25", "quickorthoHR", "quickortho25"];
+  var KADASTRALEKAART = "https://service.pdok.nl/kadaster/kadastralekaart/wms/v5_0";
+  var jaargangen = null;
+
+  function haalJaargangen() {
+    if (jaargangen) return Promise.resolve(jaargangen);
+    return fetch(LUCHTFOTO + "?service=WMS&version=1.3.0&request=GetCapabilities")
+      .then(function (r) {
+        if (!r.ok) throw new Error("luchtfotodienst gaf " + r.status);
+        return r.text();
+      })
+      .then(function (xml) {
+        var perJaar = {};
+        var re = /<Name>(\d{4})_(orthoHR|ortho25|quickorthoHR|quickortho25)<\/Name>/g;
+        var m;
+        while ((m = re.exec(xml))) {
+          var nu = perJaar[m[1]];
+          if (!nu || LUCHTFOTO_VOORKEUR.indexOf(m[2]) < LUCHTFOTO_VOORKEUR.indexOf(nu)) {
+            perJaar[m[1]] = m[2];
+          }
+        }
+        jaargangen = Object.keys(perJaar).sort().map(function (j) {
+          return { jaar: j, laag: j + "_" + perJaar[j] };
+        });
+        if (!jaargangen.length) throw new Error("geen jaargangen in de capabilities");
+        return jaargangen;
+      });
+  }
+
+  /* Een kader van ongeveer 50 bij 67 meter om het adres: het huis, de buren en de
+     tuin erachter. Groot genoeg om een aanbouw te zien verschijnen, klein genoeg
+     om te weten welk huis het is. WMS 1.3.0 met EPSG:4326 wil de hoeken in de
+     volgorde breedtegraad, lengtegraad. */
+  function luchtfotoUrl(laag, punt, breed, hoog) {
+    var halveHoogte = 25 / 111320;
+    var halveBreedte = halveHoogte * (breed / hoog) / Math.cos(punt[0] * Math.PI / 180);
+    var vak = [punt[0] - halveHoogte, punt[1] - halveBreedte,
+               punt[0] + halveHoogte, punt[1] + halveBreedte];
+    return LUCHTFOTO + "?service=WMS&version=1.3.0&request=GetMap&styles=" +
+      "&format=image/jpeg&crs=EPSG:4326&layers=" + encodeURIComponent(laag) +
+      "&bbox=" + vak.join(",") + "&width=" + breed + "&height=" + hoog;
+  }
+
+  function tijdlijnHtml() {
+    return '<details class="aw-meer" id="tijdlijnblok"><summary>Wanneer is er aan dit ' +
+      'huis iets veranderd?</summary><div class="aw-inhoud">' +
+      '<p>Hieronder staat hetzelfde adres per jaargang luchtfoto. Ziet u tussen twee ' +
+      'jaren een aanbouw, een dakkapel of een nieuw dak verschijnen, dan is dat het jaar ' +
+      'waarvan u het dossier nodig heeft. Klik op een jaar om te zien welk loket daarbij ' +
+      'hoort.</p><div class="tl" id="tijdlijn"></div>' +
+      '<p class="aw-fijn">Luchtfoto&rsquo;s: Kadaster en PDOK, CC BY 4.0. De reeks begint ' +
+      'bij 2016. Zoekt u een verandering van eerder, dan staan de oude topografische ' +
+      'kaarten op <a href="https://www.topotijdreis.nl" target="_blank" rel="noopener">' +
+      'topotijdreis.nl</a>. Daarop ziet u geen dakkapel, maar wel wanneer het huis of een ' +
+      'grote uitbouw er kwam.</p></div></details>';
+  }
+
+  /* Vier jaargangen laten zien is genoeg om een verandering op te merken en scheelt
+     PDOK zeven verzoeken per opzoeking. De oudste en de nieuwste horen er altijd bij,
+     de twee ertussen worden gelijkmatig over de reeks verdeeld. Wie meer wil, klikt. */
+  function spreid(jr, aantal) {
+    if (jr.length <= aantal) return jr;
+    var uit = [];
+    for (var i = 0; i < aantal; i++) {
+      uit.push(jr[Math.round(i * (jr.length - 1) / (aantal - 1))]);
+    }
+    return uit;
+  }
+
+  function vulTijdlijn(punt, jaar, alle) {
+    var vak = document.getElementById("tijdlijn");
+    var stand = alle ? "alle" : "deel";
+    if (!vak || !punt || vak.getAttribute("data-gevuld") === stand) return;
+    if (vak.getAttribute("data-gevuld") === "alle") return;
+    vak.setAttribute("data-gevuld", stand);
+    haalJaargangen().then(function (jr) {
+      var tonen = alle ? jr : spreid(jr, 4);
+      vak.innerHTML = tonen.map(function (j) {
+        return '<button type="button" class="tl-jaar" data-jaar="' + j.jaar + '"' +
+          (String(jaar) === j.jaar ? ' aria-current="true"' : '') +
+          '><img loading="lazy" width="180" height="135" alt="Luchtfoto van ' + j.jaar +
+          '" src="' + luchtfotoUrl(j.laag, punt, 240, 180) + '"><span>' + j.jaar +
+          '</span></button>';
+      }).join("") + (tonen.length < jr.length
+        ? '<button type="button" class="tl-meer">Toon alle<br>' + jr.length + ' jaren</button>'
+        : "");
+    }).catch(function (e) {
+      vak.innerHTML = '<p class="aw-fijn">De luchtfotodienst van PDOK reageert nu niet. ' +
+        'Probeer het later nog eens.</p>';
+      if (window.console) console.warn("luchtfoto:", e);
+    });
+  }
+
+  /* ---- Fundering in deze buurt -------------------------------------------
+     De Klimaateffectatlas publiceert het risico op paalrot per buurt en niet per
+     adres. Dat is genoeg om te zeggen waar in het dossier op te letten, en te
+     weinig om iets over dit ene huis te beweren; zo staat het er ook.
+     De klassegrenzen komen uit de stijl van de laag zelf, opgehaald met
+     GetStyles op 2026-09-05. Het getal is het percentage panden in de buurt. */
+  var KEA = "https://cas.cloud.sogelink.com/public/data/org/gws/YWFMLMWERURF/kea_public/wms";
+  var PAALROT_KLASSEN = [[0.8, "zeer laag"], [3, "laag"], [6, "matig"], [15, "hoog"]];
+
+  /* Het perceel waarin dit adres ligt, als vorm. De laag antwoordt niet boven ongeveer
+     1:6000, dus het bevraagde venster moet klein genoeg zijn; 101 bij 101 beeldpunten over
+     veertig meter zit daar ruim onder. */
+  function haalPerceel(punt) {
+    if (!punt) return Promise.resolve(null);
+    var d = 0.0002;
+    var vraag = "service=WMS&version=1.3.0&request=GetFeatureInfo" +
+      "&info_format=application/json&layers=Perceelvlak&query_layers=Perceelvlak" +
+      "&crs=EPSG:4326&styles=&width=101&height=101&i=50&j=50&feature_count=1&bbox=" +
+      [punt[0] - d, punt[1] - d, punt[0] + d, punt[1] + d].join(",");
+    return json(KADASTRALEKAART + "?" + vraag).then(function (d2) {
+      var f = d2 && d2.features && d2.features[0];
+      return f && f.geometry ? f : null;
+    }).catch(function (e) {
+      // Zonder vorm blijft de kaart bruikbaar, alleen zonder oplichting.
+      if (window.console) console.warn("perceel:", e);
+      return null;
+    });
+  }
+
+  function haalPaalrot(punt) {
+    if (!punt) return Promise.resolve(null);
+    var d = 0.0004;
+    var vraag = "service=WMS&version=1.3.0&request=GetFeatureInfo" +
+      "&info_format=application/json&layers=risicopaalrot_huidig" +
+      "&query_layers=risicopaalrot_huidig&crs=EPSG:4326&styles=" +
+      "&width=11&height=11&i=5&j=5&feature_count=1&bbox=" +
+      [punt[0] - d, punt[1] - d, punt[0] + d, punt[1] + d].join(",");
+    return json(KEA + "?" + vraag).then(function (d2) {
+      var f = d2 && d2.features && d2.features[0];
+      var w = f && f.properties && f.properties.no_cc_risi;
+      if (typeof w !== "number") return null;
+      var klasse = "zeer hoog";
+      for (var i = 0; i < PAALROT_KLASSEN.length; i++) {
+        if (w <= PAALROT_KLASSEN[i][0]) { klasse = PAALROT_KLASSEN[i][1]; break; }
+      }
+      return { buurt: f.properties.buurtnaam || "", klasse: klasse };
+    }).catch(function (e) {
+      // Zonder deze laag mist er een alinea, meer niet. Wel melden, niet stilvallen.
+      if (window.console) console.warn("funderingskaart:", e);
+      return null;
+    });
+  }
+
+  /* Alleen tonen als het iets zegt. In het rivierengebied en op de zandgronden
+     staat vrijwel elke buurt op "zeer laag", en een alinea die overal hetzelfde
+     meldt leert de lezer het hele blok over te slaan. */
+  function funderingHtml(pr, jaar) {
+    if (!pr) return "";
+    var zwaar = pr.klasse === "matig" || pr.klasse === "hoog" || pr.klasse === "zeer hoog";
+    var oud = jaar && jaar < 1975;
+    if (!zwaar && !(oud && pr.klasse === "laag")) return "";
+    return '<div class="aw-letop"><b>Let op de fundering in deze buurt.</b> Het risico op ' +
+      'paalrot is in ' + veilig(pr.buurt || "deze buurt") + ' volgens de Klimaateffectatlas ' +
+      veilig(pr.klasse) + '. Dat cijfer geldt voor de hele buurt en zegt niets over dit ene ' +
+      'huis. ' + (oud ? 'Woningen van voor 1975 staan hier vaak op houten palen. ' : '') +
+      'Hoe uw woning is gefundeerd staat in het bouwdossier, op de funderingstekening en ' +
+      'soms in de constructieberekening. Bron: Klimaateffectatlas, CC BY 4.0.</div>';
+  }
+
+  function toon(rec, jaar) {
+    var g = gemeenteUitRegister(rec.gemeentenaam);
+    var jaarregel = jaar ? "Bouwjaar " + jaar : "Bouwjaar onbekend";
+    var plaatsregel = veilig(rec.weergavenaam);
+    if (g && rec.woonplaatsnaam &&
+        rec.woonplaatsnaam.toLowerCase() !== String(rec.gemeentenaam).toLowerCase()) {
+      plaatsregel += " &middot; valt onder gemeente " + veilig(rec.gemeentenaam);
+    }
+
+    formAdres.value = rec.weergavenaam;
+    if (jaar && !formJaar.value) formJaar.value = String(jaar);
+
+    var h = "";
+
+    if (!g) {
+      h += '<article class="aw aw--onzeker">';
+      h += '<header class="aw-hoofd"><p class="aw-adres">' + plaatsregel + '</p>' +
+           '<p class="aw-jaar">' + veilig(jaarregel) + '</p>' +
+           '<h2 class="aw-kop">Deze gemeente heb ik nog niet uitgezocht</h2>' +
+           '<p class="aw-zin">Ik zoek een gemeente uit zodra ik er werk heb. Voor ' +
+           veilig(rec.gemeentenaam) + ' is dat nog niet gebeurd, en dan schrijf ik liever ' +
+           'niets op dan iets wat ik niet heb nagekeken.</p></header>';
+      h += '<div class="aw-doen"><p>De algemene route werkt vrijwel overal wel zo. Begin bij ' +
+           'de gemeente en vraag naar het opvragen van een bouw- of sloopdossier, met het ' +
+           'jaartal erbij. Dossiers van de laatste jaren liggen daar of bij de regionale ' +
+           'omgevingsdienst; oudere dossiers bij het regionaal archief of streekarchief van ' +
+           'die streek.</p><p class="aw-actie"><a class="btn" href="#contact">Vraag het mij</a></p>' +
+           '<p class="aw-fijn">Zoek ik het voor u uit, dan staat het hier voortaan voor de ' +
+           'volgende die zoekt.</p>' + funderingHtml(laatstePaalrot, jaar) + '</div>';
+      h += tijdlijnHtml();
+      h += kaartblok();
+      h += '</article>';
+      uitslag.innerHTML = h;
+      uitslag.hidden = false;
+      laatsteRec = rec; laatsteJaar = jaar;
+      hangTijdlijnOp(puntUitWkt(rec.centroide_ll), jaar);
+      formLoket.value = rec.gemeentenaam + " (nog niet uitgezocht)";
+      zetAanbod("onbekend");
+      zeg(rec.gemeentenaam + " is nog niet uitgezocht.");
+      return;
+    }
+
+    var p = kiesPeriode(g, jaar);
+    var algemeen = g.perioden.filter(function (x) {
+      return x.van == null && x.tot == null;
+    });
+    var overig = g.perioden.filter(function (x) {
+      return x !== p && (x.van != null || x.tot != null);
+    });
+
+    h += '<article class="aw' + (p ? "" : " aw--onzeker") + '">';
+    h += '<header class="aw-hoofd"><p class="aw-adres">' + plaatsregel + '</p>' +
+         '<p class="aw-jaar">' + veilig(jaarregel) + '</p>';
+    if (p) {
+      // Het loket is het antwoord en hoort dus de kop te zijn. Staat het niet als
+      // zodanig in het register, dan valt de kop terug op gemeente plus periode;
+      // liever dat dan een naam die uit de zin geraden is.
+      h += '<h2 class="aw-kop">' + veilig(p.loket || (g.gemeente + ", " + p.kop)) + '</h2>';
+      /* De periode zoals het register hem schrijft, zonder er een zin omheen te bouwen.
+         Die aanhef verschilt per gemeente ("t/m 2000", "Bouwvergunningen t/m september
+         2010", "vanaf 2015"), dus elke vaste formulering eromheen loopt ergens stuk. */
+      h += '<p class="aw-zin">' + (p.loket
+        ? veilig(p.kop)
+        : "Uw bouwjaar valt in deze periode. Hieronder staat waar het dossier ligt.") + '</p>';
+    } else {
+      h += '<h2 class="aw-kop">' + veilig(g.gemeente) + '</h2>' +
+           '<p class="aw-zin">' + (jaar ? "Het bouwjaar valt niet in een van de periodes die " +
+           "ik voor deze gemeente heb vastgelegd, dus staan ze er alle bij." :
+           "Het bouwjaar van dit pand is niet uit de basisregistratie te halen, dus staan " +
+           "alle periodes er hieronder bij.") + '</p>';
+    }
+    h += '</header>';
+
+    h += '<div class="aw-doen">';
+    if (g.voorbehoud) {
+      var vb = g.voorbehoud.charAt(0).toUpperCase() + g.voorbehoud.slice(1);
+      h += '<div class="aw-letop"><b>Let op bij deze gemeente.</b> ' + veilig(vb) + '</div>';
+    }
+    if (p && p.geldt_voor &&
+        String(p.geldt_voor).toLowerCase() !== String(rec.woonplaatsnaam || "").toLowerCase()) {
+      h += '<div class="aw-letop"><b>Controleer dit zelf even.</b> Deze periode geldt volgens ' +
+           'mijn aantekening voor ' + veilig(p.geldt_voor) + ', en uw adres ligt in ' +
+           veilig(rec.woonplaatsnaam || "een andere kern") + '. Binnen deze gemeente lopen de ' +
+           'periodegrenzen per kern uiteen; bel het archief als u twijfelt.</div>';
+    }
+    if (p) {
+      // De loketnaam staat al als kop; hem er meteen onder nog eens bij zetten leest
+      // als een hapering. Alleen weghalen als hij er letterlijk staat.
+      var body = p.html;
+      if (p.loket) {
+        var kaal = p.loket.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+        body = body.replace(new RegExp("^<p><strong>" + kaal + "</strong>[,:]?\\s*"), "<p>");
+      }
+      h += '<div class="aw-body">' + body + '</div>';
+    } else {
+      h += '<ul class="aw-periodes">' + g.perioden.map(periodeHtml).join("") + '</ul>';
+    }
+    h += funderingHtml(laatstePaalrot, jaar);
+    if (g.intro_html) h += '<div class="aw-fijn">' + g.intro_html + '</div>';
+    algemeen.forEach(function (a) {
+      h += '<div class="aw-fijn">' + a.html + '</div>';
+    });
+    h += '<p class="aw-gecheckt">Laatst gecontroleerd op ' + veilig(datum(g.gecheckt)) + '.</p>';
+    h += '</div>';
+
+    if (p && overig.length) {
+      h += '<details class="aw-meer"><summary>Zoekt u een dakkapel, uitbouw of andere ' +
+           'verbouwing?</summary><div class="aw-inhoud"><p>Dan telt het jaar van díe ' +
+           'vergunning en niet het bouwjaar van de woning. Voor deze gemeente zijn dat de ' +
+           'volgende periodes.</p><ul class="aw-periodes">' +
+           overig.map(periodeHtml).join("") + '</ul></div></details>';
+    }
+    h += tijdlijnHtml();
+    h += kaartblok();
+
+    /* Zonder gevonden periode weet ik de route niet zeker. Alle periodes van deze
+       gemeente afwijzen zou te streng zijn en alles aanbieden te ruim; is er ten minste
+       een periode die het aan mij levert, dan bied ik het aan met dat voorbehoud erbij. */
+    var route = p ? p.route
+      : (g.perioden.some(function (x) {
+          return (x.van != null || x.tot != null) && x.wij;
+        }) ? g.route : "onbekend");
+    zetAanbod(route);
+
+    if (route.indexOf("wij-") === 0) {
+      h += '<p class="aw-uit">Liever niet zelf uitzoeken en aanvragen? ' +
+           '<a href="#contact">Ik vraag het dossier voor u op voor &euro; 100.</a>' +
+           (p ? '' : ' Zonder bouwjaar weet ik pas na het opzoeken zeker welk loket het is; ' +
+                'blijkt het dossier daar niet op te vragen, dan krijgt u het bedrag terug.') +
+           '</p>';
+    } else {
+      h += '<p class="aw-uit">' + veilig(ROUTE_ZIN[route] || ROUTE_ZIN.onbekend) +
+           ' Aanvragen kan ik dit dus niet voor u, maar ' +
+           '<a href="#contact">stel uw vraag gerust</a>, dan kijk ik mee.</p>';
+    }
+    h += '</article>';
+
+    uitslag.innerHTML = h;
+    uitslag.hidden = false;
+    laatsteRec = rec; laatsteJaar = jaar;
+    hangTijdlijnOp(puntUitWkt(rec.centroide_ll), jaar);
+    formLoket.value = g.gemeente + (p ? " / " + p.kop : "") + " (gecontroleerd " + g.gecheckt + ")";
+    zeg("Antwoord gevonden voor " + rec.weergavenaam + ".");
+  }
+
+  /* Het uitklapblok wordt bij elk antwoord opnieuw opgebouwd, dus de luisteraar gaat er
+     hier elke keer weer aan. Het staat meteen open: die luchtfoto's zijn het enige beeld
+     op deze pagina, en ze beantwoorden de vraag waar de pagina om draait, namelijk in
+     welk jaar er iets aan het huis is veranderd. */
+  function hangTijdlijnOp(punt, jaar) {
+    var blok = document.getElementById("tijdlijnblok");
+    if (!blok || !punt) return;
+    blok.addEventListener("toggle", function () {
+      if (blok.open) vulTijdlijn(punt, jaar, tijdlijnAlle);
+    });
+    blok.open = true;
+    vulTijdlijn(punt, jaar, tijdlijnAlle);
+  }
+
+  uitslag.addEventListener("click", function (e) {
+    if (!e.target || !e.target.closest || !laatsteRec) return;
+    if (e.target.closest(".tl-meer")) {
+      tijdlijnAlle = true;
+      vulTijdlijn(puntUitWkt(laatsteRec.centroide_ll), laatsteJaar, true);
+      return;
+    }
+    var knop = e.target.closest(".tl-jaar");
+    if (!knop) return;
+    var jaar = parseInt(knop.getAttribute("data-jaar"), 10);
+    formJaar.value = String(jaar);
+    toon(laatsteRec, jaar);
+  });
+
+  function toonFout(e) {
+    uitslag.innerHTML = '<article class="aw aw--onzeker"><header class="aw-hoofd">' +
+      '<h2 class="aw-kop">Het opzoeken lukte niet</h2><p class="aw-zin">Dat ligt vrijwel ' +
+      'altijd aan de kaartdienst van het Kadaster en niet aan uw adres. Probeer het zo nog ' +
+      'eens.</p></header><div class="aw-doen"><p class="aw-actie">' +
+      '<a class="btn" href="#contact">Vraag het mij</a></p></div></article>';
+    uitslag.hidden = false;
+    zeg("Het opzoeken lukte niet.");
+    if (window.console) console.warn("bouwdossier-zoeker:", e);
+  }
+
+  /* De kaart zit in een uitklap en wordt pas opgebouwd als die opengaat; Leaflet meet
+     anders een vak van nul hoog en tekent grijs. */
+  function tekenKaart(punt, gemeentecode, gemeentenaam) {
+    var blok = document.getElementById("kaartblok");
+    var vak = document.getElementById("kaart");
+    if (!blok || !vak || !punt) return Promise.resolve();
+    kaart = null; laagGrens = null; marker = null;
+
+    var bouw = function () {
+      if (kaart) { kaart.invalidateSize(); return; }
+      kaart = L.map(vak, { scrollWheelZoom: false });
+      var basis = L.tileLayer(TEGELS, {
+        maxZoom: 19,
+        attribution: 'Kaart &copy; <a href="https://www.kadaster.nl" target="_blank" rel="noopener">Kadaster</a> / PDOK'
+      }).addTo(kaart);
+
+      /* De luchtfoto en de kadastrale kaart komen van dezelfde open diensten van PDOK
+         als de rest van deze pagina, zonder sleutel. De perceelgrens met het
+         perceelnummer over de luchtfoto is het beeld dat mensen van hun eigen koopakte
+         kennen, en het zegt iets over hun grond dat de gemeentegrens niet zegt. */
+      var lucht = L.tileLayer.wms(LUCHTFOTO, {
+        layers: "Actueel_orthoHR", format: "image/jpeg", maxZoom: 21,
+        attribution: 'Luchtfoto &copy; Kadaster / PDOK, CC BY 4.0'
+      });
+      var perceelkaart = L.tileLayer.wms(KADASTRALEKAART, {
+        layers: "Perceel", format: "image/png", transparent: true, maxZoom: 21,
+        attribution: 'Kadastrale kaart &copy; Kadaster / PDOK'
+      });
+      /* De kadastrale kaart tekent alle grenzen even zwart. Welk van die vlakken bij dit
+         adres hoort weet de bezoeker niet, dus dat lichten we op in de warme huiskleur. */
+      var eigenPerceel = L.geoJSON(null, {
+        style: { color: "#e39a4e", weight: 2, fillColor: "#e39a4e", fillOpacity: .3 }
+      });
+      var percelen = L.layerGroup([perceelkaart, eigenPerceel]);
+      haalPerceel(punt).then(function (vorm) { if (vorm) eigenPerceel.addData(vorm); });
+      L.control.layers({ "Kaart": basis, "Luchtfoto": lucht },
+                       { "Perceelgrenzen": percelen }, { collapsed: false }).addTo(kaart);
+
+      /* De kadastrale kaart tekent pas onder ongeveer 1:6000. Zet je hem aan terwijl de
+         kaart nog de hele gemeente toont, dan gebeurt er niets zichtbaars en denkt de
+         bezoeker dat de laag stuk is. Dus vliegen we naar het adres toe. */
+      kaart.on("overlayadd", function (e) {
+        if (e.layer !== percelen || kaart.getZoom() >= 17) return;
+        if (eigenPerceel.getLayers().length) {
+          kaart.flyToBounds(eigenPerceel.getBounds(), { padding: [26, 26], maxZoom: 20 });
+        } else {
+          kaart.flyTo(punt, 19);
+        }
+      });
+
+      marker = L.marker(punt).addTo(kaart).bindPopup(veilig(gemeentenaam));
+      kaart.setView(punt, 14);
+      if (laagGrens) pas();
+    };
+
+    var geo = null;
+    var pas = function () {
+      if (!kaart || !geo) return;
+      laagGrens = L.geoJSON(geo, {
+        style: { color: "#004e92", weight: 2, opacity: .9, fillColor: "#004e92", fillOpacity: .07 }
+      }).addTo(kaart);
+      kaart.fitBounds(laagGrens.getBounds(), { padding: [14, 14] });
+    };
+
+    blok.addEventListener("toggle", function () { if (blok.open) bouw(); });
+
+    if (!gemeentecode) return Promise.resolve();
+    return json(GRENS + "?f=json&identificatie=GM" + encodeURIComponent(gemeentecode) + "&limit=1")
+      .then(function (d) {
+        if (d && d.features && d.features.length) { geo = d; laagGrens = null; if (kaart) pas(); }
+      })
+      .catch(function () { /* zonder grens is de kaart nog steeds bruikbaar */ });
+  }
+
+  invoer.addEventListener("input", function () {
+    var q = invoer.value;
+    clearTimeout(wacht);
+    wacht = setTimeout(function () { zoek(q); }, 220);
+  });
+  invoer.addEventListener("blur", function () {
+    setTimeout(function () { toonSuggesties([]); }, 120);
+  });
+  invoer.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") toonSuggesties([]);
+  });
+
+  haalLoketten().catch(function (e) {
+    if (window.console) console.warn("loketten laden mislukt:", e);
+  });
+})();
+</script>
+<script src="/js/main.js"></script>
+</body>
+</html>
