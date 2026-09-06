@@ -346,7 +346,7 @@
      "loket": "gemeente Baarle-Nassau",
      "route": "onbekend",
      "wij": false,
-     "html": "<p><strong>gemeente Baarle-Nassau</strong>.</p>"
+     "html": "<p><strong>gemeente Baarle-Nassau</strong>, archiefruimte van het gemeentehuis.</p>"
     },
     {
      "kop": "",
@@ -441,7 +441,7 @@
      "loket": "gemeente Dongen",
      "route": "onbekend",
      "wij": false,
-     "html": "<p><strong>gemeente Dongen</strong>.</p>"
+     "html": "<p><strong>gemeente Dongen</strong>, tel. 14 0162. De gemeente heeft geen aparte pagina voor het bouwarchief; de weg loopt via het algemene contactformulier.</p>"
     },
     {
      "kop": "",
@@ -560,7 +560,7 @@
      "loket": "gemeente Eindhoven",
      "route": "digid",
      "wij": false,
-     "html": "<p><strong>gemeente Eindhoven</strong>. Alleen online in te zien na inloggen met DigiD of eHerkenning, dus dit is een periode die de eigenaar zelf moet doen. Kosten € 34 per dossier, levering binnen vijf werkdagen via beveiligde mail; de factuur volgt ongeveer twee weken later. Wie geen van beide heeft, maakt een afspraak via <a href=\"mailto:vergunningen@eindhoven.nl.\">vergunningen@eindhoven.nl.</a></p>"
+     "html": "<p><strong>gemeente Eindhoven</strong>. Alleen online in te zien na inloggen met DigiD of eHerkenning. Kosten € 34 per dossier, levering binnen vijf werkdagen via beveiligde mail; de factuur volgt ongeveer twee weken later. Wie geen van beide heeft, maakt een afspraak via <a href=\"mailto:vergunningen@eindhoven.nl.\">vergunningen@eindhoven.nl.</a></p>"
     },
     {
      "kop": "",
@@ -608,14 +608,14 @@
      "html": "<p><strong>Regionaal Archief Tilburg</strong>, digitaal op te vragen. Kosteloos, scans binnen vijftien werkdagen, aanvragen bij <strong><a href=\"mailto:info@regionaalarchieftilburg.nl\">info@regionaalarchieftilburg.nl</a></strong>.</p>"
     },
     {
-     "kop": "vanaf 1998",
-     "van": 1998,
+     "kop": "vanaf 1997",
+     "van": 1997,
      "tot": null,
      "geldt_voor": "",
      "loket": "gemeente Geertruidenberg",
-     "route": "onbekend",
-     "wij": false,
-     "html": "<p><strong>gemeente Geertruidenberg</strong>.</p>"
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p><strong>gemeente Geertruidenberg</strong>, per mail bij <strong><a href=\"mailto:info@geertruidenberg.nl\">info@geertruidenberg.nl</a></strong>. Wat het kost staat niet op de site. Zie <a href=\"https://www.geertruidenberg.nl/bouwtekeningen-en-vastgoedinformatie\" target=\"_blank\" rel=\"noopener\">https://www.geertruidenberg.nl/bouwtekeningen-en-vastgoedinformatie</a>.</p>"
     },
     {
      "kop": "",
@@ -701,14 +701,14 @@
      "html": "<p><strong>Regionaal Archief Tilburg</strong>, digitaal beschikbaar. Kosteloos, scans binnen vijftien werkdagen, aanvragen bij <strong><a href=\"mailto:info@regionaalarchieftilburg.nl\">info@regionaalarchieftilburg.nl</a></strong>.</p>"
     },
     {
-     "kop": "vanaf 2011",
-     "van": 2011,
+     "kop": "vanaf oktober 2010",
+     "van": 2010,
      "tot": null,
      "geldt_voor": "",
      "loket": "gemeente Gilze en Rijen",
      "route": "onbekend",
      "wij": false,
-     "html": "<p><strong>gemeente Gilze en Rijen</strong>.</p>"
+     "html": "<p><strong>gemeente Gilze en Rijen</strong>, Raadhuisplein 1 in Rijen.</p>"
     },
     {
      "kop": "",
@@ -745,14 +745,14 @@
      "html": "<p><strong>Regionaal Archief Tilburg</strong>, op aanvraag. Kosteloos, scans binnen vijftien werkdagen, aanvragen bij <strong><a href=\"mailto:info@regionaalarchieftilburg.nl\">info@regionaalarchieftilburg.nl</a></strong>. Anders dan bij de buurgemeenten staat deze reeks niet in het digitale portaal.</p>"
     },
     {
-     "kop": "vanaf 1994",
-     "van": 1994,
+     "kop": "Goirle vanaf 1995 en Riel vanaf 1997",
+     "van": 1997,
      "tot": null,
      "geldt_voor": "",
      "loket": "gemeente Goirle",
-     "route": "onbekend",
-     "wij": false,
-     "html": "<p><strong>gemeente Goirle</strong>.</p>"
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p><strong>gemeente Goirle</strong>, per mail bij <strong><a href=\"mailto:info@goirle.nl\">info@goirle.nl</a></strong> of via het contactformulier, tel. (013) 5310 610. Noem adres, bouwjaar, welke vergunning en waarvoor u de stukken nodig heeft. Stukken met persoonsgegevens komen er niet zonder meer uit. Tarieven 2026: archiefonderzoek € 17,30 en digitale bestanden € 29,85, dus samen bijna vijftig euro. Zie <a href=\"https://www.goirle.nl/bouwen-en-verbouwen/archief-vergunningen\" target=\"_blank\" rel=\"noopener\">https://www.goirle.nl/bouwen-en-verbouwen/archief-vergunningen</a>.</p>"
     },
     {
      "kop": "",
@@ -914,9 +914,9 @@
      "tot": null,
      "geldt_voor": "",
      "loket": "gemeente Hilvarenbeek",
-     "route": "onbekend",
-     "wij": false,
-     "html": "<p><strong>gemeente Hilvarenbeek</strong>.</p>"
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p><strong>gemeente Hilvarenbeek</strong>, per mail bij <strong><a href=\"mailto:gemeente@hilvarenbeek.nl\">gemeente@hilvarenbeek.nl</a></strong>, tel. (013) 505 83 00. Noem de locatie, het soort vergunning en wat u zoekt. Het opvragen is kosteloos. Zie <a href=\"https://www.hilvarenbeek.nl/archief-bouwen-en-milieu\" target=\"_blank\" rel=\"noopener\">https://www.hilvarenbeek.nl/archief-bouwen-en-milieu</a>.</p>"
     },
     {
      "kop": "",
@@ -1012,7 +1012,7 @@
      "loket": "gemeente Lingewaard",
      "route": "digid",
      "wij": false,
-     "html": "<p><strong>gemeente Lingewaard</strong>. Alleen online in te zien na inloggen met DigiD of eHerkenning, via <a href=\"https://www.lingewaard.nl/bouwplannen-en-bouwtekeningen-bekijken\" target=\"_blank\" rel=\"noopener\">https://www.lingewaard.nl/bouwplannen-en-bouwtekeningen-bekijken</a>. De gemeentepagina noemt geen mail- of formulierroute, dus dit is een periode die de eigenaar zelf moet doen.</p>"
+     "html": "<p><strong>gemeente Lingewaard</strong>. Alleen online in te zien na inloggen met DigiD of eHerkenning, via <a href=\"https://www.lingewaard.nl/bouwplannen-en-bouwtekeningen-bekijken\" target=\"_blank\" rel=\"noopener\">https://www.lingewaard.nl/bouwplannen-en-bouwtekeningen-bekijken</a>. De gemeentepagina noemt geen mail- of formulierroute.</p>"
     },
     {
      "kop": "vanaf 2015",
@@ -1112,7 +1112,7 @@
      "loket": "gemeente Oisterwijk",
      "route": "onbekend",
      "wij": false,
-     "html": "<p><strong>gemeente Oisterwijk</strong>.</p>"
+     "html": "<p><strong>gemeente Oisterwijk</strong>, De Lind 44, tel. (013) 529 13 11.</p>"
     },
     {
      "kop": "",
@@ -1156,9 +1156,9 @@
      "tot": null,
      "geldt_voor": "",
      "loket": "gemeente Oosterhout",
-     "route": "onbekend",
+     "route": "digid",
      "wij": false,
-     "html": "<p><strong>gemeente Oosterhout</strong>.</p>"
+     "html": "<p><strong>gemeente Oosterhout</strong>, via het contactformulier op <a href=\"https://www.oosterhout.nl\" target=\"_blank\" rel=\"noopener\">https://www.oosterhout.nl</a>, waarvoor u inlogt met DigiD of eHerkenning. Levering digitaal per mail, tegen leges volgens de legesverordening. Tel. 14 0162.</p>"
     },
     {
      "kop": "",
@@ -1194,7 +1194,7 @@
      "loket": "gemeente Tilburg",
      "route": "digid",
      "wij": false,
-     "html": "<p><strong>gemeente Tilburg</strong>, met een eigen archiefportaal dat vergunningen, meldingen, tekeningen en documenten bevat. Kosteloos, maar u logt in met DigiD of eHerkenning, en er is een apart portaal voor inwoners en voor ondernemers, dus dit is een periode die de eigenaar zelf moet doen. Aanvraagformulieren zelf staan er om reden van privacy niet meer in.</p>"
+     "html": "<p><strong>gemeente Tilburg</strong>, met een eigen archiefportaal dat vergunningen, meldingen, tekeningen en documenten bevat. Kosteloos, maar u logt in met DigiD of eHerkenning, en er is een apart portaal voor inwoners en voor ondernemers. Aanvraagformulieren zelf staan er om reden van privacy niet meer in.</p>"
     },
     {
      "kop": "Biezenmortel t/m 1996",
