@@ -148,6 +148,11 @@ a{color:inherit}
 .foot b{display:block;font-family:"Lora",serif;color:#e9eef3;font-size:1.1rem;font-weight:600}
 .foot .meta{font-size:.85rem;line-height:1.95}
 .foot a{color:#b7c4d3;text-decoration:none}
+/* Het menu in de footer. Onder 820px is de kopbalk verborgen, dus dit is op een
+   telefoon de enige navigatie die er is; zonder dit is elke pagina daar een
+   doodlopende weg. */
+.foot-nav{display:block}
+.foot-nav a{display:inline-block;padding:1px 0}
 .foot a:hover{color:#fff}
 
 /* reveal + a11y */

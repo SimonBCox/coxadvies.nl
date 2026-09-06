@@ -1,2 +1,18 @@
 _concepten/
 __pycache__/
+
+# Onbewerkte projectfoto's. Die komen van de camera of van de klant en dragen een
+# straatnaam en de naam van de bewoner in de bestandsnaam; op 2026-09-06 zijn er zo
+# zes publiek geworden. De bewerkte versies die de site gebruikt heten
+# `plaats-nn-omschrijving.jpg`, dus zonder onderstrepingsteken, en die blijven gewoon
+# in de repo. Op de extensie filteren werkt hier niet: git matcht op Windows
+# hoofdletterongevoelig, dus een regel op *.JPG ving de bewerkte bestanden ook.
+img/projecten/*_*
+# Werkbestanden van de projectenpagina. PROJECTEN.md bespreekt lopende opdrachten,
+# inclusief een project waarvan de fundering in de laatste run niet voldeed, en de
+# fotolijsten dragen volledige adressen in hun bronpaden. Alles wat hieruit naar
+# buiten gaat, gaat als afbeelding met een neutrale naam.
+PROJECTEN.md
+projectfotos.json
+build_projectfotos.py
+build_tekeningfragment.py

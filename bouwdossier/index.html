@@ -37,6 +37,13 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 
 <style>
+  /* Het beeld van het voorbeelddossier. De miniaturen zijn met opzet zo klein dat er
+     niets van te lezen valt; zie de commentaarregel bij de generator. */
+  .vb-beeld{margin:26px 0 30px;max-width:1000px}
+  .vb-beeld img{width:100%;height:auto;display:block;border:1px solid var(--line);
+    border-radius:var(--r);box-shadow:var(--shadow)}
+  .vb-beeld figcaption{margin-top:10px;font-size:.86rem;color:var(--muted)}
+
   /* Gemeentetabel. Wordt door genereer_gemeentepaginas.py gevuld tussen de
      merktekens; met de hand wijzigen heeft geen zin. */
   .tabelwrap{overflow-x:auto;margin:0 0 10px}
@@ -184,9 +191,9 @@
     <nav class="nav-links" aria-label="Hoofdmenu">
       <a href="/projecten/">Projecten</a>
       <a href="/#diensten">Diensten</a>
+      <a href="/bouwdossier/">Bouwdossier</a>
       <a href="/kosten/">Kosten</a>
       <a href="/faq/">Vragen</a>
-      <a href="/#werkwijze">Werkwijze</a>
       <a href="/#over">Over</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -284,11 +291,41 @@
     <div class="wrap">
       <div class="sec-head">
         <p class="eyebrow">Een voorbeeld</p>
-        <h2>Wat er in het bouwdossier zit</h2>
+        <h2>Wat u krijgt</h2>
       </div>
-      <p>Het bouwdossier is het hart van de stapel. Dit is er een echte, opgevraagd voor een rijtjeshuis uit 1963. Het adres en
-        de namen staan er niet bij. Vier vergunningen, dertien documenten, waarvan drie
-        constructieberekeningen.</p>
+      <p>Dit is een echt dossier, opgevraagd voor een rijtjeshuis uit 1963. Vier
+        vergunningen, dertien documenten, achtentwintig pagina's, waarvan drie
+        constructieberekeningen. Rechts staat de leeswijzer die ik erbij schreef.</p>
+
+      <figure class="vb-beeld">
+        <img src="/img/woningdossier.png" width="1500" height="830" loading="lazy"
+          alt="Achtentwintig gescande pagina's uit een bouwdossier van 1963 naast elkaar, met daarnaast de leeswijzer die erbij hoort">
+        <figcaption>Het adres en de namen zijn weggelaten en op deze afbeelding is met
+          opzet geen letter leesbaar.</figcaption>
+      </figure>
+
+      <p>Een dossier ophalen is het makkelijkste deel. Het lastige is weten waar het ligt,
+        en daarna weten waar u in die stapel naar moet kijken. Daarom bestaat wat u krijgt
+        uit drie delen.</p>
+
+      <p><b>Het archiefdossier.</b> De tekeningen en de vergunningen zoals het archief ze
+        heeft bewaard, en als u geluk heeft de constructieberekening erbij.</p>
+
+      <p><b>Het profiel van uw adres.</b> Alles wat er verder over dat ene adres in
+        openbare bronnen staat en constructief van belang kan zijn. Het bouwjaar, de
+        oppervlakte en of er meer woningen in hetzelfde pand zitten, uit de
+        Basisregistratie Adressen en Gebouwen. Het perceel met zijn oppervlakte, uit de
+        Kadastrale Kaart. De bodemeenheid onder het huis en de sonderingen in de omgeving
+        met hun diepte, uit de Basisregistratie Ondergrond. Het funderingsbeeld van de
+        buurt, uit de Klimaateffectatlas. En de luchtfoto van elk jaar sinds 2016, waarop
+        te zien is in welk jaar er aan het pand iets is veranderd.</p>
+
+      <p><b>De leeswijzer.</b> Wat er ligt, wat er ontbreekt en waar de constructieve
+        informatie in die stapel staat. Wat dat bij dit voorbeeld opleverde, staat
+        hieronder.</p>
+
+      <p>Wat er niet in zit is een oordeel. Ik zeg wat er ligt en wat er niet ligt; of die
+        wand eruit kan volgt uit een berekening en een opname ter plaatse.</p>
 
       <ul class="vb-lijst">
         <li class="vb-item">
@@ -458,6 +495,16 @@
 <footer class="foot">
   <div class="wrap foot-inner">
     <div><b>Cox Constructieadvies</b><div class="meta">Constructieberekeningen &amp; constructietekeningen &middot; heel Nederland</div></div>
+    <nav class="meta foot-nav" aria-label="Alle pagina's">
+      <a href="/">Home</a><br>
+      <a href="/#diensten">Diensten</a><br>
+      <a href="/bouwdossier/">Bouwdossier opvragen</a><br>
+      <a href="/legalisatie/">Legalisatie achteraf</a><br>
+      <a href="/kosten/">Kosten</a><br>
+      <a href="/projecten/">Projecten</a><br>
+      <a href="/faq/">Veelgestelde vragen</a><br>
+      <a href="/#werkwijze">Werkwijze</a>
+    </nav>
     <div class="meta">Rijksweg 44, 6581 EN Malden<br><a href="mailto:simon.cox@coxadvies.nl">simon.cox@coxadvies.nl</a><br><a href="tel:+31615902335">06 1590 2335</a><br><a href="/privacy/">Privacyverklaring</a><br><a href="https://www.linkedin.com/in/simonbcox/" target="_blank" rel="noopener">LinkedIn</a><br>KvK 86134191</div>
   </div>
 </footer>
