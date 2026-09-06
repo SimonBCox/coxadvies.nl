@@ -47,6 +47,16 @@
     border-radius:var(--r);box-shadow:var(--shadow)}
   .vb-beeld figcaption{margin-top:10px;font-size:.86rem;color:var(--muted)}
 
+  /* De dichtgeklapte gemeentelijst. */
+  .gemeenten{margin:0 0 12px;max-width:760px}
+  .gemeenten summary{cursor:pointer;font-weight:600;color:var(--accent);
+    padding:10px 0;list-style:none}
+  .gemeenten summary::-webkit-details-marker{display:none}
+  .gemeenten summary::before{content:"›";display:inline-block;margin-right:10px;
+    transition:transform .15s}
+  .gemeenten[open] summary::before{transform:rotate(90deg)}
+  .gemeenten > p{margin:4px 0 12px;color:var(--muted);font-size:.94rem}
+
   /* Gemeentetabel. Wordt door genereer_gemeentepaginas.py gevuld tussen de
      merktekens; met de hand wijzigen heeft geen zin. */
   .tabelwrap{overflow-x:auto;margin:0 0 10px}
@@ -255,10 +265,12 @@
         Ik doe dit voor u.</p>
 
       <!-- gemeenten:start -->
-      <p>Voor deze gemeenten heb ik de loketten uitgezocht en per
-        periode vastgelegd. In de laatste kolom staat of ik het dossier voor u
-        kan ophalen, of dat het loket alleen aan de eigenaar zelf levert.</p>
-      <div class="tabelwrap"><table class="gemeentetabel">
+      <p>Voor deze 25 gemeenten heb ik de loketten uitgezocht en per
+        periode vastgelegd, met de datum waarop ik ze nakeek.</p>
+      <details class="gemeenten"><summary>Alle 25 gemeenten en hun loket</summary>
+        <p>In de laatste kolom staat of ik het dossier voor u kan ophalen, of
+        dat het loket alleen aan de eigenaar zelf levert.</p>
+        <div class="tabelwrap"><table class="gemeentetabel">
         <thead><tr><th>Gemeente</th><th>Oudste loket</th><th>Kan ik dit doen?</th></tr></thead>
         <tbody><tr><td><a href="/bouwdossier/s-hertogenbosch/">'s-Hertogenbosch</a></td><td>Erfgoed 's-Hertogenbosch</td><td>ja</td></tr>
         <tr><td><a href="/bouwdossier/almere/">Almere</a></td><td>Stadsarchief Almere</td><td>niet op afstand</td></tr>
@@ -285,7 +297,8 @@
         <tr><td><a href="/bouwdossier/oosterhout/">Oosterhout</a></td><td>Regionaal Archief Tilburg</td><td>ja</td></tr>
         <tr><td><a href="/bouwdossier/tilburg/">Tilburg</a></td><td>gemeente Tilburg</td><td>ja</td></tr>
         <tr><td><a href="/bouwdossier/zevenaar/">Zevenaar</a></td><td>Omgevingsdienst Groene Metropool (ODGM)</td><td>ja</td></tr></tbody>
-      </table></div>
+        </table></div>
+      </details>
       <!-- gemeenten:eind -->
     </div>
   </section>
@@ -294,7 +307,7 @@
     <div class="wrap">
       <div class="sec-head">
         <p class="eyebrow">Een voorbeeld</p>
-        <h2>Wat u krijgt</h2>
+        <h2>Hoe zo'n dossier eruitziet</h2>
       </div>
       <p>Dit is een echt dossier, opgevraagd voor een rijtjeshuis uit 1963. Vier
         vergunningen, dertien documenten, achtentwintig pagina's, waarvan drie
@@ -307,55 +320,8 @@
           opzet geen letter leesbaar.</figcaption>
       </figure>
 
-      <p>Een dossier ophalen is het makkelijkste deel. Het lastige is weten waar het ligt,
-        en daarna weten waar u in die stapel naar moet kijken. Daarom bestaat wat u krijgt
-        uit drie delen.</p>
-
-      <p><b>Het archiefdossier.</b> De tekeningen en de vergunningen zoals het archief ze
-        heeft bewaard, en als u geluk heeft de constructieberekening erbij.</p>
-
-      <p><b>Het profiel van uw adres.</b> Alles wat er verder over dat ene adres in
-        openbare bronnen staat en constructief van belang kan zijn. Het bouwjaar, de
-        oppervlakte en of er meer woningen in hetzelfde pand zitten, uit de
-        Basisregistratie Adressen en Gebouwen. Het perceel met zijn oppervlakte, uit de
-        Kadastrale Kaart. De bodemeenheid onder het huis en de sonderingen in de omgeving
-        met hun diepte, uit de Basisregistratie Ondergrond. Het funderingsbeeld van de
-        buurt, uit de Klimaateffectatlas. En de luchtfoto van elk jaar sinds 2016, waarop
-        te zien is in welk jaar er aan het pand iets is veranderd.</p>
-
-      <p><b>De leeswijzer.</b> Wat er ligt, wat er ontbreekt en waar de constructieve
-        informatie in die stapel staat. Wat dat bij dit voorbeeld opleverde, staat
-        hieronder.</p>
-
-      <p>Wat er niet in zit is een oordeel. Ik zeg wat er ligt en wat er niet ligt; of die
-        wand eruit kan volgt uit een berekening en een opname ter plaatse.</p>
-
-      <ul class="vb-lijst">
-        <li class="vb-item">
-          <p class="vb-jaar">1963</p>
-          <p><b>Bouw van 6 woningen, 6 garages en 4 schuurtjes.</b> Vier tekeningen en een
-            constructiestuk van twaalf pagina's. Hierop staan de balklagen met hun richting
-            en hart-op-hart maten, de doorsnede en het funderingsplan.</p>
-        </li>
-        <li class="vb-item">
-          <p class="vb-jaar">1963</p>
-          <p><b>Aanleg van de huisriolering.</b> Eén tekening.</p>
-        </li>
-        <li class="vb-item">
-          <p class="vb-jaar">1964</p>
-          <p><b>Wijzigen van de dakkapellen.</b> Drie tekeningen en een berekening.</p>
-        </li>
-        <li class="vb-item">
-          <p class="vb-jaar">1974</p>
-          <p><b>Veranderen en uitbreiden van het woonhuis.</b> Twee tekeningen en een
-            berekening. Hierop staan het stalen profiel boven de opening, de raveelbalk,
-            de stijlen met hun onderlinge afstand en het funderingsdetail van de aanbouw
-            tegen de bestaande fundering aan.</p>
-        </li>
-      </ul>
-
-      <p>Bij die stukken krijgt u de leeswijzer. Daarin staat onder meer dit, en dat is
-        precies wat u zelf niet zou zien:</p>
+      <p>Bij die stukken krijgt u de leeswijzer. Daarin stond onder meer dit, en dat is
+        precies wat u in die stapel zelf niet zou zien:</p>
 
       <ul>
         <li>De vergunning van 1963 gaat niet over dit huis alleen maar over het hele blok,
@@ -370,8 +336,8 @@
       </ul>
 
       <p>De leeswijzer beschrijft wat er ligt en wat er ontbreekt. Hij beoordeelt niet:
-        welke wand dragend is en wat er weg kan volgt uit een berekening en een opname ter
-        plaatse, niet uit oude tekeningen.</p>
+        welke wand dragend is en wat er weg kan volgt uit een berekening op de maten en
+        de staat van het huis zoals het er nu bij staat, niet uit oude tekeningen.</p>
     </div>
   </section>
 
@@ -527,7 +493,7 @@
         garanderen dat het bouwdossier bestaat of compleet is; archieven hebben gaten, en soms
         is alleen het gevelaanzicht bewaard gebleven. En dit dossier bevat gegevens met hun
         bron en hun datum, geen oordeel over uw woning. Of die muur eruit kan, of uw fundering
-        het houdt, volgt uit een berekening en een opname ter plaatse. Dat is een aparte
+        het houdt, volgt uit een berekening op de huidige situatie. Dat is een aparte
         opdracht, en die maak ik graag voor u.</p>
     </div>
   </section>
