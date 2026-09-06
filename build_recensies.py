@@ -170,4 +170,14 @@ def main() -> int:
 
 
 if __name__ == "__main__":
+    # Een naam met een accent liet dit script klappen op de laatste printregel:
+    # de Windows-console staat op cp1252 en kan de c-caron uit Simocenko niet
+    # kwijt. De HTML zelf is altijd UTF-8 en was dus wel goed weggeschreven, maar
+    # het script eindigde op een traceback en een exitcode die suggereerde dat de
+    # build was mislukt. Vandaar dat de uitvoer hier expliciet op UTF-8 gaat.
+    for stroom in (sys.stdout, sys.stderr):
+        try:
+            stroom.reconfigure(encoding="utf-8", errors="replace")
+        except (AttributeError, ValueError):
+            pass  # omgeleide uitvoer die dit niet ondersteunt: dan maar zoals hij is
     sys.exit(main())
