@@ -104,6 +104,18 @@
     border-top:1px solid var(--line);font-size:.92rem;color:var(--muted)}
   .aw-uit a{color:var(--accent);font-weight:600}
 
+  /* Het voorbeelddossier: vier vergunningen onder elkaar, met het jaartal als anker.
+     Zelfde vorm als de periodelijst in de antwoordkaart, zodat de pagina niet nog een
+     derde manier krijgt om een reeks te tonen. */
+  .vb-lijst{list-style:none;display:grid;gap:20px;margin:22px 0 26px;padding:0;
+    max-width:62ch}
+  .vb-item{border-left:2px solid var(--line);padding-left:16px}
+  .vb-item p{margin:0}
+  .vb-jaar{font-size:.72rem;font-weight:700;letter-spacing:.12em;
+    color:var(--muted);margin-bottom:4px}
+  #voorbeeld ul:not(.vb-lijst){max-width:62ch;padding-left:20px}
+  #voorbeeld ul:not(.vb-lijst) li{margin-bottom:10px}
+
   /* De huisstijl maakt .sec-head p, .card p en .step p op, maar een losse alinea in een
      sectie krijgt niets: geen ruimte eronder en geen maximale regellengte. Vier alinea's
      achter elkaar werden daardoor één blok tekst van honderdvijftig tekens breed. */
@@ -211,6 +223,61 @@
       <p>Gemeenten zijn bovendien gefuseerd. Zoekt u op Lekkerkerk, dan valt dat tegenwoordig
         onder Krimpenerwaard, en de oude dossiers liggen bij het streekarchief in Gouda.
         Ik doe dit voor u.</p>
+    </div>
+  </section>
+
+  <section class="section" id="voorbeeld">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Een voorbeeld</p>
+        <h2>Wat er in zo'n dossier zit</h2>
+      </div>
+      <p>Dit is een echt dossier, opgevraagd voor een rijtjeshuis uit 1963. Het adres en
+        de namen staan er niet bij. Vier vergunningen, dertien documenten, waarvan drie
+        constructieberekeningen.</p>
+
+      <ul class="vb-lijst">
+        <li class="vb-item">
+          <p class="vb-jaar">1963</p>
+          <p><b>Bouw van 6 woningen, 6 garages en 4 schuurtjes.</b> Vier tekeningen en een
+            constructiestuk van twaalf pagina's. Hierop staan de balklagen met hun richting
+            en hart-op-hart maten, de doorsnede en het funderingsplan.</p>
+        </li>
+        <li class="vb-item">
+          <p class="vb-jaar">1963</p>
+          <p><b>Aanleg van de huisriolering.</b> Eén tekening.</p>
+        </li>
+        <li class="vb-item">
+          <p class="vb-jaar">1964</p>
+          <p><b>Wijzigen van de dakkapellen.</b> Drie tekeningen en een berekening.</p>
+        </li>
+        <li class="vb-item">
+          <p class="vb-jaar">1974</p>
+          <p><b>Veranderen en uitbreiden van het woonhuis.</b> Twee tekeningen en een
+            berekening. Hierop staan het stalen profiel boven de opening, de raveelbalk,
+            de stijlen met hun onderlinge afstand en het funderingsdetail van de aanbouw
+            tegen de bestaande fundering aan.</p>
+        </li>
+      </ul>
+
+      <p>Bij die stukken krijgt u de leeswijzer. Daarin staat onder meer dit, en dat is
+        precies wat u zelf niet zou zien:</p>
+
+      <ul>
+        <li>De vergunning van 1963 gaat niet over dit huis alleen maar over het hele blok,
+          en staat op de straatnaam zoals die toen heette. Die naam is inmiddels een
+          andere. Wie zelf zoekt op zijn eigen adres vindt daarom niets.</li>
+        <li>Het document dat in de archiefindex "constructieberekening" heet, begint met de
+          bemerkingenstaat van de gemeente: twaalf punten die vóór de vergunning moesten
+          worden aangepast. Op de tekening staan gordingen van 8 bij 18, in die lijst staat
+          8 bij 20. Wat er gebouwd is volgt dus uit de tekening plus die lijst.</li>
+        <li>Wat er niet in zit: de berekeningen van de betonnen balken en lateien, op één na,
+          en er is niets van na 1974.</li>
+      </ul>
+
+      <p>De leeswijzer beschrijft wat er ligt en wat er ontbreekt. Hij beoordeelt niet:
+        welke wand dragend is en wat er weg kan volgt uit een berekening en een opname ter
+        plaatse, niet uit oude tekeningen.</p>
     </div>
   </section>
 
