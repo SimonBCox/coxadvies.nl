@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Request received | Cox Constructieadvies</title>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://www.coxadvies.nl/en/thank-you/">
+<link rel="icon" type="image/png" href="/img/favicon.png">
+<link rel="apple-touch-icon" href="/img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,500;1,600&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+<style>
+  .stappen{margin:26px 0 0;padding:0;list-style:none;max-width:60ch}
+  .stappen li{position:relative;padding:0 0 18px 34px;border-left:1px solid var(--line);
+    margin-left:9px}
+  .stappen li:last-child{border-left-color:transparent;padding-bottom:0}
+  .stappen li::before{content:"";position:absolute;left:-6px;top:5px;width:11px;height:11px;
+    border-radius:50%;background:var(--accent)}
+  .stappen b{display:block}
+  .betaal{margin-top:28px;padding:22px clamp(18px,4vw,28px);background:var(--bg);
+    border:1px solid var(--line);border-radius:12px;max-width:60ch}
+  .betaal p{margin:0 0 14px}
+  .betaal .bedrag{font-size:1.5rem;font-weight:700;color:var(--navy)}
+</style>
+</head>
+<body id="top">
+
+<header class="nav-bar" id="navbar">
+  <div class="wrap nav-inner">
+    <a class="brand" href="/"><img src="/img/logo.png" alt="Cox Constructieadvies"></a>
+    <nav class="nav-links" aria-label="Menu">
+      <a href="/en/building-file/">Building files</a>
+      <a href="/bouwdossier/">Nederlands</a>
+    </nav>
+    <a class="btn" href="tel:+31615902335">+31 6 1590 2335</a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Request received</p>
+      <h1 class="visual-head" style="max-width:20ch">Your request is on the list.</h1>
+      <p class="lead" style="max-width:58ch">One step to go: the payment. Nothing is requested
+        from the archive until it has come in.</p>
+
+      <div class="betaal">
+        <p class="bedrag">&euro; 100 including VAT</p>
+        <!-- Zelfde betaalverzoek als op de Nederlandse bedankpagina. Vervalt 4 september
+             2028; vervang hem dan op beide pagina's. -->
+        <p><a class="btn" id="betaalknop" href="https://betaalverzoek.rabobank.nl/betaalverzoek/?id=6oxUH-R4RmmM9tU50YNJ4Q">Pay by iDEAL</a></p>
+        <p class="hero-hint" style="margin:0">iDEAL works with any Dutch bank account. No Dutch
+          account? Reply to the confirmation email and we will send you bank details instead.</p>
+      </div>
+
+      <ol class="stappen">
+        <li><b>We submit the request</b>at the counter that belongs to your address and the year
+          the permit was granted, on the day the payment comes in.</li>
+        <li><b>We keep track of it</b>and tell you if the archive stays quiet. How long it takes
+          differs per municipality, from a few days to a few weeks. That waiting time belongs to
+          the archive and not to us, so we do not promise a date.</li>
+        <li><b>You receive the file</b>digitally, with a reader's guide in English: which years
+          are in it, what is drawn on which sheet, and what is missing.</li>
+        <li><b>If the archive has nothing</b>, you get your money back. What is there may still
+          disappoint; sometimes only the front elevation survived. That is then the file, and
+          there is nothing we can do about it.</li>
+      </ol>
+
+      <p class="lead" style="max-width:58ch;margin-top:28px">Have us do the structural calculation
+        afterwards and this &euro; 100 is deducted from it.</p>
+
+      <div class="hero-cta">
+        <a class="btn btn-ghost" href="/en/building-file/">Back to the page</a>
+      </div>
+      <p class="hero-hint">Questions in the meantime? Call or write:
+        <a href="tel:+31615902335">+31 6 1590 2335</a>,
+        <a href="mailto:bouwdossier@coxadvies.nl">bouwdossier@coxadvies.nl</a>.</p>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-inner">
+    <div><b>Cox Constructieadvies</b><div class="meta">Structural calculations &amp; structural drawings &middot; the Netherlands</div></div>
+    <div class="meta">Rijksweg 44, 6581 EN Malden<br><a href="mailto:bouwdossier@coxadvies.nl">bouwdossier@coxadvies.nl</a><br><a href="tel:+31615902335">+31 6 1590 2335</a><br><a href="/privacy/">Privacy statement</a><br>Chamber of Commerce 86134191</div>
+  </div>
+</footer>
+
+<script>
+  var nav=document.getElementById('navbar');
+  var onScroll=function(){nav.classList.toggle('scrolled',window.scrollY>12)};
+  onScroll();window.addEventListener('scroll',onScroll,{passive:true});
+</script>
+</body>
+</html>
