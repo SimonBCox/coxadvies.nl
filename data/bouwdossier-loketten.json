@@ -750,8 +750,8 @@
      "tot": null,
      "geldt_voor": "",
      "loket": "gemeente Goirle",
-     "route": "wij-mail",
-     "wij": true,
+     "route": "duur",
+     "wij": false,
      "html": "<p><strong>gemeente Goirle</strong>, per mail bij <strong><a href=\"mailto:info@goirle.nl\">info@goirle.nl</a></strong> of via het contactformulier, tel. (013) 5310 610. Noem adres, bouwjaar, welke vergunning en waarvoor u de stukken nodig heeft. Stukken met persoonsgegevens komen er niet zonder meer uit. Tarieven 2026: archiefonderzoek € 17,30 en digitale bestanden € 29,85, dus samen bijna vijftig euro. Zie <a href=\"https://www.goirle.nl/bouwen-en-verbouwen/archief-vergunningen\" target=\"_blank\" rel=\"noopener\">https://www.goirle.nl/bouwen-en-verbouwen/archief-vergunningen</a>.</p>"
     },
     {
