@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Bouwdossier opvragen: waar vindt u de bouwtekening van uw huis? | Cox Constructieadvies</title>
-<meta name="description" content="Vul uw adres in. Ik zoek het bouwjaar op en laat zien bij welk archief of loket het bouwdossier van uw woning ligt, met de link erbij. Voor 25 gemeenten uitgezocht en gedateerd.">
+<meta name="description" content="Vul uw adres in. Ik zoek het bouwjaar op en laat zien bij welk archief of loket het bouwdossier van uw woning ligt, met de link erbij. Voor 139 gemeenten uitgezocht en gedateerd.">
 <link rel="canonical" href="https://www.coxadvies.nl/bouwdossier/">
 <link rel="alternate" hreflang="nl" href="https://www.coxadvies.nl/bouwdossier/">
 <link rel="alternate" hreflang="en" href="https://www.coxadvies.nl/en/building-file/">
@@ -60,6 +60,9 @@
   /* Gemeentetabel. Wordt door genereer_gemeentepaginas.py gevuld tussen de
      merktekens; met de hand wijzigen heeft geen zin. */
   .tabelwrap{overflow-x:auto;margin:0 0 10px}
+  /* De hele lijst openklappen duwt de rest van de pagina buiten beeld;
+     de lijst scrollt daarom in zichzelf. */
+  .gemeenten .tabelwrap{max-height:60vh;overflow-y:auto}
   .gemeentetabel{border-collapse:collapse;width:100%;max-width:760px;font-size:.95rem}
   .gemeentetabel th,.gemeentetabel td{text-align:left;padding:9px 14px 9px 0;
     border-bottom:1px solid var(--line);vertical-align:top}
@@ -100,7 +103,9 @@
 
   .aw-doen{padding:24px clamp(20px,4vw,34px) 26px}
   .aw-doen>p{max-width:58ch}
-  .aw-letop{border-left:3px solid var(--warm);background:var(--bg);
+  /* De kleur staat er expliciet bij. Zonder erft het blok de tekstkleur van zijn sectie,
+     en in de donkere cta-sectie werd dat lichtgrijs op de crème achtergrond: onleesbaar. */
+  .aw-letop{border-left:3px solid var(--warm);background:var(--bg);color:var(--ink);
     border-radius:0 10px 10px 0;padding:13px 17px;margin:0 0 18px;font-size:.95rem}
   .aw-actie{margin:18px 0 0}
   .aw-fijn{margin:14px 0 0;font-size:.92rem;color:var(--muted);max-width:60ch}
@@ -242,6 +247,158 @@
 
       <p class="sr" id="melding" role="status" aria-live="polite"></p>
       <div class="uitslag" id="uitslag" hidden></div>
+
+      <!-- gemeenten:start -->
+      <p>Van 139 gemeenten heb ik de loketten uitgezocht en per periode
+        vastgelegd, met de datum waarop ik ze nakeek. Staat de uwe er niet bij,
+        dan zeg ik dat.</p>
+      <details class="gemeenten"><summary>Alle 139 gemeenten en hun loket</summary>
+        <p>In de laatste kolom staat of ik het dossier voor u kan ophalen, of
+        dat het loket alleen aan de eigenaar zelf levert.</p>
+        <div class="tabelwrap"><table class="gemeentetabel">
+        <thead><tr><th>Gemeente</th><th>Oudste loket</th><th>Kan ik dit doen?</th></tr></thead>
+        <tbody><tr><td><a href="/bouwdossier/s-hertogenbosch/">'s-Hertogenbosch</a></td><td>Erfgoed 's-Hertogenbosch</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/aalten/">Aalten</a></td><td>Erfgoedcentrum Achterhoek en Liemers</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/almere/">Almere</a></td><td>Stadsarchief Almere</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/alphen-chaam/">Alphen-Chaam</a></td><td>Regionaal Archief Tilburg</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/altena/">Altena</a></td><td>zie de pagina</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/amersfoort/">Amersfoort</a></td><td>Archief Eemland</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/apeldoorn/">Apeldoorn</a></td><td>CODA Archief en Erfgoed</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/arnhem/">Arnhem</a></td><td>Gelders Archief</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/asten/">Asten</a></td><td>zie de pagina</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/baarle-nassau/">Baarle-Nassau</a></td><td>Regionaal Archief Tilburg</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/baarn/">Baarn</a></td><td>Archief Eemland</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/barneveld/">Barneveld</a></td><td>gemeentearchief Barneveld</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/berg-en-dal/">Berg en Dal</a></td><td>Regionaal Archief Nijmegen</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/bergeijk/">Bergeijk</a></td><td>zie de pagina</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/bergen-in-limburg/">Bergen in Limburg</a></td><td>gemeente Bergen</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/bergen-op-zoom/">Bergen op Zoom</a></td><td>West-Brabants Archief</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/berkelland/">Berkelland</a></td><td>gemeente Berkelland</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/bernheze/">Bernheze</a></td><td>zie de pagina</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/best/">Best</a></td><td>zie de pagina</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/beuningen/">Beuningen</a></td><td>Regionaal Archief Nijmegen</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/bladel/">Bladel</a></td><td>zie de pagina</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/boekel/">Boekel</a></td><td>zie de pagina</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/boxtel/">Boxtel</a></td><td>gemeente Boxtel</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/breda/">Breda</a></td><td>Stadsarchief Breda</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/bronckhorst/">Bronckhorst</a></td><td>Erfgoedcentrum Achterhoek en Liemers</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/brummen/">Brummen</a></td><td>Erfgoedcentrum Zutphen</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/bunnik/">Bunnik</a></td><td>Regionaal Archief Zuid-Utrecht</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/bunschoten/">Bunschoten</a></td><td>gemeente Bunschoten</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/buren/">Buren</a></td><td>Regionaal Archief Rivierenland</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/cranendonck/">Cranendonck</a></td><td>zie de pagina</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/culemborg/">Culemborg</a></td><td>Regionaal Archief Rivierenland</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/de-bilt/">De Bilt</a></td><td>Regionaal Archief Noordwest Utrecht</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/de-ronde-venen/">De Ronde Venen</a></td><td>Regionaal Archief Noordwest Utrecht</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/deurne/">Deurne</a></td><td>zie de pagina</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/doesburg/">Doesburg</a></td><td>gemeente Doesburg</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/doetinchem/">Doetinchem</a></td><td>Erfgoedcentrum Achterhoek en Liemers</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/dongen/">Dongen</a></td><td>Regionaal Archief Tilburg</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/drimmelen/">Drimmelen</a></td><td>gemeente Drimmelen</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/druten/">Druten</a></td><td>gemeente Druten</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/duiven/">Duiven</a></td><td>Streekarchivariaat de Liemers en Doesburg</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/ede/">Ede</a></td><td>Gemeentearchief Ede</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/eemnes/">Eemnes</a></td><td>Archief Eemland</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/eersel/">Eersel</a></td><td>zie de pagina</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/eindhoven/">Eindhoven</a></td><td>Regionaal Historisch Centrum Eindhoven</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/elburg/">Elburg</a></td><td>Noord-Veluws Archief</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/epe/">Epe</a></td><td>Noord-Veluws Archief</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/ermelo/">Ermelo</a></td><td>Noord-Veluws Archief</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/etten-leur/">Etten-Leur</a></td><td>West-Brabants Archief</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/geertruidenberg/">Geertruidenberg</a></td><td>Regionaal Archief Tilburg</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/geldrop-mierlo/">Geldrop-Mierlo</a></td><td>zie de pagina</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/gemert-bakel/">Gemert-Bakel</a></td><td>gemeentearchief Gemert-Bakel</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/gennep/">Gennep</a></td><td>zie de pagina</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/gilze-en-rijen/">Gilze en Rijen</a></td><td>Regionaal Archief Tilburg</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/goirle/">Goirle</a></td><td>Regionaal Archief Tilburg</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/halderberge/">Halderberge</a></td><td>West-Brabants Archief</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/harderwijk/">Harderwijk</a></td><td>Noord-Veluws Archief</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/hattem/">Hattem</a></td><td>Noord-Veluws Archief</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/heerde/">Heerde</a></td><td>Noord-Veluws Archief</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/heeze-leende/">Heeze-Leende</a></td><td>zie de pagina</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/helmond/">Helmond</a></td><td>Regionaal Historisch Centrum Eindhoven</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/heumen/">Heumen</a></td><td>Regionaal Archief Nijmegen</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/heusden/">Heusden</a></td><td>Streekarchief Langstraat Heusden Altena (SALHA)</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/hilvarenbeek/">Hilvarenbeek</a></td><td>Regionaal Archief Tilburg</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/houten/">Houten</a></td><td>gemeente Houten</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/ijsselstein/">IJsselstein</a></td><td>zie de pagina</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/krimpenerwaard/">Krimpenerwaard</a></td><td>Streekarchief Midden-Holland (SAMH)</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/laarbeek/">Laarbeek</a></td><td>zie de pagina</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/land-van-cuijk/">Land van Cuijk</a></td><td>Brabants Historisch Informatie Centrum</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/leusden/">Leusden</a></td><td>Archief Eemland</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/lingewaard/">Lingewaard</a></td><td>Regionaal Archief Nijmegen</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/lochem/">Lochem</a></td><td>Regionaal Archief Zutphen</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/loon-op-zand/">Loon op Zand</a></td><td>Regionaal Archief Tilburg</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/lopik/">Lopik</a></td><td>zie de pagina</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/maasdriel/">Maasdriel</a></td><td>Regionaal Archief Rivierenland</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/maashorst/">Maashorst</a></td><td>Brabants Historisch Informatie Centrum</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/meierijstad/">Meierijstad</a></td><td>Brabants Historisch Informatie Centrum</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/moerdijk/">Moerdijk</a></td><td>zie de pagina</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/montferland/">Montferland</a></td><td>gemeente Montferland</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/montfoort/">Montfoort</a></td><td>zie de pagina</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/mook-en-middelaar/">Mook en Middelaar</a></td><td>Regionaal Archief Nijmegen</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/neder-betuwe/">Neder-Betuwe</a></td><td>Regionaal Archief Rivierenland</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/nieuwegein/">Nieuwegein</a></td><td>Het Utrechts Archief</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/nijkerk/">Nijkerk</a></td><td>gemeente Nijkerk</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/nijmegen/">Nijmegen</a></td><td>Regionaal Archief Nijmegen</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/nuenen/">Nuenen</a></td><td>zie de pagina</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/nunspeet/">Nunspeet</a></td><td>Noord-Veluws Archief</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/oirschot/">Oirschot</a></td><td>zie de pagina</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/oisterwijk/">Oisterwijk</a></td><td>Regionaal Archief Tilburg</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/oldebroek/">Oldebroek</a></td><td>Noord-Veluws Archief</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/oost-gelre/">Oost Gelre</a></td><td>Erfgoedcentrum Achterhoek en Liemers</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/oosterhout/">Oosterhout</a></td><td>Regionaal Archief Tilburg</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/oss/">Oss</a></td><td>Brabants Historisch Informatie Centrum</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/oude-ijsselstreek/">Oude IJsselstreek</a></td><td>Erfgoedcentrum Achterhoek en Liemers</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/oudewater/">Oudewater</a></td><td>RHC Rijnstreek en Lopikerwaard</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/overbetuwe/">Overbetuwe</a></td><td>Gelders Archief</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/putten/">Putten</a></td><td>gemeente Putten</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/renkum/">Renkum</a></td><td>Gelders Archief</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/renswoude/">Renswoude</a></td><td>Archief Eemland</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/reusel-de-mierden/">Reusel-De Mierden</a></td><td>zie de pagina</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/rheden/">Rheden</a></td><td>Gelders Archief</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/rhenen/">Rhenen</a></td><td>Regionaal Archief Zuid-Utrecht</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/roosendaal/">Roosendaal</a></td><td>West-Brabants Archief</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/rozendaal/">Rozendaal</a></td><td>gemeente Rozendaal</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/rucphen/">Rucphen</a></td><td>zie de pagina</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/scherpenzeel/">Scherpenzeel</a></td><td>gemeente Scherpenzeel</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/sint-michielsgestel/">Sint-Michielsgestel</a></td><td>gemeente Sint-Michielsgestel</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/soest/">Soest</a></td><td>Archief Eemland</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/someren/">Someren</a></td><td>zie de pagina</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/son-en-breugel/">Son en Breugel</a></td><td>zie de pagina</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/steenbergen/">Steenbergen</a></td><td>West-Brabants Archief</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/stichtse-vecht/">Stichtse Vecht</a></td><td>zie de pagina</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/tiel/">Tiel</a></td><td>Regionaal Archief Rivierenland</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/tilburg/">Tilburg</a></td><td>gemeente Tilburg</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/utrecht/">Utrecht</a></td><td>Het Utrechts Archief</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/utrechtse-heuvelrug/">Utrechtse Heuvelrug</a></td><td>Regionaal Archief Zuid-Utrecht</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/valkenswaard/">Valkenswaard</a></td><td>zie de pagina</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/veenendaal/">Veenendaal</a></td><td>omgevingsloket van de gemeente Veenendaal</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/veldhoven/">Veldhoven</a></td><td>zie de pagina</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/venray/">Venray</a></td><td>gemeente Venray</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/vijfheerenlanden/">Vijfheerenlanden</a></td><td>gemeente Vijfheerenlanden</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/voorst/">Voorst</a></td><td>gemeente Voorst</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/vught/">Vught</a></td><td>zie de pagina</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/waalre/">Waalre</a></td><td>zie de pagina</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/waalwijk/">Waalwijk</a></td><td>Streekarchief Langstraat Heusden Altena</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/wageningen/">Wageningen</a></td><td>gemeentearchief Wageningen</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/west-betuwe/">West Betuwe</a></td><td>Regionaal Archief Rivierenland</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/west-maas-en-waal/">West Maas en Waal</a></td><td>Regionaal Archief Nijmegen</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/westervoort/">Westervoort</a></td><td>Streekarchivariaat de Liemers en Doesburg</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/wijchen/">Wijchen</a></td><td>Regionaal Archief Nijmegen</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/wijk-bij-duurstede/">Wijk bij Duurstede</a></td><td>gemeente Wijk bij Duurstede</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/winterswijk/">Winterswijk</a></td><td>Erfgoedcentrum Achterhoek en Liemers</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/woensdrecht/">Woensdrecht</a></td><td>West-Brabants Archief</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/woerden/">Woerden</a></td><td>Omgevingsdienst Midden-Holland</td><td>niet op afstand</td></tr>
+        <tr><td><a href="/bouwdossier/woudenberg/">Woudenberg</a></td><td>Archief Eemland</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/zaltbommel/">Zaltbommel</a></td><td>Regionaal Archief Rivierenland</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/zeist/">Zeist</a></td><td>gemeente Zeist</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/zevenaar/">Zevenaar</a></td><td>Omgevingsdienst Groene Metropool (ODGM)</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/zundert/">Zundert</a></td><td>zie de pagina</td><td>ja</td></tr>
+        <tr><td><a href="/bouwdossier/zutphen/">Zutphen</a></td><td>Regionaal Archief Zutphen</td><td>ja</td></tr></tbody>
+        </table></div>
+      </details>
+      <!-- gemeenten:eind -->
     </div>
   </section>
 
@@ -263,43 +420,6 @@
       <p>Gemeenten zijn bovendien gefuseerd. Zoekt u op Lekkerkerk, dan valt dat tegenwoordig
         onder Krimpenerwaard, en de oude dossiers liggen bij het streekarchief in Gouda.
         Ik doe dit voor u.</p>
-
-      <!-- gemeenten:start -->
-      <p>Voor deze 25 gemeenten heb ik de loketten uitgezocht en per
-        periode vastgelegd, met de datum waarop ik ze nakeek.</p>
-      <details class="gemeenten"><summary>Alle 25 gemeenten en hun loket</summary>
-        <p>In de laatste kolom staat of ik het dossier voor u kan ophalen, of
-        dat het loket alleen aan de eigenaar zelf levert.</p>
-        <div class="tabelwrap"><table class="gemeentetabel">
-        <thead><tr><th>Gemeente</th><th>Oudste loket</th><th>Kan ik dit doen?</th></tr></thead>
-        <tbody><tr><td><a href="/bouwdossier/s-hertogenbosch/">'s-Hertogenbosch</a></td><td>Erfgoed 's-Hertogenbosch</td><td>ja</td></tr>
-        <tr><td><a href="/bouwdossier/almere/">Almere</a></td><td>Stadsarchief Almere</td><td>niet op afstand</td></tr>
-        <tr><td><a href="/bouwdossier/alphen-chaam/">Alphen-Chaam</a></td><td>Regionaal Archief Tilburg</td><td>ja</td></tr>
-        <tr><td><a href="/bouwdossier/amersfoort/">Amersfoort</a></td><td>Archief Eemland</td><td>ja</td></tr>
-        <tr><td><a href="/bouwdossier/apeldoorn/">Apeldoorn</a></td><td>CODA Archief en Erfgoed</td><td>ja</td></tr>
-        <tr><td><a href="/bouwdossier/arnhem/">Arnhem</a></td><td>Gelders Archief</td><td>ja</td></tr>
-        <tr><td><a href="/bouwdossier/baarle-nassau/">Baarle-Nassau</a></td><td>Regionaal Archief Tilburg</td><td>ja</td></tr>
-        <tr><td><a href="/bouwdossier/breda/">Breda</a></td><td>Stadsarchief Breda</td><td>ja</td></tr>
-        <tr><td><a href="/bouwdossier/dongen/">Dongen</a></td><td>Regionaal Archief Tilburg</td><td>ja</td></tr>
-        <tr><td><a href="/bouwdossier/ede/">Ede</a></td><td>Gemeentearchief Ede</td><td>ja</td></tr>
-        <tr><td><a href="/bouwdossier/eindhoven/">Eindhoven</a></td><td>Regionaal Historisch Centrum Eindhoven</td><td>ja</td></tr>
-        <tr><td><a href="/bouwdossier/geertruidenberg/">Geertruidenberg</a></td><td>Regionaal Archief Tilburg</td><td>ja</td></tr>
-        <tr><td><a href="/bouwdossier/gennep/">Gennep</a></td><td>zie de pagina</td><td>ja</td></tr>
-        <tr><td><a href="/bouwdossier/gilze-en-rijen/">Gilze en Rijen</a></td><td>Regionaal Archief Tilburg</td><td>ja</td></tr>
-        <tr><td><a href="/bouwdossier/goirle/">Goirle</a></td><td>Regionaal Archief Tilburg</td><td>ja</td></tr>
-        <tr><td><a href="/bouwdossier/heumen/">Heumen</a></td><td>Regionaal Archief Nijmegen</td><td>ja</td></tr>
-        <tr><td><a href="/bouwdossier/heusden/">Heusden</a></td><td>Streekarchief Langstraat Heusden Altena (SALHA)</td><td>ja</td></tr>
-        <tr><td><a href="/bouwdossier/hilvarenbeek/">Hilvarenbeek</a></td><td>Regionaal Archief Tilburg</td><td>ja</td></tr>
-        <tr><td><a href="/bouwdossier/krimpenerwaard/">Krimpenerwaard</a></td><td>Streekarchief Midden-Holland (SAMH)</td><td>ja</td></tr>
-        <tr><td><a href="/bouwdossier/lingewaard/">Lingewaard</a></td><td>Regionaal Archief Nijmegen</td><td>ja</td></tr>
-        <tr><td><a href="/bouwdossier/nijmegen/">Nijmegen</a></td><td>Regionaal Archief Nijmegen</td><td>ja</td></tr>
-        <tr><td><a href="/bouwdossier/oisterwijk/">Oisterwijk</a></td><td>Regionaal Archief Tilburg</td><td>ja</td></tr>
-        <tr><td><a href="/bouwdossier/oosterhout/">Oosterhout</a></td><td>Regionaal Archief Tilburg</td><td>ja</td></tr>
-        <tr><td><a href="/bouwdossier/tilburg/">Tilburg</a></td><td>gemeente Tilburg</td><td>ja</td></tr>
-        <tr><td><a href="/bouwdossier/zevenaar/">Zevenaar</a></td><td>Omgevingsdienst Groene Metropool (ODGM)</td><td>ja</td></tr></tbody>
-        </table></div>
-      </details>
-      <!-- gemeenten:eind -->
     </div>
   </section>
 
@@ -702,11 +822,21 @@
       .then(function () { bezig = false; });
   }
 
+  /* PDOK noemt een gemeente soms anders dan wij: "Nuenen, Gerwen en Nederwetten" en
+     "Bergen (L)". Matcht de koptekst niet, dan kijken we naar de pdok-aliassen uit het
+     register. Zonder die stap krijgt de bezoeker "nog niet uitgezocht" terwijl het blok
+     er gewoon is. */
   function gemeenteUitRegister(naam) {
     if (!loketten) return null;
-    var g = null;
+    var zoek = String(naam).toLowerCase(), g = null;
     loketten.gemeenten.forEach(function (x) {
-      if (x.gemeente.toLowerCase() === String(naam).toLowerCase()) g = x;
+      if (g) return;
+      if (x.gemeente.toLowerCase() === zoek) g = x;
+      else if (x.pdok) {
+        x.pdok.forEach(function (a) {
+          if (!g && String(a).toLowerCase() === zoek) g = x;
+        });
+      }
     });
     return g;
   }
