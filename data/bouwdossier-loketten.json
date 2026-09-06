@@ -1,8 +1,67 @@
 {
  "bron": "documentatie/kennis/bestaande_bouw/gebouwendossiers.md",
  "let_op": "Gegenereerd door tools/website/genereer_loketten.py. Niet met de hand wijzigen.",
- "aantal": 11,
+ "aantal": 25,
  "gemeenten": [
+  {
+   "gemeente": "'s-Hertogenbosch",
+   "kernen": [
+    "Den Bosch",
+    "Rosmalen",
+    "Empel",
+    "Engelen",
+    "Nuland",
+    "Vinkel",
+    "Maasdonk"
+   ],
+   "gecheckt": "2026-09-06",
+   "route": "wij-zelfzoeken",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "kop": "1898 t/m 1980",
+     "van": 1898,
+     "tot": 1980,
+     "geldt_voor": "",
+     "loket": "Erfgoed 's-Hertogenbosch",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Erfgoed 's-Hertogenbosch</strong>, volledig en direct online in te zien op <a href=\"https://www.erfgoedshertogenbosch.nl/onderzoek/hulp-bij-onderzoek/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.erfgoedshertogenbosch.nl/onderzoek/hulp-bij-onderzoek/bouwdossiers</a>.</p>"
+    },
+    {
+     "kop": "1981 t/m 2012",
+     "van": 1981,
+     "tot": 2012,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p>ook bij Erfgoed 's-Hertogenbosch, maar afgeschermd om reden van privacy en auteursrecht. Tekeningen en berekeningen opvragen per mail bij <strong><a href=\"mailto:erfgoed@s-hertogenbosch.nl\">erfgoed@s-hertogenbosch.nl</a></strong>, tel. (073) 615 51 55.</p>"
+    },
+    {
+     "kop": "vanaf 2013",
+     "van": 2013,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente 's-Hertogenbosch",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente 's-Hertogenbosch</strong>, met het formulier op <a href=\"https://formulier.s-hertogenbosch.nl/opvragen-archiefgegevens/startpagina\" target=\"_blank\" rel=\"noopener\">https://formulier.s-hertogenbosch.nl/opvragen-archiefgegevens/startpagina</a>. Hieraan zijn kosten verbonden volgens de legesverordening; het bedrag staat in het formulier.</p>"
+    },
+    {
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p>Het archief dekt ook de voormalige gemeenten Rosmalen, Nuland en Maasdonk.</p>"
+    }
+   ]
+  },
   {
    "gemeente": "Almere",
    "kernen": [
@@ -41,6 +100,63 @@
    ]
   },
   {
+   "gemeente": "Alphen-Chaam",
+   "kernen": [
+    "Alphen",
+    "Chaam",
+    "Galder",
+    "Strijbeek",
+    "Ulicoten"
+   ],
+   "gecheckt": "2026-09-06",
+   "route": "wij-mail",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "<p>De twee kernen hebben een eigen reeks, want ze waren tot 1997 aparte gemeenten.</p>",
+   "perioden": [
+    {
+     "kop": "Alphen 1996 t/m 2011",
+     "van": 1996,
+     "tot": 2011,
+     "geldt_voor": "",
+     "loket": "Regionaal Archief Tilburg",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p><strong>Regionaal Archief Tilburg</strong>, digitaal beschikbaar. Kosteloos, scans binnen vijftien werkdagen, aanvragen bij <strong><a href=\"mailto:info@regionaalarchieftilburg.nl\">info@regionaalarchieftilburg.nl</a></strong>.</p>"
+    },
+    {
+     "kop": "Chaam 1941 t/m 2010",
+     "van": 1941,
+     "tot": 2010,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p>eveneens Regionaal Archief Tilburg, digitaal beschikbaar; oudere jaren komen op aanvraag.</p>"
+    },
+    {
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>daarna</strong>: <strong>gemeente Alphen-Chaam</strong>.</p>"
+    },
+    {
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p>Bron: <a href=\"https://www.regionaalarchieftilburg.nl/omgevingsvergunningen/\" target=\"_blank\" rel=\"noopener\">https://www.regionaalarchieftilburg.nl/omgevingsvergunningen/</a>.</p>"
+    }
+   ]
+  },
+  {
    "gemeente": "Amersfoort",
    "kernen": [
     "Amersfoort",
@@ -61,7 +177,7 @@
      "loket": "Archief Eemland",
      "route": "wij-mail",
      "wij": true,
-     "html": "<p><strong>Archief Eemland</strong>. Aanvragen per mail: <strong><a href=\"mailto:archiefeemland@amersfoort.nl\">archiefeemland@amersfoort.nl</a></strong>. Geef straat + huisnummer en zeg er expliciet bij wat je zoekt (plattegronden, constructietekeningen, constructieberekening, originele bouw of laatst vergunde toestand). Verwerkingstijd ongeveer <strong>vijf werkdagen</strong>. <strong>Kosteloos</strong>, ook digitaal; alleen bij een niet-gedigitaliseerd dossier met meer dan vijf scans worden kosten berekend. Tel. 033 469 5017, bezoek Het Eemhuis (3e verdieping), Eemplein 73. <a href=\"https://www.archiefeemland.nl/bronnen/bouwtekeningen/\" target=\"_blank\" rel=\"noopener\">https://www.archiefeemland.nl/bronnen/bouwtekeningen/</a></p><ul><li>Levert per vergunningnummer een complete set; oude fabrieksdossiers zitten er gewoon bij (2026DB13 kreeg 1967, 1989 en 2000 in één keer).<ul><li>Dossiers <strong>1979–2010</strong> zijn retrospectief vervangen (gescand, papier vernietigd), dus die zijn per definitie digitaal.</li></ul></li></ul>"
+     "html": "<p><strong>Archief Eemland</strong>. Aanvragen per mail: <strong><a href=\"mailto:archiefeemland@amersfoort.nl\">archiefeemland@amersfoort.nl</a></strong>. Geef straat + huisnummer en zeg er expliciet bij wat u zoekt (plattegronden, constructietekeningen, constructieberekening, originele bouw of laatst vergunde toestand). Verwerkingstijd ongeveer <strong>vijf werkdagen</strong>. <strong>Kosteloos</strong>, ook digitaal; alleen bij een niet-gedigitaliseerd dossier met meer dan vijf scans worden kosten berekend. Tel. 033 469 5017, bezoek Het Eemhuis (3e verdieping), Eemplein 73. <a href=\"https://www.archiefeemland.nl/bronnen/bouwtekeningen/\" target=\"_blank\" rel=\"noopener\">https://www.archiefeemland.nl/bronnen/bouwtekeningen/</a></p><ul><li>Levert per vergunningnummer een complete set; oude fabrieksdossiers zitten er gewoon bij (2026DB13 kreeg 1967, 1989 en 2000 in één keer).<ul><li>Dossiers <strong>1979–2010</strong> zijn retrospectief vervangen (gescand, papier vernietigd), dus die zijn per definitie digitaal.</li></ul></li></ul>"
     },
     {
      "kop": "vanaf oktober 2010",
@@ -82,6 +198,66 @@
      "route": "wij-mail",
      "wij": true,
      "html": "<p>Het commerciële tussenkanaal bouwarchief.nl heeft Amersfoort gepauzeerd; niet nodig ook, want het archief levert zelf gratis.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Apeldoorn",
+   "kernen": [
+    "Apeldoorn",
+    "Beekbergen",
+    "Loenen",
+    "Ugchelen",
+    "Hoenderloo",
+    "Klarenbeek",
+    "Uddel",
+    "Wenum-Wiesel"
+   ],
+   "gecheckt": "2026-09-06",
+   "route": "wij-mail",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "<p>Eén loket voor alle jaren, en dat is ongebruikelijk: <strong>CODA Archief</strong> haalt een recent dossier desgevraagd zelf bij de gemeente op, zodat u niet hoeft te wisselen van loket.</p>",
+   "perioden": [
+    {
+     "kop": "1906 t/m 2016",
+     "van": 1906,
+     "tot": 2016,
+     "geldt_voor": "",
+     "loket": "CODA Archief en Erfgoed",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p><strong>CODA Archief en Erfgoed</strong>, Vosselmanstraat 299. Aanvragen per mail bij <strong><a href=\"mailto:archief@coda-apeldoorn.nl\">archief@coda-apeldoorn.nl</a></strong>, antwoord binnen drie werkdagen. De vergunningen zijn gedigitaliseerd maar staan om reden van privacy en auteursrecht niet online; u krijgt ze na aanvraag. Van 1973 t/m 2000 bestaat alleen microfiche, wat de levering trager maakt. Vooraf is een bezoekersregistratie nodig.</p>"
+    },
+    {
+     "kop": "vanaf 2016",
+     "van": 2016,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p>CODA vraagt de omgevingsvergunning op uw verzoek op bij de gemeente Apeldoorn. Zelfde mailadres.</p>"
+    },
+    {
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p>Wat een scan kost, staat niet op de site.</p>"
+    },
+    {
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p>Bron: <a href=\"https://www.coda-apeldoorn.nl/nl/archief/bouwvergunningen\" target=\"_blank\" rel=\"noopener\">https://www.coda-apeldoorn.nl/nl/archief/bouwvergunningen</a>, tel. 055 526 85 68 (dinsdag t/m donderdag).</p>"
     }
    ]
   },
@@ -125,7 +301,7 @@
      "loket": "Omgevingsdienst Groene Metropool",
      "route": "wij-formulier",
      "wij": true,
-     "html": "<p><strong>Omgevingsdienst Groene Metropool</strong> (ODGM, voorheen ODRA), webformulier op <a href=\"https://www.odgroenemetropool.nl/bouwplannen-en-bouwtekeningen-inzien/\" target=\"_blank\" rel=\"noopener\">https://www.odgroenemetropool.nl/bouwplannen-en-bouwtekeningen-inzien/</a>, tel. regio Arnhem 026 - 377 1600. Hun eigen pagina noemt voor Arnhem \"vanaf 2015\"; de gemeentepagina verwijst vanaf okt 2012 al naar de omgevingsdienst. Voor 2012-2014 dus bij beide loketten kunnen uitkomen; begin bij ODGM en laat je doorverwijzen.</p>"
+     "html": "<p><strong>Omgevingsdienst Groene Metropool</strong> (ODGM, voorheen ODRA), webformulier op <a href=\"https://www.odgroenemetropool.nl/bouwplannen-en-bouwtekeningen-inzien/\" target=\"_blank\" rel=\"noopener\">https://www.odgroenemetropool.nl/bouwplannen-en-bouwtekeningen-inzien/</a>, tel. regio Arnhem 026 - 377 1600. Hun eigen pagina noemt voor Arnhem \"vanaf 2015\"; de gemeentepagina verwijst vanaf okt 2012 al naar de omgevingsdienst. Voor 2012-2014 dus bij beide loketten kunnen uitkomen; begin bij ODGM en laat u doorverwijzen.</p>"
     },
     {
      "kop": "",
@@ -136,6 +312,146 @@
      "route": "onbekend",
      "wij": false,
      "html": "<p>Dossiers bevatten volgens de gemeentepagina ook constructieberekeningen. Bij dossiers jonger dan 5 jaar worden contactgegevens en kosten afgeschermd, en sommige dossiers vragen toestemming van de eigenaar.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Baarle-Nassau",
+   "kernen": [
+    "Baarle-Nassau",
+    "Ulicoten",
+    "Castelre"
+   ],
+   "gecheckt": "2026-09-06",
+   "route": "wij-mail",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "kop": "1914 t/m 2010",
+     "van": 1914,
+     "tot": 2010,
+     "geldt_voor": "",
+     "loket": "Regionaal Archief Tilburg",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p><strong>Regionaal Archief Tilburg</strong>, digitaal beschikbaar. Kosteloos, scans binnen vijftien werkdagen, aanvragen bij <strong><a href=\"mailto:info@regionaalarchieftilburg.nl\">info@regionaalarchieftilburg.nl</a></strong>.</p>"
+    },
+    {
+     "kop": "vanaf 2011",
+     "van": 2011,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Baarle-Nassau",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Baarle-Nassau</strong>.</p>"
+    },
+    {
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p>Bron: <a href=\"https://www.regionaalarchieftilburg.nl/omgevingsvergunningen/\" target=\"_blank\" rel=\"noopener\">https://www.regionaalarchieftilburg.nl/omgevingsvergunningen/</a>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Breda",
+   "kernen": [
+    "Breda",
+    "Prinsenbeek",
+    "Ulvenhout",
+    "Bavel",
+    "Teteringen",
+    "Princenhage",
+    "Ginneken"
+   ],
+   "gecheckt": "2026-09-06",
+   "route": "wij-zelfzoeken",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "<p>Breda is een van de weinige gemeenten waar vrijwel het hele archief zonder tussenkomst te raadplegen is. In 2025 zijn 850.000 dossiers in een publiek portaal gezet.</p>",
+   "perioden": [
+    {
+     "kop": "t/m 2013",
+     "van": null,
+     "tot": 2013,
+     "geldt_voor": "",
+     "loket": "Stadsarchief Breda",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Stadsarchief Breda</strong>, direct online in te zien via het publieksportaal <a href=\"https://archief.stadsarchiefbreda.nl/vergunningen\" target=\"_blank\" rel=\"noopener\">https://archief.stadsarchiefbreda.nl/vergunningen</a>. Kosteloos. Panden met een veiligheidsrisico, zoals politiebureaus en het stadhuis, zijn afgeschermd.</p>"
+    },
+    {
+     "kop": "vanaf 2014 en lopende vergunningen",
+     "van": 2014,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Breda",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Breda</strong>, met een digitaal formulier op <a href=\"https://www.breda.nl/bouwdossier-inzien\" target=\"_blank\" rel=\"noopener\">https://www.breda.nl/bouwdossier-inzien</a>. Handig om bij de hand te hebben: het zaaknummer in de vorm Z plus jaartal plus zes cijfers, anders straat en huisnummer.</p>"
+    },
+    {
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p>Bron: <a href=\"https://www.breda.nl/bouwdossier-en-omgevingsvergunning-inzien\" target=\"_blank\" rel=\"noopener\">https://www.breda.nl/bouwdossier-en-omgevingsvergunning-inzien</a>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Dongen",
+   "kernen": [
+    "Dongen",
+    "'s Gravenmoer",
+    "Klein Dongen",
+    "Vaart"
+   ],
+   "gecheckt": "2026-09-06",
+   "route": "wij-mail",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "kop": "1902 t/m 2009",
+     "van": 1902,
+     "tot": 2009,
+     "geldt_voor": "",
+     "loket": "Regionaal Archief Tilburg",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p><strong>Regionaal Archief Tilburg</strong>, digitaal beschikbaar. Kosteloos, scans binnen vijftien werkdagen, aanvragen bij <strong><a href=\"mailto:info@regionaalarchieftilburg.nl\">info@regionaalarchieftilburg.nl</a></strong>.</p>"
+    },
+    {
+     "kop": "vanaf 2010",
+     "van": 2010,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Dongen",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Dongen</strong>.</p>"
+    },
+    {
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p>Bron: <a href=\"https://www.regionaalarchieftilburg.nl/omgevingsvergunningen/\" target=\"_blank\" rel=\"noopener\">https://www.regionaalarchieftilburg.nl/omgevingsvergunningen/</a>.</p>"
     }
    ]
   },
@@ -186,7 +502,7 @@
      "loket": "",
      "route": "wij-zelfzoeken",
      "wij": true,
-     "html": "<p><strong>Bestellen.</strong> Vind je zelf het dossiernummer in een van die twee viewers, dan is de digitale levering <strong>gratis</strong> via het aanvraagformulier op ede.nl. Laat je het archief zoeken, dan kost het <strong>€ 18,85 per adres</strong>, te betalen met iDEAL. Levering in beide gevallen binnen 5 werkdagen. Route: <a href=\"https://www.ede.nl/aanvragen-en-regelen/verleende-vergunningen-inzien-en-opvragen/\" target=\"_blank\" rel=\"noopener\">https://www.ede.nl/aanvragen-en-regelen/verleende-vergunningen-inzien-en-opvragen/</a>, of de archivaris via tel. 14 0318.</p>"
+     "html": "<p><strong>Bestellen.</strong> Vindt u zelf het dossiernummer in een van die twee viewers, dan is de digitale levering <strong>gratis</strong> via het aanvraagformulier op ede.nl. Laat u het archief zoeken, dan kost het <strong>€ 18,85 per adres</strong>, te betalen met iDEAL. Levering in beide gevallen binnen 5 werkdagen. Route: <a href=\"https://www.ede.nl/aanvragen-en-regelen/verleende-vergunningen-inzien-en-opvragen/\" target=\"_blank\" rel=\"noopener\">https://www.ede.nl/aanvragen-en-regelen/verleende-vergunningen-inzien-en-opvragen/</a>, of de archivaris via tel. 14 0318.</p>"
     },
     {
      "kop": "",
@@ -207,6 +523,109 @@
      "route": "wij-zelfzoeken",
      "wij": true,
      "html": "<p>Zoek dus altijd eerst zelf het nummer op: dat scheelt € 18,85 en een wachtronde.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Eindhoven",
+   "kernen": [
+    "Woensel",
+    "Strijp",
+    "Stratum",
+    "Gestel",
+    "Tongelre",
+    "Acht"
+   ],
+   "gecheckt": "2026-09-06",
+   "route": "onbekend",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "kop": "t/m 1988",
+     "van": null,
+     "tot": 1988,
+     "geldt_voor": "",
+     "loket": "Regionaal Historisch Centrum Eindhoven",
+     "route": "wij-formulier",
+     "wij": true,
+     "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), Raiffeisenstraat 18. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, zonder inloggen. Tel. (040) 264 99 40, op werkdagen van 08:30 tot 17:00.</p>"
+    },
+    {
+     "kop": "vanaf 1989",
+     "van": 1989,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Eindhoven",
+     "route": "digid",
+     "wij": false,
+     "html": "<p><strong>gemeente Eindhoven</strong>. Alleen online in te zien na inloggen met DigiD of eHerkenning, dus dit is een periode die de eigenaar zelf moet doen. Kosten € 34 per dossier, levering binnen vijf werkdagen via beveiligde mail; de factuur volgt ongeveer twee weken later. Wie geen van beide heeft, maakt een afspraak via <a href=\"mailto:vergunningen@eindhoven.nl.\">vergunningen@eindhoven.nl.</a></p>"
+    },
+    {
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p>Het RHCe beheert de bouwdossiers van twintig gemeenten in Zuidoost-Brabant, waaronder Helmond, Veldhoven, Nuenen, Best, Geldrop-Mierlo, Deurne en Valkenswaard. De jaargrens verschilt per gemeente en staat per gemeente op de site van het archief.</p>"
+    },
+    {
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p>Bronnen: <a href=\"https://www.eindhoven.nl/bouwen/vergunningen/bouwdossier-opvragen\" target=\"_blank\" rel=\"noopener\">https://www.eindhoven.nl/bouwen/vergunningen/bouwdossier-opvragen</a> en <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Geertruidenberg",
+   "kernen": [
+    "Geertruidenberg",
+    "Raamsdonk",
+    "Raamsdonksveer"
+   ],
+   "gecheckt": "2026-09-06",
+   "route": "wij-mail",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "kop": "1905 t/m 1997",
+     "van": 1905,
+     "tot": 1997,
+     "geldt_voor": "",
+     "loket": "Regionaal Archief Tilburg",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p><strong>Regionaal Archief Tilburg</strong>, digitaal op te vragen. Kosteloos, scans binnen vijftien werkdagen, aanvragen bij <strong><a href=\"mailto:info@regionaalarchieftilburg.nl\">info@regionaalarchieftilburg.nl</a></strong>.</p>"
+    },
+    {
+     "kop": "vanaf 1998",
+     "van": 1998,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Geertruidenberg",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Geertruidenberg</strong>.</p>"
+    },
+    {
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p>Bron: <a href=\"https://www.regionaalarchieftilburg.nl/omgevingsvergunningen/\" target=\"_blank\" rel=\"noopener\">https://www.regionaalarchieftilburg.nl/omgevingsvergunningen/</a>.</p>"
     }
    ]
   },
@@ -233,7 +652,7 @@
      "loket": "",
      "route": "wij-mail",
      "wij": true,
-     "html": "<p>Alleen de <strong>inventaris</strong> is gedigitaliseerd (via Erfgoed Maas en Niers); de dossiers zelf inzien = afspraak op het gemeentekantoor of aanvraag per mail: <strong><a href=\"mailto:archief@gennep.nl\">archief@gennep.nl</a></strong>. Zie <a href=\"https://www.gennep.nl/bouwtekeningen-opvragen\" target=\"_blank\" rel=\"noopener\">https://www.gennep.nl/bouwtekeningen-opvragen</a>.</p>"
+     "html": "<p>Alleen de <strong>inventaris</strong> is gedigitaliseerd, via Erfgoed Maas en Niers. De dossiers zelf inziet u op afspraak op het gemeentekantoor, of u vraagt ze per mail aan bij <strong><a href=\"mailto:archief@gennep.nl\">archief@gennep.nl</a></strong>. Zie <a href=\"https://www.gennep.nl/bouwtekeningen-opvragen\" target=\"_blank\" rel=\"noopener\">https://www.gennep.nl/bouwtekeningen-opvragen</a>.</p>"
     },
     {
      "kop": "",
@@ -243,7 +662,7 @@
      "loket": "",
      "route": "wij-mail",
      "wij": true,
-     "html": "<p>Gratis als je zelf de inventaris doorzoekt en een medewerker de stukken klaarlegt.</p>"
+     "html": "<p>Kosteloos als u zelf de inventaris doorzoekt en een medewerker de stukken klaarlegt.</p>"
     },
     {
      "kop": "",
@@ -254,6 +673,96 @@
      "route": "wij-mail",
      "wij": true,
      "html": "<p>Alleen vergunde bouwwerken zitten in het archief.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Gilze en Rijen",
+   "kernen": [
+    "Gilze",
+    "Rijen",
+    "Molenschot",
+    "Hulten"
+   ],
+   "gecheckt": "2026-09-06",
+   "route": "wij-mail",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "kop": "1905 t/m 2010",
+     "van": 1905,
+     "tot": 2010,
+     "geldt_voor": "",
+     "loket": "Regionaal Archief Tilburg",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p><strong>Regionaal Archief Tilburg</strong>, digitaal beschikbaar. Kosteloos, scans binnen vijftien werkdagen, aanvragen bij <strong><a href=\"mailto:info@regionaalarchieftilburg.nl\">info@regionaalarchieftilburg.nl</a></strong>.</p>"
+    },
+    {
+     "kop": "vanaf 2011",
+     "van": 2011,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Gilze en Rijen",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Gilze en Rijen</strong>.</p>"
+    },
+    {
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p>Bron: <a href=\"https://www.regionaalarchieftilburg.nl/omgevingsvergunningen/\" target=\"_blank\" rel=\"noopener\">https://www.regionaalarchieftilburg.nl/omgevingsvergunningen/</a>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Goirle",
+   "kernen": [
+    "Goirle",
+    "Riel"
+   ],
+   "gecheckt": "2026-09-06",
+   "route": "wij-mail",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "kop": "1905 t/m 1993",
+     "van": 1905,
+     "tot": 1993,
+     "geldt_voor": "",
+     "loket": "Regionaal Archief Tilburg",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p><strong>Regionaal Archief Tilburg</strong>, op aanvraag. Kosteloos, scans binnen vijftien werkdagen, aanvragen bij <strong><a href=\"mailto:info@regionaalarchieftilburg.nl\">info@regionaalarchieftilburg.nl</a></strong>. Anders dan bij de buurgemeenten staat deze reeks niet in het digitale portaal.</p>"
+    },
+    {
+     "kop": "vanaf 1994",
+     "van": 1994,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Goirle",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Goirle</strong>.</p>"
+    },
+    {
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p>Bron: <a href=\"https://www.regionaalarchieftilburg.nl/omgevingsvergunningen/\" target=\"_blank\" rel=\"noopener\">https://www.regionaalarchieftilburg.nl/omgevingsvergunningen/</a>.</p>"
     }
    ]
   },
@@ -289,7 +798,7 @@
      "loket": "gemeente Heumen",
      "route": "wij-mail",
      "wij": true,
-     "html": "<p><strong>gemeente Heumen</strong>, <a href=\"mailto:bml@heumen.nl\">bml@heumen.nl</a>, tel. 14 024. De gemeentepagina noemt op één plek ook <a href=\"mailto:bouwloket@heumen.nl\">bouwloket@heumen.nl</a> en \"2011 t/m 2018\"; begin bij bml@ en laat je zo nodig doorverwijzen. Levering per mail; voor archiefdossiers kunnen kosten gelden. Benoem welke stukken je wilt (plattegronden, gevels, doorsneden, constructieberekening).</p>"
+     "html": "<p><strong>gemeente Heumen</strong>, <a href=\"mailto:bml@heumen.nl\">bml@heumen.nl</a>, tel. 14 024. De gemeentepagina noemt op één plek ook <a href=\"mailto:bouwloket@heumen.nl\">bouwloket@heumen.nl</a> en \"2011 t/m 2018\"; begin bij bml@ en laat u zo nodig doorverwijzen. Levering per mail; voor archiefdossiers kunnen kosten gelden. Benoem welke stukken u wilt (plattegronden, gevels, doorsneden, constructieberekening).</p>"
     },
     {
      "kop": "Vanaf 2018",
@@ -339,7 +848,7 @@
      "loket": "Streekarchief Langstraat Heusden Altena (SALHA)",
      "route": "wij-zelfzoeken",
      "wij": true,
-     "html": "<p><strong>Streekarchief Langstraat Heusden Altena (SALHA)</strong>. Het hele bouwdossierbestand van de kernen Heusden, Vlijmen en Drunen (30.221 dossiers) is in 2023 gescand en staat als pdf online. Op adres doorzoekbaar via <a href=\"https://salha.nl/bronnen/bouwtekeningen\" target=\"_blank\" rel=\"noopener\">https://salha.nl/bronnen/bouwtekeningen</a> (JavaScript-app, en de site weigert). Zoeken doe je op straatnaam in het veld Adres; huisnummer mag, maar een oud dossier staat soms onder een afwijkende nummering, dus begin breed. Welke kernen en jaren er precies in zitten staat in het <a href=\"https://salha.nl/bronnen/bouwtekeningen/overzicht-beschikbare-bouwvergunningen\" target=\"_blank\" rel=\"noopener\">https://salha.nl/bronnen/bouwtekeningen/overzicht-beschikbare-bouwvergunningen</a>. <a href=\"mailto:info@salha.nl\">info@salha.nl</a>, (0416) 66 19 01.</p>"
+     "html": "<p><strong>Streekarchief Langstraat Heusden Altena (SALHA)</strong>. Het hele bouwdossierbestand van de kernen Heusden, Vlijmen en Drunen (30.221 dossiers) is in 2023 gescand en staat als pdf online. Op adres doorzoekbaar via <a href=\"https://salha.nl/bronnen/bouwtekeningen\" target=\"_blank\" rel=\"noopener\">https://salha.nl/bronnen/bouwtekeningen</a>. Zoeken gaat op straatnaam in het veld Adres; huisnummer mag, maar een oud dossier staat soms onder een afwijkende nummering, dus begin breed. Welke kernen en jaren er precies in zitten staat in het <a href=\"https://salha.nl/bronnen/bouwtekeningen/overzicht-beschikbare-bouwvergunningen\" target=\"_blank\" rel=\"noopener\">https://salha.nl/bronnen/bouwtekeningen/overzicht-beschikbare-bouwvergunningen</a>. <a href=\"mailto:info@salha.nl\">info@salha.nl</a>, (0416) 66 19 01.</p>"
     },
     {
      "kop": "Vanaf 2003",
@@ -360,6 +869,64 @@
      "route": "wij-zelfzoeken",
      "wij": true,
      "html": "<p>Anders dan bij SAMH Gouda hoeft er niets ter plaatse besteld te worden: de scans zijn direct te downloaden. Dit is dus het eerste loket bij elk pand in deze gemeente, vóór je de klant om foto's van zijn eigen tekeningen vraagt.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Hilvarenbeek",
+   "kernen": [
+    "Hilvarenbeek",
+    "Diessen",
+    "Esbeek",
+    "Baarschot",
+    "Biest-Houtakker",
+    "Haghorst"
+   ],
+   "gecheckt": "2026-09-06",
+   "route": "wij-mail",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "kop": "1907 t/m 2010",
+     "van": 1907,
+     "tot": 2010,
+     "geldt_voor": "",
+     "loket": "Regionaal Archief Tilburg",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p><strong>Regionaal Archief Tilburg</strong>, deels digitaal; wat er niet in staat komt op aanvraag. Kosteloos, scans binnen vijftien werkdagen, aanvragen bij <strong><a href=\"mailto:info@regionaalarchieftilburg.nl\">info@regionaalarchieftilburg.nl</a></strong>.</p>"
+    },
+    {
+     "kop": "Diessen 1915 t/m 1996",
+     "van": 1915,
+     "tot": 1996,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p>aparte reeks bij hetzelfde archief, digitaal beschikbaar.</p>"
+    },
+    {
+     "kop": "Diessen vanaf 1997 en Hilvarenbeek vanaf 2011",
+     "van": 2011,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Hilvarenbeek",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Hilvarenbeek</strong>.</p>"
+    },
+    {
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p>Bron: <a href=\"https://www.regionaalarchieftilburg.nl/omgevingsvergunningen/\" target=\"_blank\" rel=\"noopener\">https://www.regionaalarchieftilburg.nl/omgevingsvergunningen/</a>.</p>"
     }
    ]
   },
@@ -438,14 +1005,14 @@
      "html": "<p>(voormalige gemeenten Huissen, Bemmel en Gendt): <strong>Regionaal Archief Nijmegen</strong>, op adres doorzoekbaar via de Digitale Studiezaal: <a href=\"https://studiezaal.nijmegen.nl/bouwvergunningen\" target=\"_blank\" rel=\"noopener\">https://studiezaal.nijmegen.nl/bouwvergunningen</a> (scans deels online). Contact: <a href=\"mailto:hetarchief@nijmegen.nl\">hetarchief@nijmegen.nl</a>, (024) 329 23 07.</p>"
     },
     {
-     "kop": "2001–2014",
+     "kop": "2001–2015",
      "van": 2001,
-     "tot": 2014,
+     "tot": 2015,
      "geldt_voor": "",
      "loket": "gemeente Lingewaard",
-     "route": "onbekend",
+     "route": "digid",
      "wij": false,
-     "html": "<p>opvragen bij <strong>gemeente Lingewaard</strong>, dossiers 2001–2015 online in te zien met DigiD via <a href=\"https://www.lingewaard.nl/bouwplannen-en-bouwtekeningen-bekijken\" target=\"_blank\" rel=\"noopener\">https://www.lingewaard.nl/bouwplannen-en-bouwtekeningen-bekijken</a>.</p>"
+     "html": "<p><strong>gemeente Lingewaard</strong>. Alleen online in te zien na inloggen met DigiD of eHerkenning, via <a href=\"https://www.lingewaard.nl/bouwplannen-en-bouwtekeningen-bekijken\" target=\"_blank\" rel=\"noopener\">https://www.lingewaard.nl/bouwplannen-en-bouwtekeningen-bekijken</a>. De gemeentepagina noemt geen mail- of formulierroute, dus dit is een periode die de eigenaar zelf moet doen.</p>"
     },
     {
      "kop": "vanaf 2015",
@@ -487,9 +1054,9 @@
      "tot": 2023,
      "geldt_voor": "",
      "loket": "Regionaal Archief Nijmegen",
-     "route": "wij-mail",
+     "route": "wij-zelfzoeken",
      "wij": true,
-     "html": "<p><strong>Regionaal Archief Nijmegen</strong>, <a href=\"mailto:hetarchief@nijmegen.nl\">hetarchief@nijmegen.nl</a>, (024) 329 23 07, <a href=\"https://regionaalarchiefnijmegen.nl\" target=\"_blank\" rel=\"noopener\">https://regionaalarchiefnijmegen.nl</a>.</p>"
+     "html": "<p><strong>Regionaal Archief Nijmegen</strong>. In de praktijk gaat dit via het Digitaal Gebouwenarchief hierboven: daar zoekt u op adres, vinkt u de gewenste stukken aan en komt de downloadlink gratis per mail. Lukt dat niet, dan per mail: <a href=\"mailto:hetarchief@nijmegen.nl\">hetarchief@nijmegen.nl</a>, (024) 329 23 07, <a href=\"https://regionaalarchiefnijmegen.nl\" target=\"_blank\" rel=\"noopener\">https://regionaalarchiefnijmegen.nl</a>.</p>"
     },
     {
      "kop": "vanaf 1-1-2024",
@@ -500,6 +1067,164 @@
      "route": "wij-formulier",
      "wij": true,
      "html": "<p><strong>gemeente Nijmegen</strong> zelf, tel. 14 024, contactformulier <a href=\"https://formulier.nijmegen.nl/contactformulier/startpagina/\" target=\"_blank\" rel=\"noopener\">https://formulier.nijmegen.nl/contactformulier/startpagina/</a>. Zie <a href=\"https://www.nijmegen.nl/diensten/bouwen/opvragen-bouw-of-sloopplan/\" target=\"_blank\" rel=\"noopener\">https://www.nijmegen.nl/diensten/bouwen/opvragen-bouw-of-sloopplan/</a>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Oisterwijk",
+   "kernen": [
+    "Oisterwijk",
+    "Moergestel",
+    "Haaren",
+    "Heukelom"
+   ],
+   "gecheckt": "2026-09-06",
+   "route": "wij-mail",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "<p>Let op de herindeling van 2021: Haaren is toen bij Oisterwijk gevoegd en heeft in het archief een eigen reeks met een andere jaargrens.</p>",
+   "perioden": [
+    {
+     "kop": "Oisterwijk 1901 t/m 1996",
+     "van": 1901,
+     "tot": 1996,
+     "geldt_voor": "",
+     "loket": "Regionaal Archief Tilburg",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p><strong>Regionaal Archief Tilburg</strong>, digitaal beschikbaar. Kosteloos, scans binnen vijftien werkdagen, aanvragen bij <strong><a href=\"mailto:info@regionaalarchieftilburg.nl\">info@regionaalarchieftilburg.nl</a></strong>.</p>"
+    },
+    {
+     "kop": "Haaren 1902 t/m 2016",
+     "van": 1902,
+     "tot": 2016,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p>eveneens Regionaal Archief Tilburg, digitaal beschikbaar.</p>"
+    },
+    {
+     "kop": "Oisterwijk vanaf 1997 en Haaren vanaf 2017",
+     "van": 2017,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Oisterwijk",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Oisterwijk</strong>.</p>"
+    },
+    {
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p>Bron: <a href=\"https://www.regionaalarchieftilburg.nl/omgevingsvergunningen/\" target=\"_blank\" rel=\"noopener\">https://www.regionaalarchieftilburg.nl/omgevingsvergunningen/</a>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Oosterhout",
+   "kernen": [
+    "Oosterhout",
+    "Oosteind",
+    "Den Hout",
+    "Dorst"
+   ],
+   "gecheckt": "2026-09-06",
+   "route": "wij-mail",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "kop": "1905 t/m 2010",
+     "van": 1905,
+     "tot": 2010,
+     "geldt_voor": "",
+     "loket": "Regionaal Archief Tilburg",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p><strong>Regionaal Archief Tilburg</strong>, digitaal beschikbaar. Kosteloos; de scans komen versleuteld binnen vijftien werkdagen. Aanvragen bij <strong><a href=\"mailto:info@regionaalarchieftilburg.nl\">info@regionaalarchieftilburg.nl</a></strong> met straat, huisnummer en plaats, of zelf zoeken in het bouwdossierportaal van het archief.</p>"
+    },
+    {
+     "kop": "vanaf 2011",
+     "van": 2011,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Oosterhout",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Oosterhout</strong>.</p>"
+    },
+    {
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p>Bron: <a href=\"https://www.regionaalarchieftilburg.nl/omgevingsvergunningen/\" target=\"_blank\" rel=\"noopener\">https://www.regionaalarchieftilburg.nl/omgevingsvergunningen/</a>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Tilburg",
+   "kernen": [
+    "Tilburg",
+    "Berkel-Enschot",
+    "Udenhout",
+    "Biezenmortel"
+   ],
+   "gecheckt": "2026-09-06",
+   "route": "onbekend",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "kop": "vanaf 1906",
+     "van": 1906,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Tilburg",
+     "route": "digid",
+     "wij": false,
+     "html": "<p><strong>gemeente Tilburg</strong>, met een eigen archiefportaal dat vergunningen, meldingen, tekeningen en documenten bevat. Kosteloos, maar u logt in met DigiD of eHerkenning, en er is een apart portaal voor inwoners en voor ondernemers, dus dit is een periode die de eigenaar zelf moet doen. Aanvraagformulieren zelf staan er om reden van privacy niet meer in.</p>"
+    },
+    {
+     "kop": "Biezenmortel t/m 1996",
+     "van": null,
+     "tot": 1996,
+     "geldt_voor": "",
+     "loket": "Regionaal Archief Tilburg",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p><strong>Regionaal Archief Tilburg</strong>, kosteloos, scans binnen vijftien werkdagen na aanvraag bij <strong><a href=\"mailto:info@regionaalarchieftilburg.nl\">info@regionaalarchieftilburg.nl</a></strong> met straat, huisnummer en plaats. Vanaf 1997 gaat Biezenmortel via de gemeente Tilburg.</p>"
+    },
+    {
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p>Locaties met een veiligheidsrisico zijn afgeschermd; daarvoor is schriftelijke toestemming van de eigenaar nodig via <a href=\"mailto:bouwarchief@tilburg.nl.\">bouwarchief@tilburg.nl.</a></p>"
+    },
+    {
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p>Bronnen: <a href=\"https://www.tilburg.nl/inwoners/verbouwen/archief-bouwen-en-milieu/\" target=\"_blank\" rel=\"noopener\">https://www.tilburg.nl/inwoners/verbouwen/archief-bouwen-en-milieu/</a> en <a href=\"https://www.regionaalarchieftilburg.nl/omgevingsvergunningen/\" target=\"_blank\" rel=\"noopener\">https://www.regionaalarchieftilburg.nl/omgevingsvergunningen/</a>.</p>"
     }
    ]
   },
