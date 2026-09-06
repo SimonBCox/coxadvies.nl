@@ -19,7 +19,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;1,500;1,600&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
   :root{
@@ -40,19 +40,22 @@
   *{box-sizing:border-box;margin:0;padding:0}
   html{scroll-behavior:smooth}
   body{
-    font-family:"Hanken Grotesk",system-ui,sans-serif;
+    font-family:"Inter",-apple-system,BlinkMacSystemFont,system-ui,sans-serif;
     color:var(--ink);background:var(--bg);line-height:1.62;
     -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
   }
   .wrap{max-width:var(--maxw);margin:0 auto;padding-left:var(--pad);padding-right:var(--pad)}
   h1,.visual-head,h2,h3{font-family:"Lora",Georgia,serif;font-weight:500;letter-spacing:-.01em;line-height:1.08}
   a{color:inherit}
-  .eyebrow{font-size:.74rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);font-family:"Hanken Grotesk",sans-serif}
+  .eyebrow{font-size:.74rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);font-family:inherit}
   .visual-head{font-size:clamp(2.4rem,5.6vw,4rem);margin:20px 0 22px;max-width:14ch}
-  .visual-head em{font-style:italic;color:var(--accent)}
+  /* Koppenvariant 03: een cursief leest van oorsprong als "zachter" en dat
+     botst met een kop die zekerheid moet uitstralen. De nadruk zit nu in het
+     gewicht. Terug naar cursief is deze ene regel. */
+  .visual-head em{font-style:normal;font-weight:600}
 
   .btn{
-    display:inline-flex;align-items:center;gap:9px;font-family:"Hanken Grotesk",sans-serif;
+    display:inline-flex;align-items:center;gap:9px;font-family:inherit;
     font-weight:600;font-size:.95rem;text-decoration:none;cursor:pointer;border:none;
     padding:13px 22px;border-radius:999px;background:var(--accent);color:#fff;
     transition:transform .15s ease,background .2s ease,box-shadow .2s ease;
@@ -106,7 +109,7 @@
 
   /* before / after */
   .ba-tabs{display:flex;gap:10px;margin-bottom:18px}
-  .ba-tab{font-size:.82rem;font-weight:600;padding:8px 18px;border-radius:999px;border:1.5px solid var(--line);background:transparent;cursor:pointer;color:var(--muted);transition:background .15s,color .15s,border-color .15s;font-family:"Hanken Grotesk",sans-serif}
+  .ba-tab{font-size:.82rem;font-weight:600;padding:8px 18px;border-radius:999px;border:1.5px solid var(--line);background:transparent;cursor:pointer;color:var(--muted);transition:background .15s,color .15s,border-color .15s;font-family:inherit}
   .ba-tab.active{background:var(--navy);color:#fff;border-color:var(--navy)}
   .ba{position:relative;border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow);aspect-ratio:16/10;user-select:none;touch-action:pan-y}
   .ba-layer{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
@@ -124,20 +127,22 @@
   .grid3{display:grid;grid-template-columns:1fr;gap:22px}
   @media(min-width:760px){.grid3{grid-template-columns:repeat(3,1fr)}}
   .card{
-    background:var(--surface);border:1px solid var(--line);border-radius:var(--r);
-    padding:30px 28px 34px;transition:transform .18s ease,box-shadow .2s ease;
+    background:var(--surface);border:1px solid var(--line);border-radius:4px;
+    padding:28px 26px 30px;transition:border-color .2s ease;
   }
-  .card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+  .card:hover{border-color:var(--hair,#c9c4b8)}
   .card .tag{font-size:.72rem;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--accent)}
   .card h3{font-size:1.5rem;margin:14px 0 11px}
   .card p{color:var(--muted);font-size:.98rem}
 
   /* process */
-  .steps{display:grid;grid-template-columns:1fr;gap:26px}
-  @media(min-width:700px){.steps{grid-template-columns:repeat(2,1fr);gap:38px 52px}}
-  .step{display:flex;gap:18px;align-items:flex-start}
-  .step .n{flex:0 0 auto;width:46px;height:46px;border-radius:50%;background:var(--navy);color:#fff;font-family:"Lora",serif;font-size:1.15rem;display:grid;place-items:center;margin-top:2px;box-shadow:0 0 0 4px rgba(227,154,78,.16)}
-  .step:first-child .n{background:var(--warm);color:#2b1c07}
+  .steps{display:grid;grid-template-columns:1fr;border-top:1px solid var(--line)}
+  @media(min-width:880px){.steps{grid-template-columns:repeat(4,1fr)}}
+  .step{display:block;padding:24px 26px 28px 0;border-bottom:1px solid var(--line)}
+  @media(min-width:880px){.step{border-bottom:0;border-right:1px solid var(--line)}
+                          .step:last-child{border-right:0}}
+  .step .n{display:block;font-size:2.2rem;font-weight:300;color:#bdb7a9;
+           line-height:1;margin-bottom:14px;letter-spacing:-.02em}
   .step h3{font-size:1.18rem;margin-bottom:5px}
   .step p{color:var(--muted);font-size:.98rem}
 
@@ -146,7 +151,7 @@
   @media(min-width:820px){.about-grid{grid-template-columns:.85fr 1.15fr}}
   .about-grid .photo{aspect-ratio:4/5;object-position:center 35%}
   .about h2{font-size:clamp(1.7rem,3.2vw,2.4rem);margin:14px 0 18px;max-width:18ch}
-  .about h2 em{font-style:italic;color:var(--accent)}
+  .about h2 em{font-style:normal;font-weight:600}
   .about-body p{color:var(--muted);margin-bottom:16px;max-width:50ch}
   .specs-bar{list-style:none;display:grid;grid-template-columns:repeat(2,1fr);gap:24px 32px;border-top:1px solid var(--line);margin-top:clamp(40px,6vw,72px);padding-top:clamp(28px,4vw,48px)}
   @media(min-width:700px){.specs-bar{grid-template-columns:repeat(4,1fr)}}
@@ -237,6 +242,104 @@
   .stad-link{font-size:.92rem;font-weight:500;color:var(--ink);background:var(--surface);border:1px solid var(--line);padding:9px 18px;border-radius:999px;text-decoration:none;transition:border-color .15s,color .15s}
   .stad-link:hover{border-color:var(--accent);color:var(--accent)}
 
+
+  /* ── header: tekst op een eigen donker vlak, beeld ernaast en onaangeraakt ──
+     De oude hero legde de tekst naast een foto in de papierkleur. Deze zet de
+     tekst op donker en laat het beeld daarnaast onaangeraakt, zodat de
+     maatvoering op de foto leesbaar blijft. */
+  .kop{position:relative;background:var(--navy-deep);color:#fff;display:flex;
+       flex-direction:column;min-height:min(74vh,660px);overflow:hidden}
+  .kop > .wrap{width:100%}
+  .kop .nav-inner{padding:20px 0}
+  .kop .brand img{filter:brightness(0) invert(1)}
+  .kop .nav-links a{color:rgba(255,255,255,.82)}
+  .kop .nav-links a:hover{color:#fff}
+  .kop .nav-inner > .btn{background:#fff;color:var(--navy-deep)}
+  .kop .nav-inner > .btn:hover{background:rgba(255,255,255,.85);color:var(--navy-deep)}
+  .kopsplit{flex:1;display:grid;grid-template-columns:1fr;grid-template-rows:minmax(0,1fr)}
+  @media(min-width:980px){.kopsplit{grid-template-columns:46% 54%}}
+  .kop .koptekst{display:flex;flex-direction:column;justify-content:center;
+                 padding:clamp(30px,4.5vw,58px) clamp(28px,4vw,56px) clamp(40px,5vw,70px)
+                         max(20px,calc((100vw - var(--maxw))/2 + var(--pad)))}
+  .kop .visual-head{font-size:clamp(2.3rem,4.5vw,3.9rem);max-width:14ch;margin:16px 0 22px;
+                    font-weight:400;color:rgba(255,255,255,.86)}
+  .kop .eyebrow{color:#5fa2e0}
+  .kop .lead{color:rgba(255,255,255,.8);max-width:42ch;margin-bottom:0}
+  .kopbeeld{position:relative;min-height:280px}
+  .kopbeeld img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+                object-position:72% 46%}
+  .kopbeeld::before{content:"";position:absolute;inset:0;z-index:1;
+    background:linear-gradient(to right,var(--navy-deep) 0%,rgba(7,31,51,.92) 8%,
+      rgba(7,31,51,.55) 22%,rgba(7,31,51,0) 44%)}
+  @media(max-width:979px){
+    .kopbeeld{aspect-ratio:16/10}
+    .kopbeeld::before{background:linear-gradient(to bottom,var(--navy-deep) 0%,rgba(7,31,51,0) 22%)}
+  }
+
+  /* ── balk met de kernpunten, direct onder de header ── */
+  .kernbalk{background:var(--navy-deep);color:#fff;border-top:1px solid rgba(255,255,255,.13)}
+  .kernbalk .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;
+                  gap:22px 40px;padding-top:24px;padding-bottom:26px}
+  .kernpunten{flex:0 1 auto;min-width:0;max-width:640px}
+  .kernbalk .hero-hint{color:rgba(255,255,255,.62);margin:0 0 14px}
+  .kernbalk .chip{color:rgba(255,255,255,.92);background:rgba(255,255,255,.05);
+                  border-color:rgba(255,255,255,.2)}
+  .kernbalk .chip b{color:#9fc6ec}
+  .kernacties{display:flex;flex-wrap:wrap;gap:12px;flex:0 0 auto}
+  .kernacties .btn{background:#fff;color:var(--navy-deep);border:1.5px solid #fff}
+  .kernacties .btn:hover{background:transparent;color:#fff}
+  .kernacties .btn-ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.45)}
+  .kernacties .btn-ghost:hover{background:#fff;color:var(--navy-deep);border-color:#fff}
+
+
+  /* ── procesreeks en projecten ────────────────────────────────────────────
+     Een schuif toont twee toestanden; een reeks toont wat er gebeurt. De drie
+     Bemmel-foto's zijn vanaf hetzelfde punt genomen, dus ze lezen als een
+     opname in de tijd. Meer foto's per project zitten achter de lightbox. */
+  .reeks{list-style:none;display:grid;grid-template-columns:1fr;gap:clamp(20px,2.4vw,30px)}
+  @media(min-width:820px){.reeks{grid-template-columns:repeat(3,1fr)}}
+  .reeks figure{margin:0}
+  .reeks img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:4px;
+             box-shadow:0 20px 44px -32px rgba(28,36,48,.55)}
+  .reeks figcaption{font-size:.95rem;color:var(--muted);padding-top:14px;max-width:36ch}
+  .stapnr{display:block;font-size:.7rem;font-weight:600;letter-spacing:.09em;
+          text-transform:uppercase;color:var(--accent);margin-bottom:6px}
+
+  .projecten{display:grid;grid-template-columns:1fr;gap:clamp(22px,2.6vw,32px);
+             margin-top:clamp(34px,4vw,54px)}
+  @media(min-width:820px){.projecten{grid-template-columns:repeat(3,1fr)}}
+  .project-kaart{background:var(--bg);border:1px solid var(--line);border-radius:4px;
+                 overflow:hidden;display:flex;flex-direction:column}
+  .omslag{position:relative;display:block;width:100%;border:0;padding:0;cursor:pointer;
+          background:none;overflow:hidden}
+  .omslag img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover;transition:transform .5s ease}
+  .omslag:hover img{transform:scale(1.03)}
+  .omslag .telling{position:absolute;left:14px;bottom:14px;background:rgba(7,31,51,.88);color:#fff;
+                   font-size:.8rem;font-weight:500;padding:8px 15px;border-radius:999px}
+  .project-info{padding:20px 22px 24px}
+  .project-info h3{font-size:1.22rem;margin-bottom:8px}
+  .project-info .meta{font-size:.88rem;color:var(--muted)}
+
+  .lightbox{border:0;padding:0;max-width:min(1100px,94vw);max-height:92vh;width:100%;
+            background:#0b1620;color:#fff}
+  .lightbox::backdrop{background:rgba(6,18,28,.88)}
+  .lb-kop{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:16px 20px;
+          border-bottom:1px solid rgba(255,255,255,.12)}
+  .lb-titel{font-size:.94rem;font-weight:500}
+  .lb-sluit{background:none;border:0;color:#fff;font-size:1.2rem;cursor:pointer;line-height:1;padding:6px}
+  .lb-beeld figure{margin:0;display:none}
+  .lb-beeld figure.aan{display:block}
+  .lb-beeld img{display:block;width:100%;max-height:64vh;object-fit:contain;background:#000}
+  .lb-beeld figcaption{padding:14px 20px;font-size:.94rem;color:rgba(255,255,255,.78);
+                       border-top:1px solid rgba(255,255,255,.1)}
+  .lb-voet{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 20px 16px}
+  .lb-knop{background:transparent;border:1px solid rgba(255,255,255,.3);color:#fff;border-radius:999px;
+           width:42px;height:42px;cursor:pointer;font-size:1rem}
+  .lb-knop:hover{background:#fff;color:#0b1620}
+  .lb-stippen{display:flex;gap:7px}
+  .lb-stippen span{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.3)}
+  .lb-stippen span.aan{background:#fff}
+
   /* reveal + a11y */
   .reveal{opacity:0;transform:translateY(16px);transition:opacity .65s ease,transform .65s ease}
   .reveal.in{opacity:1;transform:none}
@@ -301,78 +404,181 @@
 </head>
 <body id="top">
 
-<header class="nav-bar" id="navbar">
+<header class="kop">
   <div class="wrap nav-inner">
     <a class="brand" href="#top"><img src="img/logo.png" alt="Cox Constructieadvies"></a>
     <nav class="nav-links" aria-label="Hoofdmenu">
       <a href="/projecten/">Projecten</a>
       <a href="#diensten">Diensten</a>
-      <a href="/bouwdossier/">Bouwdossier</a>
       <a href="/kosten/">Kosten</a>
       <a href="/faq/">Vragen</a>
+      <a href="#werkwijze">Werkwijze</a>
       <a href="#over">Over</a>
       <a href="#contact">Contact</a>
     </nav>
     <a class="btn" href="#contact">Neem contact op</a>
   </div>
+  <div class="kopsplit">
+    <div class="koptekst">
+      <p class="eyebrow">Constructeur &middot; Malden bij Nijmegen</p>
+      <h1 class="visual-head">Een draagmuur eruit, en <em>zeker weten dat het goed zit</em>.</h1>
+      <p class="lead">Constructieberekening en constructietekening voor een draagmuurdoorbraak,
+        uitbouw of opbouw aan uw woning. Klaar voor uw omgevingsvergunning, zodat uw aannemer
+        er direct mee verder kan.</p>
+    </div>
+    <div class="kopbeeld">
+      <img src="img/header-doorbraak.jpg"
+           alt="Draagmuurdoorbraak met de stalen ligger op zijn plek en de maten uit de berekening erbij"
+           width="2200" height="1435">
+    </div>
+  </div>
 </header>
 
-<main>
-  <!-- HERO -->
-  <section class="hero">
-    <div class="wrap hero-grid">
-      <div class="reveal">
-        <p class="eyebrow">Constructeur &middot; Malden bij Nijmegen</p>
-        <h1 class="visual-head" style="max-width:19ch">Een draagmuur eruit, en <em>zeker weten dat het goed zit</em>.</h1>
-        <p class="lead">Ik ben Simon Cox, zelfstandig constructeur. Ik maak de constructieberekening &eacute;n de constructietekening voor draagmuurdoorbraken, uitbouwen en opbouwen. Klaar voor uw omgevingsvergunning, zodat uw aannemer er direct mee verder kan.</p>
-        <div class="hero-cta">
-          <a class="btn" href="tel:+31615902335">Bel gerust: 06 1590 2335</a>
-          <a class="btn btn-ghost" href="/kosten/">Wat het kost</a>
-        </div>
-        <p class="hero-hint">Ook als u nog niet zeker weet of uw muur wel draagt. Even meekijken kost niets.</p>
-        <div class="chips">
-          <span class="chip"><b>&euro;&nbsp;850</b>incl. btw voor een doorbraak</span>
-          <span class="chip"><b>&#10003;</b>Berekening &eacute;n tekening</span>
-          <span class="chip"><b>&#10003;</b>Binnen 5 werkdagen</span>
-          <span class="chip"><b>&#10003;</b>Bereikbaar tijdens de hele bouw</span>
-        </div>
-      </div>
-      <div class="hero-media reveal">
-        <img src="img/woonkamer.jpg" alt="Woonkamer tijdens een draagmuurdoorbraak, met de stalen ligger op zijn plek in het plafond" class="photo">
-        <!-- TIJDELIJK. Zowel de foto als dit bijschrift wachten op de definitieve keuze.
-             Het bijschrift wijst nu naar de ligger die op deze foto zichtbaar is; verandert
-             de foto, dan moet dit mee. Daarna komt hier de annotatielaag met de echte maten
-             (overspanning, profiel) uit de berekening van het gekozen project. -->
-        <div class="float-card">
-          <div class="fc-k">Wat er voor de muur terugkomt</div>
-          <div class="fc-v">De stalen ligger die de last overneemt</div>
-        </div>
+<section class="kernbalk">
+  <div class="wrap">
+    <div class="kernpunten">
+      <p class="hero-hint">Ook als u nog niet zeker weet of uw muur wel draagt. Even meekijken kost niets.</p>
+      <div class="chips">
+        <span class="chip"><b>&euro;&nbsp;850</b>incl. btw voor een doorbraak</span>
+        <span class="chip"><b>&#10003;</b>Berekening &eacute;n tekening</span>
+        <span class="chip"><b>&#10003;</b>Binnen 5 werkdagen</span>
+        <span class="chip"><b>&#10003;</b>Bereikbaar tijdens de hele bouw</span>
       </div>
     </div>
-  </section>
+    <div class="kernacties">
+      <a class="btn" href="tel:+31615902335">Bel gerust: 06 1590 2335</a>
+      <a class="btn btn-ghost" href="/kosten/">Wat het kost</a>
+    </div>
+  </div>
+</section>
 
+<main>
   <!-- BEFORE / AFTER -->
   <section class="section tint" id="voorbeeld">
     <div class="wrap">
       <div class="sec-head reveal">
-        <p class="eyebrow">Zie wat een doorbraak doet</p>
+        <p class="eyebrow">Zo verloopt een doorbraak</p>
         <h2>Van een gesloten muur naar een open ruimte</h2>
-        <p>Sleep de schuif om het verschil te zien. Wat u rechts niet ziet is de stalen ligger die de draagmuur vervangt. Die zit weggewerkt in het plafond, en dat is precies de bedoeling.</p>
+        <p>Drie foto's vanaf hetzelfde punt in de woonkamer, tijdens een doorbraak in Bemmel. Wat u
+          op de laatste foto boven de opening ziet is de stalen ligger die de draagmuur vervangt.</p>
       </div>
-      <div class="ba-tabs reveal">
-        <button class="ba-tab active" data-voor="img/draagmuur_doorbraak_1_voor.jpg" data-na="img/draagmuur_doorbraak_1_na.jpeg">Draagmuurdoorbraak</button>
-        <button class="ba-tab" data-voor="img/uitbouw_1_voor.jpg" data-na="img/uitbouw_1_na.jpg">Uitbouw</button>
+      <ol class="reeks reveal">
+        <li><figure>
+          <img src="img/projecten/bemmel-01-dichte-wand.jpg" loading="lazy"
+               alt="De dragende binnenwand tussen woonkamer en keuken, nog dicht">
+          <figcaption><span class="stapnr">Stap 1</span>De dragende wand tussen woonkamer en keuken,
+            nog dicht.</figcaption></figure></li>
+        <li><figure>
+          <img src="img/projecten/bemmel-02-gestempeld.jpg" loading="lazy"
+               alt="De wand is afgetekend en de stempeling staat eronder">
+          <figcaption><span class="stapnr">Stap 2</span>Afgetekend en gestempeld. De stempels nemen
+            de vloer over voordat er ook maar iets weg gaat.</figcaption></figure></li>
+        <li><figure>
+          <img src="img/projecten/bemmel-03-ligger.jpg" loading="lazy"
+               alt="De sparing is open en de stalen ligger ligt op zijn plek">
+          <figcaption><span class="stapnr">Stap 3</span>De sparing is open en de ligger ligt. Daarna
+            kunnen de stempels eruit.</figcaption></figure></li>
+      </ol>
+
+      <div class="projecten reveal">
+        <article class="project-kaart">
+          <button class="omslag" data-lb="lb-bemmel" aria-label="Bekijk alle foto's van de doorbraak in Bemmel">
+            <img src="img/projecten/bemmel-oplegging.jpg" loading="lazy"
+                 alt="Doorbraak in Bemmel, de ligger vanaf de keukenzijde">
+            <span class="telling">Bekijk de klus &middot; 4 foto's</span>
+          </button>
+          <div class="project-info">
+            <h3>Bemmel &middot; draagmuur tussen keuken en woonkamer</h3>
+            <div class="meta">2,52 m vrije opening &middot; IPE 240 &middot; opleggingen 350 mm</div>
+          </div>
+        </article>
+        <article class="project-kaart">
+          <button class="omslag" data-lb="lb-nijmegen" aria-label="Bekijk alle foto's van de doorbraak in Nijmegen">
+            <img src="img/projecten/nijmegen-02.jpg" loading="lazy"
+                 alt="Doorbraak met een stalen ligger in Nijmegen">
+            <span class="telling">Bekijk de klus &middot; 4 foto's</span>
+          </button>
+          <div class="project-info">
+            <h3>Nijmegen &middot; doorbraak achteraf gelegaliseerd</h3>
+            <div class="meta">3,65 m overspanning &middot; HEA 220 &middot; keuken en woonkamer</div>
+          </div>
+        </article>
+        <article class="project-kaart">
+          <button class="omslag" data-lb="lb-malden" aria-label="Bekijk alle foto's van de nieuwbouw in Malden">
+            <img src="img/projecten/malden-09.jpg" loading="lazy"
+                 alt="Het opgeleverde woonhuis in Malden">
+            <span class="telling">Bekijk de bouw &middot; 9 foto's</span>
+          </button>
+          <div class="project-info">
+            <h3>Malden &middot; nieuwbouw woonhuis</h3>
+            <div class="meta">Van kavel tot oplevering &middot; 2022</div>
+          </div>
+        </article>
       </div>
-      <div class="ba reveal" id="ba">
-        <img class="ba-layer" id="ba-na" src="img/draagmuur_doorbraak_1_na.jpeg" alt="Na de draagmuurdoorbraak">
-        <img class="ba-layer ba-voor" id="ba-voor" src="img/draagmuur_doorbraak_1_voor.jpg" alt="Voor de draagmuurdoorbraak">
-        <span class="ba-tag l">Voor</span>
-        <span class="ba-tag r">Na</span>
-        <div class="ba-divider"></div>
-        <div class="ba-handle">&#8596;</div>
-        <input class="ba-range" id="ba-range" type="range" min="0" max="100" value="50" aria-label="Sleep om voor en na te vergelijken">
-      </div>
-      <p class="reveal" style="margin-top:22px"><a class="card-link" href="/projecten/">Hoe dat op de bouw gaat, stap voor stap bij twee projecten &rarr;</a></p>
+
+      <dialog class="lightbox" id="lb-bemmel" aria-label="Foto's van Bemmel &middot; draagmuur tussen keuken en woonkamer">
+        <div class="lb-kop"><span class="lb-titel">Bemmel &middot; draagmuur tussen keuken en woonkamer</span>
+          <button class="lb-sluit" aria-label="Sluiten">&#10005;</button></div>
+        <div class="lb-beeld">
+          <figure class="aan"><img src="img/projecten/bemmel-01-dichte-wand.jpg" alt="De wand nog dicht" loading="lazy">
+            <figcaption>De dragende wand tussen woonkamer en keuken, nog dicht.</figcaption></figure>
+          <figure><img src="img/projecten/bemmel-02-gestempeld.jpg" alt="De wand afgetekend en gestempeld" loading="lazy">
+            <figcaption>Afgetekend en gestempeld. De stempels nemen de vloer over voordat er ook maar iets weg gaat.</figcaption></figure>
+          <figure><img src="img/projecten/bemmel-03-ligger.jpg" alt="De sparing open met de ligger erin" loading="lazy">
+            <figcaption>De sparing is open en de ligger ligt. Dezelfde hoek als de eerste foto.</figcaption></figure>
+          <figure><img src="img/projecten/bemmel-oplegging.jpg" alt="De oplegging vanaf de keukenzijde" loading="lazy">
+            <figcaption>Vanaf de keukenzijde: rechts landt de ligger op het penant dat blijft staan.</figcaption></figure>
+        </div>
+        <div class="lb-voet"><button class="lb-knop lb-vorige" aria-label="Vorige foto">&#8592;</button>
+          <div class="lb-stippen"></div>
+          <button class="lb-knop lb-volgende" aria-label="Volgende foto">&#8594;</button></div>
+      </dialog>
+      <dialog class="lightbox" id="lb-nijmegen" aria-label="Foto's van Nijmegen &middot; doorbraak achteraf gelegaliseerd">
+        <div class="lb-kop"><span class="lb-titel">Nijmegen &middot; doorbraak achteraf gelegaliseerd</span>
+          <button class="lb-sluit" aria-label="Sluiten">&#10005;</button></div>
+        <div class="lb-beeld">
+          <figure class="aan"><img src="img/projecten/nijmegen-01.jpg" alt="De ligger ligt, de stempeling draagt nog" loading="lazy">
+            <figcaption>Deze doorbraak was al gemaakt toen ik erbij kwam. De foto's van de uitvoering hoorden bij de stukken: het staal ligt, de stempeling draagt nog.</figcaption></figure>
+          <figure><img src="img/projecten/nijmegen-02.jpg" alt="De opening over de volle breedte met de stalen ligger" loading="lazy">
+            <figcaption>De opening over de volle breedte, met de stalen ligger erboven.</figcaption></figure>
+          <figure><img src="img/projecten/nijmegen-04.jpg" alt="Het uiteinde van de ligger bij de gevel" loading="lazy">
+            <figcaption>Het uiteinde van de ligger, waar hij op het metselwerk landt.</figcaption></figure>
+          <figure><img src="img/projecten/nijmegen-03.jpg" alt="Dezelfde ruimte vanaf de andere kant" loading="lazy">
+            <figcaption>Dezelfde ruimte vanaf de andere kant. Ik heb de bestaande situatie opgemeten en nagerekend, zodat de gemeente haar alsnog kon beoordelen.</figcaption></figure>
+        </div>
+        <div class="lb-voet"><button class="lb-knop lb-vorige" aria-label="Vorige foto">&#8592;</button>
+          <div class="lb-stippen"></div>
+          <button class="lb-knop lb-volgende" aria-label="Volgende foto">&#8594;</button></div>
+      </dialog>
+      <dialog class="lightbox" id="lb-malden" aria-label="Foto's van Malden &middot; nieuwbouw woonhuis">
+        <div class="lb-kop"><span class="lb-titel">Malden &middot; nieuwbouw woonhuis</span>
+          <button class="lb-sluit" aria-label="Sluiten">&#10005;</button></div>
+        <div class="lb-beeld">
+          <figure class="aan"><img src="img/projecten/malden-01.jpg" alt="Het kavel voor de bouw" loading="lazy">
+            <figcaption>Het kavel, voordat er iets stond.</figcaption></figure>
+          <figure><img src="img/projecten/malden-02.jpg" alt="Grondwerk met een graafmachine" loading="lazy">
+            <figcaption>Grondwerk. De contour van de woning ligt uitgezet.</figcaption></figure>
+          <figure><img src="img/projecten/malden-03.jpg" alt="De fundering wordt gestort" loading="lazy">
+            <figcaption>De fundering wordt gestort.</figcaption></figure>
+          <figure><img src="img/projecten/malden-04.jpg" alt="De begane-grondvloer ligt op de fundering" loading="lazy">
+            <figcaption>De begane-grondvloer ligt op de fundering. Dit beeld komt uit een video van de bouw, vandaar dat het minder scherp is dan de rest.</figcaption></figure>
+          <figure><img src="img/projecten/malden-05.jpg" alt="De wanden van de begane grond staan" loading="lazy">
+            <figcaption>De wanden van de begane grond staan.</figcaption></figure>
+          <figure><img src="img/projecten/malden-06.jpg" alt="De kap wordt met een kraan geplaatst" loading="lazy">
+            <figcaption>De kap gaat erop.</figcaption></figure>
+          <figure><img src="img/projecten/malden-07.jpg" alt="Het dak is gedekt" loading="lazy">
+            <figcaption>Het dak is gedekt.</figcaption></figure>
+          <figure><img src="img/projecten/malden-08.jpg" alt="De gevels zijn afgewerkt" loading="lazy">
+            <figcaption>De gevels zijn afgewerkt en de aanbouw staat.</figcaption></figure>
+          <figure><img src="img/projecten/malden-09.jpg" alt="Het opgeleverde woonhuis" loading="lazy">
+            <figcaption>Opgeleverd.</figcaption></figure>
+        </div>
+        <div class="lb-voet"><button class="lb-knop lb-vorige" aria-label="Vorige foto">&#8592;</button>
+          <div class="lb-stippen"></div>
+          <button class="lb-knop lb-volgende" aria-label="Volgende foto">&#8594;</button></div>
+      </dialog>
+
+      <p class="reveal" style="margin-top:26px"><a class="card-link" href="/projecten/">Hoe dat op de bouw gaat, stap voor stap bij twee projecten &rarr;</a></p>
     </div>
   </section>
 
@@ -759,31 +965,11 @@
 </footer>
 
 <script>
-  // sticky header shading
-  var nav=document.getElementById('navbar');
-  var onScroll=function(){nav.classList.toggle('scrolled',window.scrollY>12)};
-  onScroll();window.addEventListener('scroll',onScroll,{passive:true});
-
-  // before/after slider + project switcher
-  (function(){
-    var ba=document.getElementById('ba');if(!ba)return;
-    var range=document.getElementById('ba-range');
-    var imgVoor=document.getElementById('ba-voor');
-    var imgNa=document.getElementById('ba-na');
-    var set=function(){ba.style.setProperty('--pos',range.value+'%')};
-    set();
-    range.addEventListener('input',set);
-    var tabs=document.querySelectorAll('.ba-tab');
-    tabs.forEach(function(tab){
-      tab.addEventListener('click',function(){
-        tabs.forEach(function(t){t.classList.remove('active')});
-        tab.classList.add('active');
-        imgVoor.src=tab.dataset.voor;
-        imgNa.src=tab.dataset.na;
-        range.value=50;set();
-      });
-    });
-  })();
+  // De meelopende schaduw op de balk en de voor/na-schuif zijn vervallen met de
+  // nieuwe header: de kop is een eigen donker blok en de schuif is vervangen door
+  // de procesreeks. Het oude script greep naar #navbar; zonder dat element wierp
+  // het een fout en draaide de scroll-reveal hieronder nooit meer, waardoor de
+  // hele pagina onder de vouw onzichtbaar bleef.
 
   // scroll reveal
   (function(){
@@ -794,6 +980,33 @@
     var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}})},{threshold:.12});
     els.forEach(function(e){io.observe(e)});
   })();
+</script>
+<script>
+  // Lightbox bij de projectkaarten: per dialog is er telkens een figure zichtbaar.
+  document.querySelectorAll(".lightbox").forEach(function (d) {
+    var fig = d.querySelectorAll(".lb-beeld figure"), stippen = d.querySelector(".lb-stippen"), nu = 0;
+    fig.forEach(function (_, i) {
+      var s = document.createElement("span");
+      if (i === 0) s.className = "aan";
+      stippen.appendChild(s);
+    });
+    function toon(i) {
+      nu = (i + fig.length) % fig.length;
+      fig.forEach(function (f, k) { f.classList.toggle("aan", k === nu); });
+      stippen.querySelectorAll("span").forEach(function (s, k) { s.classList.toggle("aan", k === nu); });
+    }
+    d.querySelector(".lb-volgende").addEventListener("click", function () { toon(nu + 1); });
+    d.querySelector(".lb-vorige").addEventListener("click", function () { toon(nu - 1); });
+    d.querySelector(".lb-sluit").addEventListener("click", function () { d.close(); });
+    d.addEventListener("keydown", function (e) {
+      if (e.key === "ArrowRight") toon(nu + 1);
+      if (e.key === "ArrowLeft") toon(nu - 1);
+    });
+    d.addEventListener("click", function (e) { if (e.target === d) d.close(); });
+  });
+  document.querySelectorAll(".omslag").forEach(function (b) {
+    b.addEventListener("click", function () { document.getElementById(b.dataset.lb).showModal(); });
+  });
 </script>
 <script src="/js/tellen.js" async></script>
 </body>

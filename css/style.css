@@ -6,15 +6,15 @@
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
-body{font-family:"Hanken Grotesk",system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.62;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+body{font-family:"Inter",-apple-system,BlinkMacSystemFont,system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.62;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
 .wrap{max-width:var(--maxw);margin:0 auto;padding-left:var(--pad);padding-right:var(--pad)}
 h1,.visual-head,h2,h3{font-family:"Lora",Georgia,serif;font-weight:500;letter-spacing:-.01em;line-height:1.08}
 a{color:inherit}
-.eyebrow{font-size:.74rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);font-family:"Hanken Grotesk",sans-serif}
+.eyebrow{font-size:.74rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);font-family:inherit}
 .visual-head{font-size:clamp(2.4rem,5.6vw,4rem);margin:20px 0 22px;max-width:14ch}
-.visual-head em{font-style:italic;color:var(--accent)}
+.visual-head em{font-style:normal;font-weight:600}
 
-.btn{display:inline-flex;align-items:center;gap:9px;font-family:"Hanken Grotesk",sans-serif;font-weight:600;font-size:.95rem;text-decoration:none;cursor:pointer;border:none;padding:13px 22px;border-radius:999px;background:var(--accent);color:#fff;transition:transform .15s ease,background .2s ease,box-shadow .2s ease}
+.btn{display:inline-flex;align-items:center;gap:9px;font-family:inherit;font-weight:600;font-size:.95rem;text-decoration:none;cursor:pointer;border:none;padding:13px 22px;border-radius:999px;background:var(--accent);color:#fff;transition:transform .15s ease,background .2s ease,box-shadow .2s ease}
 .btn:hover{background:var(--accent-deep);transform:translateY(-1px);box-shadow:0 10px 22px -12px rgba(0,57,107,.6)}
 .btn-ghost{background:transparent;color:var(--ink);border:1.5px solid var(--line)}
 .btn-ghost:hover{background:#fff;border-color:var(--ink);box-shadow:none}
@@ -63,7 +63,7 @@ a{color:inherit}
 
 /* before/after */
 .ba-tabs{display:flex;gap:10px;margin-bottom:18px}
-.ba-tab{font-size:.82rem;font-weight:600;padding:8px 18px;border-radius:999px;border:1.5px solid var(--line);background:transparent;cursor:pointer;color:var(--muted);transition:background .15s,color .15s,border-color .15s;font-family:"Hanken Grotesk",sans-serif}
+.ba-tab{font-size:.82rem;font-weight:600;padding:8px 18px;border-radius:999px;border:1.5px solid var(--line);background:transparent;cursor:pointer;color:var(--muted);transition:background .15s,color .15s,border-color .15s;font-family:inherit}
 .ba-tab.active{background:var(--navy);color:#fff;border-color:var(--navy)}
 .ba{position:relative;border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow);aspect-ratio:16/10;user-select:none;touch-action:pan-y}
 .ba-layer{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
@@ -80,8 +80,8 @@ a{color:inherit}
 /* services */
 .grid3{display:grid;grid-template-columns:1fr;gap:22px}
 @media(min-width:760px){.grid3{grid-template-columns:repeat(3,1fr)}}
-.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:30px 28px 34px;transition:transform .18s ease,box-shadow .2s ease}
-.card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:4px;padding:28px 26px 30px;transition:border-color .2s ease}
+.card:hover{border-color:#c9c4b8}
 .card .tag{font-size:.72rem;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--accent)}
 .card h3{font-size:1.5rem;margin:14px 0 11px}
 .card p{color:var(--muted);font-size:.98rem}
@@ -102,7 +102,7 @@ a{color:inherit}
 @media(min-width:820px){.about-grid{grid-template-columns:.85fr 1.15fr}}
 .about-grid .photo{aspect-ratio:4/5;object-position:center 35%}
 .about h2{font-size:clamp(1.7rem,3.2vw,2.4rem);margin:14px 0 18px;max-width:18ch}
-.about h2 em{font-style:italic;color:var(--accent)}
+.about h2 em{font-style:normal;font-weight:600}
 .about-body p{color:var(--muted);margin-bottom:16px;max-width:50ch}
 .specs-bar{list-style:none;display:grid;grid-template-columns:repeat(2,1fr);gap:24px 32px;border-top:1px solid var(--line);margin-top:clamp(40px,6vw,72px);padding-top:clamp(28px,4vw,48px)}
 @media(min-width:700px){.specs-bar{grid-template-columns:repeat(4,1fr)}}
