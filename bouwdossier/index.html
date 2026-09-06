@@ -182,12 +182,10 @@
         <div class="zoek-veld">
           <input id="adres" type="text" autocomplete="off" spellcheck="false"
                  placeholder="Bijvoorbeeld Berg en Dalseweg 5 Nijmegen"
-                 aria-describedby="zoek-hint" role="combobox" aria-expanded="false"
+                 role="combobox" aria-expanded="false"
                  aria-controls="sug" aria-autocomplete="list">
           <ul class="sug" id="sug" role="listbox" aria-label="Gevonden adressen"></ul>
         </div>
-        <p class="noot" id="zoek-hint">Uw adres wordt in uw eigen browser opgezocht bij het
-          Kadaster. Ik sla het niet op en zie het niet.</p>
       </div>
 
       <p class="sr" id="melding" role="status" aria-live="polite"></p>
@@ -247,7 +245,11 @@
       </div>
 
       <form class="form" action="https://api.web3forms.com/submit" method="POST">
-        <input type="hidden" name="access_key" value="8a8702ac-508a-4135-b189-6002a71b4bb7">
+        <!-- Eigen sleutel voor deze pagina, aangemaakt 2026-09-06 op
+             bouwdossier@coxadvies.nl. De andere vier formulieren op de site delen
+             de oude sleutel en leveren af op het hoofdadres; deze niet, zodat het
+             dossierpostvak alleen dossierpost bevat. -->
+        <input type="hidden" name="access_key" value="72156026-a7c9-459a-b834-e70d25d1e6ea">
         <input type="hidden" name="subject" value="Aanvraag bouwdossier via coxadvies.nl">
         <input type="hidden" name="from_name" value="coxadvies.nl">
         <!-- De bedankpagina met de betaallink verschijnt alleen als het loket ook echt
