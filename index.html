@@ -326,6 +326,17 @@
   .reeks img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover;border-radius:4px;
              box-shadow:0 20px 44px -32px rgba(28,36,48,.55)}
   .reeks figcaption{font-size:.95rem;color:var(--muted);padding-top:14px;max-width:36ch}
+  /* Op een telefoon staan die drie foto's onder elkaar en zijn het precies de
+     eerste drie beelden die de Bemmel-lightbox eronder ook toont. Twee keer
+     dezelfde reeks, en het duwt de projectkaarten een scherm naar beneden.
+     Onder 820px vervalt de reeks dus en leidt de tekst rechtstreeks naar de
+     kaarten. */
+  .alleen-smal{display:none}
+  @media(max-width:819px){
+    .reeks{display:none}
+    .alleen-smal{display:block}
+    .alleen-breed{display:none}
+  }
   .stapnr{display:block;font-size:.7rem;font-weight:600;letter-spacing:.09em;
           text-transform:uppercase;color:var(--accent);margin-bottom:6px}
 
@@ -459,8 +470,11 @@
       <div class="sec-head reveal">
         <p class="eyebrow">Zo verloopt een doorbraak</p>
         <h2>Van een gesloten muur naar een open ruimte</h2>
-        <p>Drie foto's vanaf hetzelfde punt in de woonkamer, tijdens een doorbraak in Bemmel. Wat u
-          op de laatste foto boven de opening ziet is de stalen ligger die de draagmuur vervangt.</p>
+        <p class="alleen-breed">Drie foto's vanaf hetzelfde punt in de woonkamer, tijdens een
+          doorbraak in Bemmel. Wat u op de laatste foto boven de opening ziet is de stalen ligger
+          die de draagmuur vervangt.</p>
+        <p class="alleen-smal">Drie klussen die wij hebben gerekend en getekend. Tik op een foto
+          voor de hele reeks, van de dichte wand tot de afgewerkte doorgang.</p>
       </div>
       <ol class="reeks reveal">
         <li><figure>
