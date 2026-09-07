@@ -22,6 +22,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "1898 t/m 1980",
      "van": 1898,
      "tot": 1980,
@@ -32,6 +33,7 @@
      "html": "<p><strong>Erfgoed 's-Hertogenbosch</strong>, volledig en direct online in te zien op <a href=\"https://www.erfgoedshertogenbosch.nl/onderzoek/hulp-bij-onderzoek/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.erfgoedshertogenbosch.nl/onderzoek/hulp-bij-onderzoek/bouwdossiers</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "1981 t/m 2012",
      "van": 1981,
      "tot": 2012,
@@ -42,6 +44,7 @@
      "html": "<p>ook bij Erfgoed 's-Hertogenbosch, maar afgeschermd om reden van privacy en auteursrecht. Tekeningen en berekeningen opvragen per mail bij <strong><a href=\"mailto:erfgoed@s-hertogenbosch.nl\">erfgoed@s-hertogenbosch.nl</a></strong>, tel. (073) 615 51 55.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2013",
      "van": 2013,
      "tot": null,
@@ -52,6 +55,7 @@
      "html": "<p><strong>gemeente 's-Hertogenbosch</strong>, met het formulier op <a href=\"https://formulier.s-hertogenbosch.nl/opvragen-archiefgegevens/startpagina\" target=\"_blank\" rel=\"noopener\">https://formulier.s-hertogenbosch.nl/opvragen-archiefgegevens/startpagina</a>. Hieraan zijn kosten verbonden volgens de legesverordening; het bedrag staat in het formulier.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -82,6 +86,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m oktober 2010",
      "van": null,
      "tot": 2010,
@@ -92,6 +97,7 @@
      "html": "<p><strong>Erfgoedcentrum Achterhoek en Liemers</strong> (ECAL), 't Brewinc, IJsselkade 13 in Doetinchem. De gemeente heeft dit archief op 24 januari 2024 overgedragen: voormalige gemeente Aalten 1906 t/m 2004, voormalige gemeente Dinxperlo 1930 t/m 2004 en de huidige gemeente 2005 t/m oktober 2010. Zoeken op adres op <a href=\"https://www.ecal.nu/\" target=\"_blank\" rel=\"noopener\">https://www.ecal.nu/</a>; inzien en fotograferen in de studiezaal is gratis. <a href=\"mailto:info@ecal.nu\">info@ecal.nu</a>, (0314) 78 70 78.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf oktober 2010",
      "van": 2010,
      "tot": null,
@@ -102,6 +108,7 @@
      "html": "<p><strong>gemeente Aalten</strong>, <a href=\"mailto:gemeente@aalten.nl\">gemeente@aalten.nl</a>, 0543 - 49 33 33. Zet er uw naam, voorletters en adres bij, want de kosten worden gefactureerd.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -130,6 +137,7 @@
    "intro_html": "<p>Periodegrens ligt op <strong>1998</strong>. Almere zelf bestaat pas sinds 1976/1984, dus vrijwel alle naoorlogse woningbouw (incl. de RIJP-/Heembeton-wijken uit de jaren '80) valt in het papieren archief.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "1963–1998",
      "van": 1963,
      "tot": 1998,
@@ -140,6 +148,7 @@
      "html": "<p>(papier, niet gedigitaliseerd): <strong>Stadsarchief Almere</strong>. Opvragen per mail: <strong><a href=\"mailto:stadsarchief@almere.nl\">stadsarchief@almere.nl</a></strong>. Geef straat + huisnummer en of het om bouwvergunning, bouwtekeningen en/of constructieberekening gaat. Inzage op afspraak, Stadhuispromenade 2 (onder de bibliotheek), di-do 12:00-16:00. <strong>Gratis.</strong> Geen kopieën/scans, zelf fotograferen mag. <a href=\"https://stadsarchief.almere.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://stadsarchief.almere.nl/bouwdossiers</a></p><ul><li>Let op: het archief legt de stukken ± 1× per week klaar; medewerkers zoeken niet inhoudelijk mee. Eén dossier beslaat vaak een <strong>heel bouwblok</strong> i.p.v. één adres, en de vroegste tekeningen zijn geordend op <strong>kavelnummer</strong>, niet op straatadres.</li></ul>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 1998",
      "van": 1998,
      "tot": null,
@@ -168,6 +177,7 @@
    "intro_html": "<p>De twee kernen hebben een eigen reeks, want ze waren tot 1997 aparte gemeenten.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "Alphen 1996 t/m 2011",
      "van": 1996,
      "tot": 2011,
@@ -178,6 +188,7 @@
      "html": "<p><strong>Regionaal Archief Tilburg</strong>, digitaal beschikbaar. Kosteloos, scans binnen vijftien werkdagen, aanvragen bij <strong><a href=\"mailto:info@regionaalarchieftilburg.nl\">info@regionaalarchieftilburg.nl</a></strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "Chaam 1941 t/m 2010",
      "van": 1941,
      "tot": 2010,
@@ -188,6 +199,7 @@
      "html": "<p>eveneens Regionaal Archief Tilburg, digitaal beschikbaar; oudere jaren komen op aanvraag.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -198,6 +210,7 @@
      "html": "<p><strong>daarna</strong>: <strong>gemeente Alphen-Chaam</strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -242,6 +255,7 @@
    "intro_html": "<p>Fusiegemeente van 2019 uit Aalburg, Werkendam en Woudrichem.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -252,6 +266,7 @@
      "html": "<p><strong>de archiefjaren</strong>: <strong>Streekarchief Langstraat Heusden Altena</strong> (SALHA) in Heusden, gezamenlijk archief van Altena, Heusden, Waalwijk en Waterschap Rivierenland. Zoeken op adres via <a href=\"https://salha.nl/bronnen/bouwtekeningen/overzicht-beschikbare-bouwvergunningen\" target=\"_blank\" rel=\"noopener\">https://salha.nl/bronnen/bouwtekeningen/overzicht-beschikbare-bouwvergunningen</a>. Stukken zijn online te reserveren; de studiezaal zit in het oude raadhuis van Heusden.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -262,6 +277,7 @@
      "html": "<p><strong>de recente jaren</strong>: <strong>gemeente Altena</strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -288,6 +304,7 @@
    "intro_html": "<p>Periodegrens ligt op <strong>oktober 2010</strong>.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "1856 t/m oktober 2010",
      "van": 1856,
      "tot": 2010,
@@ -298,6 +315,7 @@
      "html": "<p><strong>Archief Eemland</strong>. Aanvragen per mail: <strong><a href=\"mailto:archiefeemland@amersfoort.nl\">archiefeemland@amersfoort.nl</a></strong>. Geef straat + huisnummer en zeg er expliciet bij wat u zoekt (plattegronden, constructietekeningen, constructieberekening, originele bouw of laatst vergunde toestand). Verwerkingstijd ongeveer <strong>vijf werkdagen</strong>. <strong>Kosteloos</strong>, ook digitaal; alleen bij een niet-gedigitaliseerd dossier met meer dan vijf scans worden kosten berekend. Tel. 033 469 5017, bezoek Het Eemhuis (3e verdieping), Eemplein 73. <a href=\"https://www.archiefeemland.nl/bronnen/bouwtekeningen/\" target=\"_blank\" rel=\"noopener\">https://www.archiefeemland.nl/bronnen/bouwtekeningen/</a></p><ul><li>Levert per vergunningnummer een complete set; oude fabrieksdossiers zitten er gewoon bij (2026DB13 kreeg 1967, 1989 en 2000 in één keer).<ul><li>Dossiers <strong>1979–2010</strong> zijn retrospectief vervangen (gescand, papier vernietigd), dus die zijn per definitie digitaal.</li></ul></li></ul>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf oktober 2010",
      "van": 2010,
      "tot": null,
@@ -308,6 +326,7 @@
      "html": "<p><strong>gemeente Amersfoort</strong>, afdeling Vergunningen, via een informatieverzoek naar <strong><a href=\"mailto:info@amersfoort.nl\">info@amersfoort.nl</a></strong>. <a href=\"https://www.amersfoort.nl/een-informatieverzoek\" target=\"_blank\" rel=\"noopener\">https://www.amersfoort.nl/een-informatieverzoek</a></p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -339,6 +358,7 @@
    "intro_html": "<p>Eén loket voor alle jaren, en dat is ongebruikelijk: <strong>CODA Archief</strong> haalt een recent dossier desgevraagd zelf bij de gemeente op, zodat u niet hoeft te wisselen van loket.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "1906 t/m 2016",
      "van": 1906,
      "tot": 2016,
@@ -349,6 +369,7 @@
      "html": "<p><strong>CODA Archief en Erfgoed</strong>, Vosselmanstraat 299. Aanvragen per mail bij <strong><a href=\"mailto:archief@coda-apeldoorn.nl\">archief@coda-apeldoorn.nl</a></strong>, antwoord binnen drie werkdagen. De vergunningen zijn gedigitaliseerd maar staan om reden van privacy en auteursrecht niet online; u krijgt ze na aanvraag. Van 1973 t/m 2000 bestaat alleen microfiche, wat de levering trager maakt. Vooraf is een bezoekersregistratie nodig.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2016",
      "van": 2016,
      "tot": null,
@@ -359,6 +380,7 @@
      "html": "<p>CODA vraagt de omgevingsvergunning op uw verzoek op bij de gemeente Apeldoorn. Zelfde mailadres.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -369,6 +391,7 @@
      "html": "<p>Wat een scan kost, staat niet op de site.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -394,6 +417,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "Tot 1979",
      "van": null,
      "tot": 1979,
@@ -404,6 +428,7 @@
      "html": "<p><strong>Gelders Archief</strong>, bouwdossiers op adres doorzoekbaar via <a href=\"https://www.geldersarchief.nl/bronnen/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.geldersarchief.nl/bronnen/bouwdossiers</a>. Scans gratis via \"scanning on request\", levering per mail. Zoekhulp: <a href=\"https://www.geldersarchief.nl/informatie/zoekhulp/983-bouwtekeningen-bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.geldersarchief.nl/informatie/zoekhulp/983-bouwtekeningen-bouwdossiers</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "1-1-1979 t/m 30-9-2012",
      "van": null,
      "tot": 2012,
@@ -414,6 +439,7 @@
      "html": "<p><strong>gemeente Arnhem</strong>, online per adres via <a href=\"https://eloket.arnhem.nl/f/95814\" target=\"_blank\" rel=\"noopener\">https://eloket.arnhem.nl/f/95814</a>. Eén aanvraag per adres; het dossier staat binnen 5 werkdagen klaar in MijnArnhem, en daar komt alleen de eigenaar zelf met zijn DigiD in. Deze periode is dus niet namens iemand anders op te halen. Vragen: 0800-1809.</p>"
     },
     {
+     "bedrag": null,
      "kop": "Vanaf okt 2012",
      "van": 2012,
      "tot": null,
@@ -424,6 +450,7 @@
      "html": "<p><strong>Omgevingsdienst Groene Metropool</strong> (ODGM, voorheen ODRA), webformulier op <a href=\"https://www.odgroenemetropool.nl/bouwplannen-en-bouwtekeningen-inzien/\" target=\"_blank\" rel=\"noopener\">https://www.odgroenemetropool.nl/bouwplannen-en-bouwtekeningen-inzien/</a>, tel. regio Arnhem 026 - 377 1600. Hun eigen pagina noemt voor Arnhem \"vanaf 2015\"; de gemeentepagina verwijst vanaf okt 2012 al naar de omgevingsdienst. Voor 2012-2014 dus bij beide loketten kunnen uitkomen; begin bij ODGM en laat u doorverwijzen.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -449,6 +476,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "1970 t/m 1996",
      "van": 1970,
      "tot": 1996,
@@ -459,6 +487,7 @@
      "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe). Deze jaargang is gedigitaliseerd en volledig online doorzoekbaar op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>. U krijgt de stukken via een SecuDoc-link die veertien dagen geldig is.</p>"
     },
     {
+     "bedrag": null,
      "kop": "1948 t/m 1969",
      "van": 1948,
      "tot": 1969,
@@ -469,6 +498,7 @@
      "html": "<p><strong>RHCe</strong>, maar analoog en nog niet gedigitaliseerd. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, zonder inloggen. Reken op een langere doorlooptijd. Tel. (040) 264 99 40.</p>"
     },
     {
+     "bedrag": null,
      "kop": "1901 t/m 1947",
      "van": 1901,
      "tot": 1947,
@@ -479,6 +509,7 @@
      "html": "<p><strong>RHCe</strong>, analoog en slecht toegankelijk: deze reeks is alleen via kadastraal onderzoek te vinden, niet op adres. Bereid u voor op zoekwerk.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 1997",
      "van": 1997,
      "tot": null,
@@ -489,6 +520,7 @@
      "html": "<p><strong>gemeente Asten</strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -515,6 +547,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "1914 t/m 2010",
      "van": 1914,
      "tot": 2010,
@@ -525,6 +558,7 @@
      "html": "<p><strong>Regionaal Archief Tilburg</strong>, digitaal beschikbaar. Kosteloos, scans binnen vijftien werkdagen, aanvragen bij <strong><a href=\"mailto:info@regionaalarchieftilburg.nl\">info@regionaalarchieftilburg.nl</a></strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2011",
      "van": 2011,
      "tot": null,
@@ -535,6 +569,7 @@
      "html": "<p><strong>gemeente Baarle-Nassau</strong>, archiefruimte van het gemeentehuis.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -560,6 +595,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "1900 t/m september 2017",
      "van": 1900,
      "tot": 2017,
@@ -570,6 +606,7 @@
      "html": "<p><strong>Archief Eemland</strong>, volledig gedigitaliseerd en op adres doorzoekbaar via <a href=\"https://bouwdossiers.archiefeemland.nl/\" target=\"_blank\" rel=\"noopener\">https://bouwdossiers.archiefeemland.nl/</a>. De verstrekking is <strong>gratis</strong>, digitaal en fysiek. Is een dossier nog niet digitaal en gaat het om meer dan vijf scans, dan worden er wel kosten gerekend. <a href=\"mailto:archiefeemland@amersfoort.nl\">archiefeemland@amersfoort.nl</a>.</p>"
     },
     {
+     "bedrag": 21.65,
      "kop": "vanaf oktober 2017",
      "van": 2017,
      "tot": null,
@@ -580,6 +617,7 @@
      "html": "<p><strong>gemeente Baarn</strong>. Naspeuringen in het gemeentearchief kosten € 21,65 per kwartier.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -612,6 +650,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "vanaf 1901",
      "van": 1901,
      "tot": null,
@@ -622,6 +661,7 @@
      "html": "<p><strong>gemeentearchief Barneveld</strong>, met een eigen collectiesite Archieval waarop u thuis kunt zoeken. Bij een archiefstuk staat een knop digitaliseren; dat scannen is kosteloos. <a href=\"https://gemeentearchief.barneveld.nl/\" target=\"_blank\" rel=\"noopener\">https://gemeentearchief.barneveld.nl/</a>. Voor een kopie van een vergunning of tekening is er de pagina \"Kopie van vergunning of tekening\".</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -654,6 +694,7 @@
    "intro_html": "<p>De gemeente is in 2015 ontstaan uit Groesbeek, Ubbergen en Millingen aan de Rijn, en die drie hebben ieder hun eigen grens tussen archief en gemeente.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "Groesbeek en Millingen aan de Rijn t/m 2001, Ubbergen t/m 2006",
      "van": 2001,
      "tot": 2006,
@@ -664,6 +705,7 @@
      "html": "<p><strong>Regionaal Archief Nijmegen</strong>, op adres doorzoekbaar in de Digitale Studiezaal: <a href=\"https://studiezaal.nijmegen.nl/bouwvergunningen\" target=\"_blank\" rel=\"noopener\">https://studiezaal.nijmegen.nl/bouwvergunningen</a>. Contact: <a href=\"mailto:hetarchief@nijmegen.nl\">hetarchief@nijmegen.nl</a>, (024) 329 23 07.</p>"
     },
     {
+     "bedrag": null,
      "kop": "Groesbeek en Millingen vanaf 2001, Ubbergen vanaf 2006",
      "van": 2006,
      "tot": null,
@@ -674,6 +716,7 @@
      "html": "<p><strong>gemeente Berg en Dal</strong>, <a href=\"mailto:archief@bergendal.nl\">archief@bergendal.nl</a>, tel. 14 024, Dorpsplein 1 in Groesbeek. Voor het opvragen kunnen leges gelden.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -684,6 +727,7 @@
      "html": "<p><strong>Wat de omgevingsdienst heeft behandeld</strong>: <strong>Omgevingsdienst Groene Metropool</strong> (ODGM), webformulier op <a href=\"https://www.odgroenemetropool.nl/bouwplannen-en-bouwtekeningen-inzien/\" target=\"_blank\" rel=\"noopener\">https://www.odgroenemetropool.nl/bouwplannen-en-bouwtekeningen-inzien/</a>, <a href=\"mailto:archief@odrn.nl\">archief@odrn.nl</a>, tel. regio Nijmegen 024 - 751 7700. Berg en Dal staat in hun gemeentelijst. De gemeentepagina noemt de ODGM als eerste adres voor een bouwtekening.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -711,6 +755,7 @@
    "intro_html": "<p>Vier voormalige gemeenten, elk met een eigen grens. Kijk dus eerst in welke kern het pand staat.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -721,6 +766,7 @@
      "html": "<p><strong>Bergeijk 1930 t/m 1999, Luyksgestel 1928 t/m 1996, Riethoven 1945 t/m 1999 en Westerhoven 1921 t/m 1996</strong>: <strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), gedigitaliseerd en online doorzoekbaar op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "Bergeijk 1910 t/m 1930 en Riethoven 1925 t/m 1939",
      "van": 1910,
      "tot": 1930,
@@ -731,6 +777,7 @@
      "html": "<p><strong>RHCe</strong>, analoog en nog niet gedigitaliseerd. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, tel. (040) 264 99 40.</p>"
     },
     {
+     "bedrag": null,
      "kop": "Bergeijk en Riethoven vanaf 2000, Luyksgestel en Westerhoven vanaf 1997",
      "van": 1997,
      "tot": null,
@@ -741,6 +788,7 @@
      "html": "<p><strong>gemeente Bergeijk</strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -771,6 +819,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "vanaf 1901",
      "van": 1901,
      "tot": null,
@@ -781,6 +830,7 @@
      "html": "<p><strong>gemeente Bergen</strong>, per mail bij <a href=\"mailto:info@bergen.nl\">info@bergen.nl</a>. De gemeente bewaart de bouwtekeningen en bouwplannen zelf.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -807,6 +857,7 @@
    "intro_html": "<p>Voor de negen gemeenten van West-Brabant is er één loket dat het goed doet: het <strong>e-loket bouwdossiers van het West-Brabants Archief</strong> (WBA), ontstaan op 1 juli 2016 uit de archiefdiensten van onder meer Bergen op Zoom, Roosendaal en Moerdijk. U zoekt op adres, vraagt per dossier aan, en na goedkeuring komt er een mail met een link waarmee u de tekeningen dertig dagen lang <strong>gratis</strong> als pdf downloadt. <a href=\"https://bouwdossiers.westbrabantsarchief.nl/\" target=\"_blank\" rel=\"noopener\">https://bouwdossiers.westbrabantsarchief.nl/</a>. Vragen: <a href=\"mailto:studiezaal@westbrabantsarchief.nl\">studiezaal@westbrabantsarchief.nl</a>. De einddatum verschilt per gemeente.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m bouwjaar 2010",
      "van": null,
      "tot": 2010,
@@ -817,6 +868,7 @@
      "html": "<p><strong>West-Brabants Archief</strong>, e-loket, gratis.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2011",
      "van": 2011,
      "tot": null,
@@ -827,6 +879,7 @@
      "html": "<p><strong>gemeente Bergen op Zoom</strong>, stadskantoor. Bel of mail vooraf naar <a href=\"mailto:omgevingsvergunning@bergenopzoom.nl\">omgevingsvergunning@bergenopzoom.nl</a>, dan liggen de tekeningen klaar als u langskomt.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -861,6 +914,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -871,6 +925,7 @@
      "html": "<p><strong>de overgedragen jaren</strong>: <strong>Erfgoedcentrum Achterhoek en Liemers</strong> (ECAL) in Doetinchem, <a href=\"mailto:info@ecal.nu\">info@ecal.nu</a>, 0314 - 78 70 78. Zoeken op adres op <a href=\"https://www.ecal.nu/\" target=\"_blank\" rel=\"noopener\">https://www.ecal.nu/</a>, inzien in de studiezaal gratis.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 1901, wat nog bij de gemeente ligt",
      "van": 1901,
      "tot": null,
@@ -881,6 +936,7 @@
      "html": "<p>(de voormalige gemeenten Borculo, Ruurlo, Neede en Eibergen plus het lopende archief): <strong>gemeente Berkelland</strong>, via het webformulier op <a href=\"https://www.gemeenteberkelland.nl/direct-regelen/bouwen-verbouwen-ruimtelijke-plannen/bouwen/gemeentearchief/\" target=\"_blank\" rel=\"noopener\">https://www.gemeenteberkelland.nl/direct-regelen/bouwen-verbouwen-ruimtelijke-plannen/bouwen/gemeentearchief/</a>, 0545 - 250 250, <a href=\"mailto:info@gemeenteberkelland.nl\">info@gemeenteberkelland.nl</a>. Omschrijf zo nauwkeurig mogelijk wat u zoekt. De gemeente rekent leges voor naspeuringen en kopieën (legesverordening 1.26 en 1.28).</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -909,6 +965,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -919,6 +976,7 @@
      "html": "<p><strong>de archiefjaren</strong>: <strong>Brabants Historisch Informatie Centrum</strong> (BHIC), dat de bouwtekeningen van Bernheze beheert. Zoeken op plaats, straat en huisnummer; scanning on request is kosteloos. <a href=\"https://www.bhic.nl/onderzoeken/hulp-bij-onderzoek/bouwtekeningen-bernheze\" target=\"_blank\" rel=\"noopener\">https://www.bhic.nl/onderzoeken/hulp-bij-onderzoek/bouwtekeningen-bernheze</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -929,6 +987,7 @@
      "html": "<p><strong>de recente jaren</strong>: <strong>gemeente Bernheze</strong>, formulier \"Bouwtekening opvragen uit archief\" op <a href=\"https://www.bernheze.org/inwoners-en-ondernemers/bouwen-en-verbouwen/bouwtekening-opvragen-uit-archief/\" target=\"_blank\" rel=\"noopener\">https://www.bernheze.org/inwoners-en-ondernemers/bouwen-en-verbouwen/bouwtekening-opvragen-uit-archief/</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -953,6 +1012,7 @@
    "intro_html": "<p>Let op: van Best is nog niets gedigitaliseerd. Alles van vóór 2000 is papier, en dat kost extra tijd.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "1906 t/m 1999",
      "van": 1906,
      "tot": 1999,
@@ -963,6 +1023,7 @@
      "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), in twee reeksen (1906 t/m 1946 en 1947 t/m 1999), allebei analoog en nog niet gedigitaliseerd. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, zonder inloggen, tel. (040) 264 99 40. Reken op een langere doorlooptijd dan bij een gedigitaliseerde gemeente.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2000",
      "van": 2000,
      "tot": null,
@@ -973,6 +1034,7 @@
      "html": "<p><strong>gemeente Best</strong>, via het omgevingsloket op hun website.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -1000,6 +1062,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m 1999",
      "van": null,
      "tot": 1999,
@@ -1010,6 +1073,7 @@
      "html": "<p><strong>Regionaal Archief Nijmegen</strong>, op adres doorzoekbaar in de Digitale Studiezaal: <a href=\"https://studiezaal.nijmegen.nl/bouwvergunningen\" target=\"_blank\" rel=\"noopener\">https://studiezaal.nijmegen.nl/bouwvergunningen</a>. Contact: <a href=\"mailto:hetarchief@nijmegen.nl\">hetarchief@nijmegen.nl</a>, (024) 329 23 07.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2000",
      "van": 2000,
      "tot": null,
@@ -1020,6 +1084,7 @@
      "html": "<p><strong>Omgevingsdienst Groene Metropool</strong> (ODGM), die voor Beuningen de vergunningen en het toezicht doet. Webformulier op <a href=\"https://www.odgroenemetropool.nl/bouwplannen-en-bouwtekeningen-inzien/\" target=\"_blank\" rel=\"noopener\">https://www.odgroenemetropool.nl/bouwplannen-en-bouwtekeningen-inzien/</a>, tel. 024 - 751 7700. Inzage op het gemeentehuis kan niet meer, alles loopt via de dienst.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -1048,6 +1113,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "Bladel 1926 t/m 1996 en Hoogeloon, Hapert en Casteren 1932 t/m 1996",
      "van": 1926,
      "tot": 1996,
@@ -1058,6 +1124,7 @@
      "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), gedigitaliseerd en online doorzoekbaar op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "Bladel 1903 t/m 1925 en Hoogeloon, Hapert en Casteren 1905 t/m 1931",
      "van": 1903,
      "tot": 1925,
@@ -1068,6 +1135,7 @@
      "html": "<p><strong>RHCe</strong>, analoog. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, tel. (040) 264 99 40.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 1997",
      "van": 1997,
      "tot": null,
@@ -1078,6 +1146,7 @@
      "html": "<p><strong>gemeente Bladel</strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -1104,6 +1173,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -1114,6 +1184,7 @@
      "html": "<p><strong>de archiefjaren</strong>: <strong>Brabants Historisch Informatie Centrum</strong> (BHIC), dat de bouwtekeningen van Boekel beheert. Scanning on request is kosteloos. <a href=\"https://www.bhic.nl/onderzoeken/bouwvergunningen\" target=\"_blank\" rel=\"noopener\">https://www.bhic.nl/onderzoeken/bouwvergunningen</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -1124,6 +1195,7 @@
      "html": "<p><strong>de recente jaren</strong>: <strong>gemeente Boekel</strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -1150,6 +1222,7 @@
    "intro_html": "<p>Een van de prettigste loketten van Brabant: een mail volstaat en het kost niets.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "vanaf 1901",
      "van": 1901,
      "tot": null,
@@ -1160,6 +1233,7 @@
      "html": "<p><strong>gemeente Boxtel</strong>, per mail bij <a href=\"mailto:gemeente@boxtel.nl\">gemeente@boxtel.nl</a>. Zet erbij uw naam, adres en mailadres, en van welk adres u de tekeningen wilt. Het opvragen is <strong>gratis</strong>. Een bouwdossier bevat de aanvraag, de vergunning en de bijlagen.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -1170,6 +1244,7 @@
      "html": "<p><strong>de oudste jaren</strong>: <strong>Brabants Historisch Informatie Centrum</strong> (BHIC), zoeken op plaats, straat en huisnummer, scanning on request kosteloos. <a href=\"https://www.bhic.nl/onderzoeken/bouwvergunningen\" target=\"_blank\" rel=\"noopener\">https://www.bhic.nl/onderzoeken/bouwvergunningen</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -1200,6 +1275,7 @@
    "intro_html": "<p>Breda is een van de weinige gemeenten waar vrijwel het hele archief zonder tussenkomst te raadplegen is. In 2025 zijn 850.000 dossiers in een publiek portaal gezet.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m 2013",
      "van": null,
      "tot": 2013,
@@ -1210,6 +1286,7 @@
      "html": "<p><strong>Stadsarchief Breda</strong>, direct online in te zien via het publieksportaal <a href=\"https://archief.stadsarchiefbreda.nl/vergunningen\" target=\"_blank\" rel=\"noopener\">https://archief.stadsarchiefbreda.nl/vergunningen</a>. Kosteloos. Panden met een veiligheidsrisico, zoals politiebureaus en het stadhuis, zijn afgeschermd.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2014 en lopende vergunningen",
      "van": 2014,
      "tot": null,
@@ -1220,6 +1297,7 @@
      "html": "<p><strong>gemeente Breda</strong>, met een digitaal formulier op <a href=\"https://www.breda.nl/bouwdossier-inzien\" target=\"_blank\" rel=\"noopener\">https://www.breda.nl/bouwdossier-inzien</a>. Handig om bij de hand te hebben: het zaaknummer in de vorm Z plus jaartal plus zes cijfers, anders straat en huisnummer.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -1255,6 +1333,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "vanaf 1 januari 2005",
      "van": 2005,
      "tot": null,
@@ -1265,6 +1344,7 @@
      "html": "<p><strong>gemeente Bronckhorst</strong>, formulier \"Verzoek toesturen bouwplan/bouwtekeningen\" op <a href=\"https://www.bronckhorst.nl/bouwplannen-en-bouwtekeningen-bekijken\" target=\"_blank\" rel=\"noopener\">https://www.bronckhorst.nl/bouwplannen-en-bouwtekeningen-bekijken</a>, tel. (0575) 75 02 50.</p>"
     },
     {
+     "bedrag": null,
      "kop": "t/m 2004",
      "van": null,
      "tot": 2004,
@@ -1275,6 +1355,7 @@
      "html": "<p><strong>Erfgoedcentrum Achterhoek en Liemers</strong> (ECAL), 't Brewinc, IJsselkade 13 in Doetinchem, <a href=\"mailto:info@ecal.nu\">info@ecal.nu</a>, 0314 - 787 078. Inzien in de studiezaal is gratis; digitaliseren op verzoek kost geld naar aantal pagina's.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -1305,6 +1386,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "1922 t/m 1945",
      "van": 1922,
      "tot": 1945,
@@ -1315,6 +1397,7 @@
      "html": "<p>ruim 1.300 vergunningen en tekeningen zijn gedigitaliseerd en staan in het e-loket Vergunningdossiers van het <strong>Erfgoedcentrum Zutphen</strong>: <a href=\"https://vergunningdossiers.erfgoedcentrumzutphen.nl/\" target=\"_blank\" rel=\"noopener\">https://vergunningdossiers.erfgoedcentrumzutphen.nl/</a>. Scans zijn daar gratis aan te vragen. Het origineel inzien kan in de studiezaal in Zutphen, met archief- en inventarisnummer bij de hand.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 1946",
      "van": 1946,
      "tot": null,
@@ -1325,6 +1408,7 @@
      "html": "<p>de collectie bouwvergunningen van het Erfgoedcentrum bevat Brummen, Lochem en Zutphen; wat er niet in zit ligt bij de gemeente Brummen.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -1351,6 +1435,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m 2017",
      "van": null,
      "tot": 2017,
@@ -1361,6 +1446,7 @@
      "html": "<p><strong>Regionaal Archief Zuid-Utrecht</strong> (RAZU) in Wijk bij Duurstede. De papieren dossiers zijn daar <strong>gratis</strong> in te zien, wel op afspraak. <a href=\"mailto:info@razu.nl\">info@razu.nl</a>, 088 - 5300 170.</p>"
     },
     {
+     "bedrag": 12.95,
      "kop": "vanaf 2018",
      "van": 2018,
      "tot": null,
@@ -1371,6 +1457,7 @@
      "html": "<p><strong>gemeente Bunnik</strong>, digitaal aan te vragen. Een digitaal bouwdossier kost <strong>€ 12,95</strong>. Singelpark 1 in Odijk.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -1398,6 +1485,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": 13.5,
      "kop": "vanaf 1901",
      "van": 1901,
      "tot": null,
@@ -1408,6 +1496,7 @@
      "html": "<p><strong>gemeente Bunschoten</strong>, archief op het gemeentehuis. Zelf zoeken in de oude archieven is gratis, maar laat u een ambtenaar zoeken dan kost dat <strong>€ 13,50 per kwartier</strong>. Kopieën: € 0,40 voor A4, € 0,60 voor A3 en € 12,85 voor A0. Inventarissen: <a href=\"https://www.erfgoedbunschoten.nl\" target=\"_blank\" rel=\"noopener\">https://www.erfgoedbunschoten.nl</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -1418,6 +1507,7 @@
      "html": "<p><strong>de oudste jaren</strong>: <strong>Archief Eemland</strong> beheert het archief van Bunschoten mede; <a href=\"mailto:archiefeemland@amersfoort.nl\">archiefeemland@amersfoort.nl</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -1454,6 +1544,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m maart 2013",
      "van": null,
      "tot": 2013,
@@ -1464,6 +1555,7 @@
      "html": "<p><strong>Regionaal Archief Rivierenland</strong> in Tiel, tel. 0344 - 612 230, digitaliseren op verzoek gratis. <a href=\"https://regionaalarchiefrivierenland.nl/vergunningen\" target=\"_blank\" rel=\"noopener\">https://regionaalarchiefrivierenland.nl/vergunningen</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf april 2013",
      "van": 2013,
      "tot": null,
@@ -1474,6 +1566,7 @@
      "html": "<p><strong>Omgevingsdienst Rivierenland</strong>, <a href=\"mailto:ingekomenpost@odrivierenland.nl\">ingekomenpost@odrivierenland.nl</a>, tel. 0344 579 314.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -1503,6 +1596,7 @@
    "intro_html": "<p>Bijna alles is hier gedigitaliseerd, en de reeksen lopen ver door: Budel tot 1997.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "Budel 1914 t/m 1997 en Maarheeze 1900 t/m 1996",
      "van": 1914,
      "tot": 1997,
@@ -1513,6 +1607,7 @@
      "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), gedigitaliseerd en volledig online doorzoekbaar op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "Soerendonk 1907 t/m 1923",
      "van": 1907,
      "tot": 1923,
@@ -1523,6 +1618,7 @@
      "html": "<p><strong>RHCe</strong>, analoog. Soerendonk ging in 1925 op in Maarheeze, dus vanaf dat jaar zoekt u onder Maarheeze.</p>"
     },
     {
+     "bedrag": null,
      "kop": "Budel vanaf 1998 en Maarheeze vanaf 1997",
      "van": 1997,
      "tot": null,
@@ -1533,6 +1629,7 @@
      "html": "<p><strong>gemeente Cranendonck</strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -1557,6 +1654,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m maart 2013",
      "van": null,
      "tot": 2013,
@@ -1567,6 +1665,7 @@
      "html": "<p><strong>Regionaal Archief Rivierenland</strong> in Tiel, tel. 0344 - 612 230, digitaliseren op verzoek gratis (maximaal drie inventarisnummers per week, tien werkdagen). Zoeken via <a href=\"https://regionaalarchiefrivierenland.nl/vergunningen\" target=\"_blank\" rel=\"noopener\">https://regionaalarchiefrivierenland.nl/vergunningen</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf april 2013",
      "van": 2013,
      "tot": null,
@@ -1577,6 +1676,7 @@
      "html": "<p><strong>Omgevingsdienst Rivierenland</strong>, <a href=\"mailto:ingekomenpost@odrivierenland.nl\">ingekomenpost@odrivierenland.nl</a>, tel. 0344 579 314.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -1606,6 +1706,7 @@
    "intro_html": "<p>Het duurste gemeenteloket dat ik in deze ronde tegenkwam, en het bedrag krijgt u niet terug als er niets blijkt te zijn.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "De Bilt en Bilthoven t/m 1987, Maartensdijk t/m 2000",
      "van": 1987,
      "tot": 2000,
@@ -1616,6 +1717,7 @@
      "html": "<p><strong>Regionaal Archief Noordwest Utrecht</strong> in Breukelen (tot voor kort Regionaal Historisch Centrum Vecht en Venen), dat de bouwdossiers van De Bilt, De Ronde Venen en Stichtse Vecht beheert. Scans aanvragen kan per mail bij <a href=\"mailto:info@regionaalarchiefnoordwestutrecht.nl\">info@regionaalarchiefnoordwestutrecht.nl</a>; u krijgt ze via WeTransfer. Tel. 0346 - 25 94 25. De meeste dossiers zijn alleen fysiek in te zien, op afspraak, en daar kunt u tegen betaling scans laten maken.</p>"
     },
     {
+     "bedrag": 48.2,
      "kop": "De Bilt en Bilthoven vanaf 1988",
      "van": 1988,
      "tot": null,
@@ -1626,6 +1728,7 @@
      "html": "<p><strong>gemeente De Bilt</strong>. Kost <strong>€ 48,20</strong> (tarief 2026), levering digitaal via uw persoonlijke internetpagina, doorlooptijd tot vier weken. Het geld wordt niet terugbetaald als het dossier er niet blijkt te zijn.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -1657,6 +1760,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m 1988",
      "van": null,
      "tot": 1988,
@@ -1667,6 +1771,7 @@
      "html": "<p><strong>Regionaal Archief Noordwest Utrecht</strong> in Breukelen. Onder meer Abcoude 1941-2010 en Wilnis 1940-1988. Scans per mail bij <a href=\"mailto:info@regionaalarchiefnoordwestutrecht.nl\">info@regionaalarchiefnoordwestutrecht.nl</a>, levering via WeTransfer, tel. 0346 - 25 94 25. De meeste dossiers zijn alleen op afspraak fysiek in te zien.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 1989",
      "van": 1989,
      "tot": null,
@@ -1677,6 +1782,7 @@
      "html": "<p>voor Amstelhoek, De Hoef, Mijdrecht, Vinkeveen, Waverveen en Wilnis: <strong>gemeente De Ronde Venen</strong>, archief in het gemeentehuis in Mijdrecht.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -1705,6 +1811,7 @@
    "intro_html": "<p>De ruimste digitale reeks van de hele regio: bijna zestig jaar online doorzoekbaar.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "1952 t/m 2010",
      "van": 1952,
      "tot": 2010,
@@ -1715,6 +1822,7 @@
      "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), gedigitaliseerd en volledig online doorzoekbaar op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>. Vrijwel elke naoorlogse woning in Deurne valt hierin.</p>"
     },
     {
+     "bedrag": null,
      "kop": "1905 t/m 1951",
      "van": 1905,
      "tot": 1951,
@@ -1725,6 +1833,7 @@
      "html": "<p><strong>RHCe</strong>, analoog en nog niet gedigitaliseerd. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, tel. (040) 264 99 40. Voor Vlierden loopt de eigen reeks van 1874 t/m 1925; in 1926 is die kern door Deurne geannexeerd.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2011",
      "van": 2011,
      "tot": null,
@@ -1735,6 +1844,7 @@
      "html": "<p><strong>gemeente Deurne</strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -1759,6 +1869,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -1769,6 +1880,7 @@
      "html": "<p><strong>de oudere jaren</strong>: <strong>Streekarchivariaat de Liemers en Doesburg</strong>, in hetzelfde gebouw als de gemeente aan de Leigraafseweg 8. Alleen op afspraak, donderdag 9.00-12.30 en 13.30-16.30, <a href=\"mailto:info@liemersarchief.nl\">info@liemersarchief.nl</a>, 0313 - 481 319.</p>"
     },
     {
+     "bedrag": null,
      "kop": "de jaren daarna tot oktober 2022",
      "van": null,
      "tot": 2022,
@@ -1779,6 +1891,7 @@
      "html": "<p><strong>gemeente Doesburg</strong>, alleen op afspraak, <a href=\"mailto:info@doesburg.nl\">info@doesburg.nl</a>, (0313) 48 13 13, afspraak via <a href=\"https://doesburg.mijnafspraakmaken.nl\" target=\"_blank\" rel=\"noopener\">https://doesburg.mijnafspraakmaken.nl</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf oktober 2022",
      "van": 2022,
      "tot": null,
@@ -1789,6 +1902,7 @@
      "html": "<p><strong>Omgevingsdienst Groene Metropool</strong> (ODGM), webformulier op <a href=\"https://www.odgroenemetropool.nl/bouwplannen-en-bouwtekeningen-inzien/\" target=\"_blank\" rel=\"noopener\">https://www.odgroenemetropool.nl/bouwplannen-en-bouwtekeningen-inzien/</a>, gratis, tel. regio Arnhem 026 - 377 1600. Doesburg staat in hun gemeentelijst met bouwdossiers vanaf oktober 2022.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -1816,6 +1930,7 @@
    "intro_html": "<p>De Achterhoek is hier het lastigst: het streekarchief heeft de dossiers wel, maar niet digitaal, en op afstand leveren kost geld.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m ongeveer 2004",
      "van": null,
      "tot": 2004,
@@ -1826,6 +1941,7 @@
      "html": "<p><strong>Erfgoedcentrum Achterhoek en Liemers</strong> (ECAL), 't Brewinc, IJsselkade 13 in Doetinchem. Op <a href=\"https://www.ecal.nu/\" target=\"_blank\" rel=\"noopener\">https://www.ecal.nu/</a> klikt u op Bouwdossiers, dan op uitgebreid zoeken, en voert u het adres in. Inzien en fotograferen zonder flits is gratis en kan zonder afspraak, di t/m do 9.00-12.00 en 13.00-16.00. Digitaliseren op verzoek kan, met een prijs naar aantal pagina's of tekeningen; u krijgt vooraf een betaallink. <a href=\"mailto:info@ecal.nu\">info@ecal.nu</a>, 0314 - 787 078.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf ongeveer 2005, en de constructieberekeningen",
      "van": 2005,
      "tot": null,
@@ -1836,6 +1952,7 @@
      "html": "<p><strong>loket Bouwen en Wonen</strong> van de gemeente Doetinchem, tel. (0314) 377 377. Zij zoeken het in hun eigen archief op en bellen terug; reken op vijf werkdagen.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -1863,6 +1980,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "1902 t/m 2009",
      "van": 1902,
      "tot": 2009,
@@ -1873,6 +1991,7 @@
      "html": "<p><strong>Regionaal Archief Tilburg</strong>, digitaal beschikbaar. Kosteloos, scans binnen vijftien werkdagen, aanvragen bij <strong><a href=\"mailto:info@regionaalarchieftilburg.nl\">info@regionaalarchieftilburg.nl</a></strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2010",
      "van": 2010,
      "tot": null,
@@ -1883,6 +2002,7 @@
      "html": "<p><strong>gemeente Dongen</strong>, tel. 14 0162. De gemeente heeft geen aparte pagina voor het bouwarchief; de weg loopt via het algemene contactformulier.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -1912,6 +2032,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "vanaf 1934",
      "van": 1934,
      "tot": null,
@@ -1922,6 +2043,7 @@
      "html": "<p><strong>gemeente Drimmelen</strong>, gemeentehuis in Made. Het Regionaal Archief Tilburg noemt Drimmelen wel als deelnemer, maar meldt dat de stukken vanaf 1934 bij de gemeente liggen.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -1950,6 +2072,7 @@
    "intro_html": "<p>Druten en Wijchen delen één ambtelijke organisatie, dus u komt bij hetzelfde telefoonnummer uit.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m 1983, de voormalige gemeente Horssen",
      "van": null,
      "tot": 1983,
@@ -1960,6 +2083,7 @@
      "html": "<p><strong>Regionaal Archief Nijmegen</strong>, <a href=\"https://studiezaal.nijmegen.nl/bouwvergunningen\" target=\"_blank\" rel=\"noopener\">https://studiezaal.nijmegen.nl/bouwvergunningen</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 1901, alle overige jaren",
      "van": 1901,
      "tot": null,
@@ -1970,6 +2094,7 @@
      "html": "<p><strong>gemeente Druten</strong> zelf, via het formulier bij <a href=\"https://www.druten.nl/archiefstukken-aanvragen-en-inzien\" target=\"_blank\" rel=\"noopener\">https://www.druten.nl/archiefstukken-aanvragen-en-inzien</a>, tel. 088 432 70 00. Het archiefstuk komt per mail of per post, u hoeft niet naar het gemeentehuis. Inzage en een scan zijn gratis, voor een print wordt betaald. Vul het formulier volledig in, anders blijft de aanvraag liggen.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -1996,6 +2121,7 @@
    "intro_html": "<p>Duiven en Westervoort delen de ambtelijke organisatie 1Stroom, dus de route is voor beide dezelfde.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m ongeveer 1970",
      "van": null,
      "tot": 1970,
@@ -2006,6 +2132,7 @@
      "html": "<p><strong>Streekarchivariaat de Liemers en Doesburg</strong>, dat de archieven van Doesburg, Duiven, Westervoort en Zevenaar beheert, inclusief de voormalige gemeenten Angerlo en Rijnwaarden. Alleen op afspraak: <a href=\"mailto:info@liemersarchief.nl\">info@liemersarchief.nl</a>, 0313 - 481 319, maandag in Duiven, dinsdag in Zevenaar, donderdag in Doesburg (9.00-12.30 en 13.30-16.30), Leigraafseweg 8 in Doesburg.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf ongeveer 1970",
      "van": 1970,
      "tot": null,
@@ -2016,6 +2143,7 @@
      "html": "<p>via het portaal Bouwdossiers Duiven, na inloggen, met de keuze \"Dossier gegevens opvragen uit het archief\". Vragen: <a href=\"mailto:omgevingsvergunning@1stroom.nl\">omgevingsvergunning@1stroom.nl</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -2048,6 +2176,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "1903 t/m 1999",
      "van": 1903,
      "tot": 1999,
@@ -2058,6 +2187,7 @@
      "html": "<p><strong>Gemeentearchief Ede</strong>, digitaal archief, zelf doorzoekbaar op adres via <a href=\"https://digitaalarchief.ede.nl\" target=\"_blank\" rel=\"noopener\">https://digitaalarchief.ede.nl</a>. De bouwadministratie begint in 1903; van daarvoor is er niets.</p>"
     },
     {
+     "bedrag": null,
      "kop": "Vanaf 2000",
      "van": 2000,
      "tot": null,
@@ -2068,6 +2198,7 @@
      "html": "<p>Kaartviewer <a href=\"https://geo.ede.nl/?@Vergunningen\" target=\"_blank\" rel=\"noopener\">https://geo.ede.nl/?@Vergunningen</a>, waarin de latere vergunningen op de kaart staan.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -2078,6 +2209,7 @@
      "html": "<p><strong>Bestellen.</strong> Vindt u zelf het dossiernummer in een van die twee viewers, dan is de digitale levering <strong>gratis</strong> via het aanvraagformulier op ede.nl. Laat u het archief zoeken, dan kost het <strong>€ 18,85 per adres</strong>, te betalen met iDEAL. Levering in beide gevallen binnen 5 werkdagen. Route: <a href=\"https://www.ede.nl/aanvragen-en-regelen/verleende-vergunningen-inzien-en-opvragen/\" target=\"_blank\" rel=\"noopener\">https://www.ede.nl/aanvragen-en-regelen/verleende-vergunningen-inzien-en-opvragen/</a>, of de archivaris via tel. 14 0318.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -2088,6 +2220,7 @@
      "html": "<p>Dossiers met een <strong>W-nummer</strong> zijn wederopbouwdossiers en alleen in de studiezaal in te zien.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -2112,6 +2245,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "1947 t/m 2017",
      "van": 1947,
      "tot": 2017,
@@ -2122,6 +2256,7 @@
      "html": "<p><strong>Archief Eemland</strong>, op adres doorzoekbaar via <a href=\"https://bouwdossiers.archiefeemland.nl/\" target=\"_blank\" rel=\"noopener\">https://bouwdossiers.archiefeemland.nl/</a>. Meestal is het dossier digitaal beschikbaar en mailen ze het toe. Verstrekking <strong>gratis</strong>. Vragen via 14 035 of het contactformulier, of <a href=\"mailto:archiefeemland@amersfoort.nl\">archiefeemland@amersfoort.nl</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2018",
      "van": 2018,
      "tot": null,
@@ -2132,6 +2267,7 @@
      "html": "<p><strong>gemeente Eemnes</strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -2161,6 +2297,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "Eersel, Duizel en Steensel 1921 t/m 2010",
      "van": 1921,
      "tot": 2010,
@@ -2171,6 +2308,7 @@
      "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), gedigitaliseerd en volledig online doorzoekbaar op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "Vessem, Wintelre en Knegsel 1936 t/m 1996",
      "van": 1936,
      "tot": 1996,
@@ -2181,6 +2319,7 @@
      "html": "<p>eveneens <strong>RHCe</strong> en gedigitaliseerd. Die drie kernen kwamen in 1997 bij Eersel; daarvóór vormden zij een eigen gemeente.</p>"
     },
     {
+     "bedrag": null,
      "kop": "Vessem, Wintelre en Knegsel 1901 t/m 1935",
      "van": 1901,
      "tot": 1935,
@@ -2191,6 +2330,7 @@
      "html": "<p><strong>RHCe</strong>, analoog. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2011",
      "van": 2011,
      "tot": null,
@@ -2201,6 +2341,7 @@
      "html": "<p><strong>gemeente Eersel</strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -2230,6 +2371,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m 1988",
      "van": null,
      "tot": 1988,
@@ -2240,6 +2382,7 @@
      "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), Raiffeisenstraat 18. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, zonder inloggen. Tel. (040) 264 99 40, op werkdagen van 08:30 tot 17:00.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 1989",
      "van": 1989,
      "tot": null,
@@ -2250,6 +2393,7 @@
      "html": "<p><strong>gemeente Eindhoven</strong>. Alleen online in te zien na inloggen met DigiD of eHerkenning. Kosten € 34 per dossier, levering binnen vijf werkdagen via beveiligde mail; de factuur volgt ongeveer twee weken later. Wie geen van beide heeft, maakt een afspraak via <a href=\"mailto:vergunningen@eindhoven.nl\">vergunningen@eindhoven.nl</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -2260,6 +2404,7 @@
      "html": "<p>Het RHCe beheert de bouwdossiers van twintig gemeenten in Zuidoost-Brabant, waaronder Helmond, Veldhoven, Nuenen, Best, Geldrop-Mierlo, Deurne en Valkenswaard. De jaargrens verschilt per gemeente en staat per gemeente op de site van het archief.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -2288,6 +2433,7 @@
    "intro_html": "<p>Voor de acht gemeenten van de noordelijke Veluwe geldt sinds 1 juli 2025 één archief, zie de gedeelde toelichting bij Oldebroek.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m 2000",
      "van": null,
      "tot": 2000,
@@ -2298,6 +2444,7 @@
      "html": "<p><strong>Noord-Veluws Archief</strong> (NoVA), studiezaal in het gemeentehuis van Oldebroek, Raadhuisplein 1. Inzien is gratis. <a href=\"mailto:info@noordveluwsarchief.nl\">info@noordveluwsarchief.nl</a>, 0525 - 63 82 00.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2001",
      "van": 2001,
      "tot": null,
@@ -2308,6 +2455,7 @@
      "html": "<p><strong>gemeente Elburg</strong>, op afspraak, tel. 0525 - 688 688. Eventueel kopieerkosten.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -2335,6 +2483,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m 2000",
      "van": null,
      "tot": 2000,
@@ -2345,6 +2494,7 @@
      "html": "<p><strong>Noord-Veluws Archief</strong> (NoVA), leeszaal Sint Martinusplein 16 in Epe, di t/m vr 10.00-16.00, en de studiezaal in Oldebroek. Inzien is gratis. <a href=\"mailto:info@noordveluwsarchief.nl\">info@noordveluwsarchief.nl</a>, 0525 - 63 82 00. Schriftelijk of telefonisch een vraag stellen kan ook.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2001",
      "van": 2001,
      "tot": null,
@@ -2355,6 +2505,7 @@
      "html": "<p><strong>gemeente Epe</strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -2383,6 +2534,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m 2011",
      "van": null,
      "tot": 2011,
@@ -2393,6 +2545,7 @@
      "html": "<p><strong>Noord-Veluws Archief</strong> (NoVA), <a href=\"mailto:info@noordveluwsarchief.nl\">info@noordveluwsarchief.nl</a>, 0525 - 63 82 00, studiezaal in het gemeentehuis van Oldebroek. Inzien is gratis.</p>"
     },
     {
+     "bedrag": 36.7,
      "kop": "vanaf 2012",
      "van": 2012,
      "tot": null,
@@ -2403,6 +2556,7 @@
      "html": "<p><strong>gemeente Ermelo</strong>, digitaal aan te vragen via het formulier \"Inzien bouwdossier\" op e-inwoner.nl. Dat kost <strong>€ 36,70 per adres</strong>, vooraf online te betalen, en dat bedrag wordt altijd in rekening gebracht, ook als er niets bruikbaars in het dossier zit. U geeft adres, globaal bouwjaar, gewenste gegevens en de reden van de aanvraag op.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -2429,6 +2583,7 @@
    "intro_html": "<p>Let op: Etten-Leur staat níét in het e-loket van het West-Brabants Archief. Voor deze gemeente moet u mailen om te horen of het dossier online staat of alleen in de studiezaal te bekijken is.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m bouwjaar 1999",
      "van": null,
      "tot": 1999,
@@ -2439,6 +2594,7 @@
      "html": "<p><strong>West-Brabants Archief</strong>, kosteloos, maar niet zelf op te zoeken. Mail het adres naar <a href=\"mailto:studiezaal@westbrabantsarchief.nl\">studiezaal@westbrabantsarchief.nl</a> en vraag of het dossier digitaal beschikbaar is.</p>"
     },
     {
+     "bedrag": 21.0,
      "kop": "vanaf bouwjaar 2000",
      "van": 2000,
      "tot": null,
@@ -2449,6 +2605,7 @@
      "html": "<p><strong>gemeente Etten-Leur</strong>, online aan te vragen. Kost <strong>€ 21,00</strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -2475,6 +2632,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "1905 t/m 1997",
      "van": 1905,
      "tot": 1997,
@@ -2485,6 +2643,7 @@
      "html": "<p><strong>Regionaal Archief Tilburg</strong>, digitaal op te vragen. Kosteloos, scans binnen vijftien werkdagen, aanvragen bij <strong><a href=\"mailto:info@regionaalarchieftilburg.nl\">info@regionaalarchieftilburg.nl</a></strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 1997",
      "van": 1997,
      "tot": null,
@@ -2495,6 +2654,7 @@
      "html": "<p><strong>gemeente Geertruidenberg</strong>, per mail bij <strong><a href=\"mailto:info@geertruidenberg.nl\">info@geertruidenberg.nl</a></strong>. Wat het kost staat niet op de site. Zie <a href=\"https://www.geertruidenberg.nl/bouwtekeningen-en-vastgoedinformatie\" target=\"_blank\" rel=\"noopener\">https://www.geertruidenberg.nl/bouwtekeningen-en-vastgoedinformatie</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -2521,6 +2681,7 @@
    "intro_html": "<p>Ongebruikelijk voor deze regio: bij het archief zit alleen het begin van de vorige eeuw, al het overige ligt bij de gemeente. En die rekent per kwartier.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "Geldrop 1905 t/m 1931 en Mierlo 1903 t/m 1931",
      "van": 1905,
      "tot": 1931,
@@ -2531,6 +2692,7 @@
      "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), analoog en nog niet gedigitaliseerd. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, tel. (040) 264 99 40, reken op een langere doorlooptijd.</p>"
     },
     {
+     "bedrag": 23.85,
      "kop": "vanaf 1932",
      "van": 1932,
      "tot": null,
@@ -2541,6 +2703,7 @@
      "html": "<p><strong>gemeente Geldrop-Mierlo</strong>, via het formulier <a href=\"https://eloket.geldrop-mierlo.nl/f/2908\" target=\"_blank\" rel=\"noopener\">https://eloket.geldrop-mierlo.nl/f/2908</a>, <a href=\"mailto:gemeente@geldrop-mierlo.nl\">gemeente@geldrop-mierlo.nl</a>, +31 (0)40 289 38 99 op werkdagen 9.00-12.30. Het uitzoeken kost <strong>€ 23,85 per kwartier</strong>; een digitale kopie € 0,10 per A4, papier € 0,10 tot € 10,95 naar formaat. Zit het dossier al digitaal in het archief, dan komt het binnen enkele dagen; moet er gescand worden, reken op twee weken. De downloadlink vervalt na zeven dagen.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -2571,6 +2734,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "vanaf 1901",
      "van": 1901,
      "tot": null,
@@ -2581,6 +2745,7 @@
      "html": "<p><strong>gemeentearchief Gemert-Bakel</strong>. Het BHIC meldt uitdrukkelijk dat de bouwtekeningen van deze gemeente niet bij hen liggen maar bij de eigen archiefdienst.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -2609,6 +2774,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -2619,6 +2785,7 @@
      "html": "<p>Alleen de <strong>inventaris</strong> is gedigitaliseerd, via Erfgoed Maas en Niers. De dossiers zelf inziet u op afspraak op het gemeentekantoor, of u vraagt ze per mail aan bij <strong><a href=\"mailto:archief@gennep.nl\">archief@gennep.nl</a></strong>. Zie <a href=\"https://www.gennep.nl/bouwtekeningen-opvragen\" target=\"_blank\" rel=\"noopener\">https://www.gennep.nl/bouwtekeningen-opvragen</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -2629,6 +2796,7 @@
      "html": "<p>Kosteloos als u zelf de inventaris doorzoekt en een medewerker de stukken klaarlegt.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -2656,6 +2824,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "1905 t/m 2010",
      "van": 1905,
      "tot": 2010,
@@ -2666,6 +2835,7 @@
      "html": "<p><strong>Regionaal Archief Tilburg</strong>, digitaal beschikbaar. Kosteloos, scans binnen vijftien werkdagen, aanvragen bij <strong><a href=\"mailto:info@regionaalarchieftilburg.nl\">info@regionaalarchieftilburg.nl</a></strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf oktober 2010",
      "van": 2010,
      "tot": null,
@@ -2676,6 +2846,7 @@
      "html": "<p><strong>gemeente Gilze en Rijen</strong>, Raadhuisplein 1 in Rijen.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -2701,6 +2872,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "1905 t/m 1993",
      "van": 1905,
      "tot": 1993,
@@ -2711,6 +2883,7 @@
      "html": "<p><strong>Regionaal Archief Tilburg</strong>, op aanvraag. Kosteloos, scans binnen vijftien werkdagen, aanvragen bij <strong><a href=\"mailto:info@regionaalarchieftilburg.nl\">info@regionaalarchieftilburg.nl</a></strong>. Anders dan bij de buurgemeenten staat deze reeks niet in het digitale portaal.</p>"
     },
     {
+     "bedrag": null,
      "kop": "Goirle vanaf 1995 en Riel vanaf 1997",
      "van": 1997,
      "tot": null,
@@ -2721,6 +2894,7 @@
      "html": "<p><strong>gemeente Goirle</strong>, per mail bij <strong><a href=\"mailto:info@goirle.nl\">info@goirle.nl</a></strong> of via het contactformulier, tel. (013) 5310 610. Noem adres, bouwjaar, welke vergunning en waarvoor u de stukken nodig heeft. Stukken met persoonsgegevens komen er niet zonder meer uit. Tarieven 2026: archiefonderzoek € 17,30 en digitale bestanden € 29,85, dus samen bijna vijftig euro. Zie <a href=\"https://www.goirle.nl/bouwen-en-verbouwen/archief-vergunningen\" target=\"_blank\" rel=\"noopener\">https://www.goirle.nl/bouwen-en-verbouwen/archief-vergunningen</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -2749,6 +2923,7 @@
    "intro_html": "<p>De ruimste reeks van West-Brabant: het e-loket loopt hier door tot en met 2018.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m bouwjaar 2018",
      "van": null,
      "tot": 2018,
@@ -2759,6 +2934,7 @@
      "html": "<p><strong>West-Brabants Archief</strong>, e-loket bouwdossiers, gratis download binnen dertig dagen. <a href=\"https://bouwdossiers.westbrabantsarchief.nl/\" target=\"_blank\" rel=\"noopener\">https://bouwdossiers.westbrabantsarchief.nl/</a>, <a href=\"mailto:studiezaal@westbrabantsarchief.nl\">studiezaal@westbrabantsarchief.nl</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2019",
      "van": 2019,
      "tot": null,
@@ -2769,6 +2945,7 @@
      "html": "<p><strong>gemeente Halderberge</strong>, via het aanvraagformulier op <a href=\"https://www.halderberge.nl/aanvragen-bouwtekening\" target=\"_blank\" rel=\"noopener\">https://www.halderberge.nl/aanvragen-bouwtekening</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -2794,6 +2971,7 @@
    "intro_html": "<p>Het duurste loket dat ik in deze ronde ben tegengekomen.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m 2000",
      "van": null,
      "tot": 2000,
@@ -2804,6 +2982,7 @@
      "html": "<p><strong>Noord-Veluws Archief</strong> (NoVA), <a href=\"mailto:info@noordveluwsarchief.nl\">info@noordveluwsarchief.nl</a>, 0525 - 63 82 00. Inzien in de studiezaal is gratis.</p>"
     },
     {
+     "bedrag": 38.7,
      "kop": "vanaf 2001",
      "van": 2001,
      "tot": null,
@@ -2814,6 +2993,7 @@
      "html": "<p><strong>gemeente Harderwijk</strong>, via het contactformulier bouwtekening inzien op e-inwoner.nl, tel. 0341 - 411 911, <a href=\"mailto:info@harderwijk.nl\">info@harderwijk.nl</a>. Het opzoeken kost <strong>€ 19,35</strong> en het verstrekken nog eens <strong>€ 19,35</strong>, samen € 38,70 vooraf online te betalen. Blijkt er geen dossier te zijn, dan krijgt u alleen het verstrekkingsdeel terug; de opzoekkosten worden altijd berekend.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -2838,6 +3018,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m 2000",
      "van": null,
      "tot": 2000,
@@ -2848,6 +3029,7 @@
      "html": "<p><strong>Noord-Veluws Archief</strong> (NoVA), leeszaal Sint Martinusplein 16 in Epe en studiezaal in Oldebroek. Inzien is gratis. <a href=\"mailto:info@noordveluwsarchief.nl\">info@noordveluwsarchief.nl</a>, 0525 - 63 82 00.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2001",
      "van": 2001,
      "tot": null,
@@ -2858,6 +3040,7 @@
      "html": "<p><strong>gemeente Hattem</strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -2885,6 +3068,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m 2000",
      "van": null,
      "tot": 2000,
@@ -2895,6 +3079,7 @@
      "html": "<p><strong>Noord-Veluws Archief</strong> (NoVA), archieven van Heerde in te zien in de leeszaal Sint Martinusplein 16 in Epe, di t/m vr 10.00-16.00. Inzien is gratis. <a href=\"mailto:info@noordveluwsarchief.nl\">info@noordveluwsarchief.nl</a>, 0525 - 63 82 00.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2001",
      "van": 2001,
      "tot": null,
@@ -2905,6 +3090,7 @@
      "html": "<p><strong>gemeente Heerde</strong>. Een kopie van een bouwtekening vraagt u online aan na inloggen met DigiD; dat kunnen wij dus niet namens de eigenaar. Vragen kunnen wel naar <a href=\"mailto:gemeente@heerde.nl\">gemeente@heerde.nl</a> of via het contactformulier.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -2932,6 +3118,7 @@
    "intro_html": "<p>Hier ligt vrijwel alles bij de gemeente en niet bij het archief.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "Leende 1911 t/m 1935",
      "van": 1911,
      "tot": 1935,
@@ -2942,6 +3129,7 @@
      "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), analoog en nog niet gedigitaliseerd. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, tel. (040) 264 99 40. Van Leende ligt daarnaast een reeks 1864 t/m 1866 bij het RHCe.</p>"
     },
     {
+     "bedrag": null,
      "kop": "Heeze vanaf 1900 en Leende vanaf 1936",
      "van": 1936,
      "tot": null,
@@ -2952,6 +3140,7 @@
      "html": "<p><strong>gemeente Heeze-Leende</strong>, <a href=\"https://www.heeze-leende.nl/bouwplannen-en-bouwtekeningen-bekijken\" target=\"_blank\" rel=\"noopener\">https://www.heeze-leende.nl/bouwplannen-en-bouwtekeningen-bekijken</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -2982,6 +3171,7 @@
    "intro_html": "<p>Let op het verschil tussen de twee loketten: het archief is gratis, de gemeente rekent honderdtwintig euro. Kijk hier dus altijd eerst of het pand van vóór 2000 is.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "1913 t/m 1999",
      "van": 1913,
      "tot": 1999,
@@ -2992,6 +3182,7 @@
      "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), Raiffeisenstraat 18 in Eindhoven. Deze hele reeks is gedigitaliseerd en volledig online doorzoekbaar op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>. Aanvragen kan ook met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, zonder inloggen, en volgens de gemeente Helmond is dat <strong>gratis</strong>. Tel. (040) 264 99 40. Stiphout heeft een eigen gedigitaliseerde reeks 1932 t/m 1967 en ging in 1968 op in Helmond.</p>"
     },
     {
+     "bedrag": 119.6,
      "kop": "vanaf 2000",
      "van": 2000,
      "tot": null,
@@ -3002,6 +3193,7 @@
      "html": "<p><strong>gemeente Helmond</strong>, bij voorkeur per mail aan <a href=\"mailto:omgevingsvergunningen@helmond.nl\">omgevingsvergunningen@helmond.nl</a> of <a href=\"mailto:gemeente@helmond.nl\">gemeente@helmond.nl</a> met \"Omgevingsvergunningen\" in het onderwerp, tel. 14 0492. Zet erbij: het adres, uw naam en adresgegevens, telefoonnummer, KvK-nummer of burgerservicenummer, mailadres en dat u met de kosten akkoord gaat. Die kosten zijn <strong>€ 119,60 per adres</strong> (tarief 2026), en u krijgt niets terug als de stukken er niet blijken te zijn.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -3029,6 +3221,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "Bouwvergunningen t/m september 2010",
      "van": null,
      "tot": 2010,
@@ -3039,6 +3232,7 @@
      "html": "<p>(inclusief de voormalige gemeenten Heumen en Overasselt van vóór 1990): <strong>Regionaal Archief Nijmegen</strong>. Ruim 13.000 dossiers zijn gescand en op adres doorzoekbaar in de Digitale Studiezaal: <a href=\"https://studiezaal.nijmegen.nl/bouwvergunningen\" target=\"_blank\" rel=\"noopener\">https://studiezaal.nijmegen.nl/bouwvergunningen</a>. PDF's van de tekeningen zijn gratis aan te vragen, de downloadlink komt per mail. Vóór 1934 alleen op papier in te zien bij het RAN (Mariënburg 27, Nijmegen). Volledig dossier: <a href=\"mailto:hetarchief@nijmegen.nl\">hetarchief@nijmegen.nl</a>, (024) 329 23 07.</p>"
     },
     {
+     "bedrag": null,
      "kop": "Omgevingsvergunningen oktober 2010 t/m 2017",
      "van": 2010,
      "tot": 2017,
@@ -3049,6 +3243,7 @@
      "html": "<p><strong>gemeente Heumen</strong>, <a href=\"mailto:bml@heumen.nl\">bml@heumen.nl</a>, tel. 14 024. De gemeentepagina noemt op één plek ook <a href=\"mailto:bouwloket@heumen.nl\">bouwloket@heumen.nl</a> en \"2011 t/m 2018\"; begin bij bml@ en laat u zo nodig doorverwijzen. Levering per mail; voor archiefdossiers kunnen kosten gelden. Benoem welke stukken u wilt (plattegronden, gevels, doorsneden, constructieberekening).</p>"
     },
     {
+     "bedrag": null,
      "kop": "Vanaf 2018",
      "van": 2018,
      "tot": null,
@@ -3059,6 +3254,7 @@
      "html": "<p><strong>Omgevingsdienst Groene Metropool</strong> (ODGM, regio Nijmegen), webformulier op <a href=\"https://www.odgroenemetropool.nl/bouwplannen-en-bouwtekeningen-inzien/\" target=\"_blank\" rel=\"noopener\">https://www.odgroenemetropool.nl/bouwplannen-en-bouwtekeningen-inzien/</a> (Heumen staat in hun gemeentelijst, Malden als plaats), tel. regio Nijmegen 024 - 751 7700. Zaaknummer of exact adres bij de hand houden. Zelfde dienst als voor Arnhem en Lingewaard.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -3090,6 +3286,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "1905 t/m 2002",
      "van": 1905,
      "tot": 2002,
@@ -3100,6 +3297,7 @@
      "html": "<p><strong>Streekarchief Langstraat Heusden Altena (SALHA)</strong>. Het hele bouwdossierbestand van de kernen Heusden, Vlijmen en Drunen (30.221 dossiers) is in 2023 gescand en staat als pdf online. Op adres doorzoekbaar via <a href=\"https://salha.nl/bronnen/bouwtekeningen\" target=\"_blank\" rel=\"noopener\">https://salha.nl/bronnen/bouwtekeningen</a>. Zoeken gaat op straatnaam in het veld Adres; huisnummer mag, maar een oud dossier staat soms onder een afwijkende nummering, dus begin breed. Welke kernen en jaren er precies in zitten staat in het <a href=\"https://salha.nl/bronnen/bouwtekeningen/overzicht-beschikbare-bouwvergunningen\" target=\"_blank\" rel=\"noopener\">https://salha.nl/bronnen/bouwtekeningen/overzicht-beschikbare-bouwvergunningen</a>. <a href=\"mailto:info@salha.nl\">info@salha.nl</a>, (0416) 66 19 01.</p>"
     },
     {
+     "bedrag": null,
      "kop": "Vanaf 2003",
      "van": 2003,
      "tot": null,
@@ -3110,6 +3308,7 @@
      "html": "<p><strong>gemeente Heusden</strong>, via <a href=\"https://www.heusden.nl/mijn-loket\" target=\"_blank\" rel=\"noopener\">https://www.heusden.nl/mijn-loket</a> of 14 0416.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -3139,6 +3338,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "1907 t/m 2010",
      "van": 1907,
      "tot": 2010,
@@ -3149,6 +3349,7 @@
      "html": "<p><strong>Regionaal Archief Tilburg</strong>, deels digitaal; wat er niet in staat komt op aanvraag. Kosteloos, scans binnen vijftien werkdagen, aanvragen bij <strong><a href=\"mailto:info@regionaalarchieftilburg.nl\">info@regionaalarchieftilburg.nl</a></strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "Diessen 1915 t/m 1996",
      "van": 1915,
      "tot": 1996,
@@ -3159,6 +3360,7 @@
      "html": "<p>aparte reeks bij hetzelfde archief, digitaal beschikbaar.</p>"
     },
     {
+     "bedrag": null,
      "kop": "Diessen vanaf 1997 en Hilvarenbeek vanaf 2011",
      "van": 2011,
      "tot": null,
@@ -3169,6 +3371,7 @@
      "html": "<p><strong>gemeente Hilvarenbeek</strong>, per mail bij <strong><a href=\"mailto:gemeente@hilvarenbeek.nl\">gemeente@hilvarenbeek.nl</a></strong>, tel. (013) 505 83 00. Noem de locatie, het soort vergunning en wat u zoekt. Het opvragen is kosteloos. Zie <a href=\"https://www.hilvarenbeek.nl/archief-bouwen-en-milieu\" target=\"_blank\" rel=\"noopener\">https://www.hilvarenbeek.nl/archief-bouwen-en-milieu</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -3197,6 +3400,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -3207,6 +3411,7 @@
      "html": "<p><strong>de archiefjaren</strong>: <strong>Regionaal Archief Zuid-Utrecht</strong> (RAZU) beheert het gemeentearchief van Houten. Een bezoek is <strong>gratis</strong> en gaat op afspraak: <a href=\"mailto:info@razu.nl\">info@razu.nl</a>, 088 - 5300 170.</p>"
     },
     {
+     "bedrag": 34.2,
      "kop": "vanaf 1901, wat de gemeente zelf levert",
      "van": 1901,
      "tot": null,
@@ -3217,6 +3422,7 @@
      "html": "<p><strong>gemeente Houten</strong>, digitaal aan te vragen via <a href=\"https://www.houten.nl/wonen-verhuizen-en-verbouwen/bouwen-en-verbouwen/aanvraag-bouwarchief\" target=\"_blank\" rel=\"noopener\">https://www.houten.nl/wonen-verhuizen-en-verbouwen/bouwen-en-verbouwen/aanvraag-bouwarchief</a>. Basistarief <strong>€ 34,20 per archiefstuk</strong>. Komt het totaal boven € 100, dan nemen ze eerst contact op.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -3241,6 +3447,7 @@
    "intro_html": "<p>Van IJsselstein is de reeks precies beschreven: bouwvergunningen 1905 t/m 1999, met de bijlagen erbij.</p>",
    "perioden": [
     {
+     "bedrag": 32.3,
      "kop": "1905 t/m 1999",
      "van": 1905,
      "tot": 1999,
@@ -3251,6 +3458,7 @@
      "html": "<p><strong>RHC Rijnstreek en Lopikerwaard</strong> in Woerden, <a href=\"mailto:rhc@woerden.nl\">rhc@woerden.nl</a>, 0348 - 42 88 46. Deze reeks is geïndexeerd en op adres doorzoekbaar; de oudste jaren 1905 t/m 1943 zijn apart beschreven met bijlagen. Opzoeken kost <strong>€ 32,30</strong> (prijspeil 2026).</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2000",
      "van": 2000,
      "tot": null,
@@ -3261,6 +3469,7 @@
      "html": "<p><strong>gemeente IJsselstein</strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -3290,6 +3499,7 @@
    "intro_html": "<p>Periodegrens ligt bij de fusie van 2015. Alles daarvóór zit bij het streekarchief in Gouda, dat de dossiers van alle voormalige gemeenten beheert.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m 1994 (Lekkerkerk)",
      "van": null,
      "tot": 1994,
@@ -3300,6 +3510,7 @@
      "html": "<p><strong>Streekarchief Midden-Holland (SAMH)</strong>, Klein Amerika 20, 2806 CA Gouda. Beschrijvingen online doorzoekbaar op adres: <a href=\"https://samh.nl/bronnen/vergunningen/\" target=\"_blank\" rel=\"noopener\">https://samh.nl/bronnen/vergunningen/</a>. De dossiers zelf zijn niet gedigitaliseerd. <a href=\"mailto:info@samh.nl\">info@samh.nl</a>, (0182) 52 18 21, WhatsApp (06) 248 44 486. Studiezaal reserveren: <a href=\"https://samh.nl/reserveren-studiezaal\" target=\"_blank\" rel=\"noopener\">https://samh.nl/reserveren-studiezaal</a>. Vóór 15:00 uur op een werkdag aangevraagd betekent de volgende dag klaar. De andere kernen lopen door tot 2014 (Bergambacht 1904, Ammerstol 1903, Berkenwoude 1906, Gouderak 1906, Haastrecht 1900, Krimpen aan de Lek 1906, Ouderkerk aan den IJssel 1900, Schoonhoven 1905, Stolwijk 1907, Vlist 1900).</p><ul><li><strong>Let op</strong>: scans van bouwtekeningen zijn niet telefonisch of schriftelijk te bestellen. Je moet het dossier zelf in Gouda inzien en daar aanwijzen welke bladen gescand worden. Inzage gratis; scans € 6,00 opdrachtkosten plus € 6,00 per blad, pdf op 200 dpi binnen 5 werkdagen. Onderzoek door een medewerker € 15,00 per kwartier. (Tarieven per 01-01-2026.)</li></ul>"
     },
     {
+     "bedrag": null,
      "kop": "1995 t/m 2014 (Lekkerkerk)",
      "van": 1995,
      "tot": 2014,
@@ -3310,6 +3521,7 @@
      "html": "<p>nog te verifiëren. De gemeente verwijst alles t/m 2016 naar SAMH, terwijl het SAMH-overzicht Lekkerkerk bij 1994 laat ophouden en de andere kernen wél tot 2014 doorlopen. Bel bij een dossier uit deze jaren eerst SAMH; levert dat niets op, dan de gemeente via 14 0182, team VTH.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2015",
      "van": 2015,
      "tot": null,
@@ -3338,6 +3550,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "Beek en Donk en Lieshout 1903 t/m 1996, Aarle-Rixtel 1932 t/m 1996",
      "van": 1903,
      "tot": 1996,
@@ -3348,6 +3561,7 @@
      "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), gedigitaliseerd en volledig online doorzoekbaar op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "Aarle-Rixtel 1903 t/m 1931",
      "van": 1903,
      "tot": 1931,
@@ -3358,6 +3572,7 @@
      "html": "<p><strong>RHCe</strong>, analoog. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 1997",
      "van": 1997,
      "tot": null,
@@ -3368,6 +3583,7 @@
      "html": "<p><strong>gemeente Laarbeek</strong>, via Gemeentearchief, inzage.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -3424,6 +3640,7 @@
    "intro_html": "<p>Fusiegemeente van 2022 uit vijf gemeenten, elk met een eigen grensjaar. Begin altijd bij het BHIC: dat is gratis, de gemeente rekent per kwartier.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m 1999, de voormalige gemeente Sint Anthonis",
      "van": null,
      "tot": 1999,
@@ -3434,6 +3651,7 @@
      "html": "<p>(Landhorst, Ledeacker, Oploo, Sint Anthonis, Stevensbeek, Wanroij, Westerbeek): <strong>Brabants Historisch Informatie Centrum</strong> (BHIC). Op de index zoekt u op plaats, straat en huisnummer, bijvoorbeeld \"Schoolstraat 17 Grave\". Bij een gevonden tekening staat een knop scanning on request en dat is kosteloos; de scans komen binnen enkele dagen. <a href=\"https://www.bhic.nl/onderzoeken/hulp-bij-onderzoek/bouwtekeningen-land-van-cuijk\" target=\"_blank\" rel=\"noopener\">https://www.bhic.nl/onderzoeken/hulp-bij-onderzoek/bouwtekeningen-land-van-cuijk</a>. Contact per mail of WhatsApp 06 - 12 88 77 17 (alleen berichten).</p>"
     },
     {
+     "bedrag": null,
      "kop": "t/m 2010, de voormalige gemeenten Boxmeer en Mill en Sint Hubert",
      "van": null,
      "tot": 2010,
@@ -3444,6 +3662,7 @@
      "html": "<p>(Beugen, Boxmeer, Groeningen, Holthees, Maashees, Oeffelt, Overloon, Rijkevoort, Sambeek, Vierlingsbeek, Vortum-Mullem, Langenboom, Mill, Sint Hubert, Wilbertoord): eveneens het <strong>BHIC</strong>, zelfde route en ook kosteloos.</p>"
     },
     {
+     "bedrag": null,
      "kop": "t/m 2013, de voormalige gemeenten Cuijk en Grave",
      "van": null,
      "tot": 2013,
@@ -3454,6 +3673,7 @@
      "html": "<p>(Beers, Cuijk, Haps, Katwijk, Linden, Sint Agatha, Vianen, Escharen, Gassel, Grave, Velp): eveneens het <strong>BHIC</strong>, zelfde route en ook kosteloos.</p>"
     },
     {
+     "bedrag": 27.85,
      "kop": "",
      "van": null,
      "tot": null,
@@ -3464,6 +3684,7 @@
      "html": "<p><strong>de jaren na het grensjaar van uw kern</strong>: <strong>gemeente Land van Cuijk</strong>, formulier \"Verzoek om informatie uit het archief\", <a href=\"mailto:gemeente@landvancuijk.nl\">gemeente@landvancuijk.nl</a>, 0485 - 854 000. Dat kost <strong>€ 27,85 per kwartier</strong> dat het uitzoeken duurt (tarief 2026); u krijgt vooraf een schatting.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -3490,6 +3711,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m ongeveer 1930",
      "van": null,
      "tot": 1930,
@@ -3500,6 +3722,7 @@
      "html": "<p><strong>Archief Eemland</strong> in Amersfoort, <a href=\"mailto:archiefeemland@amersfoort.nl\">archiefeemland@amersfoort.nl</a>, gratis. Alleen de oudste dossiers zitten daar.</p>"
     },
     {
+     "bedrag": 23.85,
      "kop": "vanaf 1931",
      "van": 1931,
      "tot": null,
@@ -3510,6 +3733,7 @@
      "html": "<p><strong>gemeente Leusden</strong>, via het aanvraagformulier op <a href=\"https://www.leusden.nl/bouwen-en-wonen/aanvragen-bouwdossier\" target=\"_blank\" rel=\"noopener\">https://www.leusden.nl/bouwen-en-wonen/aanvragen-bouwdossier</a>. Opvragen kost <strong>€ 18,50 per kwartier</strong>, en digitaal toesturen <strong>€ 23,85</strong> (€ 18,50 opvragen plus € 5,35 digitaliseren). Een kopie kost extra, naar formaat.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -3539,6 +3763,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m 2000",
      "van": null,
      "tot": 2000,
@@ -3549,6 +3774,7 @@
      "html": "<p>(voormalige gemeenten Huissen, Bemmel en Gendt): <strong>Regionaal Archief Nijmegen</strong>, op adres doorzoekbaar via de Digitale Studiezaal: <a href=\"https://studiezaal.nijmegen.nl/bouwvergunningen\" target=\"_blank\" rel=\"noopener\">https://studiezaal.nijmegen.nl/bouwvergunningen</a> (scans deels online). Contact: <a href=\"mailto:hetarchief@nijmegen.nl\">hetarchief@nijmegen.nl</a>, (024) 329 23 07.</p>"
     },
     {
+     "bedrag": null,
      "kop": "2001–2015",
      "van": 2001,
      "tot": 2015,
@@ -3559,6 +3785,7 @@
      "html": "<p><strong>gemeente Lingewaard</strong>. Alleen online in te zien na inloggen met DigiD of eHerkenning, via <a href=\"https://www.lingewaard.nl/bouwplannen-en-bouwtekeningen-bekijken\" target=\"_blank\" rel=\"noopener\">https://www.lingewaard.nl/bouwplannen-en-bouwtekeningen-bekijken</a>. De gemeentepagina noemt geen mail- of formulierroute.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2015",
      "van": 2015,
      "tot": null,
@@ -3592,6 +3819,7 @@
    "intro_html": "<p>Lochem hoort bij het e-loket van Zutphen, en dat is een van de betere loketten van de provincie.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "1900 t/m 2010",
      "van": 1900,
      "tot": 2010,
@@ -3602,6 +3830,7 @@
      "html": "<p><strong>Regionaal Archief Zutphen</strong>, onderdeel van het Erfgoedcentrum Zutphen, via <a href=\"https://bouwdossiers.erfgoedcentrumzutphen.nl/\" target=\"_blank\" rel=\"noopener\">https://bouwdossiers.erfgoedcentrumzutphen.nl/</a>. De voormalige gemeenten Gorssel en Laren zitten erbij. Digitale kopieën per mail zijn gratis; papier kost € 0,60 voor A4 en € 1,30 voor A3.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf oktober 2010",
      "van": 2010,
      "tot": null,
@@ -3612,6 +3841,7 @@
      "html": "<p><strong>gemeente Lochem</strong>, via het beveiligde portaal <a href=\"https://mijn.lochem.nl/f/2022\" target=\"_blank\" rel=\"noopener\">https://mijn.lochem.nl/f/2022</a>, en daar komt u alleen met DigiD in. Lopende aanvragen kunt u niet laten kopiëren, wel op afspraak inzien.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -3638,6 +3868,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "1981 t/m 1996",
      "van": 1981,
      "tot": 1996,
@@ -3648,6 +3879,7 @@
      "html": "<p><strong>Regionaal Archief Tilburg</strong>, online doorzoekbaar en digitaal op te vragen via <a href=\"https://bouwdossiers.regionaalarchieftilburg.nl/\" target=\"_blank\" rel=\"noopener\">https://bouwdossiers.regionaalarchieftilburg.nl/</a>. Kosteloos, aanvragen bij <a href=\"mailto:info@regionaalarchieftilburg.nl\">info@regionaalarchieftilburg.nl</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 1997",
      "van": 1997,
      "tot": null,
@@ -3658,6 +3890,7 @@
      "html": "<p><strong>gemeente Loon op Zand</strong>, gemeentehuis in Kaatsheuvel.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -3688,6 +3921,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": 32.3,
      "kop": "ongeveer 1903 t/m 1999",
      "van": 1903,
      "tot": 1999,
@@ -3698,6 +3932,7 @@
      "html": "<p><strong>RHC Rijnstreek en Lopikerwaard</strong>, Blekerijlaan 14 in Woerden, <a href=\"mailto:rhc@woerden.nl\">rhc@woerden.nl</a>, 0348 - 42 88 46, elke werkdag 9.00-16.30. Compleet en geïndexeerd, ook de archieven van de voormalige gemeenten Benschop en Polsbroek. Opzoeken kost <strong>€ 32,30</strong> (prijspeil 2026).</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2000",
      "van": 2000,
      "tot": null,
@@ -3708,6 +3943,7 @@
      "html": "<p><strong>gemeente Lopik</strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -3740,6 +3976,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m maart 2013",
      "van": null,
      "tot": 2013,
@@ -3750,6 +3987,7 @@
      "html": "<p><strong>Regionaal Archief Rivierenland</strong> in Tiel, tel. 0344 - 612 230, digitaliseren op verzoek gratis (maximaal drie inventarisnummers per week, tien werkdagen). Zoeken via <a href=\"https://regionaalarchiefrivierenland.nl/vergunningen\" target=\"_blank\" rel=\"noopener\">https://regionaalarchiefrivierenland.nl/vergunningen</a>. Het RAR beschrijft voor Maasdriel onder meer het archief van het gemeentebestuur 1810 t/m 1945 en dat van 1980 t/m 1998, met de bouwvergunningen daarin.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf april 2013",
      "van": 2013,
      "tot": null,
@@ -3760,6 +3998,7 @@
      "html": "<p><strong>Omgevingsdienst Rivierenland</strong>, <a href=\"mailto:ingekomenpost@odrivierenland.nl\">ingekomenpost@odrivierenland.nl</a>, tel. 0344 579 314.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -3789,6 +4028,7 @@
    "intro_html": "<p>Fusie van 2022 uit Uden en Landerd. Het gemeentearchief is overgedragen aan het BHIC.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "vanaf 1901, de archiefjaren",
      "van": 1901,
      "tot": null,
@@ -3799,6 +4039,7 @@
      "html": "<p><strong>Brabants Historisch Informatie Centrum</strong> (BHIC), vestigingen Den Bosch en Uden. Zoeken op plaats, straat en huisnummer; scanning on request is kosteloos. <a href=\"https://www.bhic.nl/onderzoeken/hulp-bij-onderzoek/bouwtekeningen-maashorst\" target=\"_blank\" rel=\"noopener\">https://www.bhic.nl/onderzoeken/hulp-bij-onderzoek/bouwtekeningen-maashorst</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -3809,6 +4050,7 @@
      "html": "<p><strong>de recentere vergunningen</strong>: <strong>gemeente Maashorst</strong>, via een digitaal formulier met DigiD of eHerkenning. Dat kunnen wij dus niet namens de eigenaar doen. <a href=\"https://www.gemeentemaashorst.nl/inwoners/bouwen-en-wonen/bouwtekeningen-opvragen/\" target=\"_blank\" rel=\"noopener\">https://www.gemeentemaashorst.nl/inwoners/bouwen-en-wonen/bouwtekeningen-opvragen/</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -3845,6 +4087,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "Veghel t/m 2012 en de oudere jaren van de andere kernen",
      "van": null,
      "tot": 2012,
@@ -3855,6 +4098,7 @@
      "html": "<p><strong>Brabants Historisch Informatie Centrum</strong> (BHIC). Zoeken op plaats, straat en huisnummer; bij een gevonden tekening staat de knop scanning on request en dat is kosteloos. <a href=\"https://www.bhic.nl/onderzoeken/hulp-bij-onderzoek/bouwtekeningen-meierijstad\" target=\"_blank\" rel=\"noopener\">https://www.bhic.nl/onderzoeken/hulp-bij-onderzoek/bouwtekeningen-meierijstad</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -3865,6 +4109,7 @@
      "html": "<p><strong>de jaren daarna</strong>: <strong>gemeente Meierijstad</strong>, via het formulier Bouwtekening opvragen. Zij verzamelen de stukken en sturen die digitaal toe; reken op ongeveer twee weken. De kosten staan in de legesverordening.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -3899,6 +4144,7 @@
    "intro_html": "<p>Van de negen West-Brabantse gemeenten stopt het e-loket hier het vroegst, bij 1996.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m bouwjaar 1996",
      "van": null,
      "tot": 1996,
@@ -3909,6 +4155,7 @@
      "html": "<p><strong>West-Brabants Archief</strong>. De Moerdijkse bouwdossiers zijn gedigitaliseerd en via het e-loket op adres te zoeken en aan te vragen; na goedkeuring downloadt u ze gratis. <a href=\"https://bouwdossiers.westbrabantsarchief.nl/\" target=\"_blank\" rel=\"noopener\">https://bouwdossiers.westbrabantsarchief.nl/</a>, <a href=\"mailto:studiezaal@westbrabantsarchief.nl\">studiezaal@westbrabantsarchief.nl</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 1997",
      "van": 1997,
      "tot": null,
@@ -3919,6 +4166,7 @@
      "html": "<p><strong>gemeente Moerdijk</strong>, gemeentehuis in Zevenbergen.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -3955,6 +4203,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "vanaf 1901, wat bij de gemeente ligt",
      "van": 1901,
      "tot": null,
@@ -3965,6 +4214,7 @@
      "html": "<p><strong>gemeente Montferland</strong>, formulier \"Opvragen stukken bouwdossier\" op <a href=\"https://formulieren.montferland.info/form/opvragen-stukken-bouwdossier\" target=\"_blank\" rel=\"noopener\">https://formulieren.montferland.info/form/opvragen-stukken-bouwdossier</a>, tel. (0316) 291 391, Bergvredestraat 10 in Didam. Digitale stukken komen per mail; papieren dossiers worden wekelijks uit het archief gehaald. De gemeente brengt leges in rekening.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -3975,6 +4225,7 @@
      "html": "<p><strong>de oudere dossiers van de voormalige gemeenten Bergh en Didam</strong>: <strong>Erfgoedcentrum Achterhoek en Liemers</strong> (ECAL), 't Brewinc, IJsselkade 13 in Doetinchem. Zoeken op adres op <a href=\"https://www.ecal.nu/\" target=\"_blank\" rel=\"noopener\">https://www.ecal.nu/</a>; inzien en fotograferen in de studiezaal is gratis, di t/m do 9.00-12.00 en 13.00-16.00, zonder afspraak. Digitaliseren op verzoek kan wel maar kost geld naar aantal pagina's. <a href=\"mailto:info@ecal.nu\">info@ecal.nu</a>, 0314 - 787 078.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -4000,6 +4251,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": 32.3,
      "kop": "ongeveer 1903 t/m 1999",
      "van": 1903,
      "tot": 1999,
@@ -4010,6 +4262,7 @@
      "html": "<p><strong>RHC Rijnstreek en Lopikerwaard</strong> in Woerden, <a href=\"mailto:rhc@woerden.nl\">rhc@woerden.nl</a>, 0348 - 42 88 46. Compleet en geïndexeerd, dus op adres te vinden. Opzoeken kost <strong>€ 32,30</strong> (prijspeil 2026).</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2000",
      "van": 2000,
      "tot": null,
@@ -4020,6 +4273,7 @@
      "html": "<p><strong>gemeente Montfoort</strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -4047,6 +4301,7 @@
    "intro_html": "<p>Limburgse gemeente, maar het archief ligt in Nijmegen en Molenhoek grenst aan de stad.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "1937 t/m 2005",
      "van": 1937,
      "tot": 2005,
@@ -4057,6 +4312,7 @@
      "html": "<p><strong>Regionaal Archief Nijmegen</strong>, op adres doorzoekbaar in de Digitale Studiezaal: <a href=\"https://studiezaal.nijmegen.nl/bouwvergunningen\" target=\"_blank\" rel=\"noopener\">https://studiezaal.nijmegen.nl/bouwvergunningen</a>. <a href=\"mailto:hetarchief@nijmegen.nl\">hetarchief@nijmegen.nl</a>, (024) 329 23 07.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2006",
      "van": 2006,
      "tot": null,
@@ -4067,6 +4323,7 @@
      "html": "<p><strong>gemeente Mook en Middelaar</strong>, Raadhuisplein 6 in Mook, tel. (024) 696 91 11. Archiefstukken via <a href=\"mailto:gemeente@mookenmiddelaar.nl\">gemeente@mookenmiddelaar.nl</a>, lopende en pas verleende vergunningen via <a href=\"mailto:omgevingsloket@mookenmiddelaar.nl\">omgevingsloket@mookenmiddelaar.nl</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -4096,6 +4353,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m maart 2013",
      "van": null,
      "tot": 2013,
@@ -4106,6 +4364,7 @@
      "html": "<p><strong>Regionaal Archief Rivierenland</strong> in Tiel, tel. 0344 - 612 230, digitaliseren op verzoek gratis (maximaal drie inventarisnummers per week, tien werkdagen). Zoeken via <a href=\"https://regionaalarchiefrivierenland.nl/vergunningen\" target=\"_blank\" rel=\"noopener\">https://regionaalarchiefrivierenland.nl/vergunningen</a>. Voor Neder-Betuwe is de reeks bouwvergunningen 2002 t/m 2010 apart beschreven; de oudere jaren zitten in de archieven van de voormalige gemeenten Dodewaard, Echteld en Kesteren.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf april 2013",
      "van": 2013,
      "tot": null,
@@ -4116,6 +4375,7 @@
      "html": "<p><strong>Omgevingsdienst Rivierenland</strong>, <a href=\"mailto:ingekomenpost@odrivierenland.nl\">ingekomenpost@odrivierenland.nl</a>, tel. 0344 579 314.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -4142,6 +4402,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "Jutphaas en Vreeswijk 1900 t/m 1972 en de overige oude jaren",
      "van": 1900,
      "tot": 1972,
@@ -4152,6 +4413,7 @@
      "html": "<p><strong>Het Utrechts Archief</strong>, online doorzoekbaar via <a href=\"https://hetutrechtsarchief.nl/onderzoek/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://hetutrechtsarchief.nl/onderzoek/bouwdossiers</a>. <a href=\"mailto:inlichtingen@hetutrechtsarchief.nl\">inlichtingen@hetutrechtsarchief.nl</a>, 030 - 286 66 11.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2013",
      "van": 2013,
      "tot": null,
@@ -4162,6 +4424,7 @@
      "html": "<p><strong>gemeente Nieuwegein</strong>, per mail bij <a href=\"mailto:omgevingsloket@nieuwegein.nl\">omgevingsloket@nieuwegein.nl</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -4188,6 +4451,7 @@
    "intro_html": "<p>Netjes geregeld en volledig op afstand, maar er zit een vast bedrag aan vast.</p>",
    "perioden": [
     {
+     "bedrag": 13.3,
      "kop": "vanaf 1901",
      "van": 1901,
      "tot": null,
@@ -4198,6 +4462,7 @@
      "html": "<p><strong>gemeente Nijkerk</strong>, via het e-loket \"Bouwdossier opvragen\". Het kost <strong>€ 13,30 per dossier</strong> (tarief 2026), te betalen met iDEAL, Wero, Visa of Mastercard. Binnen vijf werkdagen na betaling komt er een mail van Zivver met een downloadlink. U kunt alleen een heel dossier bestellen, geen losse tekening.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -4208,6 +4473,7 @@
      "html": "<p><strong>bodemonderzoek</strong>: <strong>Omgevingsdienst De Vallei</strong>, <a href=\"mailto:info@oddevallei.nl\">info@oddevallei.nl</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -4233,6 +4499,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -4243,6 +4510,7 @@
      "html": "<p><strong>Vrijwel alles is gedigitaliseerd</strong> en op adres doorzoekbaar via het <strong>Digitaal Gebouwenarchief Nijmegen</strong>: <a href=\"https://studiezaal.nijmegen.nl/digitaalgebouwenarchiefnijmegen.php\" target=\"_blank\" rel=\"noopener\">https://studiezaal.nijmegen.nl/digitaalgebouwenarchiefnijmegen.php</a> (adres exact invoeren). Bouwvergunningen van gesloopte panden + 19e-eeuws: collectie 1335 \"Bouwvergunningen gemeente Nijmegen 1816–2005\", via <a href=\"https://studiezaal.nijmegen.nl/bouwvergunningen\" target=\"_blank\" rel=\"noopener\">https://studiezaal.nijmegen.nl/bouwvergunningen</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "t/m 31-12-2023",
      "van": null,
      "tot": 2023,
@@ -4253,6 +4521,7 @@
      "html": "<p><strong>Regionaal Archief Nijmegen</strong>. In de praktijk gaat dit via het Digitaal Gebouwenarchief hierboven: daar zoekt u op adres, vinkt u de gewenste stukken aan en komt de downloadlink gratis per mail. Lukt dat niet, dan per mail: <a href=\"mailto:hetarchief@nijmegen.nl\">hetarchief@nijmegen.nl</a>, (024) 329 23 07, <a href=\"https://regionaalarchiefnijmegen.nl\" target=\"_blank\" rel=\"noopener\">https://regionaalarchiefnijmegen.nl</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 1-1-2024",
      "van": 2024,
      "tot": null,
@@ -4281,6 +4550,7 @@
    "intro_html": "<p>Bij het archief ligt alleen de eerste dertig jaar. Voor vrijwel elke bestaande woning moet u dus bij de gemeente zijn.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "1905 t/m 1935",
      "van": 1905,
      "tot": 1935,
@@ -4291,6 +4561,7 @@
      "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), analoog en nog niet gedigitaliseerd. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, tel. (040) 264 99 40.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 1936",
      "van": 1936,
      "tot": null,
@@ -4301,6 +4572,7 @@
      "html": "<p><strong>gemeente Nuenen</strong>, via het archiefportaal van de gemeente.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -4328,6 +4600,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m 2000",
      "van": null,
      "tot": 2000,
@@ -4338,6 +4611,7 @@
      "html": "<p><strong>Noord-Veluws Archief</strong> (NoVA), <a href=\"mailto:info@noordveluwsarchief.nl\">info@noordveluwsarchief.nl</a>, 0525 - 63 82 00. Inzien in de studiezaal is gratis.</p>"
     },
     {
+     "bedrag": 17.2,
      "kop": "vanaf 2001",
      "van": 2001,
      "tot": null,
@@ -4348,6 +4622,7 @@
      "html": "<p><strong>gemeente Nunspeet</strong>, per mail bij <a href=\"mailto:gemeente@nunspeet.nl\">gemeente@nunspeet.nl</a>, tel. (0341) 25 99 11. Zet erbij om welk pand het gaat, welke informatie u wilt en hoe u die wilt ontvangen. Een tekening inzien is gratis, maar het opvragen van het bouwdossier kost <strong>€ 17,20 per kwartier</strong>, ongeacht het resultaat, en hulp van een ambtenaar € 16,80 per kwartier. Voor een afschrift of scan gelden aparte tarieven.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -4376,6 +4651,7 @@
    "intro_html": "<p>Een van de betere loketten van Zuidoost-Brabant: honderdtien jaar online doorzoekbaar.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "Oirschot 1899 t/m 2009",
      "van": 1899,
      "tot": 2009,
@@ -4386,6 +4662,7 @@
      "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), gedigitaliseerd en volledig online doorzoekbaar op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "Oost-, West- en Middelbeers 1899 t/m 1996",
      "van": 1899,
      "tot": 1996,
@@ -4396,6 +4673,7 @@
      "html": "<p>eveneens <strong>RHCe</strong> en grotendeels gedigitaliseerd; alleen 1905 t/m 1920 is nog analoog. Die drie kernen kwamen in 1997 bij Oirschot.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2010",
      "van": 2010,
      "tot": null,
@@ -4406,6 +4684,7 @@
      "html": "<p><strong>gemeente Oirschot</strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -4433,6 +4712,7 @@
    "intro_html": "<p>Let op de herindeling van 2021: Haaren is toen bij Oisterwijk gevoegd en heeft in het archief een eigen reeks met een andere jaargrens.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "Oisterwijk 1901 t/m 1996",
      "van": 1901,
      "tot": 1996,
@@ -4443,6 +4723,7 @@
      "html": "<p><strong>Regionaal Archief Tilburg</strong>, digitaal beschikbaar. Kosteloos, scans binnen vijftien werkdagen, aanvragen bij <strong><a href=\"mailto:info@regionaalarchieftilburg.nl\">info@regionaalarchieftilburg.nl</a></strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "Haaren 1902 t/m 2016",
      "van": 1902,
      "tot": 2016,
@@ -4453,6 +4734,7 @@
      "html": "<p>eveneens Regionaal Archief Tilburg, digitaal beschikbaar.</p>"
     },
     {
+     "bedrag": null,
      "kop": "Oisterwijk vanaf 1997 en Haaren vanaf 2017",
      "van": 2017,
      "tot": null,
@@ -4463,6 +4745,7 @@
      "html": "<p><strong>gemeente Oisterwijk</strong>, De Lind 44, tel. (013) 529 13 11.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -4491,6 +4774,7 @@
    "intro_html": "<p>Hier staat de gedeelde toelichting voor de hele noordelijke Veluwe. Het <strong>Streekarchivariaat Noordwest-Veluwe</strong> en het <strong>Streekarchief Epe, Hattem en Heerde</strong> zijn op 1 juli 2025 samengegaan tot het <strong>Noord-Veluws Archief</strong> (NoVA). Dat beheert nu de archieven van Elburg, Epe, Ermelo, Harderwijk, Hattem, Heerde, Nunspeet en Oldebroek. De studiezaal zit in het gemeentehuis van Oldebroek, Raadhuisplein 1, en inzien is gratis: maandag t/m donderdag 8.30-16.30, vrijdag tot 16.00 en woensdagavond 17.00-20.00. <a href=\"mailto:info@noordveluwsarchief.nl\">info@noordveluwsarchief.nl</a>, 0525 - 63 82 00, WhatsApp 06 - 25 39 54 58. Zoeken kan op <a href=\"https://noordveluwsarchief.nl/archieven\" target=\"_blank\" rel=\"noopener\">https://noordveluwsarchief.nl/archieven</a>, ook op kadastraal perceel als het adres onbekend is.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m 2000",
      "van": null,
      "tot": 2000,
@@ -4501,6 +4785,7 @@
      "html": "<p><strong>Noord-Veluws Archief</strong>, zie hierboven.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2001",
      "van": 2001,
      "tot": null,
@@ -4511,6 +4796,7 @@
      "html": "<p><strong>gemeente Oldebroek</strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -4542,6 +4828,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m 2004",
      "van": null,
      "tot": 2004,
@@ -4552,6 +4839,7 @@
      "html": "<p><strong>Erfgoedcentrum Achterhoek en Liemers</strong> (ECAL) in Doetinchem, <a href=\"https://www.ecal.nu/\" target=\"_blank\" rel=\"noopener\">https://www.ecal.nu/</a>, <a href=\"mailto:info@ecal.nu\">info@ecal.nu</a>, 0314 - 78 70 78.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2005",
      "van": 2005,
      "tot": null,
@@ -4562,6 +4850,7 @@
      "html": "<p><strong>gemeente Oost Gelre</strong>, <a href=\"mailto:bouwen@oostgelre.nl\">bouwen@oostgelre.nl</a>, (0544) 39 35 35.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -4589,6 +4878,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "1905 t/m 2010",
      "van": 1905,
      "tot": 2010,
@@ -4599,6 +4889,7 @@
      "html": "<p><strong>Regionaal Archief Tilburg</strong>, digitaal beschikbaar. Kosteloos; de scans komen versleuteld binnen vijftien werkdagen. Aanvragen bij <strong><a href=\"mailto:info@regionaalarchieftilburg.nl\">info@regionaalarchieftilburg.nl</a></strong> met straat, huisnummer en plaats, of zelf zoeken in het bouwdossierportaal van het archief.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2011",
      "van": 2011,
      "tot": null,
@@ -4609,6 +4900,7 @@
      "html": "<p><strong>gemeente Oosterhout</strong>, via het contactformulier op <a href=\"https://www.oosterhout.nl\" target=\"_blank\" rel=\"noopener\">https://www.oosterhout.nl</a>, waarvoor u inlogt met DigiD of eHerkenning. Levering digitaal per mail, tegen leges volgens de legesverordening. Tel. 14 0162.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -4646,6 +4938,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "vanaf 1901, de archiefjaren",
      "van": 1901,
      "tot": null,
@@ -4656,6 +4949,7 @@
      "html": "<p><strong>Brabants Historisch Informatie Centrum</strong> (BHIC) in Den Bosch, dat de bouwarchieven van vrijwel alle gemeenten in het noordoosten van Brabant bewaart, Oss en Ravenstein daarbij. Zoeken op plaats, straat en huisnummer; scanning on request is kosteloos. <a href=\"https://www.bhic.nl/onderzoeken/bouwvergunningen\" target=\"_blank\" rel=\"noopener\">https://www.bhic.nl/onderzoeken/bouwvergunningen</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -4666,6 +4960,7 @@
      "html": "<p><strong>wat nog bij de gemeente ligt</strong>: <strong>gemeentearchief Oss</strong>. Inzage gaat onder begeleiding van de gemeentearchivaris en u moet zich legitimeren. <a href=\"https://loket.oss.nl/archief-van-de-gemeente\" target=\"_blank\" rel=\"noopener\">https://loket.oss.nl/archief-van-de-gemeente</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -4701,6 +4996,7 @@
    "intro_html": "<p>Deze gemeente vraagt DigiD of eHerkenning voor het aanvraagformulier, dus wij kunnen het niet namens de eigenaar doen. De eigenaar zelf komt er wel makkelijk in.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -4711,6 +5007,7 @@
      "html": "<p><strong>bouwvergunningen van de voormalige gemeente Wisch 1903 t/m 2004 en van Oude IJsselstreek vanaf 2005</strong>: <strong>gemeente Oude IJsselstreek</strong>, twee formulieren met DigiD of eHerkenning. Een medewerker informatiebeheer zoekt het op en belt u. Inzage op het gemeentehuis en al gedigitaliseerde stukken zijn gratis; moet er nog gescand worden, dan kost dat <strong>€ 30,90 per kwartier</strong>. <a href=\"mailto:info@oude-ijsselstreek.nl\">info@oude-ijsselstreek.nl</a>, (0315) 292 292, Staringstraat 25 in Gendringen, op afspraak.</p>"
     },
     {
+     "bedrag": null,
      "kop": "milieuvergunningen Wisch 1918-2004 en bouwvergunningen Gendringen 1910-2004",
      "van": 1918,
      "tot": 2004,
@@ -4721,6 +5018,7 @@
      "html": "<p><strong>Erfgoedcentrum Achterhoek en Liemers</strong> in Doetinchem, <a href=\"mailto:info@ecal.nu\">info@ecal.nu</a>, 0314 - 787 078.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -4748,6 +5046,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": 32.3,
      "kop": "ongeveer 1903 t/m 1999",
      "van": 1903,
      "tot": 1999,
@@ -4758,6 +5057,7 @@
      "html": "<p><strong>RHC Rijnstreek en Lopikerwaard</strong> in Woerden, <a href=\"mailto:rhc@woerden.nl\">rhc@woerden.nl</a>, 0348 - 42 88 46. Deze jaren zijn compleet en geïndexeerd, dus op adres te vinden. Opzoeken kost <strong>€ 32,30</strong> (prijspeil 2026).</p>"
     },
     {
+     "bedrag": null,
      "kop": "2000 t/m 2014",
      "van": 2000,
      "tot": 2014,
@@ -4768,6 +5068,7 @@
      "html": "<p>eveneens het <strong>RHC</strong>, maar buiten de geïndexeerde reeks.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2015",
      "van": 2015,
      "tot": null,
@@ -4778,6 +5079,7 @@
      "html": "<p><strong>gemeente Oudewater</strong>, op afspraak bij het omgevingsloket.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -4811,6 +5113,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "voormalige gemeenten Elst, Heteren en Valburg, t/m 1999",
      "van": null,
      "tot": 1999,
@@ -4821,6 +5124,7 @@
      "html": "<p><strong>Gelders Archief</strong>, op adres doorzoekbaar via <a href=\"https://www.geldersarchief.nl/bronnen/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.geldersarchief.nl/bronnen/bouwdossiers</a>. Scans zijn gratis via scanning on request, levering per mail.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2000",
      "van": 2000,
      "tot": null,
@@ -4831,6 +5135,7 @@
      "html": "<p><strong>gemeente Overbetuwe</strong>, <a href=\"mailto:info@overbetuwe.nl\">info@overbetuwe.nl</a>, tel. 14 0481. De informatie uit het bouwdossier komt digitaal.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -4858,6 +5163,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": 24.0,
      "kop": "vanaf 1901",
      "van": 1901,
      "tot": null,
@@ -4868,6 +5174,7 @@
      "html": "<p><strong>gemeente Putten</strong>, per mail bij <a href=\"mailto:dossier@putten.nl\">dossier@putten.nl</a>, tel. (0341) 359 611. Het gemeentearchief bewaart de stukken ouder dan twintig jaar zelf. Een kopie op A3 of groter kost <strong>€ 20,00 zwart-wit en € 24,00 in kleur</strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -4897,6 +5204,7 @@
    "intro_html": "<p>Let op: dit is de lastigste gemeente van de hele ring. Het pandenarchief is alleen ter plaatse in te zien, dus de jaren 1946 tot oktober 2015 kunnen wij niet op afstand leveren.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m 1945",
      "van": null,
      "tot": 1945,
@@ -4907,6 +5215,7 @@
      "html": "<p>grotendeels verloren gegaan in de slag om Arnhem. Wat er nog is, zit bij het <strong>Gelders Archief</strong> in het archief Bouw- en Woningtoezicht Renkum, dat vooral een overzicht van aangevraagde en verleende vergunningen bevat. <a href=\"https://www.geldersarchief.nl/bronnen/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.geldersarchief.nl/bronnen/bouwdossiers</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "1946 t/m september 2015",
      "van": 1946,
      "tot": 2015,
@@ -4917,6 +5226,7 @@
      "html": "<p>het <strong>pandenarchief van de gemeente Renkum</strong>, en dat is alleen op afspraak in te zien. Aanvragen bij <a href=\"mailto:pandenarchief@renkum.nl\">pandenarchief@renkum.nl</a> met uw naam, het adres van het pand en de gewenste dag; tel. (026) 33 48 111. Een aanvraag vóór woensdag 14.00 uur levert inzage vanaf die vrijdag.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf oktober 2015",
      "van": 2015,
      "tot": null,
@@ -4927,6 +5237,7 @@
      "html": "<p><strong>Omgevingsdienst Groene Metropool</strong> (ODGM), webformulier op <a href=\"https://www.odgroenemetropool.nl/bouwplannen-en-bouwtekeningen-inzien/\" target=\"_blank\" rel=\"noopener\">https://www.odgroenemetropool.nl/bouwplannen-en-bouwtekeningen-inzien/</a>, gratis, tel. regio Arnhem 026 - 377 1600.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -4951,6 +5262,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m ongeveer 1930",
      "van": null,
      "tot": 1930,
@@ -4961,6 +5273,7 @@
      "html": "<p><strong>Archief Eemland</strong> in Amersfoort, <a href=\"mailto:archiefeemland@amersfoort.nl\">archiefeemland@amersfoort.nl</a>, gratis verstrekking.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -4971,6 +5284,7 @@
      "html": "<p><strong>daarna</strong>: <strong>gemeente Renswoude</strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -4998,6 +5312,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "Hooge en Lage Mierde 1932 t/m 1996 en Reusel 1936 t/m 1996",
      "van": 1932,
      "tot": 1996,
@@ -5008,6 +5323,7 @@
      "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), gedigitaliseerd en volledig online doorzoekbaar op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "Hooge en Lage Mierde 1908 t/m 1931 en Reusel 1903 t/m 1935",
      "van": 1908,
      "tot": 1931,
@@ -5018,6 +5334,7 @@
      "html": "<p><strong>RHCe</strong>, analoog en nog niet gedigitaliseerd. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, tel. (040) 264 99 40.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 1997",
      "van": 1997,
      "tot": null,
@@ -5028,6 +5345,7 @@
      "html": "<p><strong>gemeente Reusel-De Mierden</strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -5058,6 +5376,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m 31-12-1994",
      "van": null,
      "tot": 1994,
@@ -5068,6 +5387,7 @@
      "html": "<p><strong>Gelders Archief</strong>, bouwdossiers 1885-1994 van Rheden, Velp, Dieren, Ellecom en De Steeg, op adres doorzoekbaar via <a href=\"https://www.geldersarchief.nl/bronnen/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.geldersarchief.nl/bronnen/bouwdossiers</a>. Scannen is gratis.</p>"
     },
     {
+     "bedrag": 35.15,
      "kop": "vanaf 1995",
      "van": 1995,
      "tot": null,
@@ -5078,6 +5398,7 @@
      "html": "<p><strong>gemeente Rheden</strong>, aanvraagformulier bouwarchiefstukken op <a href=\"https://loket.rheden.nl/home/product/aanvraag-bouwarchiefstukken\" target=\"_blank\" rel=\"noopener\">https://loket.rheden.nl/home/product/aanvraag-bouwarchiefstukken</a>, tel. (026) 49 76 911, gemeentehuis De Steeg, Hoofdstraat 3. Het archiefonderzoek kost <strong>€ 35,15</strong>, digitale levering zit daarbij in; papieren afdrukken kosten € 8,45 tot € 20,65 naar aantal pagina's.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -5104,6 +5425,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m 1959",
      "van": null,
      "tot": 1959,
@@ -5114,6 +5436,7 @@
      "html": "<p><strong>Regionaal Archief Zuid-Utrecht</strong> (RAZU) in Wijk bij Duurstede. Dat heeft de Rhenense bouwdossiers tot 1960 gedigitaliseerd. <a href=\"mailto:info@razu.nl\">info@razu.nl</a>, 088 - 5300 170.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 1960",
      "van": 1960,
      "tot": null,
@@ -5124,6 +5447,7 @@
      "html": "<p><strong>gemeente Rhenen</strong>. Voor digitaliseren of kopiëren wordt betaald, en de prijs hangt af van het formaat van de originele tekening.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -5153,6 +5477,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m bouwjaar 2010",
      "van": null,
      "tot": 2010,
@@ -5163,6 +5488,7 @@
      "html": "<p><strong>West-Brabants Archief</strong>. De bouwvergunningen van Roosendaal en de voormalige gemeente Wouw zijn volledig gedigitaliseerd. Mail het adres naar <a href=\"mailto:studiezaal@westbrabantsarchief.nl\">studiezaal@westbrabantsarchief.nl</a> en wat digitaal beschikbaar is komt <strong>gratis</strong> per mail terug; zelf zoeken kan ook in het e-loket op <a href=\"https://bouwdossiers.westbrabantsarchief.nl/\" target=\"_blank\" rel=\"noopener\">https://bouwdossiers.westbrabantsarchief.nl/</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "constructieberekeningen vanaf 1965 en dossiers vanaf 2011",
      "van": 2011,
      "tot": null,
@@ -5173,6 +5499,7 @@
      "html": "<p><strong>gemeente Roosendaal</strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -5197,6 +5524,7 @@
    "intro_html": "<p>De kleinste gemeente van Gelderland, ingeklemd tussen Arnhem, Velp en het Nationale Park.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -5207,6 +5535,7 @@
      "html": "<p><strong>de oudere jaren</strong>: <strong>Gelders Archief</strong>, archief 3056 Bouwvergunningen gemeente Rozendaal, op straatnaam doorzoekbaar via <a href=\"https://www.geldersarchief.nl/bronnen/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.geldersarchief.nl/bronnen/bouwdossiers</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2006",
      "van": 2006,
      "tot": null,
@@ -5217,6 +5546,7 @@
      "html": "<p><strong>gemeente Rozendaal</strong>, <a href=\"mailto:gemeente@rozendaal.nl\">gemeente@rozendaal.nl</a>, tel. 026 - 38 43 666. U kunt aangevraagde vergunningen, bouwtekeningen en constructieberekeningen opvragen. Inzage en toezending zijn gratis; zet er in de mail bij dat u digitale levering wilt.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -5245,6 +5575,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m bouwjaar 2010",
      "van": null,
      "tot": 2010,
@@ -5255,6 +5586,7 @@
      "html": "<p><strong>West-Brabants Archief</strong>, e-loket bouwdossiers. U vraagt per dossier aan en downloadt de tekeningen daarna dertig dagen lang <strong>gratis</strong> thuis. <a href=\"https://bouwdossiers.westbrabantsarchief.nl/\" target=\"_blank\" rel=\"noopener\">https://bouwdossiers.westbrabantsarchief.nl/</a>, <a href=\"mailto:studiezaal@westbrabantsarchief.nl\">studiezaal@westbrabantsarchief.nl</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2011",
      "van": 2011,
      "tot": null,
@@ -5265,6 +5597,7 @@
      "html": "<p><strong>gemeente Rucphen</strong>, <a href=\"https://www.rucphen.nl/Gemeentewinkel/Archief-van-de-gemeente\" target=\"_blank\" rel=\"noopener\">https://www.rucphen.nl/Gemeentewinkel/Archief-van-de-gemeente</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -5289,6 +5622,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "vanaf 1901",
      "van": 1901,
      "tot": null,
@@ -5299,6 +5633,7 @@
      "html": "<p><strong>gemeente Scherpenzeel</strong>, via het contactformulier \"opvragen informatie uit bouwvergunningenarchief\", tel. 033 - 277 23 24, Stationsweg 389a. Hiervoor worden leges in rekening gebracht. Een lopende aanvraag inzien is wel gratis, op afspraak.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -5328,6 +5663,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "vanaf 1901",
      "van": 1901,
      "tot": null,
@@ -5338,6 +5674,7 @@
      "html": "<p><strong>gemeente Sint-Michielsgestel</strong>, per mail bij <a href=\"mailto:gemeente@sint-michielsgestel.nl\">gemeente@sint-michielsgestel.nl</a>. Zet erbij uw naam, adres en mailadres, en van welk adres u de tekeningen wilt. Het opvragen is <strong>gratis</strong>; is er iets beschikbaar, dan sturen ze het beveiligd per mail.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -5348,6 +5685,7 @@
      "html": "<p><strong>de oudste jaren</strong>: <strong>Brabants Historisch Informatie Centrum</strong> (BHIC), scanning on request kosteloos. <a href=\"https://www.bhic.nl/onderzoeken/bouwvergunningen\" target=\"_blank\" rel=\"noopener\">https://www.bhic.nl/onderzoeken/bouwvergunningen</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -5374,6 +5712,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m 1998",
      "van": null,
      "tot": 1998,
@@ -5384,6 +5723,7 @@
      "html": "<p><strong>Archief Eemland</strong> in Amersfoort, dat de archieven van Amersfoort, Baarn, Bunschoten, Eemnes, Leusden, Renswoude, Soest en Woudenberg beheert. Aanvragen per mail bij <a href=\"mailto:archiefeemland@amersfoort.nl\">archiefeemland@amersfoort.nl</a> met straat en huisnummer en wat u zoekt: plattegronden, constructietekeningen, oorspronkelijke of laatst goedgekeurde toestand. Reken op vijf werkdagen. <strong>De verstrekking is gratis</strong>, digitaal en fysiek.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 1999",
      "van": 1999,
      "tot": null,
@@ -5394,6 +5734,7 @@
      "html": "<p><strong>gemeente Soest</strong>, omgevingsloket. Digitaal aanvragen kan, en het is gratis, maar het gaat met DigiD of eHerkenning en dat kunnen wij niet namens de eigenaar.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -5421,6 +5762,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "1937 t/m september 2010",
      "van": 1937,
      "tot": 2010,
@@ -5431,6 +5773,7 @@
      "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), gedigitaliseerd en volledig online doorzoekbaar op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "1906 t/m 1936",
      "van": 1906,
      "tot": 1936,
@@ -5441,6 +5784,7 @@
      "html": "<p><strong>RHCe</strong>, analoog en nog niet gedigitaliseerd. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>. Lierop heeft een eigen reeks 1921 t/m 1935 en ging in 1935 op in Someren.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf oktober 2010",
      "van": 2010,
      "tot": null,
@@ -5451,6 +5795,7 @@
      "html": "<p><strong>gemeente Someren</strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -5476,6 +5821,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "1900 t/m 1989",
      "van": 1900,
      "tot": 1989,
@@ -5486,6 +5832,7 @@
      "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), gedigitaliseerd en online doorzoekbaar op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>. Aanvragen kan ook met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, tel. (040) 264 99 40.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 1990",
      "van": 1990,
      "tot": null,
@@ -5496,6 +5843,7 @@
      "html": "<p><strong>gemeente Son en Breugel</strong>, via hun archiefportaal.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -5525,6 +5873,7 @@
    "intro_html": "<p>Ook Steenbergen ontbreekt in het e-loket, dus hier begint het met een mail.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m 1996",
      "van": null,
      "tot": 1996,
@@ -5535,6 +5884,7 @@
      "html": "<p><strong>West-Brabants Archief</strong>, kosteloos verstrekt, maar u kunt niet zelf zoeken. Mail het adres naar <a href=\"mailto:studiezaal@westbrabantsarchief.nl\">studiezaal@westbrabantsarchief.nl</a> en vraag of het dossier online staat of alleen in de studiezaal te bekijken is.</p>"
     },
     {
+     "bedrag": 25.0,
      "kop": "vanaf 1997",
      "van": 1997,
      "tot": null,
@@ -5545,6 +5895,7 @@
      "html": "<p><strong>gemeente Steenbergen</strong>. Het uitzoekwerk kost <strong>€ 25,00 per kwartier</strong> (legesverordening 2026). <a href=\"https://gemeentewinkel.gemeente-steenbergen.nl/producten/bouwplannen_en_bouwtekeningen_inzien\" target=\"_blank\" rel=\"noopener\">https://gemeentewinkel.gemeente-steenbergen.nl/producten/bouwplannen_en_bouwtekeningen_inzien</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -5578,6 +5929,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -5588,6 +5940,7 @@
      "html": "<p><strong>de archiefjaren</strong>: <strong>Regionaal Archief Noordwest Utrecht</strong> in Breukelen. De dossiers van Stichtse Vecht zijn grotendeels gedigitaliseerd: Breukelen 1949-1988, Kockengen 1935-1988 en Nigtevecht 1943-1988 zijn in april overgedragen en gescand; voor Maarssen, Oud-Zuilen en Tienhoven is alleen juli 1957 t/m 1969 digitaal. Scans per mail aanvragen bij <a href=\"mailto:info@regionaalarchiefnoordwestutrecht.nl\">info@regionaalarchiefnoordwestutrecht.nl</a>, levering via WeTransfer. Tel. 0346 - 25 94 25.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -5598,6 +5951,7 @@
      "html": "<p><strong>de recente jaren</strong>: <strong>gemeente Stichtse Vecht</strong>, gemeentearchief.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -5625,6 +5979,7 @@
    "intro_html": "<p>Voor de hele Betuwe geldt dezelfde tweedeling: het <strong>Regionaal Archief Rivierenland</strong> (RAR) in Tiel heeft de oude vergunningen en digitaliseert die gratis op verzoek, en sinds april 2013 zit de vergunningverlening bij de <strong>Omgevingsdienst Rivierenland</strong> (ODR).</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m maart 2013",
      "van": null,
      "tot": 2013,
@@ -5635,6 +5990,7 @@
      "html": "<p><strong>Regionaal Archief Rivierenland</strong>, J.S. de Jongplein 3 in Tiel, tel. 0344 - 612 230. Vergunningen op naam en adres doorzoekbaar via <a href=\"https://regionaalarchiefrivierenland.nl/vergunningen\" target=\"_blank\" rel=\"noopener\">https://regionaalarchiefrivierenland.nl/vergunningen</a>. Digitaliseren op verzoek is gratis, maximaal drie inventarisnummers per week, levering binnen tien werkdagen; meer per week kan tegen betaling. Van vóór 1945 staat veel al online, van na 1945 mogen de tekeningen om auteursrecht vaak niet online maar wel in de studiezaal.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf april 2013",
      "van": 2013,
      "tot": null,
@@ -5645,6 +6001,7 @@
      "html": "<p><strong>Omgevingsdienst Rivierenland</strong>, <a href=\"mailto:ingekomenpost@odrivierenland.nl\">ingekomenpost@odrivierenland.nl</a>, tel. 0344 579 314.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -5672,6 +6029,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "vanaf 1906",
      "van": 1906,
      "tot": null,
@@ -5682,6 +6040,7 @@
      "html": "<p><strong>gemeente Tilburg</strong>, met een eigen archiefportaal dat vergunningen, meldingen, tekeningen en documenten bevat. Kosteloos, maar u logt in met DigiD of eHerkenning, en er is een apart portaal voor inwoners en voor ondernemers. Aanvraagformulieren zelf staan er om reden van privacy niet meer in.</p>"
     },
     {
+     "bedrag": null,
      "kop": "Biezenmortel t/m 1996",
      "van": null,
      "tot": 1996,
@@ -5692,6 +6051,7 @@
      "html": "<p><strong>Regionaal Archief Tilburg</strong>, kosteloos, scans binnen vijftien werkdagen na aanvraag bij <strong><a href=\"mailto:info@regionaalarchieftilburg.nl\">info@regionaalarchieftilburg.nl</a></strong> met straat, huisnummer en plaats. Vanaf 1997 gaat Biezenmortel via de gemeente Tilburg.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -5702,6 +6062,7 @@
      "html": "<p>Locaties met een veiligheidsrisico zijn afgeschermd; daarvoor is schriftelijke toestemming van de eigenaar nodig via <a href=\"mailto:bouwarchief@tilburg.nl\">bouwarchief@tilburg.nl</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -5730,6 +6091,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m 1995",
      "van": null,
      "tot": 1995,
@@ -5740,6 +6102,7 @@
      "html": "<p><strong>Het Utrechts Archief</strong>. Alle bouwdossiers staan online; van vóór 1910 kunt u ze direct bekijken en downloaden. Jongere tekeningen zijn om auteursrecht afgeschermd, maar u kunt een digitale kopie voor eigen gebruik aanvragen via de knop bij het dossier. <a href=\"https://hetutrechtsarchief.nl/onderzoek/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://hetutrechtsarchief.nl/onderzoek/bouwdossiers</a>. Vastgelopen: <a href=\"mailto:inlichtingen@hetutrechtsarchief.nl\">inlichtingen@hetutrechtsarchief.nl</a>, 030 - 286 66 11.</p>"
     },
     {
+     "bedrag": 12.15,
      "kop": "1996 t/m 2010",
      "van": 1996,
      "tot": 2010,
@@ -5750,6 +6113,7 @@
      "html": "<p><strong>gemeente Utrecht</strong>, formulier <a href=\"https://loket.digitaal.utrecht.nl/nl/formulier/bouwdossiers-opvragen\" target=\"_blank\" rel=\"noopener\">https://loket.digitaal.utrecht.nl/nl/formulier/bouwdossiers-opvragen</a>. Kost <strong>€ 12,15 per dossier</strong> (tarief 2026), te betalen met iDEAL.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2011",
      "van": 2011,
      "tot": null,
@@ -5760,6 +6124,7 @@
      "html": "<p><strong>gemeente Utrecht</strong>, zelfde formulier, en dan is het <strong>gratis</strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -5770,6 +6135,7 @@
      "html": "<p>Let op de doorlooptijd: u krijgt binnen vier weken een mail met welke dossiers er zijn, en na uw keuze komen de kopieën binnen tien werkdagen. Dat is te lang voor een levertijd van vijf werkdagen, dus vraag dit als eerste aan zodra een opdracht binnenkomt.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -5800,6 +6166,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m 2004",
      "van": null,
      "tot": 2004,
@@ -5810,6 +6177,7 @@
      "html": "<p><strong>Regionaal Archief Zuid-Utrecht</strong> (RAZU) in Wijk bij Duurstede, dat een grote collectie bouwvergunningen van deze kernen beheert. Op razu.nl staat per periode of het dossier al bij het archief ligt of nog bij de gemeente. <a href=\"mailto:info@razu.nl\">info@razu.nl</a>, 088 - 5300 170.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2005",
      "van": 2005,
      "tot": null,
@@ -5820,6 +6188,7 @@
      "html": "<p><strong>gemeente Utrechtse Heuvelrug</strong>, per mail bij <a href=\"mailto:omgevingsverzoeken@heuvelrug.nl\">omgevingsverzoeken@heuvelrug.nl</a>. Zit de tekening in het digitale archief, dan proberen ze hem binnen vijf werkdagen te mailen. Er kunnen kosten in rekening worden gebracht.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -5847,6 +6216,7 @@
    "intro_html": "<p>Van Valkenswaard is niets gedigitaliseerd. Alles van vóór 2000 is papier.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "1920 t/m 1999",
      "van": 1920,
      "tot": 1999,
@@ -5857,6 +6227,7 @@
      "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), analoog en nog niet gedigitaliseerd. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, zonder inloggen, tel. (040) 264 99 40. Reken op een langere doorlooptijd.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2000",
      "van": 2000,
      "tot": null,
@@ -5867,6 +6238,7 @@
      "html": "<p><strong>gemeente Valkenswaard</strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -5891,6 +6263,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "vanaf 1927",
      "van": 1927,
      "tot": null,
@@ -5901,6 +6274,7 @@
      "html": "<p><strong>omgevingsloket van de gemeente Veenendaal</strong>. Mail straat en huisnummer naar <a href=\"mailto:omgevingsloket@veenendaal.nl\">omgevingsloket@veenendaal.nl</a>; zij zoeken het op en sturen het per mail. Veel bouwdossiers zijn digitaal beschikbaar.</p>"
     },
     {
+     "bedrag": null,
      "kop": "t/m 1926, en de constructiedossiers van elk jaar",
      "van": null,
      "tot": 1926,
@@ -5911,6 +6285,7 @@
      "html": "<p>het omgevingsloket maakt een afspraak voor u en u bekijkt ze in de studiezaal.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -5939,6 +6314,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "1906 t/m 1990",
      "van": 1906,
      "tot": 1990,
@@ -5949,6 +6325,7 @@
      "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), in twee reeksen (1906 t/m 1945 en 1946 t/m 1990), allebei analoog en nog niet gedigitaliseerd. De oudste reeks is alleen via kadastraal onderzoek te vinden, niet op adres. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, tel. (040) 264 99 40, en reken op een langere doorlooptijd.</p>"
     },
     {
+     "bedrag": 10.55,
      "kop": "",
      "van": null,
      "tot": null,
@@ -5959,6 +6336,7 @@
      "html": "<p><strong>de recente jaren</strong>: <strong>gemeente Veldhoven</strong>, per mail bij <a href=\"mailto:omgevingsloket@veldhoven.nl\">omgevingsloket@veldhoven.nl</a>. Zet erbij welke bouwplannen of vergunningen u wilt, uw naam met voorletters, adres en een telefoonnummer overdag. Reactie binnen twee weken, per mail. De startprijs is <strong>€ 10,55</strong>, en voor meer dossiers komt er per dossier iets bij.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -5996,6 +6374,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "vanaf 1901",
      "van": 1901,
      "tot": null,
@@ -6006,6 +6385,7 @@
      "html": "<p><strong>gemeente Venray</strong>. Via een online formulier geeft u aan welk dossier u wilt inzien en kiest u digitaal of op het gemeentehuis. Tekeningen van bestaande gebouwen kunt u inzien; van nieuwbouw pas nadat de vergunning is verleend. Afspraak via (0478) 52 33 33. Archieven ouder dan twintig jaar zijn openbaar.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -6044,6 +6424,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": 29.4,
      "kop": "vanaf 1901",
      "van": 1901,
      "tot": null,
@@ -6054,6 +6435,7 @@
      "html": "<p><strong>gemeente Vijfheerenlanden</strong>, aanvragen via <a href=\"https://mijn.vijfheerenlanden.nl\" target=\"_blank\" rel=\"noopener\">https://mijn.vijfheerenlanden.nl</a>. Het opzoeken kost <strong>€ 29,40 per kwartier</strong> (tarief 2026); kopieën € 0,45 voor A4, € 0,90 voor A3 en € 4,90 voor A2, A1 of A0. Na de aanvraag belt de gemeente om een afspraak te maken om de dossiers in te zien op het gemeentehuis in Vianen of Meerkerk, dinsdag 9.00-12.30 en 13.30-16.30. Tel. 088 - 599 7000, <a href=\"mailto:info@vijfheerenlanden.nl\">info@vijfheerenlanden.nl</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -6064,6 +6446,7 @@
      "html": "<p><strong>de oudere stukken</strong>: het <strong>Regionaal Archief Zuid-Utrecht</strong> noemt Vijfheerenlanden bij zijn bouwdossiers, maar verwijst voor de aanvraag door naar de gemeente. <a href=\"mailto:info@razu.nl\">info@razu.nl</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -6098,6 +6481,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": 7.0,
      "kop": "vanaf 1901",
      "van": 1901,
      "tot": null,
@@ -6108,6 +6492,7 @@
      "html": "<p><strong>gemeente Voorst</strong>, per mail bij <a href=\"mailto:bouwdossier@voorst.nl\">bouwdossier@voorst.nl</a>, tel. 0571 - 27 99 11. Zij sturen de tekeningen digitaal per mail. Zet in de mail het adres van het bouwwerk, welke tekeningen u wilt en uw mobiele nummer, want u krijgt een verificatiecode per sms; particulieren geven ook hun postadres op, want de factuur komt per post. Tarief 2026: <strong>€ 7,00 per tekening groter dan A3</strong> plus € 1,20 per 5 MB verzending.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -6134,6 +6519,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -6144,6 +6530,7 @@
      "html": "<p><strong>de archiefjaren</strong>: <strong>Brabants Historisch Informatie Centrum</strong> (BHIC) in Den Bosch, dat de bouwarchieven van vrijwel het hele noordoosten van Brabant bewaart. Scanning on request is kosteloos. <a href=\"https://www.bhic.nl/onderzoeken/bouwvergunningen\" target=\"_blank\" rel=\"noopener\">https://www.bhic.nl/onderzoeken/bouwvergunningen</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -6154,6 +6541,7 @@
      "html": "<p><strong>de recente jaren</strong>: <strong>gemeente Vught</strong>, <a href=\"https://vught.nl/bouwtekening\" target=\"_blank\" rel=\"noopener\">https://vught.nl/bouwtekening</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -6179,6 +6567,7 @@
    "intro_html": "<p>Waalre wijst voor vrijwel alles naar de gemeente zelf, en dat is ongebruikelijk in deze regio.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "Aalst 1907 t/m 1922",
      "van": 1907,
      "tot": 1922,
@@ -6189,6 +6578,7 @@
      "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), analoog en nog niet gedigitaliseerd. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>. Aalst ging in 1923 op in Waalre.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 1875",
      "van": 1875,
      "tot": null,
@@ -6199,6 +6589,7 @@
      "html": "<p><strong>gemeente Waalre</strong>, via hun pagina over bouwplannen.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -6226,6 +6617,7 @@
    "intro_html": "<p>Waalwijk, Heusden en Altena delen één streekarchief in Heusden.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m 2001",
      "van": null,
      "tot": 2001,
@@ -6236,6 +6628,7 @@
      "html": "<p><strong>Streekarchief Langstraat Heusden Altena</strong> (SALHA), gevestigd in het oude raadhuis van Heusden. De bouwvergunningen zijn op adres doorzoekbaar en de tekeningen zijn volgens de gemeente gratis te downloaden. <a href=\"https://salha.nl/bronnen/bouwtekeningen/overzicht-beschikbare-bouwvergunningen\" target=\"_blank\" rel=\"noopener\">https://salha.nl/bronnen/bouwtekeningen/overzicht-beschikbare-bouwvergunningen</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2002",
      "van": 2002,
      "tot": null,
@@ -6246,6 +6639,7 @@
      "html": "<p><strong>gemeente Waalwijk</strong>. Stukken ouder dan twintig jaar liggen in het streekarchief; voor de rest dient u een schriftelijk verzoek in.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -6270,6 +6664,7 @@
    "intro_html": "<p>Een van de prettigste loketten in de regio: gratis, digitaal, en de dossiers bevatten regelmatig berekeningen en sonderingen.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "1902 t/m 2005",
      "van": 1902,
      "tot": 2005,
@@ -6280,6 +6675,7 @@
      "html": "<p><strong>gemeentearchief Wageningen</strong>. Kijk eerst in het digitale overzicht van bouwdossiers op de gemeentesite; vul daarna het contactformulier in met straatnaam en huisnummer, en u krijgt de tekeningen als pdf per mail. De originelen liggen in het stadhuis en zijn gratis in te zien na afspraak, dinsdag en woensdag 10.00-16.00. <a href=\"mailto:gemeentearchief@wageningen.nl\">gemeentearchief@wageningen.nl</a>, (0317) 49 29 11.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2006",
      "van": 2006,
      "tot": null,
@@ -6290,6 +6686,7 @@
      "html": "<p>constructietekeningen zijn er wel, maar via een afspraak bij het archief.</p>"
     },
     {
+     "bedrag": null,
      "kop": "gesloopte panden 1902-1980",
      "van": 1902,
      "tot": 1980,
@@ -6300,6 +6697,7 @@
      "html": "<p>papieren serie van de bouwpolitie, niet gedigitaliseerd.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -6310,6 +6708,7 @@
      "html": "<p>In de dossiers zitten de aanvraag, de bouwtekeningen en soms berekeningen of sonderingen. Riolering en elektra staan er meestal niet in.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -6347,6 +6746,7 @@
    "intro_html": "<p>Fusiegemeente van 2019 uit Geldermalsen, Neerijnen en Lingewaal.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m maart 2013",
      "van": null,
      "tot": 2013,
@@ -6357,6 +6757,7 @@
      "html": "<p><strong>Regionaal Archief Rivierenland</strong> in Tiel, tel. 0344 - 612 230, digitaliseren op verzoek gratis. <a href=\"https://regionaalarchiefrivierenland.nl/vergunningen\" target=\"_blank\" rel=\"noopener\">https://regionaalarchiefrivierenland.nl/vergunningen</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf april 2013",
      "van": 2013,
      "tot": null,
@@ -6367,6 +6768,7 @@
      "html": "<p><strong>Omgevingsdienst Rivierenland</strong>, <a href=\"mailto:ingekomenpost@odrivierenland.nl\">ingekomenpost@odrivierenland.nl</a>, tel. 0344 579 314.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -6398,6 +6800,7 @@
    "intro_html": "<p>Handig hier: de gemeente heeft zelf scans van de oudste dossiers, dus voor die periode hoeft u niet naar het archief in Nijmegen.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m maart 1984",
      "van": null,
      "tot": 1984,
@@ -6408,6 +6811,7 @@
      "html": "<p>de originelen liggen bij het <strong>Regionaal Archief Nijmegen</strong>, maar de gemeente heeft er scans van en mailt die toe, ook aan derden. <a href=\"mailto:info@westmaasenwaal.nl\">info@westmaasenwaal.nl</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "april 1984 t/m april 2013",
      "van": 1984,
      "tot": 2013,
@@ -6418,6 +6822,7 @@
      "html": "<p><strong>gemeente West Maas en Waal</strong>, archief op het gemeentehuis, Dijkstraat 11 in Beneden-Leeuwen. Aanvragen per mail bij <a href=\"mailto:info@westmaasenwaal.nl\">info@westmaasenwaal.nl</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf april 2013",
      "van": 2013,
      "tot": null,
@@ -6428,6 +6833,7 @@
      "html": "<p><strong>Omgevingsdienst Rivierenland</strong> (ODR), waarin de vergunningverlening toen is opgegaan. <a href=\"mailto:ingekomenpost@odrivierenland.nl\">ingekomenpost@odrivierenland.nl</a>, tel. 0344 579 314.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -6452,6 +6858,7 @@
    "intro_html": "<p>Zelfde organisatie en zelfde route als Duiven, zie daar.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m ongeveer 1970",
      "van": null,
      "tot": 1970,
@@ -6462,6 +6869,7 @@
      "html": "<p><strong>Streekarchivariaat de Liemers en Doesburg</strong>, alleen op afspraak, <a href=\"mailto:info@liemersarchief.nl\">info@liemersarchief.nl</a>, 0313 - 481 319, Leigraafseweg 8 in Doesburg.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf ongeveer 1970",
      "van": 1970,
      "tot": null,
@@ -6472,6 +6880,7 @@
      "html": "<p>via het portaal Bouwdossiers Westervoort, na inloggen, keuze \"Dossier gegevens opvragen uit het archief\". Vragen: <a href=\"mailto:omgevingsvergunning@1stroom.nl\">omgevingsvergunning@1stroom.nl</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -6504,6 +6913,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m 1983",
      "van": null,
      "tot": 1983,
@@ -6514,6 +6924,7 @@
      "html": "<p>, de voorgangers van de huidige gemeente: <strong>Regionaal Archief Nijmegen</strong>, <a href=\"https://studiezaal.nijmegen.nl/bouwvergunningen\" target=\"_blank\" rel=\"noopener\">https://studiezaal.nijmegen.nl/bouwvergunningen</a>. Contact: <a href=\"mailto:hetarchief@nijmegen.nl\">hetarchief@nijmegen.nl</a>, (024) 329 23 07.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 1984",
      "van": 1984,
      "tot": null,
@@ -6524,6 +6935,7 @@
      "html": "<p><strong>gemeente Wijchen</strong>, team vergunningverlening, <a href=\"mailto:omgevingsloket@drutenwijchen.nl\">omgevingsloket@drutenwijchen.nl</a>, tel. 088 432 70 00, Kasteellaan 27. Zet in de mail om welk adres en welk bouwplan het gaat en welke tekeningen u wilt. Inzage en scans zijn gratis, alleen voor prints wordt betaald.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -6550,6 +6962,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "vanaf 1875",
      "van": 1875,
      "tot": null,
@@ -6560,6 +6973,7 @@
      "html": "<p><strong>gemeente Wijk bij Duurstede</strong>. De bouwvergunningen vanaf 1875 zijn gedigitaliseerd en digitaal aan te vragen; de gemeente streeft ernaar het dossier binnen een werkweek digitaal toe te sturen.</p>"
     },
     {
+     "bedrag": null,
      "kop": "de papieren stukken t/m 1996",
      "van": null,
      "tot": 1996,
@@ -6570,6 +6984,7 @@
      "html": "<p><strong>Regionaal Archief Zuid-Utrecht</strong> (RAZU), in te zien op afspraak, <a href=\"mailto:info@razu.nl\">info@razu.nl</a>, 088 - 5300 170.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -6603,6 +7018,7 @@
    "intro_html": "<p>De prettigste Achterhoekse gemeente: levering per mail is gratis.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m 1990",
      "van": null,
      "tot": 1990,
@@ -6613,6 +7029,7 @@
      "html": "<p><strong>Erfgoedcentrum Achterhoek en Liemers</strong> (ECAL) in Doetinchem, <a href=\"https://www.ecal.nu/\" target=\"_blank\" rel=\"noopener\">https://www.ecal.nu/</a>, <a href=\"mailto:info@ecal.nu\">info@ecal.nu</a>, 0314 - 78 70 78.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 1991",
      "van": 1991,
      "tot": null,
@@ -6623,6 +7040,7 @@
      "html": "<p><strong>gemeente Winterswijk</strong>, per mail bij <a href=\"mailto:omgeving@winterswijk.nl\">omgeving@winterswijk.nl</a> of via het formulier <a href=\"https://eloket.winterswijk.nl/f/436\" target=\"_blank\" rel=\"noopener\">https://eloket.winterswijk.nl/f/436</a>, tel. 0543 - 543 543. Toesturen per mail is gratis. Papieren kopieën kosten € 3,70 voor A4 zwart-wit tot € 26,40 voor A0 kleur. Zaaknummers vanaf 2000000 zijn ook gratis in te zien in Mijn Gemeente, maar daar komt u alleen met DigiD in; de mailroute heeft die drempel niet.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -6652,6 +7070,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m bouwjaar 2010",
      "van": null,
      "tot": 2010,
@@ -6662,6 +7081,7 @@
      "html": "<p><strong>West-Brabants Archief</strong>. De Woensdrechtse bouwvergunningen tot 2010 zijn gedigitaliseerd en gratis te zoeken en aan te vragen in het e-loket bouwdossiers. <a href=\"https://bouwdossiers.westbrabantsarchief.nl/\" target=\"_blank\" rel=\"noopener\">https://bouwdossiers.westbrabantsarchief.nl/</a>, <a href=\"mailto:studiezaal@westbrabantsarchief.nl\">studiezaal@westbrabantsarchief.nl</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2011",
      "van": 2011,
      "tot": null,
@@ -6672,6 +7092,7 @@
      "html": "<p><strong>gemeente Woensdrecht</strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -6699,6 +7120,7 @@
    "intro_html": "<p>Voor Woerden, Oudewater, Montfoort, Lopik en IJsselstein is er één streekarchief: het <strong>Regionaal Historisch Centrum Rijnstreek en Lopikerwaard</strong>, Blekerijlaan 14 in Woerden, <a href=\"mailto:rhc@woerden.nl\">rhc@woerden.nl</a>, 0348 - 42 88 46, elke werkdag 9.00-16.30. Zij melden dat alle bestaande bouwvergunningen uit hun werkgebied <strong>tot 2000 compleet en geïndexeerd</strong> zijn.</p>",
    "perioden": [
     {
+     "bedrag": 32.3,
      "kop": "ongeveer 1903 t/m 1999",
      "van": 1903,
      "tot": 1999,
@@ -6709,6 +7131,7 @@
      "html": "<p><strong>RHC Rijnstreek en Lopikerwaard</strong>. De reeksen beginnen rond 1903 tot 1905; van daarvóór is het meeste in de loop der tijd verloren gegaan. Voor het opzoeken wordt <strong>€ 32,30</strong> in rekening gebracht (prijspeil 2026). U kunt ook een afspraak maken bij het omgevingsloket van de gemeente, tel. 14 0348.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2000",
      "van": 2000,
      "tot": null,
@@ -6719,6 +7142,7 @@
      "html": "<p><strong>gemeente Woerden</strong>, omgevingsloket, tel. 14 0348.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2013",
      "van": 2013,
      "tot": null,
@@ -6729,6 +7153,7 @@
      "html": "<p>een deel van de informatie zit bij de <strong>Omgevingsdienst Midden-Holland</strong> in Gouda.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -6753,6 +7178,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m ongeveer 1930",
      "van": null,
      "tot": 1930,
@@ -6763,6 +7189,7 @@
      "html": "<p><strong>Archief Eemland</strong> in Amersfoort, <a href=\"mailto:archiefeemland@amersfoort.nl\">archiefeemland@amersfoort.nl</a>, gratis verstrekking.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -6773,6 +7200,7 @@
      "html": "<p><strong>daarna</strong>: <strong>gemeente Woudenberg</strong>. Archief Eemland verwijst voor Renswoude, Woudenberg, Leusden en Soest uitdrukkelijk naar de gemeenten zelf.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -6807,6 +7235,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "t/m maart 2013",
      "van": null,
      "tot": 2013,
@@ -6817,6 +7246,7 @@
      "html": "<p><strong>Regionaal Archief Rivierenland</strong> in Tiel, tel. 0344 - 612 230, digitaliseren op verzoek gratis. <a href=\"https://regionaalarchiefrivierenland.nl/vergunningen\" target=\"_blank\" rel=\"noopener\">https://regionaalarchiefrivierenland.nl/vergunningen</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf april 2013",
      "van": 2013,
      "tot": null,
@@ -6827,6 +7257,7 @@
      "html": "<p><strong>Omgevingsdienst Rivierenland</strong>, <a href=\"mailto:ingekomenpost@odrivierenland.nl\">ingekomenpost@odrivierenland.nl</a>, tel. 0344 579 314.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -6856,6 +7287,7 @@
    "intro_html": "<p>Een van de weinige gratis loketten in de provincie.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "vanaf 1901",
      "van": 1901,
      "tot": null,
@@ -6866,6 +7298,7 @@
      "html": "<p><strong>gemeente Zeist</strong>, digitaal aan te vragen via <a href=\"https://www.zeist.nl/wonen/bouwen-en-verbouwen/bouwdossier-inzien\" target=\"_blank\" rel=\"noopener\">https://www.zeist.nl/wonen/bouwen-en-verbouwen/bouwdossier-inzien</a>. Het opvragen is <strong>gratis</strong>. Bijna elk pand in Zeist heeft een bewaard dossier met de aanvraag, het besluit en vrijwel altijd de bouwtekeningen. Fysiek inzien kan zonder afspraak in de publiekshal, Het Rond 1, ma t/m vr 8.30-16.30.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -6876,6 +7309,7 @@
      "html": "<p><strong>gesloopte panden</strong>: <a href=\"mailto:gemeentearchief@zeist.nl\">gemeentearchief@zeist.nl</a>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -6912,6 +7346,7 @@
    "intro_html": "",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "recent (vanaf ± 2013)",
      "van": 2013,
      "tot": null,
@@ -6922,6 +7357,7 @@
      "html": "<p>omgevingsvergunningen voor Zevenaar worden afgehandeld door de <strong>Omgevingsdienst Groene Metropool (ODGM)</strong>, de voormalige Omgevingsdienst Regio Arnhem (ODRA) is hierin opgegaan (bevestigd: <code>odra.nl</code> → 301 → <code>odgroenemetropool.nl</code>, 2026-07-10). <strong>Maar let op</strong>: op 2026-09-05 noemt ODGM op zijn eigen inzagepagina alleen Arnhem, Berg en Dal, Beuningen, Doesburg, Heumen, Lingewaard en Renkum, en Zevenaar staat daar niet bij. Waar de recente Zevenaarse dossiers dan wel liggen is nog niet vastgesteld; begin bij de gemeente zelf.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -6932,6 +7368,7 @@
      "html": "<p><strong>ouder / vergunningen vóór ODRA (incl. bouwjaren ± 2010)</strong>: opvragen bij de <strong>gemeente Zevenaar</strong> zelf (het pand kreeg zijn vergunning vóór de omgevingsdienst- overdracht). Algemeen: <a href=\"mailto:info@zevenaar.nl\">info@zevenaar.nl</a>, tel. 0316-595111, <a href=\"https://www.zevenaar.nl\" target=\"_blank\" rel=\"noopener\">https://www.zevenaar.nl</a>. Meld adres + bouwjaar + perceel en vraag naar bouwtekeningen, doorsneden, funderingsgegevens en constructieberekening.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -6960,6 +7397,7 @@
    "intro_html": "<p>Zundert staat evenmin in het e-loket. Dat is de zwakste van de negen West-Brabantse gemeenten: u weet pas na een mail waar u aan toe bent.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -6970,6 +7408,7 @@
      "html": "<p><strong>de archiefjaren</strong>: <strong>West-Brabants Archief</strong>, <a href=\"mailto:studiezaal@westbrabantsarchief.nl\">studiezaal@westbrabantsarchief.nl</a>. Vraag per mail of het dossier van dit adres digitaal beschikbaar is of alleen in de studiezaal te bekijken.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -6980,6 +7419,7 @@
      "html": "<p><strong>de recente jaren</strong>: <strong>gemeente Zundert</strong>.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
@@ -7005,6 +7445,7 @@
    "intro_html": "<p>Het beste loket van de hele regio: honderdtien jaar bouwdossiers online, gratis, zonder inloggen.</p>",
    "perioden": [
     {
+     "bedrag": null,
      "kop": "1900 t/m 2010",
      "van": 1900,
      "tot": 2010,
@@ -7015,6 +7456,7 @@
      "html": "<p><strong>Regionaal Archief Zutphen</strong>, e-loket Vergunningdossiers op <a href=\"https://vergunningdossiers.erfgoedcentrumzutphen.nl/\" target=\"_blank\" rel=\"noopener\">https://vergunningdossiers.erfgoedcentrumzutphen.nl/</a>, doorzoekbaar op straat en huisnummer. Scans van de tekeningen vraagt u daar gratis aan. Voor technische details van grote gebouwen kunt u het papieren dossier inzien in de studiezaal, Spiegelstraat 13, tel. 14 0575.</p>"
     },
     {
+     "bedrag": null,
      "kop": "vanaf 2010",
      "van": 2010,
      "tot": null,
@@ -7025,6 +7467,7 @@
      "html": "<p><strong>gemeente Zutphen</strong>, tel. 14 0575.</p>"
     },
     {
+     "bedrag": null,
      "kop": "",
      "van": null,
      "tot": null,
