@@ -31,9 +31,11 @@ a{color:inherit}
 .nav-links a:hover{color:var(--ink)}
 
 /* breadcrumb */
-.breadcrumb{background:var(--surface);border-bottom:1px solid var(--line);padding:10px 0;font-size:.82rem;color:var(--muted)}
+/* Het kruimelpad zat als witte strook geklemd tussen de donkere balk en de
+   donkere kop. Nu loopt de hele bovenzone door in een kleur. */
+.breadcrumb{background:var(--navy-deep);border-bottom:0;padding:8px 0 4px;font-size:.82rem;color:rgba(255,255,255,.55)}
 .breadcrumb-inner{display:flex;gap:8px;align-items:center}
-.breadcrumb a{color:var(--accent);text-decoration:none}
+.breadcrumb a{color:#9fc6ec;text-decoration:none}
 .breadcrumb a:hover{text-decoration:underline}
 
 /* hero */
@@ -160,3 +162,39 @@ a{color:inherit}
 .reveal.in{opacity:1;transform:none}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}}
 :focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
+
+/* ── donkere kop op de subpaginas ─────────────────────────────────────────
+   De homepage heeft een donker koptblok; zonder dit sprongen de subpaginas
+   terug naar de oude lichte kop zodra iemand doorklikte. De homepage gebruikt
+   deze stylesheet niet, dus dit raakt alleen de subpaginas. */
+.nav-bar{background:var(--navy-deep)}
+.nav-bar.scrolled{background:rgba(7,31,51,.94);border-bottom:1px solid rgba(255,255,255,.12)}
+.nav-bar .brand img{filter:brightness(0) invert(1)}
+.nav-bar .nav-links a{color:rgba(255,255,255,.82)}
+.nav-bar .nav-links a:hover{color:#fff}
+.nav-bar .nav-inner > .btn{background:#fff;color:var(--navy-deep)}
+.nav-bar .nav-inner > .btn:hover{background:rgba(255,255,255,.86);color:var(--navy-deep);box-shadow:none}
+
+section.hero{background:var(--navy-deep);color:#fff;
+             padding-top:clamp(26px,4vw,52px);padding-bottom:clamp(40px,6vw,76px)}
+section.hero .eyebrow{color:#5fa2e0}
+section.hero .visual-head{color:rgba(255,255,255,.88);font-weight:400}
+section.hero .visual-head em{color:#fff;font-weight:600;font-style:normal}
+section.hero .lead{color:rgba(255,255,255,.8)}
+section.hero .hero-hint{color:rgba(255,255,255,.62)}
+section.hero .chip{color:rgba(255,255,255,.92);background:rgba(255,255,255,.05);
+                   border-color:rgba(255,255,255,.2)}
+section.hero .chip b{color:#9fc6ec}
+section.hero .btn{background:#fff;color:var(--navy-deep);border:1.5px solid #fff}
+section.hero .btn:hover{background:transparent;color:#fff;box-shadow:none}
+section.hero .btn-ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.45)}
+section.hero .btn-ghost:hover{background:#fff;color:var(--navy-deep);border-color:#fff}
+section.hero a:not(.btn){color:#9fc6ec}
+
+/* blokken die alleen binnen een kop voorkomen en dus meemoeten */
+section.hero .antwoord{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.2)}
+section.hero .antwoord .bedrag,section.hero .bedrag{color:#fff}
+section.hero .antwoord p,section.hero .antwoord-noot{color:rgba(255,255,255,.8)}
+section.hero .antwoord b{color:#fff}
+section.hero .stappen,section.hero .betaal{color:rgba(255,255,255,.85)}
+section.hero .stappen b,section.hero .betaal b{color:#fff}
