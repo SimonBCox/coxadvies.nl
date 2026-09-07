@@ -138,8 +138,12 @@
   .aw-kaart{height:320px;border:1px solid var(--line);border-radius:10px;background:var(--bg)}
   .aw-kaart .leaflet-container{border-radius:10px;font:inherit}
 
-  .aw-uit{margin:0;padding:15px clamp(20px,4vw,34px);background:var(--bg);
-    border-top:1px solid var(--line);font-size:.92rem;color:var(--muted)}
+  /* Dit is de enige zin op de pagina waar iets wordt aangeboden. Hij stond op .92rem
+     in de grijstint van een voetnoot, en las daardoor als kleine lettertjes onder een
+     antwoord. Nu gewoon in de leeskleur en op leesgrootte; verder niets, want een knop
+     of een kader eromheen maakt er een banner van. */
+  .aw-uit{margin:0;padding:17px clamp(20px,4vw,34px);background:var(--bg);
+    border-top:1px solid var(--line);font-size:1rem;color:var(--ink)}
   .aw-uit a{color:var(--accent);font-weight:600}
 
   /* De bronnen die in het dossier komen. Zelfde ritme als de periodelijst, want de
