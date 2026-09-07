@@ -133,7 +133,7 @@
   .card:hover{border-color:var(--hair,#c9c4b8)}
   .card .tag{font-size:.72rem;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--accent)}
   .card h3{font-size:1.5rem;margin:14px 0 11px}
-  .card p{color:var(--muted);font-size:.98rem}
+  .card p{color:var(--muted);font-size:.98rem;max-width:68ch}
 
   /* process */
   .steps{display:grid;grid-template-columns:1fr;border-top:1px solid var(--line)}
@@ -257,14 +257,14 @@
   .kop .nav-inner > .btn{background:#fff;color:var(--navy-deep)}
   .kop .nav-inner > .btn:hover{background:rgba(255,255,255,.85);color:var(--navy-deep)}
   .kopsplit{flex:1;display:grid;grid-template-columns:1fr;grid-template-rows:minmax(0,1fr)}
-  @media(min-width:980px){.kopsplit{grid-template-columns:46% 54%}}
+  @media(min-width:980px){.kopsplit{grid-template-columns:48% 52%}}
   .kop .koptekst{display:flex;flex-direction:column;justify-content:center;
                  padding:clamp(30px,4.5vw,58px) clamp(28px,4vw,56px) clamp(40px,5vw,70px)
-                         max(20px,calc((100vw - var(--maxw))/2 + var(--pad)))}
-  .kop .visual-head{font-size:clamp(2.3rem,4.5vw,3.9rem);max-width:14ch;margin:16px 0 22px;
+                         max(var(--pad),calc((100vw - var(--maxw))/2))}
+  .kop .visual-head{font-size:clamp(2.1rem,3.4vw,3.2rem);max-width:16ch;margin:16px 0 22px;
                     font-weight:400;color:rgba(255,255,255,.86)}
   .kop .eyebrow{color:#5fa2e0}
-  .kop .lead{color:rgba(255,255,255,.8);max-width:42ch;margin-bottom:0}
+  .kop .lead{color:rgba(255,255,255,.8);max-width:40ch;margin-bottom:0}
   .kopbeeld{position:relative;min-height:280px}
   .kopbeeld img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
                 object-position:72% 46%}
@@ -496,7 +496,7 @@
           <button class="omslag" data-lb="lb-nijmegen" aria-label="Bekijk alle foto's van de doorbraak in Nijmegen">
             <img src="img/projecten/nijmegen-02.jpg" loading="lazy"
                  alt="Doorbraak met een stalen ligger in Nijmegen">
-            <span class="telling">Bekijk de klus &middot; 4 foto's</span>
+            <span class="telling">Bekijk de klus &middot; 3 foto's</span>
           </button>
           <div class="project-info">
             <h3>Nijmegen &middot; doorbraak achteraf gelegaliseerd</h3>
@@ -507,7 +507,7 @@
           <button class="omslag" data-lb="lb-malden" aria-label="Bekijk alle foto's van de nieuwbouw in Malden">
             <img src="img/projecten/malden-09.jpg" loading="lazy"
                  alt="Het opgeleverde woonhuis in Malden">
-            <span class="telling">Bekijk de bouw &middot; 9 foto's</span>
+            <span class="telling">Bekijk de bouw &middot; 8 foto's</span>
           </button>
           <div class="project-info">
             <h3>Malden &middot; nieuwbouw woonhuis</h3>
@@ -541,8 +541,6 @@
             <figcaption>Deze doorbraak was al gemaakt toen ik erbij kwam. De foto's van de uitvoering hoorden bij de stukken: het staal ligt, de stempeling draagt nog.</figcaption></figure>
           <figure><img src="img/projecten/nijmegen-02.jpg" alt="De opening over de volle breedte met de stalen ligger" loading="lazy">
             <figcaption>De opening over de volle breedte, met de stalen ligger erboven.</figcaption></figure>
-          <figure><img src="img/projecten/nijmegen-04.jpg" alt="Het uiteinde van de ligger bij de gevel" loading="lazy">
-            <figcaption>Het uiteinde van de ligger, waar hij op het metselwerk landt.</figcaption></figure>
           <figure><img src="img/projecten/nijmegen-03.jpg" alt="Dezelfde ruimte vanaf de andere kant" loading="lazy">
             <figcaption>Dezelfde ruimte vanaf de andere kant. Ik heb de bestaande situatie opgemeten en nagerekend, zodat de gemeente haar alsnog kon beoordelen.</figcaption></figure>
         </div>
@@ -566,8 +564,6 @@
             <figcaption>De wanden van de begane grond staan.</figcaption></figure>
           <figure><img src="img/projecten/malden-06.jpg" alt="De kap wordt met een kraan geplaatst" loading="lazy">
             <figcaption>De kap gaat erop.</figcaption></figure>
-          <figure><img src="img/projecten/malden-07.jpg" alt="Het dak is gedekt" loading="lazy">
-            <figcaption>Het dak is gedekt.</figcaption></figure>
           <figure><img src="img/projecten/malden-08.jpg" alt="De gevels zijn afgewerkt" loading="lazy">
             <figcaption>De gevels zijn afgewerkt en de aanbouw staat.</figcaption></figure>
           <figure><img src="img/projecten/malden-09.jpg" alt="Het opgeleverde woonhuis" loading="lazy">
@@ -665,7 +661,7 @@
         <a href="/constructeur-ede/" class="stad-link">Ede</a>
         <a href="/constructeur-zevenaar/" class="stad-link">Zevenaar</a>
       </div>
-      <p style="margin-top:22px;color:var(--muted);max-width:60ch">Daarnaast werkte ik onder meer in Huissen, Bemmel, Milsbeek, Lent, Malden en Renkum. Voor projecten verder weg, tot in Amsterdam, Utrecht en Almere, kom ik ook gewoon.</p>
+      <p style="margin-top:22px;color:var(--muted);max-width:60ch">Daarnaast werkte ik onder meer in Huissen, Bemmel, Milsbeek, Lent, Malden en Renkum. Ook verder weg neem ik werk aan, tot in Amsterdam, Utrecht en Almere. Langskomen is daar meestal niet nodig: met foto's, de maten en de bouwtekening kan ik de berekening maken.</p>
     </div>
   </section>
 
