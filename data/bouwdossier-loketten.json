@@ -442,31 +442,51 @@
     "Asten",
     "Ommel"
    ],
-   "gecheckt": "2026-09-06",
-   "route": "wij-formulier",
+   "gecheckt": "2026-09-07",
+   "route": "wij-zelfzoeken",
    "wij": true,
    "voorbehoud": "",
    "intro_html": "",
    "perioden": [
     {
-     "kop": "",
-     "van": null,
-     "tot": null,
+     "kop": "1970 t/m 1996",
+     "van": 1970,
+     "tot": 1996,
      "geldt_voor": "",
-     "loket": "",
+     "loket": "Regionaal Historisch Centrum Eindhoven",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe). Deze jaargang is gedigitaliseerd en volledig online doorzoekbaar op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>. U krijgt de stukken via een SecuDoc-link die veertien dagen geldig is.</p>"
+    },
+    {
+     "kop": "1948 t/m 1969",
+     "van": 1948,
+     "tot": 1969,
+     "geldt_voor": "",
+     "loket": "RHCe",
      "route": "wij-formulier",
      "wij": true,
-     "html": "<p><strong>de archiefjaren</strong>: <strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), Raiffeisenstraat 18 in Eindhoven. Zoeken op plaats, straat en huisnummer op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>; aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, zonder inloggen. U krijgt de stukken via een SecuDoc-link die veertien dagen geldig is, en een reactie binnen veertien dagen. Tel. (040) 264 99 40, ma t/m do 08:30-17:00. Studiezaal op afspraak, di en do 9.30-16.00.</p>"
+     "html": "<p><strong>RHCe</strong>, maar analoog en nog niet gedigitaliseerd. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, zonder inloggen. Reken op een langere doorlooptijd. Tel. (040) 264 99 40.</p>"
     },
     {
-     "kop": "",
-     "van": null,
+     "kop": "1901 t/m 1947",
+     "van": 1901,
+     "tot": 1947,
+     "geldt_voor": "",
+     "loket": "RHCe",
+     "route": "wij-formulier",
+     "wij": true,
+     "html": "<p><strong>RHCe</strong>, analoog en slecht toegankelijk: deze reeks is alleen via kadastraal onderzoek te vinden, niet op adres. Bereid u voor op zoekwerk.</p>"
+    },
+    {
+     "kop": "vanaf 1997",
+     "van": 1997,
      "tot": null,
      "geldt_voor": "",
-     "loket": "",
+     "loket": "gemeente Asten",
      "route": "onbekend",
      "wij": false,
-     "html": "<p><strong>de recente jaren</strong>: <strong>gemeente Asten</strong>.</p>"
+     "html": "<p><strong>gemeente Asten</strong>.</p>"
     },
     {
      "kop": "",
@@ -474,7 +494,7 @@
      "tot": null,
      "geldt_voor": "",
      "loket": "",
-     "route": "wij-formulier",
+     "route": "wij-zelfzoeken",
      "wij": true,
      "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/421-informatie-bouwdossiers/\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/421-informatie-bouwdossiers/</a>.</p>"
     }
@@ -684,11 +704,11 @@
     "Riethoven",
     "Westerhoven"
    ],
-   "gecheckt": "2026-09-06",
-   "route": "wij-formulier",
+   "gecheckt": "2026-09-07",
+   "route": "wij-zelfzoeken",
    "wij": true,
    "voorbehoud": "",
-   "intro_html": "",
+   "intro_html": "<p>Vier voormalige gemeenten, elk met een eigen grens. Kijk dus eerst in welke kern het pand staat.</p>",
    "perioden": [
     {
      "kop": "",
@@ -696,19 +716,29 @@
      "tot": null,
      "geldt_voor": "",
      "loket": "",
-     "route": "wij-formulier",
+     "route": "wij-zelfzoeken",
      "wij": true,
-     "html": "<p><strong>de archiefjaren</strong>: <strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), Raiffeisenstraat 18 in Eindhoven. Zoeken op plaats, straat en huisnummer op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>; aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, zonder inloggen. U krijgt de stukken via een SecuDoc-link die veertien dagen geldig is, en een reactie binnen veertien dagen. Tel. (040) 264 99 40, ma t/m do 08:30-17:00. Studiezaal op afspraak, di en do 9.30-16.00.</p>"
+     "html": "<p><strong>Bergeijk 1930 t/m 1999, Luyksgestel 1928 t/m 1996, Riethoven 1945 t/m 1999 en Westerhoven 1921 t/m 1996</strong>: <strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), gedigitaliseerd en online doorzoekbaar op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>.</p>"
     },
     {
-     "kop": "",
-     "van": null,
+     "kop": "Bergeijk 1910 t/m 1930 en Riethoven 1925 t/m 1939",
+     "van": 1910,
+     "tot": 1930,
+     "geldt_voor": "",
+     "loket": "RHCe",
+     "route": "wij-formulier",
+     "wij": true,
+     "html": "<p><strong>RHCe</strong>, analoog en nog niet gedigitaliseerd. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, tel. (040) 264 99 40.</p>"
+    },
+    {
+     "kop": "Bergeijk en Riethoven vanaf 2000, Luyksgestel en Westerhoven vanaf 1997",
+     "van": 1997,
      "tot": null,
      "geldt_voor": "",
-     "loket": "",
+     "loket": "gemeente Bergeijk",
      "route": "onbekend",
      "wij": false,
-     "html": "<p><strong>de recente jaren</strong>: <strong>gemeente Bergeijk</strong>.</p>"
+     "html": "<p><strong>gemeente Bergeijk</strong>.</p>"
     },
     {
      "kop": "",
@@ -716,9 +746,9 @@
      "tot": null,
      "geldt_voor": "",
      "loket": "",
-     "route": "wij-formulier",
+     "route": "wij-zelfzoeken",
      "wij": true,
-     "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/421-informatie-bouwdossiers/\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/421-informatie-bouwdossiers/</a>.</p>"
+     "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/424\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/424</a>.</p>"
     }
    ]
   },
@@ -916,31 +946,31 @@
    "kernen": [
     "Best"
    ],
-   "gecheckt": "2026-09-06",
+   "gecheckt": "2026-09-07",
    "route": "wij-formulier",
    "wij": true,
    "voorbehoud": "",
-   "intro_html": "",
+   "intro_html": "<p>Let op: van Best is nog niets gedigitaliseerd. Alles van vóór 2000 is papier, en dat kost extra tijd.</p>",
    "perioden": [
     {
-     "kop": "",
-     "van": null,
-     "tot": null,
+     "kop": "1906 t/m 1999",
+     "van": 1906,
+     "tot": 1999,
      "geldt_voor": "",
-     "loket": "",
+     "loket": "Regionaal Historisch Centrum Eindhoven",
      "route": "wij-formulier",
      "wij": true,
-     "html": "<p><strong>de archiefjaren</strong>: <strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), Raiffeisenstraat 18 in Eindhoven. Zoeken op plaats, straat en huisnummer op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>; aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, zonder inloggen. U krijgt de stukken via een SecuDoc-link die veertien dagen geldig is, en een reactie binnen veertien dagen. Tel. (040) 264 99 40, ma t/m do 08:30-17:00. Studiezaal op afspraak, di en do 9.30-16.00.</p>"
+     "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), in twee reeksen (1906 t/m 1946 en 1947 t/m 1999), allebei analoog en nog niet gedigitaliseerd. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, zonder inloggen, tel. (040) 264 99 40. Reken op een langere doorlooptijd dan bij een gedigitaliseerde gemeente.</p>"
     },
     {
-     "kop": "",
-     "van": null,
+     "kop": "vanaf 2000",
+     "van": 2000,
      "tot": null,
      "geldt_voor": "",
-     "loket": "",
+     "loket": "gemeente Best",
      "route": "onbekend",
      "wij": false,
-     "html": "<p><strong>de recente jaren</strong>: <strong>gemeente Best</strong>.</p>"
+     "html": "<p><strong>gemeente Best</strong>, via het omgevingsloket op hun website.</p>"
     },
     {
      "kop": "",
@@ -950,7 +980,7 @@
      "loket": "",
      "route": "wij-formulier",
      "wij": true,
-     "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/421-informatie-bouwdossiers/\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/421-informatie-bouwdossiers/</a>.</p>"
+     "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/426\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/426</a>.</p>"
     }
    ]
   },
@@ -1011,31 +1041,41 @@
     "Casteren",
     "Netersel"
    ],
-   "gecheckt": "2026-09-06",
-   "route": "wij-formulier",
+   "gecheckt": "2026-09-07",
+   "route": "wij-zelfzoeken",
    "wij": true,
    "voorbehoud": "",
    "intro_html": "",
    "perioden": [
     {
-     "kop": "",
-     "van": null,
-     "tot": null,
+     "kop": "Bladel 1926 t/m 1996 en Hoogeloon, Hapert en Casteren 1932 t/m 1996",
+     "van": 1926,
+     "tot": 1996,
      "geldt_voor": "",
-     "loket": "",
-     "route": "wij-formulier",
+     "loket": "Regionaal Historisch Centrum Eindhoven",
+     "route": "wij-zelfzoeken",
      "wij": true,
-     "html": "<p><strong>de archiefjaren</strong>: <strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), Raiffeisenstraat 18 in Eindhoven. Zoeken op plaats, straat en huisnummer op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>; aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, zonder inloggen. U krijgt de stukken via een SecuDoc-link die veertien dagen geldig is, en een reactie binnen veertien dagen. Tel. (040) 264 99 40, ma t/m do 08:30-17:00. Studiezaal op afspraak, di en do 9.30-16.00.</p>"
+     "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), gedigitaliseerd en online doorzoekbaar op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>.</p>"
     },
     {
-     "kop": "",
-     "van": null,
+     "kop": "Bladel 1903 t/m 1925 en Hoogeloon, Hapert en Casteren 1905 t/m 1931",
+     "van": 1903,
+     "tot": 1925,
+     "geldt_voor": "",
+     "loket": "RHCe",
+     "route": "wij-formulier",
+     "wij": true,
+     "html": "<p><strong>RHCe</strong>, analoog. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, tel. (040) 264 99 40.</p>"
+    },
+    {
+     "kop": "vanaf 1997",
+     "van": 1997,
      "tot": null,
      "geldt_voor": "",
-     "loket": "",
+     "loket": "gemeente Bladel",
      "route": "onbekend",
      "wij": false,
-     "html": "<p><strong>de recente jaren</strong>: <strong>gemeente Bladel</strong>.</p>"
+     "html": "<p><strong>gemeente Bladel</strong>.</p>"
     },
     {
      "kop": "",
@@ -1043,9 +1083,9 @@
      "tot": null,
      "geldt_voor": "",
      "loket": "",
-     "route": "wij-formulier",
+     "route": "wij-zelfzoeken",
      "wij": true,
-     "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/421-informatie-bouwdossiers/\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/421-informatie-bouwdossiers/</a>.</p>"
+     "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/427\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/427</a>.</p>"
     }
    ]
   },
@@ -1456,31 +1496,41 @@
     "Budel-Dorplein",
     "Budel-Schoot"
    ],
-   "gecheckt": "2026-09-06",
-   "route": "wij-formulier",
+   "gecheckt": "2026-09-07",
+   "route": "wij-zelfzoeken",
    "wij": true,
    "voorbehoud": "",
-   "intro_html": "",
+   "intro_html": "<p>Bijna alles is hier gedigitaliseerd, en de reeksen lopen ver door: Budel tot 1997.</p>",
    "perioden": [
     {
-     "kop": "",
-     "van": null,
-     "tot": null,
+     "kop": "Budel 1914 t/m 1997 en Maarheeze 1900 t/m 1996",
+     "van": 1914,
+     "tot": 1997,
      "geldt_voor": "",
-     "loket": "",
-     "route": "wij-formulier",
+     "loket": "Regionaal Historisch Centrum Eindhoven",
+     "route": "wij-zelfzoeken",
      "wij": true,
-     "html": "<p><strong>de archiefjaren</strong>: <strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), Raiffeisenstraat 18 in Eindhoven. Zoeken op plaats, straat en huisnummer op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>; aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, zonder inloggen. U krijgt de stukken via een SecuDoc-link die veertien dagen geldig is, en een reactie binnen veertien dagen. Tel. (040) 264 99 40, ma t/m do 08:30-17:00. Studiezaal op afspraak, di en do 9.30-16.00.</p>"
+     "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), gedigitaliseerd en volledig online doorzoekbaar op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>.</p>"
     },
     {
-     "kop": "",
-     "van": null,
+     "kop": "Soerendonk 1907 t/m 1923",
+     "van": 1907,
+     "tot": 1923,
+     "geldt_voor": "",
+     "loket": "RHCe",
+     "route": "wij-formulier",
+     "wij": true,
+     "html": "<p><strong>RHCe</strong>, analoog. Soerendonk ging in 1925 op in Maarheeze, dus vanaf dat jaar zoekt u onder Maarheeze.</p>"
+    },
+    {
+     "kop": "Budel vanaf 1998 en Maarheeze vanaf 1997",
+     "van": 1997,
      "tot": null,
      "geldt_voor": "",
-     "loket": "",
+     "loket": "gemeente Cranendonck",
      "route": "onbekend",
      "wij": false,
-     "html": "<p><strong>de recente jaren</strong>: <strong>gemeente Cranendonck</strong>.</p>"
+     "html": "<p><strong>gemeente Cranendonck</strong>.</p>"
     },
     {
      "kop": "",
@@ -1488,9 +1538,9 @@
      "tot": null,
      "geldt_voor": "",
      "loket": "",
-     "route": "wij-formulier",
+     "route": "wij-zelfzoeken",
      "wij": true,
-     "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/421-informatie-bouwdossiers/\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/421-informatie-bouwdossiers/</a>.</p>"
+     "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/428\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/428</a>.</p>"
     }
    ]
   },
@@ -1648,31 +1698,41 @@
     "Neerkant",
     "Helenaveen"
    ],
-   "gecheckt": "2026-09-06",
-   "route": "wij-formulier",
+   "gecheckt": "2026-09-07",
+   "route": "wij-zelfzoeken",
    "wij": true,
    "voorbehoud": "",
-   "intro_html": "",
+   "intro_html": "<p>De ruimste digitale reeks van de hele regio: bijna zestig jaar online doorzoekbaar.</p>",
    "perioden": [
     {
-     "kop": "",
-     "van": null,
-     "tot": null,
+     "kop": "1952 t/m 2010",
+     "van": 1952,
+     "tot": 2010,
      "geldt_voor": "",
-     "loket": "",
-     "route": "wij-formulier",
+     "loket": "Regionaal Historisch Centrum Eindhoven",
+     "route": "wij-zelfzoeken",
      "wij": true,
-     "html": "<p><strong>de archiefjaren</strong>: <strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), Raiffeisenstraat 18 in Eindhoven. Zoeken op plaats, straat en huisnummer op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>; aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, zonder inloggen. U krijgt de stukken via een SecuDoc-link die veertien dagen geldig is, en een reactie binnen veertien dagen. Tel. (040) 264 99 40, ma t/m do 08:30-17:00. Studiezaal op afspraak, di en do 9.30-16.00.</p>"
+     "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), gedigitaliseerd en volledig online doorzoekbaar op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>. Vrijwel elke naoorlogse woning in Deurne valt hierin.</p>"
     },
     {
-     "kop": "",
-     "van": null,
+     "kop": "1905 t/m 1951",
+     "van": 1905,
+     "tot": 1951,
+     "geldt_voor": "",
+     "loket": "RHCe",
+     "route": "wij-formulier",
+     "wij": true,
+     "html": "<p><strong>RHCe</strong>, analoog en nog niet gedigitaliseerd. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, tel. (040) 264 99 40. Voor Vlierden loopt de eigen reeks van 1874 t/m 1925; in 1926 is die kern door Deurne geannexeerd.</p>"
+    },
+    {
+     "kop": "vanaf 2011",
+     "van": 2011,
      "tot": null,
      "geldt_voor": "",
-     "loket": "",
+     "loket": "gemeente Deurne",
      "route": "onbekend",
      "wij": false,
-     "html": "<p><strong>de recente jaren</strong>: <strong>gemeente Deurne</strong>.</p>"
+     "html": "<p><strong>gemeente Deurne</strong>.</p>"
     },
     {
      "kop": "",
@@ -1680,9 +1740,9 @@
      "tot": null,
      "geldt_voor": "",
      "loket": "",
-     "route": "wij-formulier",
+     "route": "wij-zelfzoeken",
      "wij": true,
-     "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/421-informatie-bouwdossiers/\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/421-informatie-bouwdossiers/</a>.</p>"
+     "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/429\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/429</a>.</p>"
     }
    ]
   },
@@ -2094,31 +2154,51 @@
     "Vessem",
     "Wintelre"
    ],
-   "gecheckt": "2026-09-06",
-   "route": "wij-formulier",
+   "gecheckt": "2026-09-07",
+   "route": "wij-zelfzoeken",
    "wij": true,
    "voorbehoud": "",
    "intro_html": "",
    "perioden": [
     {
-     "kop": "",
-     "van": null,
-     "tot": null,
+     "kop": "Eersel, Duizel en Steensel 1921 t/m 2010",
+     "van": 1921,
+     "tot": 2010,
      "geldt_voor": "",
-     "loket": "",
-     "route": "wij-formulier",
+     "loket": "Regionaal Historisch Centrum Eindhoven",
+     "route": "wij-zelfzoeken",
      "wij": true,
-     "html": "<p><strong>de archiefjaren</strong>: <strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), Raiffeisenstraat 18 in Eindhoven. Zoeken op plaats, straat en huisnummer op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>; aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, zonder inloggen. U krijgt de stukken via een SecuDoc-link die veertien dagen geldig is, en een reactie binnen veertien dagen. Tel. (040) 264 99 40, ma t/m do 08:30-17:00. Studiezaal op afspraak, di en do 9.30-16.00.</p>"
+     "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), gedigitaliseerd en volledig online doorzoekbaar op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>.</p>"
     },
     {
-     "kop": "",
-     "van": null,
+     "kop": "Vessem, Wintelre en Knegsel 1936 t/m 1996",
+     "van": 1936,
+     "tot": 1996,
+     "geldt_voor": "",
+     "loket": "RHCe",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p>eveneens <strong>RHCe</strong> en gedigitaliseerd. Die drie kernen kwamen in 1997 bij Eersel; daarvóór vormden zij een eigen gemeente.</p>"
+    },
+    {
+     "kop": "Vessem, Wintelre en Knegsel 1901 t/m 1935",
+     "van": 1901,
+     "tot": 1935,
+     "geldt_voor": "",
+     "loket": "RHCe",
+     "route": "wij-formulier",
+     "wij": true,
+     "html": "<p><strong>RHCe</strong>, analoog. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>.</p>"
+    },
+    {
+     "kop": "vanaf 2011",
+     "van": 2011,
      "tot": null,
      "geldt_voor": "",
-     "loket": "",
+     "loket": "gemeente Eersel",
      "route": "onbekend",
      "wij": false,
-     "html": "<p><strong>de recente jaren</strong>: <strong>gemeente Eersel</strong>.</p>"
+     "html": "<p><strong>gemeente Eersel</strong>.</p>"
     },
     {
      "kop": "",
@@ -2126,9 +2206,9 @@
      "tot": null,
      "geldt_voor": "",
      "loket": "",
-     "route": "wij-formulier",
+     "route": "wij-zelfzoeken",
      "wij": true,
-     "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/421-informatie-bouwdossiers/\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/421-informatie-bouwdossiers/</a>.</p>"
+     "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/430\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/430</a>.</p>"
     }
    ]
   },
@@ -2434,21 +2514,31 @@
     "Mierlo",
     "Zesgehuchten"
    ],
-   "gecheckt": "2026-09-06",
+   "gecheckt": "2026-09-07",
    "route": "duur",
    "wij": false,
    "voorbehoud": "",
-   "intro_html": "",
+   "intro_html": "<p>Ongebruikelijk voor deze regio: bij het archief zit alleen het begin van de vorige eeuw, al het overige ligt bij de gemeente. En die rekent per kwartier.</p>",
    "perioden": [
     {
-     "kop": "",
-     "van": null,
-     "tot": null,
+     "kop": "Geldrop 1905 t/m 1931 en Mierlo 1903 t/m 1931",
+     "van": 1905,
+     "tot": 1931,
      "geldt_voor": "",
-     "loket": "",
+     "loket": "Regionaal Historisch Centrum Eindhoven",
      "route": "wij-formulier",
      "wij": true,
-     "html": "<p><strong>de archiefjaren</strong>: <strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), aanvraagformulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, tel. (040) 264 99 40.</p>"
+     "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), analoog en nog niet gedigitaliseerd. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, tel. (040) 264 99 40, reken op een langere doorlooptijd.</p>"
+    },
+    {
+     "kop": "vanaf 1932",
+     "van": 1932,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Geldrop-Mierlo",
+     "route": "duur",
+     "wij": false,
+     "html": "<p><strong>gemeente Geldrop-Mierlo</strong>, via het formulier <a href=\"https://eloket.geldrop-mierlo.nl/f/2908\" target=\"_blank\" rel=\"noopener\">https://eloket.geldrop-mierlo.nl/f/2908</a>, <a href=\"mailto:gemeente@geldrop-mierlo.nl\">gemeente@geldrop-mierlo.nl</a>, +31 (0)40 289 38 99 op werkdagen 9.00-12.30. Het uitzoeken kost <strong>€ 23,85 per kwartier</strong>; een digitale kopie € 0,10 per A4, papier € 0,10 tot € 10,95 naar formaat. Zit het dossier al digitaal in het archief, dan komt het binnen enkele dagen; moet er gescand worden, reken op twee weken. De downloadlink vervalt na zeven dagen.</p>"
     },
     {
      "kop": "",
@@ -2458,17 +2548,7 @@
      "loket": "",
      "route": "duur",
      "wij": false,
-     "html": "<p><strong>de recente jaren</strong>: <strong>gemeente Geldrop-Mierlo</strong>, via het formulier <a href=\"https://eloket.geldrop-mierlo.nl/f/2908\" target=\"_blank\" rel=\"noopener\">https://eloket.geldrop-mierlo.nl/f/2908</a>, <a href=\"mailto:gemeente@geldrop-mierlo.nl\">gemeente@geldrop-mierlo.nl</a>, +31 (0)40 289 38 99 op werkdagen 9.00-12.30. Het uitzoeken kost <strong>€ 23,85 per kwartier</strong>; een digitale kopie € 0,10 per A4, papier € 0,10 tot € 10,95 naar formaat. Zit het dossier al digitaal in het archief, dan komt het binnen enkele dagen; moet er gescand worden, reken op twee weken. De downloadlink vervalt na zeven dagen.</p>"
-    },
-    {
-     "kop": "",
-     "van": null,
-     "tot": null,
-     "geldt_voor": "",
-     "loket": "",
-     "route": "duur",
-     "wij": false,
-     "html": "<p>Bron: <a href=\"https://www.geldrop-mierlo.nl/bouwdossier-of-bouwtekening-bekijken-of-opvragen\" target=\"_blank\" rel=\"noopener\">https://www.geldrop-mierlo.nl/bouwdossier-of-bouwtekening-bekijken-of-opvragen</a>.</p>"
+     "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/432\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/432</a>.</p>"
     }
    ]
   },
@@ -2845,21 +2925,31 @@
     "Sterksel",
     "Leenderstrijp"
    ],
-   "gecheckt": "2026-09-06",
-   "route": "wij-formulier",
-   "wij": true,
+   "gecheckt": "2026-09-07",
+   "route": "onbekend",
+   "wij": false,
    "voorbehoud": "",
-   "intro_html": "",
+   "intro_html": "<p>Hier ligt vrijwel alles bij de gemeente en niet bij het archief.</p>",
    "perioden": [
     {
-     "kop": "",
-     "van": null,
-     "tot": null,
+     "kop": "Leende 1911 t/m 1935",
+     "van": 1911,
+     "tot": 1935,
      "geldt_voor": "",
-     "loket": "",
+     "loket": "Regionaal Historisch Centrum Eindhoven",
      "route": "wij-formulier",
      "wij": true,
-     "html": "<p><strong>de archiefjaren</strong>: <strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), Raiffeisenstraat 18 in Eindhoven. Zoeken op plaats, straat en huisnummer op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>; aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, zonder inloggen. U krijgt de stukken via een SecuDoc-link die veertien dagen geldig is, en een reactie binnen veertien dagen. Tel. (040) 264 99 40, ma t/m do 08:30-17:00. Studiezaal op afspraak, di en do 9.30-16.00.</p>"
+     "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), analoog en nog niet gedigitaliseerd. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, tel. (040) 264 99 40. Van Leende ligt daarnaast een reeks 1864 t/m 1866 bij het RHCe.</p>"
+    },
+    {
+     "kop": "Heeze vanaf 1900 en Leende vanaf 1936",
+     "van": 1936,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Heeze-Leende",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Heeze-Leende</strong>, <a href=\"https://www.heeze-leende.nl/bouwplannen-en-bouwtekeningen-bekijken\" target=\"_blank\" rel=\"noopener\">https://www.heeze-leende.nl/bouwplannen-en-bouwtekeningen-bekijken</a>.</p>"
     },
     {
      "kop": "",
@@ -2869,17 +2959,7 @@
      "loket": "",
      "route": "onbekend",
      "wij": false,
-     "html": "<p><strong>de recente jaren</strong>: <strong>gemeente Heeze-Leende</strong>.</p>"
-    },
-    {
-     "kop": "",
-     "van": null,
-     "tot": null,
-     "geldt_voor": "",
-     "loket": "",
-     "route": "wij-formulier",
-     "wij": true,
-     "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/421-informatie-bouwdossiers/\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/421-informatie-bouwdossiers/</a>.</p>"
+     "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/433\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/433</a>.</p>"
     }
    ]
   },
@@ -2902,14 +2982,14 @@
    "intro_html": "<p>Let op het verschil tussen de twee loketten: het archief is gratis, de gemeente rekent honderdtwintig euro. Kijk hier dus altijd eerst of het pand van vóór 2000 is.</p>",
    "perioden": [
     {
-     "kop": "t/m 1999",
-     "van": null,
+     "kop": "1913 t/m 1999",
+     "van": 1913,
      "tot": 1999,
      "geldt_voor": "",
      "loket": "Regionaal Historisch Centrum Eindhoven",
-     "route": "wij-formulier",
+     "route": "wij-zelfzoeken",
      "wij": true,
-     "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), Raiffeisenstraat 18 in Eindhoven. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, zonder inloggen, en volgens de gemeente Helmond is dat <strong>gratis</strong>. Tel. (040) 264 99 40.</p>"
+     "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), Raiffeisenstraat 18 in Eindhoven. Deze hele reeks is gedigitaliseerd en volledig online doorzoekbaar op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>. Aanvragen kan ook met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, zonder inloggen, en volgens de gemeente Helmond is dat <strong>gratis</strong>. Tel. (040) 264 99 40. Stiphout heeft een eigen gedigitaliseerde reeks 1932 t/m 1967 en ging in 1968 op in Helmond.</p>"
     },
     {
      "kop": "vanaf 2000",
@@ -3251,31 +3331,41 @@
     "Aarle-Rixtel",
     "Mariahout"
    ],
-   "gecheckt": "2026-09-06",
-   "route": "wij-formulier",
+   "gecheckt": "2026-09-07",
+   "route": "wij-zelfzoeken",
    "wij": true,
    "voorbehoud": "",
    "intro_html": "",
    "perioden": [
     {
-     "kop": "",
-     "van": null,
-     "tot": null,
+     "kop": "Beek en Donk en Lieshout 1903 t/m 1996, Aarle-Rixtel 1932 t/m 1996",
+     "van": 1903,
+     "tot": 1996,
      "geldt_voor": "",
-     "loket": "",
-     "route": "wij-formulier",
+     "loket": "Regionaal Historisch Centrum Eindhoven",
+     "route": "wij-zelfzoeken",
      "wij": true,
-     "html": "<p><strong>de archiefjaren</strong>: <strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), Raiffeisenstraat 18 in Eindhoven. Zoeken op plaats, straat en huisnummer op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>; aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, zonder inloggen. U krijgt de stukken via een SecuDoc-link die veertien dagen geldig is, en een reactie binnen veertien dagen. Tel. (040) 264 99 40, ma t/m do 08:30-17:00. Studiezaal op afspraak, di en do 9.30-16.00.</p>"
+     "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), gedigitaliseerd en volledig online doorzoekbaar op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>.</p>"
     },
     {
-     "kop": "",
-     "van": null,
+     "kop": "Aarle-Rixtel 1903 t/m 1931",
+     "van": 1903,
+     "tot": 1931,
+     "geldt_voor": "",
+     "loket": "RHCe",
+     "route": "wij-formulier",
+     "wij": true,
+     "html": "<p><strong>RHCe</strong>, analoog. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>.</p>"
+    },
+    {
+     "kop": "vanaf 1997",
+     "van": 1997,
      "tot": null,
      "geldt_voor": "",
-     "loket": "",
+     "loket": "gemeente Laarbeek",
      "route": "onbekend",
      "wij": false,
-     "html": "<p><strong>de recente jaren</strong>: <strong>gemeente Laarbeek</strong>.</p>"
+     "html": "<p><strong>gemeente Laarbeek</strong>, via Gemeentearchief, inzage.</p>"
     },
     {
      "kop": "",
@@ -3283,9 +3373,9 @@
      "tot": null,
      "geldt_voor": "",
      "loket": "",
-     "route": "wij-formulier",
+     "route": "wij-zelfzoeken",
      "wij": true,
-     "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/421-informatie-bouwdossiers/\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/421-informatie-bouwdossiers/</a>.</p>"
+     "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/435\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/435</a>.</p>"
     }
    ]
   },
@@ -4185,21 +4275,31 @@
     "Gerwen",
     "Nederwetten"
    ],
-   "gecheckt": "2026-09-06",
-   "route": "wij-formulier",
-   "wij": true,
+   "gecheckt": "2026-09-07",
+   "route": "onbekend",
+   "wij": false,
    "voorbehoud": "",
-   "intro_html": "",
+   "intro_html": "<p>Bij het archief ligt alleen de eerste dertig jaar. Voor vrijwel elke bestaande woning moet u dus bij de gemeente zijn.</p>",
    "perioden": [
     {
-     "kop": "",
-     "van": null,
-     "tot": null,
+     "kop": "1905 t/m 1935",
+     "van": 1905,
+     "tot": 1935,
      "geldt_voor": "",
-     "loket": "",
+     "loket": "Regionaal Historisch Centrum Eindhoven",
      "route": "wij-formulier",
      "wij": true,
-     "html": "<p><strong>de archiefjaren</strong>: <strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), Raiffeisenstraat 18 in Eindhoven. Zoeken op plaats, straat en huisnummer op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>; aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, zonder inloggen. U krijgt de stukken via een SecuDoc-link die veertien dagen geldig is, en een reactie binnen veertien dagen. Tel. (040) 264 99 40, ma t/m do 08:30-17:00. Studiezaal op afspraak, di en do 9.30-16.00.</p>"
+     "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), analoog en nog niet gedigitaliseerd. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, tel. (040) 264 99 40.</p>"
+    },
+    {
+     "kop": "vanaf 1936",
+     "van": 1936,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Nuenen",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Nuenen</strong>, via het archiefportaal van de gemeente.</p>"
     },
     {
      "kop": "",
@@ -4209,17 +4309,7 @@
      "loket": "",
      "route": "onbekend",
      "wij": false,
-     "html": "<p><strong>de recente jaren</strong>: <strong>gemeente Nuenen</strong>.</p>"
-    },
-    {
-     "kop": "",
-     "van": null,
-     "tot": null,
-     "geldt_voor": "",
-     "loket": "",
-     "route": "wij-formulier",
-     "wij": true,
-     "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/421-informatie-bouwdossiers/\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/421-informatie-bouwdossiers/</a>.</p>"
+     "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/436\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/436</a>.</p>"
     }
    ]
   },
@@ -4280,31 +4370,41 @@
     "Middelbeers",
     "Westelbeers"
    ],
-   "gecheckt": "2026-09-06",
-   "route": "wij-formulier",
+   "gecheckt": "2026-09-07",
+   "route": "wij-zelfzoeken",
    "wij": true,
    "voorbehoud": "",
-   "intro_html": "",
+   "intro_html": "<p>Een van de betere loketten van Zuidoost-Brabant: honderdtien jaar online doorzoekbaar.</p>",
    "perioden": [
     {
-     "kop": "",
-     "van": null,
-     "tot": null,
+     "kop": "Oirschot 1899 t/m 2009",
+     "van": 1899,
+     "tot": 2009,
      "geldt_voor": "",
-     "loket": "",
-     "route": "wij-formulier",
+     "loket": "Regionaal Historisch Centrum Eindhoven",
+     "route": "wij-zelfzoeken",
      "wij": true,
-     "html": "<p><strong>de archiefjaren</strong>: <strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), Raiffeisenstraat 18 in Eindhoven. Zoeken op plaats, straat en huisnummer op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>; aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, zonder inloggen. U krijgt de stukken via een SecuDoc-link die veertien dagen geldig is, en een reactie binnen veertien dagen. Tel. (040) 264 99 40, ma t/m do 08:30-17:00. Studiezaal op afspraak, di en do 9.30-16.00.</p>"
+     "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), gedigitaliseerd en volledig online doorzoekbaar op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>.</p>"
     },
     {
-     "kop": "",
-     "van": null,
+     "kop": "Oost-, West- en Middelbeers 1899 t/m 1996",
+     "van": 1899,
+     "tot": 1996,
+     "geldt_voor": "",
+     "loket": "RHCe",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p>eveneens <strong>RHCe</strong> en grotendeels gedigitaliseerd; alleen 1905 t/m 1920 is nog analoog. Die drie kernen kwamen in 1997 bij Oirschot.</p>"
+    },
+    {
+     "kop": "vanaf 2010",
+     "van": 2010,
      "tot": null,
      "geldt_voor": "",
-     "loket": "",
+     "loket": "gemeente Oirschot",
      "route": "onbekend",
      "wij": false,
-     "html": "<p><strong>de recente jaren</strong>: <strong>gemeente Oirschot</strong>.</p>"
+     "html": "<p><strong>gemeente Oirschot</strong>.</p>"
     },
     {
      "kop": "",
@@ -4312,9 +4412,9 @@
      "tot": null,
      "geldt_voor": "",
      "loket": "",
-     "route": "wij-formulier",
+     "route": "wij-zelfzoeken",
      "wij": true,
-     "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/421-informatie-bouwdossiers/\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/421-informatie-bouwdossiers/</a>.</p>"
+     "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/437\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/437</a>.</p>"
     }
    ]
   },
@@ -4882,31 +4982,41 @@
     "Hooge Mierde",
     "Hulsel"
    ],
-   "gecheckt": "2026-09-06",
-   "route": "wij-formulier",
+   "gecheckt": "2026-09-07",
+   "route": "wij-zelfzoeken",
    "wij": true,
    "voorbehoud": "",
    "intro_html": "",
    "perioden": [
     {
-     "kop": "",
-     "van": null,
-     "tot": null,
+     "kop": "Hooge en Lage Mierde 1932 t/m 1996 en Reusel 1936 t/m 1996",
+     "van": 1932,
+     "tot": 1996,
      "geldt_voor": "",
-     "loket": "",
-     "route": "wij-formulier",
+     "loket": "Regionaal Historisch Centrum Eindhoven",
+     "route": "wij-zelfzoeken",
      "wij": true,
-     "html": "<p><strong>de archiefjaren</strong>: <strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), Raiffeisenstraat 18 in Eindhoven. Zoeken op plaats, straat en huisnummer op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>; aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, zonder inloggen. U krijgt de stukken via een SecuDoc-link die veertien dagen geldig is, en een reactie binnen veertien dagen. Tel. (040) 264 99 40, ma t/m do 08:30-17:00. Studiezaal op afspraak, di en do 9.30-16.00.</p>"
+     "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), gedigitaliseerd en volledig online doorzoekbaar op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>.</p>"
     },
     {
-     "kop": "",
-     "van": null,
+     "kop": "Hooge en Lage Mierde 1908 t/m 1931 en Reusel 1903 t/m 1935",
+     "van": 1908,
+     "tot": 1931,
+     "geldt_voor": "",
+     "loket": "RHCe",
+     "route": "wij-formulier",
+     "wij": true,
+     "html": "<p><strong>RHCe</strong>, analoog en nog niet gedigitaliseerd. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, tel. (040) 264 99 40.</p>"
+    },
+    {
+     "kop": "vanaf 1997",
+     "van": 1997,
      "tot": null,
      "geldt_voor": "",
-     "loket": "",
+     "loket": "gemeente Reusel-De Mierden",
      "route": "onbekend",
      "wij": false,
-     "html": "<p><strong>de recente jaren</strong>: <strong>gemeente Reusel-De Mierden</strong>.</p>"
+     "html": "<p><strong>gemeente Reusel-De Mierden</strong>.</p>"
     },
     {
      "kop": "",
@@ -4914,9 +5024,9 @@
      "tot": null,
      "geldt_voor": "",
      "loket": "",
-     "route": "wij-formulier",
+     "route": "wij-zelfzoeken",
      "wij": true,
-     "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/421-informatie-bouwdossiers/\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/421-informatie-bouwdossiers/</a>.</p>"
+     "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/438\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/438</a>.</p>"
     }
    ]
   },
@@ -5295,31 +5405,41 @@
     "Someren-Heide",
     "Lierop"
    ],
-   "gecheckt": "2026-09-06",
-   "route": "wij-formulier",
+   "gecheckt": "2026-09-07",
+   "route": "wij-zelfzoeken",
    "wij": true,
    "voorbehoud": "",
    "intro_html": "",
    "perioden": [
     {
-     "kop": "",
-     "van": null,
-     "tot": null,
+     "kop": "1937 t/m september 2010",
+     "van": 1937,
+     "tot": 2010,
      "geldt_voor": "",
-     "loket": "",
-     "route": "wij-formulier",
+     "loket": "Regionaal Historisch Centrum Eindhoven",
+     "route": "wij-zelfzoeken",
      "wij": true,
-     "html": "<p><strong>de archiefjaren</strong>: <strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), Raiffeisenstraat 18 in Eindhoven. Zoeken op plaats, straat en huisnummer op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>; aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, zonder inloggen. U krijgt de stukken via een SecuDoc-link die veertien dagen geldig is, en een reactie binnen veertien dagen. Tel. (040) 264 99 40, ma t/m do 08:30-17:00. Studiezaal op afspraak, di en do 9.30-16.00.</p>"
+     "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), gedigitaliseerd en volledig online doorzoekbaar op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>.</p>"
     },
     {
-     "kop": "",
-     "van": null,
+     "kop": "1906 t/m 1936",
+     "van": 1906,
+     "tot": 1936,
+     "geldt_voor": "",
+     "loket": "RHCe",
+     "route": "wij-formulier",
+     "wij": true,
+     "html": "<p><strong>RHCe</strong>, analoog en nog niet gedigitaliseerd. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>. Lierop heeft een eigen reeks 1921 t/m 1935 en ging in 1935 op in Someren.</p>"
+    },
+    {
+     "kop": "vanaf oktober 2010",
+     "van": 2010,
      "tot": null,
      "geldt_voor": "",
-     "loket": "",
+     "loket": "gemeente Someren",
      "route": "onbekend",
      "wij": false,
-     "html": "<p><strong>de recente jaren</strong>: <strong>gemeente Someren</strong>.</p>"
+     "html": "<p><strong>gemeente Someren</strong>.</p>"
     },
     {
      "kop": "",
@@ -5327,9 +5447,9 @@
      "tot": null,
      "geldt_voor": "",
      "loket": "",
-     "route": "wij-formulier",
+     "route": "wij-zelfzoeken",
      "wij": true,
-     "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/421-informatie-bouwdossiers/\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/421-informatie-bouwdossiers/</a>.</p>"
+     "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/439\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/439</a>.</p>"
     }
    ]
   },
@@ -5340,31 +5460,31 @@
     "Son",
     "Breugel"
    ],
-   "gecheckt": "2026-09-06",
-   "route": "wij-formulier",
+   "gecheckt": "2026-09-07",
+   "route": "wij-zelfzoeken",
    "wij": true,
    "voorbehoud": "",
    "intro_html": "",
    "perioden": [
     {
-     "kop": "",
-     "van": null,
-     "tot": null,
+     "kop": "1900 t/m 1989",
+     "van": 1900,
+     "tot": 1989,
      "geldt_voor": "",
-     "loket": "",
-     "route": "wij-formulier",
+     "loket": "Regionaal Historisch Centrum Eindhoven",
+     "route": "wij-zelfzoeken",
      "wij": true,
-     "html": "<p><strong>de archiefjaren</strong>: <strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), Raiffeisenstraat 18 in Eindhoven. Zoeken op plaats, straat en huisnummer op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>; aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, zonder inloggen. U krijgt de stukken via een SecuDoc-link die veertien dagen geldig is, en een reactie binnen veertien dagen. Tel. (040) 264 99 40, ma t/m do 08:30-17:00. Studiezaal op afspraak, di en do 9.30-16.00.</p>"
+     "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), gedigitaliseerd en online doorzoekbaar op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>. Aanvragen kan ook met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, tel. (040) 264 99 40.</p>"
     },
     {
-     "kop": "",
-     "van": null,
+     "kop": "vanaf 1990",
+     "van": 1990,
      "tot": null,
      "geldt_voor": "",
-     "loket": "",
+     "loket": "gemeente Son en Breugel",
      "route": "onbekend",
      "wij": false,
-     "html": "<p><strong>de recente jaren</strong>: <strong>gemeente Son en Breugel</strong>.</p>"
+     "html": "<p><strong>gemeente Son en Breugel</strong>, via hun archiefportaal.</p>"
     },
     {
      "kop": "",
@@ -5372,9 +5492,9 @@
      "tot": null,
      "geldt_voor": "",
      "loket": "",
-     "route": "wij-formulier",
+     "route": "wij-zelfzoeken",
      "wij": true,
-     "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/421-informatie-bouwdossiers/\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/421-informatie-bouwdossiers/</a>.</p>"
+     "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/440\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/440</a>.</p>"
     }
    ]
   },
@@ -5711,31 +5831,31 @@
     "Borkel",
     "Schaft"
    ],
-   "gecheckt": "2026-09-06",
+   "gecheckt": "2026-09-07",
    "route": "wij-formulier",
    "wij": true,
    "voorbehoud": "",
-   "intro_html": "",
+   "intro_html": "<p>Van Valkenswaard is niets gedigitaliseerd. Alles van vóór 2000 is papier.</p>",
    "perioden": [
     {
-     "kop": "",
-     "van": null,
-     "tot": null,
+     "kop": "1920 t/m 1999",
+     "van": 1920,
+     "tot": 1999,
      "geldt_voor": "",
-     "loket": "",
+     "loket": "Regionaal Historisch Centrum Eindhoven",
      "route": "wij-formulier",
      "wij": true,
-     "html": "<p><strong>de archiefjaren</strong>: <strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), Raiffeisenstraat 18 in Eindhoven. Zoeken op plaats, straat en huisnummer op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>; aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, zonder inloggen. U krijgt de stukken via een SecuDoc-link die veertien dagen geldig is, en een reactie binnen veertien dagen. Tel. (040) 264 99 40, ma t/m do 08:30-17:00. Studiezaal op afspraak, di en do 9.30-16.00.</p>"
+     "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), analoog en nog niet gedigitaliseerd. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, zonder inloggen, tel. (040) 264 99 40. Reken op een langere doorlooptijd.</p>"
     },
     {
-     "kop": "",
-     "van": null,
+     "kop": "vanaf 2000",
+     "van": 2000,
      "tot": null,
      "geldt_voor": "",
-     "loket": "",
+     "loket": "gemeente Valkenswaard",
      "route": "onbekend",
      "wij": false,
-     "html": "<p><strong>de recente jaren</strong>: <strong>gemeente Valkenswaard</strong>.</p>"
+     "html": "<p><strong>gemeente Valkenswaard</strong>.</p>"
     },
     {
      "kop": "",
@@ -5745,7 +5865,7 @@
      "loket": "",
      "route": "wij-formulier",
      "wij": true,
-     "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/421-informatie-bouwdossiers/\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/421-informatie-bouwdossiers/</a>.</p>"
+     "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/441\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/441</a>.</p>"
     }
    ]
   },
@@ -5810,14 +5930,14 @@
    "intro_html": "",
    "perioden": [
     {
-     "kop": "",
-     "van": null,
-     "tot": null,
+     "kop": "1906 t/m 1990",
+     "van": 1906,
+     "tot": 1990,
      "geldt_voor": "",
-     "loket": "",
+     "loket": "Regionaal Historisch Centrum Eindhoven",
      "route": "wij-formulier",
      "wij": true,
-     "html": "<p><strong>de archiefjaren</strong>: <strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe). De gemeente heeft in 2025 onder meer de vergunningen 1991 t/m 2000 overgedragen. Aanvraagformulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, tel. (040) 264 99 40.</p>"
+     "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), in twee reeksen (1906 t/m 1945 en 1946 t/m 1990), allebei analoog en nog niet gedigitaliseerd. De oudste reeks is alleen via kadastraal onderzoek te vinden, niet op adres. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, tel. (040) 264 99 40, en reken op een langere doorlooptijd.</p>"
     },
     {
      "kop": "",
@@ -6043,21 +6163,31 @@
     "Waalre",
     "Aalst"
    ],
-   "gecheckt": "2026-09-06",
-   "route": "wij-formulier",
-   "wij": true,
+   "gecheckt": "2026-09-07",
+   "route": "onbekend",
+   "wij": false,
    "voorbehoud": "",
-   "intro_html": "",
+   "intro_html": "<p>Waalre wijst voor vrijwel alles naar de gemeente zelf, en dat is ongebruikelijk in deze regio.</p>",
    "perioden": [
     {
-     "kop": "",
-     "van": null,
-     "tot": null,
+     "kop": "Aalst 1907 t/m 1922",
+     "van": 1907,
+     "tot": 1922,
      "geldt_voor": "",
-     "loket": "",
+     "loket": "Regionaal Historisch Centrum Eindhoven",
      "route": "wij-formulier",
      "wij": true,
-     "html": "<p><strong>de archiefjaren</strong>: <strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), Raiffeisenstraat 18 in Eindhoven. Zoeken op plaats, straat en huisnummer op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>; aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, zonder inloggen. U krijgt de stukken via een SecuDoc-link die veertien dagen geldig is, en een reactie binnen veertien dagen. Tel. (040) 264 99 40, ma t/m do 08:30-17:00. Studiezaal op afspraak, di en do 9.30-16.00.</p>"
+     "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), analoog en nog niet gedigitaliseerd. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>. Aalst ging in 1923 op in Waalre.</p>"
+    },
+    {
+     "kop": "vanaf 1875",
+     "van": 1875,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Waalre",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Waalre</strong>, via hun pagina over bouwplannen.</p>"
     },
     {
      "kop": "",
@@ -6067,17 +6197,7 @@
      "loket": "",
      "route": "onbekend",
      "wij": false,
-     "html": "<p><strong>de recente jaren</strong>: <strong>gemeente Waalre</strong>.</p>"
-    },
-    {
-     "kop": "",
-     "van": null,
-     "tot": null,
-     "geldt_voor": "",
-     "loket": "",
-     "route": "wij-formulier",
-     "wij": true,
-     "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/421-informatie-bouwdossiers/\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/421-informatie-bouwdossiers/</a>.</p>"
+     "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/443\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/443</a>.</p>"
     }
    ]
   },
