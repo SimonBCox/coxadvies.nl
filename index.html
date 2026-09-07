@@ -19,6 +19,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="/css/lightbox.css">
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
@@ -325,90 +326,6 @@
   .reeks figcaption{font-size:.95rem;color:var(--muted);padding-top:14px;max-width:36ch}
   .stapnr{display:block;font-size:.7rem;font-weight:600;letter-spacing:.09em;
           text-transform:uppercase;color:var(--accent);margin-bottom:6px}
-
-  .projecten{display:grid;grid-template-columns:1fr;gap:clamp(22px,2.6vw,32px);
-             margin-top:clamp(34px,4vw,54px)}
-  /* vier kaarten passen niet op een rij van drie; twee bij twee leest rustiger */
-  @media(min-width:820px){.projecten{grid-template-columns:repeat(2,1fr)}}
-  .project-kaart{background:var(--bg);border:1px solid var(--line);border-radius:4px;
-                 overflow:hidden;display:flex;flex-direction:column}
-  .omslag{position:relative;display:block;width:100%;border:0;padding:0;cursor:pointer;
-          background:none;overflow:hidden}
-  .omslag img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover;transition:transform .5s ease}
-  .omslag:hover img{transform:scale(1.03)}
-  .omslag .telling{position:absolute;left:14px;bottom:14px;background:rgba(7,31,51,.88);color:#fff;
-                   font-size:.8rem;font-weight:500;padding:8px 15px;border-radius:999px}
-  .project-info{padding:20px 22px 24px}
-  .project-info h3{font-size:1.22rem;margin-bottom:8px}
-  .project-info .meta{font-size:.88rem;color:var(--muted)}
-
-  .lightbox{border:0;padding:0;max-width:min(1100px,94vw);max-height:92vh;width:100%;
-            background:#0b1620;color:#fff}
-  .lightbox::backdrop{background:rgba(6,18,28,.88)}
-  .lb-kop{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:16px 20px;
-          border-bottom:1px solid rgba(255,255,255,.12)}
-  .lb-titel{font-size:.94rem;font-weight:500}
-  .lb-sluit{background:none;border:0;color:#fff;font-size:1.2rem;cursor:pointer;line-height:1;padding:6px}
-  .lb-beeld figure{margin:0;display:none}
-  .lb-beeld figure.aan{display:block}
-  .lb-beeld img{display:block;width:100%;max-height:64vh;object-fit:contain;background:#000}
-  .lb-beeld figcaption{padding:14px 20px;font-size:.94rem;color:rgba(255,255,255,.78);
-                       border-top:1px solid rgba(255,255,255,.1)}
-  .lb-voet{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 20px 16px}
-  .lb-knop{background:transparent;border:1px solid rgba(255,255,255,.3);color:#fff;border-radius:999px;
-           width:42px;height:42px;cursor:pointer;font-size:1rem}
-  .lb-knop:hover{background:#fff;color:#0b1620}
-  .lb-stippen{display:flex;gap:7px}
-  .lb-stippen span{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.3)}
-  .lb-stippen span.aan{background:#fff}
-
-
-  /* ── diensten: een paneel voor het hoofdproduct, de rest als index ───────
-     Zes kaders van gelijk formaat beweerden dat dit zes gelijkwaardige diensten
-     zijn. De doorbraak is het hoofdproduct met een vaste prijs; dat mag de
-     indeling laten zien. De volledige omschrijvingen staan op /kosten/,
-     /legalisatie/ en /bouwdossier/. */
-  .dienst-blok{display:grid;grid-template-columns:1fr;gap:clamp(26px,3vw,44px)}
-  @media(min-width:940px){
-    /* Niet uitrekken tot de hoogte van de lijst: dan wordt de liggende foto in een
-       smalle hoge bak zo ver ingezoomd dat er niets van te zien is. Een eigen
-       verhouding houdt de doorgang in beeld. */
-    .dienst-blok{grid-template-columns:minmax(0,.44fr) minmax(0,.56fr);align-items:start}
-  }
-  .paneel{position:relative;overflow:hidden;border-radius:4px;background:var(--navy-deep);
-          color:#fff;display:flex;flex-direction:column;justify-content:flex-end;min-height:400px;
-          text-decoration:none;height:100%}
-  /* Het paneel staat rechtop, de foto is liggend: cover snijdt aan de zijkanten.
-     Het uitsnijpunt ligt op de doorgang zelf. */
-  .paneel img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
-              object-position:50% 50%}
-  .paneel::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,
-    rgba(7,31,51,.94) 6%,rgba(7,31,51,.52) 46%,rgba(7,31,51,.06) 100%)}
-  .paneel .inhoud{position:relative;z-index:2;padding:clamp(24px,3vw,34px)}
-  .paneel h3{font-size:clamp(1.6rem,2.6vw,2.1rem);margin:0 0 10px;color:#fff}
-  .paneel p{color:rgba(255,255,255,.82);font-size:.97rem;max-width:38ch}
-  .paneel .prijsregel{display:flex;align-items:baseline;flex-wrap:wrap;gap:6px 14px;margin-top:20px;
-                      padding-top:18px;border-top:1px solid rgba(255,255,255,.22)}
-  .paneel .bedrag{font-size:1.65rem;font-weight:600;letter-spacing:-.02em;white-space:nowrap}
-  .paneel .bij{font-size:.86rem;color:rgba(255,255,255,.68)}
-  @media(min-width:940px){
-    .paneel{width:100%;height:auto;aspect-ratio:5/6;max-height:620px}
-  }
-
-  .dienst-idx{border-top:1px solid var(--hair,#c9c4b8)}
-  .dienst-idx a{display:grid;grid-template-columns:1fr;gap:2px 30px;padding:20px 0;
-                border-bottom:1px solid var(--line);text-decoration:none;
-                transition:padding-left .25s ease,background .25s ease}
-  @media(min-width:700px){
-    .dienst-idx a{grid-template-columns:minmax(0,1fr) minmax(0,1.1fr) auto;align-items:baseline}
-  }
-  .dienst-idx a:hover{padding-left:12px;background:rgba(255,255,255,.6)}
-  .dienst-idx h3{font-size:1.28rem;line-height:1.14}
-  .dienst-idx .zin{color:var(--muted);font-size:.95rem}
-  .dienst-idx .naar{font-size:.92rem;font-weight:600;color:var(--accent);white-space:nowrap;
-                    display:flex;align-items:baseline;gap:12px}
-  .dienst-idx .pijl{color:var(--hair,#c9c4b8);transition:transform .25s ease,color .25s ease}
-  .dienst-idx a:hover .pijl{color:var(--accent);transform:translateX(5px)}
 
   /* reveal + a11y */
   .reveal{opacity:0;transform:translateY(16px);transition:opacity .65s ease,transform .65s ease}
@@ -976,16 +893,17 @@
           <p class="project">Advies belasting zoldervloer</p>
         </article>
 
-        <article class="recensie geen-project">
+        <article class="recensie">
           <div class="rec-hoofd">
             <span class="avatar" aria-hidden="true">L</span>
             <span class="rec-wie">
               <span class="naam">Luuk de Bruin</span>
-              <span class="meta">september 2026</span>
+              <span class="meta">Groesbeek &middot; september 2026</span>
             </span>
           </div>
           <div class="recensie-top"><span class="sterren" aria-label="5 van de 5 sterren">&#9733;&#9733;&#9733;&#9733;&#9733;</span><span class="g-mark"><svg viewBox="0 0 48 48" aria-hidden="true"><path fill="#4285F4" d="M45 24.5c0-1.6-.1-2.7-.4-4H24v7.3h12c-.2 1.9-1.5 4.8-4.4 6.8l6.7 5.2c4-3.7 6.7-9.1 6.7-15.3z"/><path fill="#34A853" d="M24 46c5.8 0 10.6-1.9 14.2-5.2l-6.7-5.2c-1.8 1.3-4.3 2.2-7.5 2.2-5.7 0-10.6-3.8-12.3-9l-7 5.4C8.2 41.1 15.5 46 24 46z"/><path fill="#FBBC05" d="M11.7 28.8c-.5-1.3-.7-2.7-.7-4.3s.3-3 .7-4.3l-7-5.4C3.6 17.6 3 20.7 3 24s.6 6.4 1.7 9.2l7-5.4z"/><path fill="#EA4335" d="M24 10.5c4 0 6.8 1.7 8.4 3.2l6-5.9C34.6 4.4 29.8 2 24 2 15.5 2 8.2 6.9 4.7 14.2l7 5.4c1.7-5.2 6.6-9.1 12.3-9.1z"/></svg>Google</span></div>
           <blockquote>&ldquo;Mede dankzij Simon hebben we ons droomhuis kunnen realiseren! Het gehele proces is zeer soepel verlopen, en het resultaat is perfect.&rdquo;</blockquote>
+          <p class="project">Nieuwbouwwoning</p>
         </article>
 
         </div>
@@ -1104,33 +1022,7 @@
     els.forEach(function(e){io.observe(e)});
   })();
 </script>
-<script>
-  // Lightbox bij de projectkaarten: per dialog is er telkens een figure zichtbaar.
-  document.querySelectorAll(".lightbox").forEach(function (d) {
-    var fig = d.querySelectorAll(".lb-beeld figure"), stippen = d.querySelector(".lb-stippen"), nu = 0;
-    fig.forEach(function (_, i) {
-      var s = document.createElement("span");
-      if (i === 0) s.className = "aan";
-      stippen.appendChild(s);
-    });
-    function toon(i) {
-      nu = (i + fig.length) % fig.length;
-      fig.forEach(function (f, k) { f.classList.toggle("aan", k === nu); });
-      stippen.querySelectorAll("span").forEach(function (s, k) { s.classList.toggle("aan", k === nu); });
-    }
-    d.querySelector(".lb-volgende").addEventListener("click", function () { toon(nu + 1); });
-    d.querySelector(".lb-vorige").addEventListener("click", function () { toon(nu - 1); });
-    d.querySelector(".lb-sluit").addEventListener("click", function () { d.close(); });
-    d.addEventListener("keydown", function (e) {
-      if (e.key === "ArrowRight") toon(nu + 1);
-      if (e.key === "ArrowLeft") toon(nu - 1);
-    });
-    d.addEventListener("click", function (e) { if (e.target === d) d.close(); });
-  });
-  document.querySelectorAll(".omslag").forEach(function (b) {
-    b.addEventListener("click", function () { document.getElementById(b.dataset.lb).showModal(); });
-  });
-</script>
+<script src="/js/lightbox.js"></script>
 <script src="/js/tellen.js" async></script>
 </body>
 </html>

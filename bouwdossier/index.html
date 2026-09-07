@@ -1170,9 +1170,6 @@
            'volgende periodes.</p><ul class="aw-periodes">' +
            overig.map(periodeHtml).join("") + '</ul></div></details>';
     }
-    h += tijdlijnHtml();
-    h += kaartblok();
-
     /* Zonder gevonden periode weet ik de route niet zeker. Alle periodes van deze
        gemeente afwijzen zou te streng zijn en alles aanbieden te ruim; is er ten minste
        een periode die het aan mij levert, dan bied ik het aan met dat voorbehoud erbij. */
@@ -1193,6 +1190,10 @@
            ' Aanvragen kan ik dit dus niet voor u, maar ' +
            '<a href="#contact">stel uw vraag gerust</a>, dan kijk ik mee.</p>';
     }
+
+    h += tijdlijnHtml();
+    h += kaartblok();
+
     h += '</article>';
 
     uitslag.innerHTML = h;

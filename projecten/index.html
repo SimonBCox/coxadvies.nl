@@ -25,6 +25,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/lightbox.css">
 <style>
   /* de drie fasen naast elkaar, vanaf hetzelfde standpunt gefotografeerd */
   .reeks{display:grid;grid-template-columns:1fr;gap:26px;margin-top:8px}
@@ -232,7 +233,109 @@
   </section>
 
   <!-- WAT HIER NIET STAAT -->
-  <section class="section tint proj">
+  <!-- MEER WERK -->
+  <section class="section tint proj" id="meer">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">Meer uitgevoerd werk</p>
+        <h2>Drie projecten in beeld</h2>
+        <p>Van deze drie staat geen uitgebreid verhaal, wel de foto's van de uitvoering. Klik een
+          kaart aan voor de hele reeks.</p>
+      </div>
+
+      <div class="projecten reveal">
+        <article class="project-kaart">
+          <button class="omslag" data-lb="lb-nijmegen" aria-label="Bekijk de foto's van de doorbraak in Nijmegen">
+            <img src="/img/projecten/nijmegen-02.jpg" loading="lazy"
+                 alt="Doorbraak met een stalen ligger in Nijmegen">
+            <span class="telling">Bekijk de klus &middot; 3 foto's</span>
+          </button>
+          <div class="project-info">
+            <h3>Nijmegen &middot; doorbraak achteraf gelegaliseerd</h3>
+            <div class="meta">3,65 m overspanning &middot; HEA 220 &middot; keuken en woonkamer</div>
+          </div>
+        </article>
+        <article class="project-kaart">
+          <button class="omslag" data-lb="lb-malden" aria-label="Bekijk de foto's van de nieuwbouw in Malden">
+            <img src="/img/projecten/malden-09.jpg" loading="lazy"
+                 alt="Het opgeleverde woonhuis in Malden">
+            <span class="telling">Bekijk de bouw &middot; 8 foto's</span>
+          </button>
+          <div class="project-info">
+            <h3>Malden &middot; nieuwbouw woonhuis</h3>
+            <div class="meta">Van kavel tot oplevering &middot; 2022</div>
+          </div>
+        </article>
+        <article class="project-kaart">
+          <button class="omslag" data-lb="lb-uitbouw" aria-label="Bekijk de foto's van de geopende gevel">
+            <img src="/img/projecten/uitbouw-02-na.jpg" loading="lazy"
+                 alt="Achtergevel over de volle breedte geopend met een stalen portaal">
+            <span class="telling">Voor en na &middot; 2 foto's</span>
+          </button>
+          <div class="project-info">
+            <h3>Uitbouw &middot; de gevel over de volle breedte open</h3>
+            <div class="meta">Stalen portaal met twee kolommen op poeren</div>
+          </div>
+        </article>
+      </div>
+
+      <dialog class="lightbox" id="lb-nijmegen" aria-label="Foto's van Nijmegen &middot; doorbraak achteraf gelegaliseerd">
+        <div class="lb-kop"><span class="lb-titel">Nijmegen &middot; doorbraak achteraf gelegaliseerd</span>
+          <button class="lb-sluit" aria-label="Sluiten">&#10005;</button></div>
+        <div class="lb-beeld">
+          <figure class="aan"><img src="/img/projecten/nijmegen-01.jpg" alt="De ligger ligt, de stempeling draagt nog" loading="lazy">
+            <figcaption>Deze doorbraak was al gemaakt toen ik erbij kwam. De foto's van de uitvoering hoorden bij de stukken: het staal ligt, de stempeling draagt nog.</figcaption></figure>
+          <figure><img src="/img/projecten/nijmegen-02.jpg" alt="De opening over de volle breedte met de stalen ligger" loading="lazy">
+            <figcaption>De opening over de volle breedte, met de stalen ligger erboven.</figcaption></figure>
+          <figure><img src="/img/projecten/nijmegen-03.jpg" alt="Dezelfde ruimte vanaf de andere kant" loading="lazy">
+            <figcaption>Dezelfde ruimte vanaf de andere kant. Ik heb de bestaande situatie opgemeten en nagerekend, zodat de gemeente haar alsnog kon beoordelen.</figcaption></figure>
+        </div>
+        <div class="lb-voet"><button class="lb-knop lb-vorige" aria-label="Vorige foto">&#8592;</button>
+          <div class="lb-stippen"></div>
+          <button class="lb-knop lb-volgende" aria-label="Volgende foto">&#8594;</button></div>
+      </dialog>
+      <dialog class="lightbox" id="lb-malden" aria-label="Foto's van Malden &middot; nieuwbouw woonhuis">
+        <div class="lb-kop"><span class="lb-titel">Malden &middot; nieuwbouw woonhuis</span>
+          <button class="lb-sluit" aria-label="Sluiten">&#10005;</button></div>
+        <div class="lb-beeld">
+          <figure class="aan"><img src="/img/projecten/malden-01.jpg" alt="Het kavel voor de bouw" loading="lazy">
+            <figcaption>Het kavel, voordat er iets stond.</figcaption></figure>
+          <figure><img src="/img/projecten/malden-02.jpg" alt="Grondwerk met een graafmachine" loading="lazy">
+            <figcaption>Grondwerk. De contour van de woning ligt uitgezet.</figcaption></figure>
+          <figure><img src="/img/projecten/malden-03.jpg" alt="De fundering wordt gestort" loading="lazy">
+            <figcaption>De fundering wordt gestort.</figcaption></figure>
+          <figure><img src="/img/projecten/malden-04.jpg" alt="De begane-grondvloer ligt op de fundering" loading="lazy">
+            <figcaption>De begane-grondvloer ligt op de fundering. Dit beeld komt uit een video van de bouw, vandaar dat het minder scherp is dan de rest.</figcaption></figure>
+          <figure><img src="/img/projecten/malden-05.jpg" alt="De wanden van de begane grond staan" loading="lazy">
+            <figcaption>De wanden van de begane grond staan.</figcaption></figure>
+          <figure><img src="/img/projecten/malden-06.jpg" alt="De kap wordt met een kraan geplaatst" loading="lazy">
+            <figcaption>De kap gaat erop.</figcaption></figure>
+          <figure><img src="/img/projecten/malden-08.jpg" alt="De gevels zijn afgewerkt" loading="lazy">
+            <figcaption>De gevels zijn afgewerkt en de aanbouw staat.</figcaption></figure>
+          <figure><img src="/img/projecten/malden-09.jpg" alt="Het opgeleverde woonhuis" loading="lazy">
+            <figcaption>Opgeleverd.</figcaption></figure>
+        </div>
+        <div class="lb-voet"><button class="lb-knop lb-vorige" aria-label="Vorige foto">&#8592;</button>
+          <div class="lb-stippen"></div>
+          <button class="lb-knop lb-volgende" aria-label="Volgende foto">&#8594;</button></div>
+      </dialog>
+      <dialog class="lightbox" id="lb-uitbouw" aria-label="Foto's van Uitbouw &middot; de gevel over de volle breedte open">
+        <div class="lb-kop"><span class="lb-titel">Uitbouw &middot; de gevel over de volle breedte open</span>
+          <button class="lb-sluit" aria-label="Sluiten">&#10005;</button></div>
+        <div class="lb-beeld">
+          <figure class="aan"><img src="/img/projecten/uitbouw-01-voor.jpg" alt="De gesloten achtergevel met de vloer ervoor gestort" loading="lazy">
+            <figcaption>De gevel is nog dicht. De vloer van de aanbouw ligt er al voor.</figcaption></figure>
+          <figure><img src="/img/projecten/uitbouw-02-na.jpg" alt="Dezelfde gevel, geopend met een stalen portaal" loading="lazy">
+            <figcaption>Dezelfde gevel vanaf hetzelfde punt. Het metselwerk eronder is weg en een stalen portaal draagt de verdieping: twee kolommen en een ligger, elk op een eigen poer.</figcaption></figure>
+        </div>
+        <div class="lb-voet"><button class="lb-knop lb-vorige" aria-label="Vorige foto">&#8592;</button>
+          <div class="lb-stippen"></div>
+          <button class="lb-knop lb-volgende" aria-label="Volgende foto">&#8594;</button></div>
+      </dialog>
+    </div>
+  </section>
+
+  <section class="section proj">
     <div class="wrap">
       <div class="proj-intro reveal">
         <p class="eyebrow">Voor de volledigheid</p>
@@ -307,6 +410,7 @@
 </footer>
 
 <script src="/js/main.js"></script>
+<script src="/js/lightbox.js"></script>
 <script src="/js/tellen.js" async></script>
 </body>
 </html>
