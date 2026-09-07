@@ -328,7 +328,8 @@
 
   .projecten{display:grid;grid-template-columns:1fr;gap:clamp(22px,2.6vw,32px);
              margin-top:clamp(34px,4vw,54px)}
-  @media(min-width:820px){.projecten{grid-template-columns:repeat(3,1fr)}}
+  /* vier kaarten passen niet op een rij van drie; twee bij twee leest rustiger */
+  @media(min-width:820px){.projecten{grid-template-columns:repeat(2,1fr)}}
   .project-kaart{background:var(--bg);border:1px solid var(--line);border-radius:4px;
                  overflow:hidden;display:flex;flex-direction:column}
   .omslag{position:relative;display:block;width:100%;border:0;padding:0;cursor:pointer;
@@ -586,6 +587,17 @@
             <div class="meta">Van kavel tot oplevering &middot; 2022</div>
           </div>
         </article>
+        <article class="project-kaart">
+          <button class="omslag" data-lb="lb-uitbouw" aria-label="Bekijk de foto's van de geopende gevel">
+            <img src="img/projecten/uitbouw-02-na.jpg" loading="lazy"
+                 alt="Achtergevel over de volle breedte geopend met een stalen portaal">
+            <span class="telling">Voor en na &middot; 2 foto's</span>
+          </button>
+          <div class="project-info">
+            <h3>Uitbouw &middot; de gevel over de volle breedte open</h3>
+            <div class="meta">Stalen portaal met twee kolommen op poeren</div>
+          </div>
+        </article>
       </div>
 
       <dialog class="lightbox" id="lb-bemmel" aria-label="Foto's van Bemmel &middot; draagmuur tussen keuken en woonkamer">
@@ -604,6 +616,23 @@
             <figcaption>Na het stucwerk. De doorgang is afgewerkt en de ligger zit weggewerkt boven het plafond.</figcaption></figure>
           <figure><img src="img/projecten/bemmel-05-doorgang-af.jpg" alt="De afgewerkte doorgang recht van voren" loading="lazy">
             <figcaption>Dezelfde doorgang recht van voren. Van de constructie is niets meer te zien, en dat is precies de bedoeling.</figcaption></figure>
+        </div>
+        <div class="lb-voet"><button class="lb-knop lb-vorige" aria-label="Vorige foto">&#8592;</button>
+          <div class="lb-stippen"></div>
+          <button class="lb-knop lb-volgende" aria-label="Volgende foto">&#8594;</button></div>
+      </dialog>
+      <dialog class="lightbox" id="lb-uitbouw" aria-label="Foto's van de geopende gevel">
+        <div class="lb-kop"><span class="lb-titel">Uitbouw &middot; de gevel over de volle breedte open</span>
+          <button class="lb-sluit" aria-label="Sluiten">&#10005;</button></div>
+        <div class="lb-beeld">
+          <figure class="aan"><img src="img/projecten/uitbouw-01-voor.jpg" loading="lazy"
+                 alt="De gesloten achtergevel, met de vloer van de aanbouw ervoor gestort">
+            <figcaption>De gevel is nog dicht. De vloer van de aanbouw ligt er al voor.</figcaption></figure>
+          <figure><img src="img/projecten/uitbouw-02-na.jpg" loading="lazy"
+                 alt="Dezelfde gevel, over de volle breedte geopend met een stalen portaal">
+            <figcaption>Dezelfde gevel vanaf hetzelfde punt. Het metselwerk eronder is weg en een
+              stalen portaal draagt de verdieping: twee kolommen en een ligger, elk op een eigen
+              poer.</figcaption></figure>
         </div>
         <div class="lb-voet"><button class="lb-knop lb-vorige" aria-label="Vorige foto">&#8592;</button>
           <div class="lb-stippen"></div>
@@ -650,7 +679,7 @@
           <button class="lb-knop lb-volgende" aria-label="Volgende foto">&#8594;</button></div>
       </dialog>
 
-      <p class="reveal" style="margin-top:26px"><a class="card-link" href="/projecten/">Hoe dat op de bouw gaat, stap voor stap bij twee projecten &rarr;</a></p>
+      <p class="reveal" style="margin-top:26px"><a class="card-link" href="/projecten/">Bekijk uitgevoerde projecten stap voor stap &rarr;</a></p>
     </div>
   </section>
 
@@ -785,7 +814,7 @@
       <div class="rec-kop reveal">
         <span class="rec-cijfer">5,0</span>
         <span class="sterren" aria-label="5,0 van de 5">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-        <span class="rec-kop-tekst"><b>12 beoordelingen</b><br>op Google</span>
+        <span class="rec-kop-tekst"><b>13 beoordelingen</b><br>op Google</span>
         <a href="https://share.google/SNu4BlGeXYmKo3u03" target="_blank" rel="noopener">Bekijk op Google</a>
       </div>
       <div class="rec-wrap reveal">
@@ -945,6 +974,18 @@
           <div class="recensie-top"><span class="sterren" aria-label="5 van de 5 sterren">&#9733;&#9733;&#9733;&#9733;&#9733;</span><span class="g-mark"><svg viewBox="0 0 48 48" aria-hidden="true"><path fill="#4285F4" d="M45 24.5c0-1.6-.1-2.7-.4-4H24v7.3h12c-.2 1.9-1.5 4.8-4.4 6.8l6.7 5.2c4-3.7 6.7-9.1 6.7-15.3z"/><path fill="#34A853" d="M24 46c5.8 0 10.6-1.9 14.2-5.2l-6.7-5.2c-1.8 1.3-4.3 2.2-7.5 2.2-5.7 0-10.6-3.8-12.3-9l-7 5.4C8.2 41.1 15.5 46 24 46z"/><path fill="#FBBC05" d="M11.7 28.8c-.5-1.3-.7-2.7-.7-4.3s.3-3 .7-4.3l-7-5.4C3.6 17.6 3 20.7 3 24s.6 6.4 1.7 9.2l7-5.4z"/><path fill="#EA4335" d="M24 10.5c4 0 6.8 1.7 8.4 3.2l6-5.9C34.6 4.4 29.8 2 24 2 15.5 2 8.2 6.9 4.7 14.2l7 5.4c1.7-5.2 6.6-9.1 12.3-9.1z"/></svg>Google</span></div>
           <blockquote>&ldquo;Simon was really helpful and easy to communicate with. He took the time to understand my situation, was proactive, engaged, and explained everything clearly. ... The advice was thorough and gave me exactly the reassurance and information I was looking for.&rdquo;</blockquote>
           <p class="project">Advies belasting zoldervloer</p>
+        </article>
+
+        <article class="recensie geen-project">
+          <div class="rec-hoofd">
+            <span class="avatar" aria-hidden="true">L</span>
+            <span class="rec-wie">
+              <span class="naam">Luuk de Bruin</span>
+              <span class="meta">september 2026</span>
+            </span>
+          </div>
+          <div class="recensie-top"><span class="sterren" aria-label="5 van de 5 sterren">&#9733;&#9733;&#9733;&#9733;&#9733;</span><span class="g-mark"><svg viewBox="0 0 48 48" aria-hidden="true"><path fill="#4285F4" d="M45 24.5c0-1.6-.1-2.7-.4-4H24v7.3h12c-.2 1.9-1.5 4.8-4.4 6.8l6.7 5.2c4-3.7 6.7-9.1 6.7-15.3z"/><path fill="#34A853" d="M24 46c5.8 0 10.6-1.9 14.2-5.2l-6.7-5.2c-1.8 1.3-4.3 2.2-7.5 2.2-5.7 0-10.6-3.8-12.3-9l-7 5.4C8.2 41.1 15.5 46 24 46z"/><path fill="#FBBC05" d="M11.7 28.8c-.5-1.3-.7-2.7-.7-4.3s.3-3 .7-4.3l-7-5.4C3.6 17.6 3 20.7 3 24s.6 6.4 1.7 9.2l7-5.4z"/><path fill="#EA4335" d="M24 10.5c4 0 6.8 1.7 8.4 3.2l6-5.9C34.6 4.4 29.8 2 24 2 15.5 2 8.2 6.9 4.7 14.2l7 5.4c1.7-5.2 6.6-9.1 12.3-9.1z"/></svg>Google</span></div>
+          <blockquote>&ldquo;Mede dankzij Simon hebben we ons droomhuis kunnen realiseren! Het gehele proces is zeer soepel verlopen, en het resultaat is perfect.&rdquo;</blockquote>
         </article>
 
         </div>
