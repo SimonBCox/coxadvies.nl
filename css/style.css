@@ -200,3 +200,9 @@ section.hero .antwoord p,section.hero .antwoord-noot{color:rgba(255,255,255,.8)}
 section.hero .antwoord b{color:#fff}
 section.hero .stappen,section.hero .betaal{color:rgba(255,255,255,.85)}
 section.hero .stappen b,section.hero .betaal b{color:#fff}
+
+/* Opsomming in lopende tekst, bijvoorbeeld de loketten per gemeente. Het
+   globale reset haalt bullets en inspringing weg, dus die zet ik hier terug. */
+.lijst{list-style:disc;margin:0 auto 18px;padding-left:22px;color:var(--muted);max-width:62ch;font-size:.98rem}
+.lijst li{margin-bottom:9px}
+.lijst b{color:var(--ink);font-weight:600}
