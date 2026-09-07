@@ -361,6 +361,48 @@
   .lb-stippen span{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.3)}
   .lb-stippen span.aan{background:#fff}
 
+
+  /* ── diensten: een paneel voor het hoofdproduct, de rest als index ───────
+     Zes kaders van gelijk formaat beweerden dat dit zes gelijkwaardige diensten
+     zijn. De doorbraak is het hoofdproduct met een vaste prijs; dat mag de
+     indeling laten zien. De volledige omschrijvingen staan op /kosten/,
+     /legalisatie/ en /bouwdossier/. */
+  .dienst-blok{display:grid;grid-template-columns:1fr;gap:clamp(26px,3vw,44px)}
+  @media(min-width:940px){
+    .dienst-blok{grid-template-columns:minmax(0,.44fr) minmax(0,.56fr);align-items:stretch}
+  }
+  .paneel{position:relative;overflow:hidden;border-radius:4px;background:var(--navy-deep);
+          color:#fff;display:flex;flex-direction:column;justify-content:flex-end;min-height:400px;
+          text-decoration:none;height:100%}
+  /* Het paneel is hoog en smal, de foto liggend: dan snijdt cover fors aan de
+     zijkanten. Iets naar rechts houdt de doorgang zelf in beeld. */
+  .paneel img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+              object-position:62% 52%}
+  .paneel::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,
+    rgba(7,31,51,.95) 8%,rgba(7,31,51,.6) 50%,rgba(7,31,51,.14) 100%)}
+  .paneel .inhoud{position:relative;z-index:2;padding:clamp(24px,3vw,34px)}
+  .paneel h3{font-size:clamp(1.6rem,2.6vw,2.1rem);margin:0 0 10px;color:#fff}
+  .paneel p{color:rgba(255,255,255,.82);font-size:.97rem;max-width:38ch}
+  .paneel .prijsregel{display:flex;align-items:baseline;flex-wrap:wrap;gap:6px 14px;margin-top:20px;
+                      padding-top:18px;border-top:1px solid rgba(255,255,255,.22)}
+  .paneel .bedrag{font-size:1.65rem;font-weight:600;letter-spacing:-.02em;white-space:nowrap}
+  .paneel .bij{font-size:.86rem;color:rgba(255,255,255,.68)}
+
+  .dienst-idx{border-top:1px solid var(--hair,#c9c4b8)}
+  .dienst-idx a{display:grid;grid-template-columns:1fr;gap:2px 30px;padding:20px 0;
+                border-bottom:1px solid var(--line);text-decoration:none;
+                transition:padding-left .25s ease,background .25s ease}
+  @media(min-width:700px){
+    .dienst-idx a{grid-template-columns:minmax(0,1fr) minmax(0,1.1fr) auto;align-items:baseline}
+  }
+  .dienst-idx a:hover{padding-left:12px;background:rgba(255,255,255,.6)}
+  .dienst-idx h3{font-size:1.28rem;line-height:1.14}
+  .dienst-idx .zin{color:var(--muted);font-size:.95rem}
+  .dienst-idx .naar{font-size:.92rem;font-weight:600;color:var(--accent);white-space:nowrap;
+                    display:flex;align-items:baseline;gap:12px}
+  .dienst-idx .pijl{color:var(--hair,#c9c4b8);transition:transform .25s ease,color .25s ease}
+  .dienst-idx a:hover .pijl{color:var(--accent);transform:translateX(5px)}
+
   /* reveal + a11y */
   .reveal{opacity:0;transform:translateY(16px);transition:opacity .65s ease,transform .65s ease}
   .reveal.in{opacity:1;transform:none}
@@ -614,44 +656,53 @@
         <h2>Constructie voor verbouwingen aan woningen</h2>
         <p>Berekening &eacute;n tekening, afgestemd op uw bestaande huis en klaar voor de gemeente. Dit zijn de klussen die ik het vaakst doe.</p>
       </div>
-      <div class="grid3 reveal">
-        <article class="card">
-          <p class="tag">Doorbraak</p>
-          <h3>Draagmuurdoorbraak</h3>
-          <p>Een muur eruit, de ruimte open. Ik bereken de stalen ligger, de penanten waar hij op rust en of de bestaande fundering die extra last aankan. Meestal blijkt niet de ligger het lastige deel, maar de opleggingen eronder.</p>
-          <a class="card-link" href="/kosten/">Wat er voor &euro;&nbsp;850 incl. btw bij zit &rarr;</a>
-        </article>
-        <article class="card">
-          <p class="tag">Aanbouw</p>
-          <h3>Uitbouw</h3>
-          <p>Meer ruimte aan de achter- of zijkant. Constructie voor de uitbouw, de fundering en de aansluiting op de bestaande woning. Bij een oudere woning kijk ik ook of de bestaande fundering het nieuwe deel kan dragen.</p>
-          <a class="card-link" href="/kosten/">Wat een uitbouw kost &rarr;</a>
-        </article>
-        <article class="card">
-          <p class="tag">Dakopbouw</p>
-          <h3>Opbouw</h3>
-          <p>Een extra verdieping of dakopbouw. Alle last komt uiteindelijk op wat er al staat, dus begin ik onderaan: draagt de fundering het, en dragen de muren eronder het? Daarna pas de opbouw zelf.</p>
-          <a class="card-link" href="/kosten/">Wat een opbouw kost &rarr;</a>
-        </article>
-        <article class="card breed" style="grid-column:1/-1">
-          <p class="tag">Legalisatie</p>
-          <h3>Al verbouwd zonder berekening?</h3>
-          <p>Een doorbraak of verbouwing die al is uitgevoerd kan ik achteraf legaliseren. Ik meet de bestaande situatie op, reken haar na en lever de berekening en tekening waarmee de gemeente alsnog kan beoordelen. Speelt vaak bij verkoop, na een aankoop, of als de gemeente erom vraagt.</p>
-          <a class="card-link" href="/legalisatie/">Hoe legaliseren werkt &rarr;</a>
-        </article>
-        <article class="card breed" style="grid-column:1/-1">
-          <p class="tag">Bouwdossier</p>
-          <h3>Waar ligt de bouwtekening van uw huis?</h3>
-          <p>Bij vrijwel elk huis in Nederland ligt ergens nog het dossier van de bouw, met de plattegronden, de doorsneden en soms de constructieberekening. Bij welk archief dat ligt hangt vooral af van het jaar waarin de vergunning is verleend, en pas daarna van de gemeente. Vul uw adres in en u ziet welk loket het heeft en wat u daar moet doen. Dat kost u niets.</p>
-          <p>Zoekt u het liever niet zelf uit, dan haal ik het dossier voor u op voor &euro; 100 inclusief btw. U krijgt de stukken met een leeswijzer die zegt wat erop staat en wat er ontbreekt, en alles wat er verder over uw adres bekend is en constructief van belang kan zijn: de sonderingen in de omgeving, de bodem, het funderingsbeeld van de buurt en de luchtfoto's per jaar. Laat u daarna de berekening bij mij maken, dan gaat dat bedrag eraf.</p>
-          <a class="card-link" href="/bouwdossier/">Zoek het loket voor uw adres &rarr;</a>
-        </article>
-        <article class="card breed" style="grid-column:1/-1">
-          <p class="tag">Samenwerking</p>
-          <h3>Liever de hele doorbraak uit handen?</h3>
-          <p>Ik lever de berekening en de tekening; de uitvoering doet uw eigen aannemer. Heeft u die nog niet, dan kan het ook compleet. Samen met MAREE Aanneming werk ik onder de naam De Draagmuurkoning: tekenwerk, berekening, vergunningsaanvraag, het zaagwerk en het staal, tot en met de gestuukte of geverfde wand. U heeft dan &eacute;&eacute;n aanspreekpunt voor het hele traject.</p>
-          <a class="card-link" href="https://www.draagmuurkoning.nl">Zo werkt een complete doorbraak &rarr;</a>
-        </article>
+      <div class="dienst-blok reveal">
+        <a class="paneel" href="/kosten/">
+          <img src="img/projecten/bemmel-04-gestuukt.jpg" loading="lazy"
+               alt="Een afgewerkte doorgang na een draagmuurdoorbraak">
+          <div class="inhoud">
+            <h3>Draagmuurdoorbraak</h3>
+            <p>Een muur eruit, de ruimte open. Ik bereken de stalen ligger, de penanten waar hij op
+              rust en of de bestaande fundering die extra last aankan.</p>
+            <div class="prijsregel">
+              <span class="bedrag">&euro; 850</span>
+              <span class="bij">incl. btw &middot; berekening en tekening &middot; binnen 5 werkdagen</span>
+            </div>
+          </div>
+        </a>
+        <div class="dienst-idx">
+          <a href="/kosten/">
+            <h3>Uitbouw</h3>
+            <span class="zin">Meer ruimte aan de achter- of zijkant. Constructie voor de uitbouw, de
+              fundering en de aansluiting op de bestaande woning.</span>
+            <span class="naar"><span class="pijl">&rarr;</span></span>
+          </a>
+          <a href="/kosten/">
+            <h3>Opbouw</h3>
+            <span class="zin">Een extra verdieping of dakopbouw. Alle last komt op wat er al staat,
+              dus begin ik onderaan bij de fundering.</span>
+            <span class="naar"><span class="pijl">&rarr;</span></span>
+          </a>
+          <a href="/legalisatie/">
+            <h3>Al verbouwd zonder berekening?</h3>
+            <span class="zin">Ik meet de bestaande situatie op, reken haar na en lever de stukken
+              waarmee de gemeente alsnog kan beoordelen.</span>
+            <span class="naar"><span class="pijl">&rarr;</span></span>
+          </a>
+          <a href="/bouwdossier/">
+            <h3>Waar ligt de bouwtekening van uw huis?</h3>
+            <span class="zin">Ik vraag alles op wat er over uw adres te vinden is en zeg wat
+              erin staat en wat er ontbreekt. Dan weet u zeker dat er niets meer ligt en kan uw
+              tekenaar, architect of constructeur beginnen.</span>
+            <span class="naar">&euro;&nbsp;100<span class="pijl">&rarr;</span></span>
+          </a>
+          <a href="https://www.draagmuurkoning.nl">
+            <h3>Liever de hele doorbraak uit handen?</h3>
+            <span class="zin">Met MAREE Aanneming onder de naam De Draagmuurkoning, van tekenwerk
+              tot de gestuukte wand.</span>
+            <span class="naar"><span class="pijl">&rarr;</span></span>
+          </a>
+        </div>
       </div>
     </div>
   </section>
