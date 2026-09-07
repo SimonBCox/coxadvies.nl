@@ -800,11 +800,11 @@
     "Halsteren",
     "Lepelstraat"
    ],
-   "gecheckt": "2026-09-06",
+   "gecheckt": "2026-09-07",
    "route": "wij-zelfzoeken",
    "wij": true,
    "voorbehoud": "",
-   "intro_html": "<p>Voor de negen gemeenten van West-Brabant is er één loket dat het goed doet: het <strong>e-loket bouwdossiers van het West-Brabants Archief</strong> (WBA), ontstaan op 1 juli 2016 uit de archiefdiensten van onder meer Bergen op Zoom, Roosendaal en Moerdijk. U zoekt op adres, vraagt per dossier aan, en na goedkeuring komt er een mail met een link waarmee u de tekeningen dertig dagen lang <strong>gratis</strong> als pdf downloadt. <a href=\"https://bouwdossiers.westbrabantsarchief.nl/\" target=\"_blank\" rel=\"noopener\">https://bouwdossiers.westbrabantsarchief.nl/</a>. Vragen: <a href=\"mailto:studiezaal@westbrabantsarchief.nl\">studiezaal@westbrabantsarchief.nl</a>.</p>",
+   "intro_html": "<p>Voor de negen gemeenten van West-Brabant is er één loket dat het goed doet: het <strong>e-loket bouwdossiers van het West-Brabants Archief</strong> (WBA), ontstaan op 1 juli 2016 uit de archiefdiensten van onder meer Bergen op Zoom, Roosendaal en Moerdijk. U zoekt op adres, vraagt per dossier aan, en na goedkeuring komt er een mail met een link waarmee u de tekeningen dertig dagen lang <strong>gratis</strong> als pdf downloadt. <a href=\"https://bouwdossiers.westbrabantsarchief.nl/\" target=\"_blank\" rel=\"noopener\">https://bouwdossiers.westbrabantsarchief.nl/</a>. Vragen: <a href=\"mailto:studiezaal@westbrabantsarchief.nl\">studiezaal@westbrabantsarchief.nl</a>. De einddatum verschilt per gemeente.</p>",
    "perioden": [
     {
      "kop": "t/m bouwjaar 2010",
@@ -2422,11 +2422,11 @@
     "Etten",
     "Leur"
    ],
-   "gecheckt": "2026-09-06",
-   "route": "wij-zelfzoeken",
+   "gecheckt": "2026-09-07",
+   "route": "wij-mail",
    "wij": true,
    "voorbehoud": "",
-   "intro_html": "",
+   "intro_html": "<p>Let op: Etten-Leur staat níét in het e-loket van het West-Brabants Archief. Voor deze gemeente moet u mailen om te horen of het dossier online staat of alleen in de studiezaal te bekijken is.</p>",
    "perioden": [
     {
      "kop": "t/m bouwjaar 1999",
@@ -2434,9 +2434,9 @@
      "tot": 1999,
      "geldt_voor": "",
      "loket": "West-Brabants Archief",
-     "route": "wij-zelfzoeken",
+     "route": "wij-mail",
      "wij": true,
-     "html": "<p><strong>West-Brabants Archief</strong>, e-loket bouwdossiers, <strong>gratis</strong>. <a href=\"https://bouwdossiers.westbrabantsarchief.nl/\" target=\"_blank\" rel=\"noopener\">https://bouwdossiers.westbrabantsarchief.nl/</a>.</p>"
+     "html": "<p><strong>West-Brabants Archief</strong>, kosteloos, maar niet zelf op te zoeken. Mail het adres naar <a href=\"mailto:studiezaal@westbrabantsarchief.nl\">studiezaal@westbrabantsarchief.nl</a> en vraag of het dossier digitaal beschikbaar is.</p>"
     },
     {
      "kop": "vanaf bouwjaar 2000",
@@ -2454,9 +2454,9 @@
      "tot": null,
      "geldt_voor": "",
      "loket": "",
-     "route": "wij-zelfzoeken",
+     "route": "wij-mail",
      "wij": true,
-     "html": "<p>Bronnen: <a href=\"https://www.etten-leur.nl/product/bouwtekeningen-en-omgevingsvergunningen-opvragen/\" target=\"_blank\" rel=\"noopener\">https://www.etten-leur.nl/product/bouwtekeningen-en-omgevingsvergunningen-opvragen/</a> en <a href=\"https://westbrabantsarchief.nl/collectie/bouwvergunningen-bouwdossiers/2-uncategorised/234-bouwvergunningen-etten-leur\" target=\"_blank\" rel=\"noopener\">https://westbrabantsarchief.nl/collectie/bouwvergunningen-bouwdossiers/2-uncategorised/234-bouwvergunningen-etten-leur</a>.</p>"
+     "html": "<p>Bronnen: <a href=\"https://www.etten-leur.nl/product/bouwtekeningen-en-omgevingsvergunningen-opvragen/\" target=\"_blank\" rel=\"noopener\">https://www.etten-leur.nl/product/bouwtekeningen-en-omgevingsvergunningen-opvragen/</a> en <a href=\"https://westbrabantsarchief.nl/collectie/bouwvergunningen-bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://westbrabantsarchief.nl/collectie/bouwvergunningen-bouwdossiers</a>.</p>"
     }
    ]
   },
@@ -2742,14 +2742,14 @@
     "Oud Gastel",
     "Stampersgat"
    ],
-   "gecheckt": "2026-09-06",
+   "gecheckt": "2026-09-07",
    "route": "wij-zelfzoeken",
    "wij": true,
    "voorbehoud": "",
-   "intro_html": "",
+   "intro_html": "<p>De ruimste reeks van West-Brabant: het e-loket loopt hier door tot en met 2018.</p>",
    "perioden": [
     {
-     "kop": "t/m 2018",
+     "kop": "t/m bouwjaar 2018",
      "van": null,
      "tot": 2018,
      "geldt_voor": "",
@@ -3234,31 +3234,31 @@
    "kernen": [
     "IJsselstein"
    ],
-   "gecheckt": "2026-09-06",
+   "gecheckt": "2026-09-07",
    "route": "duur",
    "wij": false,
    "voorbehoud": "",
-   "intro_html": "",
+   "intro_html": "<p>Van IJsselstein is de reeks precies beschreven: bouwvergunningen 1905 t/m 1999, met de bijlagen erbij.</p>",
    "perioden": [
     {
-     "kop": "",
-     "van": null,
-     "tot": null,
+     "kop": "1905 t/m 1999",
+     "van": 1905,
+     "tot": 1999,
      "geldt_voor": "",
-     "loket": "",
+     "loket": "RHC Rijnstreek en Lopikerwaard",
      "route": "duur",
      "wij": false,
-     "html": "<p><strong>de archiefjaren</strong>: <strong>RHC Rijnstreek en Lopikerwaard</strong> in Woerden, <a href=\"mailto:rhc@woerden.nl\">rhc@woerden.nl</a>, 0348 - 42 88 46. IJsselstein staat in hun gemeentelijst. Opzoeken kost <strong>€ 32,30</strong> (prijspeil 2026).</p>"
+     "html": "<p><strong>RHC Rijnstreek en Lopikerwaard</strong> in Woerden, <a href=\"mailto:rhc@woerden.nl\">rhc@woerden.nl</a>, 0348 - 42 88 46. Deze reeks is geïndexeerd en op adres doorzoekbaar; de oudste jaren 1905 t/m 1943 zijn apart beschreven met bijlagen. Opzoeken kost <strong>€ 32,30</strong> (prijspeil 2026).</p>"
     },
     {
-     "kop": "",
-     "van": null,
+     "kop": "vanaf 2000",
+     "van": 2000,
      "tot": null,
      "geldt_voor": "",
-     "loket": "",
+     "loket": "gemeente IJsselstein",
      "route": "onbekend",
      "wij": false,
-     "html": "<p><strong>de recente jaren</strong>: <strong>gemeente IJsselstein</strong>.</p>"
+     "html": "<p><strong>gemeente IJsselstein</strong>.</p>"
     },
     {
      "kop": "",
@@ -3268,7 +3268,7 @@
      "loket": "",
      "route": "duur",
      "wij": false,
-     "html": "<p>Bron: <a href=\"https://rhcrijnstreek.nl/bronnen/archieven/\" target=\"_blank\" rel=\"noopener\">https://rhcrijnstreek.nl/bronnen/archieven/</a>.</p>"
+     "html": "<p>Bron: <a href=\"https://rhcrijnstreek.nl/bronnen/bouwvergunningen/overzicht-bewerkte-bronnen/ijsselstein-bouwvergunningen-1905-1999/\" target=\"_blank\" rel=\"noopener\">https://rhcrijnstreek.nl/bronnen/bouwvergunningen/overzicht-bewerkte-bronnen/ijsselstein-bouwvergunningen-1905-1999/</a>.</p>"
     }
    ]
   },
@@ -3681,31 +3681,31 @@
     "Lopikerkapel",
     "Willige Langerak"
    ],
-   "gecheckt": "2026-09-06",
+   "gecheckt": "2026-09-07",
    "route": "duur",
    "wij": false,
    "voorbehoud": "",
    "intro_html": "",
    "perioden": [
     {
-     "kop": "",
-     "van": null,
-     "tot": null,
+     "kop": "ongeveer 1903 t/m 1999",
+     "van": 1903,
+     "tot": 1999,
      "geldt_voor": "",
-     "loket": "",
+     "loket": "RHC Rijnstreek en Lopikerwaard",
      "route": "duur",
      "wij": false,
-     "html": "<p><strong>de archiefjaren</strong>, ook van de voormalige gemeenten Benschop en Polsbroek: <strong>RHC Rijnstreek en Lopikerwaard</strong>, Blekerijlaan 14 in Woerden, <a href=\"mailto:rhc@woerden.nl\">rhc@woerden.nl</a>, 0348 - 42 88 46, elke werkdag 9.00-16.30. Opzoeken kost <strong>€ 32,30</strong> (prijspeil 2026).</p>"
+     "html": "<p><strong>RHC Rijnstreek en Lopikerwaard</strong>, Blekerijlaan 14 in Woerden, <a href=\"mailto:rhc@woerden.nl\">rhc@woerden.nl</a>, 0348 - 42 88 46, elke werkdag 9.00-16.30. Compleet en geïndexeerd, ook de archieven van de voormalige gemeenten Benschop en Polsbroek. Opzoeken kost <strong>€ 32,30</strong> (prijspeil 2026).</p>"
     },
     {
-     "kop": "",
-     "van": null,
+     "kop": "vanaf 2000",
+     "van": 2000,
      "tot": null,
      "geldt_voor": "",
-     "loket": "",
+     "loket": "gemeente Lopik",
      "route": "onbekend",
      "wij": false,
-     "html": "<p><strong>de recente jaren</strong>: <strong>gemeente Lopik</strong>.</p>"
+     "html": "<p><strong>gemeente Lopik</strong>.</p>"
     },
     {
      "kop": "",
@@ -3731,10 +3731,9 @@
     "Heerewaarden",
     "Alem",
     "Well",
-    "Hoenzadriel",
-    "Kerkdriel-Noord"
+    "Hoenzadriel"
    ],
-   "gecheckt": "2026-09-06",
+   "gecheckt": "2026-09-07",
    "route": "wij-formulier",
    "wij": true,
    "voorbehoud": "",
@@ -3748,7 +3747,7 @@
      "loket": "Regionaal Archief Rivierenland",
      "route": "wij-formulier",
      "wij": true,
-     "html": "<p><strong>Regionaal Archief Rivierenland</strong> in Tiel, tel. 0344 - 612 230, digitaliseren op verzoek gratis. <a href=\"https://regionaalarchiefrivierenland.nl/vergunningen\" target=\"_blank\" rel=\"noopener\">https://regionaalarchiefrivierenland.nl/vergunningen</a>.</p>"
+     "html": "<p><strong>Regionaal Archief Rivierenland</strong> in Tiel, tel. 0344 - 612 230, digitaliseren op verzoek gratis (maximaal drie inventarisnummers per week, tien werkdagen). Zoeken via <a href=\"https://regionaalarchiefrivierenland.nl/vergunningen\" target=\"_blank\" rel=\"noopener\">https://regionaalarchiefrivierenland.nl/vergunningen</a>. Het RAR beschrijft voor Maasdriel onder meer het archief van het gemeentebestuur 1810 t/m 1945 en dat van 1980 t/m 1998, met de bouwvergunningen daarin.</p>"
     },
     {
      "kop": "vanaf april 2013",
@@ -3893,31 +3892,31 @@
     "Helwijk",
     "Langeweg"
    ],
-   "gecheckt": "2026-09-06",
+   "gecheckt": "2026-09-07",
    "route": "wij-zelfzoeken",
    "wij": true,
    "voorbehoud": "",
-   "intro_html": "",
+   "intro_html": "<p>Van de negen West-Brabantse gemeenten stopt het e-loket hier het vroegst, bij 1996.</p>",
    "perioden": [
     {
-     "kop": "",
+     "kop": "t/m bouwjaar 1996",
      "van": null,
-     "tot": null,
+     "tot": 1996,
      "geldt_voor": "",
-     "loket": "",
+     "loket": "West-Brabants Archief",
      "route": "wij-zelfzoeken",
      "wij": true,
-     "html": "<p><strong>de archiefjaren</strong>: <strong>West-Brabants Archief</strong>. De Moerdijkse bouwdossiers zijn gedigitaliseerd en via het e-loket op adres te zoeken en aan te vragen; na goedkeuring downloadt u ze gratis. <a href=\"https://bouwdossiers.westbrabantsarchief.nl/\" target=\"_blank\" rel=\"noopener\">https://bouwdossiers.westbrabantsarchief.nl/</a>, <a href=\"mailto:studiezaal@westbrabantsarchief.nl\">studiezaal@westbrabantsarchief.nl</a>.</p>"
+     "html": "<p><strong>West-Brabants Archief</strong>. De Moerdijkse bouwdossiers zijn gedigitaliseerd en via het e-loket op adres te zoeken en aan te vragen; na goedkeuring downloadt u ze gratis. <a href=\"https://bouwdossiers.westbrabantsarchief.nl/\" target=\"_blank\" rel=\"noopener\">https://bouwdossiers.westbrabantsarchief.nl/</a>, <a href=\"mailto:studiezaal@westbrabantsarchief.nl\">studiezaal@westbrabantsarchief.nl</a>.</p>"
     },
     {
-     "kop": "",
-     "van": null,
+     "kop": "vanaf 1997",
+     "van": 1997,
      "tot": null,
      "geldt_voor": "",
-     "loket": "",
+     "loket": "gemeente Moerdijk",
      "route": "onbekend",
      "wij": false,
-     "html": "<p><strong>de recente jaren</strong>: <strong>gemeente Moerdijk</strong>.</p>"
+     "html": "<p><strong>gemeente Moerdijk</strong>, gemeentehuis in Zevenbergen.</p>"
     },
     {
      "kop": "",
@@ -3994,31 +3993,31 @@
     "Montfoort",
     "Linschoten"
    ],
-   "gecheckt": "2026-09-06",
+   "gecheckt": "2026-09-07",
    "route": "duur",
    "wij": false,
    "voorbehoud": "",
    "intro_html": "",
    "perioden": [
     {
-     "kop": "",
-     "van": null,
-     "tot": null,
+     "kop": "ongeveer 1903 t/m 1999",
+     "van": 1903,
+     "tot": 1999,
      "geldt_voor": "",
-     "loket": "",
+     "loket": "RHC Rijnstreek en Lopikerwaard",
      "route": "duur",
      "wij": false,
-     "html": "<p><strong>de archiefjaren</strong>: <strong>RHC Rijnstreek en Lopikerwaard</strong> in Woerden, <a href=\"mailto:rhc@woerden.nl\">rhc@woerden.nl</a>, 0348 - 42 88 46. Opzoeken kost <strong>€ 32,30</strong> (prijspeil 2026).</p>"
+     "html": "<p><strong>RHC Rijnstreek en Lopikerwaard</strong> in Woerden, <a href=\"mailto:rhc@woerden.nl\">rhc@woerden.nl</a>, 0348 - 42 88 46. Compleet en geïndexeerd, dus op adres te vinden. Opzoeken kost <strong>€ 32,30</strong> (prijspeil 2026).</p>"
     },
     {
-     "kop": "",
-     "van": null,
+     "kop": "vanaf 2000",
+     "van": 2000,
      "tot": null,
      "geldt_voor": "",
-     "loket": "",
+     "loket": "gemeente Montfoort",
      "route": "onbekend",
      "wij": false,
-     "html": "<p><strong>de recente jaren</strong>: <strong>gemeente Montfoort</strong>.</p>"
+     "html": "<p><strong>gemeente Montfoort</strong>.</p>"
     },
     {
      "kop": "",
@@ -4028,7 +4027,7 @@
      "loket": "",
      "route": "duur",
      "wij": false,
-     "html": "<p>Bron: <a href=\"https://rhcrijnstreek.nl/bronnen/archieven/\" target=\"_blank\" rel=\"noopener\">https://rhcrijnstreek.nl/bronnen/archieven/</a>.</p>"
+     "html": "<p>Bron: <a href=\"https://rhcrijnstreek.nl/2023/02/08/bouwvergunningen-bouwtekeningen-tot-2000-compleet/\" target=\"_blank\" rel=\"noopener\">https://rhcrijnstreek.nl/2023/02/08/bouwvergunningen-bouwtekeningen-tot-2000-compleet/</a>.</p>"
     }
    ]
   },
@@ -4090,7 +4089,7 @@
     "IJzendoorn",
     "Echteld"
    ],
-   "gecheckt": "2026-09-06",
+   "gecheckt": "2026-09-07",
    "route": "wij-formulier",
    "wij": true,
    "voorbehoud": "",
@@ -4104,7 +4103,7 @@
      "loket": "Regionaal Archief Rivierenland",
      "route": "wij-formulier",
      "wij": true,
-     "html": "<p><strong>Regionaal Archief Rivierenland</strong> in Tiel, tel. 0344 - 612 230, digitaliseren op verzoek gratis. <a href=\"https://regionaalarchiefrivierenland.nl/vergunningen\" target=\"_blank\" rel=\"noopener\">https://regionaalarchiefrivierenland.nl/vergunningen</a>.</p>"
+     "html": "<p><strong>Regionaal Archief Rivierenland</strong> in Tiel, tel. 0344 - 612 230, digitaliseren op verzoek gratis (maximaal drie inventarisnummers per week, tien werkdagen). Zoeken via <a href=\"https://regionaalarchiefrivierenland.nl/vergunningen\" target=\"_blank\" rel=\"noopener\">https://regionaalarchiefrivierenland.nl/vergunningen</a>. Voor Neder-Betuwe is de reeks bouwvergunningen 2002 t/m 2010 apart beschreven; de oudere jaren zitten in de archieven van de voormalige gemeenten Dodewaard, Echteld en Kesteren.</p>"
     },
     {
      "kop": "vanaf april 2013",
@@ -4742,21 +4741,31 @@
     "Hekendorp",
     "Snelrewaard"
    ],
-   "gecheckt": "2026-09-06",
+   "gecheckt": "2026-09-07",
    "route": "duur",
    "wij": false,
    "voorbehoud": "",
    "intro_html": "",
    "perioden": [
     {
-     "kop": "t/m 2014",
-     "van": null,
-     "tot": 2014,
+     "kop": "ongeveer 1903 t/m 1999",
+     "van": 1903,
+     "tot": 1999,
      "geldt_voor": "",
      "loket": "RHC Rijnstreek en Lopikerwaard",
      "route": "duur",
      "wij": false,
-     "html": "<p><strong>RHC Rijnstreek en Lopikerwaard</strong> in Woerden, <a href=\"mailto:rhc@woerden.nl\">rhc@woerden.nl</a>, 0348 - 42 88 46. Opzoeken kost <strong>€ 32,30</strong> (prijspeil 2026).</p>"
+     "html": "<p><strong>RHC Rijnstreek en Lopikerwaard</strong> in Woerden, <a href=\"mailto:rhc@woerden.nl\">rhc@woerden.nl</a>, 0348 - 42 88 46. Deze jaren zijn compleet en geïndexeerd, dus op adres te vinden. Opzoeken kost <strong>€ 32,30</strong> (prijspeil 2026).</p>"
+    },
+    {
+     "kop": "2000 t/m 2014",
+     "van": 2000,
+     "tot": 2014,
+     "geldt_voor": "",
+     "loket": "RHC",
+     "route": "duur",
+     "wij": false,
+     "html": "<p>eveneens het <strong>RHC</strong>, maar buiten de geïndexeerde reeks.</p>"
     },
     {
      "kop": "vanaf 2015",
@@ -5137,21 +5146,21 @@
     "Moerstraten",
     "Wouwse Plantage"
    ],
-   "gecheckt": "2026-09-06",
-   "route": "wij-zelfzoeken",
+   "gecheckt": "2026-09-07",
+   "route": "wij-mail",
    "wij": true,
    "voorbehoud": "",
    "intro_html": "",
    "perioden": [
     {
-     "kop": "t/m 2010",
+     "kop": "t/m bouwjaar 2010",
      "van": null,
      "tot": 2010,
      "geldt_voor": "",
      "loket": "West-Brabants Archief",
-     "route": "wij-zelfzoeken",
+     "route": "wij-mail",
      "wij": true,
-     "html": "<p><strong>West-Brabants Archief</strong>. De bouwvergunningen van Roosendaal en de voormalige gemeente Wouw zijn volledig gedigitaliseerd. Mail het adres naar <a href=\"mailto:studiezaal@westbrabantsarchief.nl\">studiezaal@westbrabantsarchief.nl</a> en wat digitaal beschikbaar is komt gratis per mail terug, of vraag het zelf aan in het e-loket.</p>"
+     "html": "<p><strong>West-Brabants Archief</strong>. De bouwvergunningen van Roosendaal en de voormalige gemeente Wouw zijn volledig gedigitaliseerd. Mail het adres naar <a href=\"mailto:studiezaal@westbrabantsarchief.nl\">studiezaal@westbrabantsarchief.nl</a> en wat digitaal beschikbaar is komt <strong>gratis</strong> per mail terug; zelf zoeken kan ook in het e-loket op <a href=\"https://bouwdossiers.westbrabantsarchief.nl/\" target=\"_blank\" rel=\"noopener\">https://bouwdossiers.westbrabantsarchief.nl/</a>.</p>"
     },
     {
      "kop": "constructieberekeningen vanaf 1965 en dossiers vanaf 2011",
@@ -5169,7 +5178,7 @@
      "tot": null,
      "geldt_voor": "",
      "loket": "",
-     "route": "wij-zelfzoeken",
+     "route": "wij-mail",
      "wij": true,
      "html": "<p>Bron: <a href=\"https://westbrabantsarchief.nl/collectie/bouwvergunningen-bouwdossiers/2-uncategorised/235-bouwvergunningen-roosendaal\" target=\"_blank\" rel=\"noopener\">https://westbrabantsarchief.nl/collectie/bouwvergunningen-bouwdossiers/2-uncategorised/235-bouwvergunningen-roosendaal</a>.</p>"
     }
@@ -5229,31 +5238,31 @@
     "Schijf",
     "Zegge"
    ],
-   "gecheckt": "2026-09-06",
+   "gecheckt": "2026-09-07",
    "route": "wij-zelfzoeken",
    "wij": true,
    "voorbehoud": "",
    "intro_html": "",
    "perioden": [
     {
-     "kop": "",
+     "kop": "t/m bouwjaar 2010",
      "van": null,
-     "tot": null,
+     "tot": 2010,
      "geldt_voor": "",
-     "loket": "",
+     "loket": "West-Brabants Archief",
      "route": "wij-zelfzoeken",
      "wij": true,
-     "html": "<p><strong>de archiefjaren</strong>: <strong>West-Brabants Archief</strong>, e-loket bouwdossiers. U vraagt per dossier aan en downloadt de tekeningen daarna dertig dagen lang <strong>gratis</strong> thuis. <a href=\"https://bouwdossiers.westbrabantsarchief.nl/\" target=\"_blank\" rel=\"noopener\">https://bouwdossiers.westbrabantsarchief.nl/</a>, <a href=\"mailto:studiezaal@westbrabantsarchief.nl\">studiezaal@westbrabantsarchief.nl</a>.</p>"
+     "html": "<p><strong>West-Brabants Archief</strong>, e-loket bouwdossiers. U vraagt per dossier aan en downloadt de tekeningen daarna dertig dagen lang <strong>gratis</strong> thuis. <a href=\"https://bouwdossiers.westbrabantsarchief.nl/\" target=\"_blank\" rel=\"noopener\">https://bouwdossiers.westbrabantsarchief.nl/</a>, <a href=\"mailto:studiezaal@westbrabantsarchief.nl\">studiezaal@westbrabantsarchief.nl</a>.</p>"
     },
     {
-     "kop": "",
-     "van": null,
+     "kop": "vanaf 2011",
+     "van": 2011,
      "tot": null,
      "geldt_voor": "",
-     "loket": "",
+     "loket": "gemeente Rucphen",
      "route": "onbekend",
      "wij": false,
-     "html": "<p><strong>de recente jaren</strong>: <strong>gemeente Rucphen</strong>, <a href=\"https://www.rucphen.nl/Gemeentewinkel/Archief-van-de-gemeente\" target=\"_blank\" rel=\"noopener\">https://www.rucphen.nl/Gemeentewinkel/Archief-van-de-gemeente</a>.</p>"
+     "html": "<p><strong>gemeente Rucphen</strong>, <a href=\"https://www.rucphen.nl/Gemeentewinkel/Archief-van-de-gemeente\" target=\"_blank\" rel=\"noopener\">https://www.rucphen.nl/Gemeentewinkel/Archief-van-de-gemeente</a>.</p>"
     },
     {
      "kop": "",
@@ -5509,11 +5518,11 @@
     "De Heen",
     "Welberg"
    ],
-   "gecheckt": "2026-09-06",
-   "route": "wij-zelfzoeken",
+   "gecheckt": "2026-09-07",
+   "route": "wij-mail",
    "wij": true,
    "voorbehoud": "",
-   "intro_html": "",
+   "intro_html": "<p>Ook Steenbergen ontbreekt in het e-loket, dus hier begint het met een mail.</p>",
    "perioden": [
     {
      "kop": "t/m 1996",
@@ -5521,9 +5530,9 @@
      "tot": 1996,
      "geldt_voor": "",
      "loket": "West-Brabants Archief",
-     "route": "wij-zelfzoeken",
+     "route": "wij-mail",
      "wij": true,
-     "html": "<p><strong>West-Brabants Archief</strong>, e-loket bouwdossiers, en dat is <strong>gratis</strong>. <a href=\"https://bouwdossiers.westbrabantsarchief.nl/\" target=\"_blank\" rel=\"noopener\">https://bouwdossiers.westbrabantsarchief.nl/</a>, <a href=\"mailto:studiezaal@westbrabantsarchief.nl\">studiezaal@westbrabantsarchief.nl</a>.</p>"
+     "html": "<p><strong>West-Brabants Archief</strong>, kosteloos verstrekt, maar u kunt niet zelf zoeken. Mail het adres naar <a href=\"mailto:studiezaal@westbrabantsarchief.nl\">studiezaal@westbrabantsarchief.nl</a> en vraag of het dossier online staat of alleen in de studiezaal te bekijken is.</p>"
     },
     {
      "kop": "vanaf 1997",
@@ -5541,7 +5550,7 @@
      "tot": null,
      "geldt_voor": "",
      "loket": "",
-     "route": "wij-zelfzoeken",
+     "route": "wij-mail",
      "wij": true,
      "html": "<p>Bron: <a href=\"https://westbrabantsarchief.nl/collectie/bouwvergunningen-bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://westbrabantsarchief.nl/collectie/bouwvergunningen-bouwdossiers</a>.</p>"
     }
@@ -6636,14 +6645,14 @@
     "Woensdrecht",
     "Calfven"
    ],
-   "gecheckt": "2026-09-06",
+   "gecheckt": "2026-09-07",
    "route": "wij-zelfzoeken",
    "wij": true,
    "voorbehoud": "",
    "intro_html": "",
    "perioden": [
     {
-     "kop": "t/m 2010",
+     "kop": "t/m bouwjaar 2010",
      "van": null,
      "tot": 2010,
      "geldt_voor": "",
@@ -6683,21 +6692,31 @@
     "Kamerik",
     "Zegveld"
    ],
-   "gecheckt": "2026-09-06",
+   "gecheckt": "2026-09-07",
    "route": "duur",
    "wij": false,
    "voorbehoud": "",
-   "intro_html": "<p>Voor Woerden, Oudewater, Montfoort, Lopik en IJsselstein is er één streekarchief: het <strong>Regionaal Historisch Centrum Rijnstreek en Lopikerwaard</strong> in Woerden, Blekerijlaan 14, <a href=\"mailto:rhc@woerden.nl\">rhc@woerden.nl</a>, 0348 - 42 88 46, elke werkdag 9.00-16.30.</p>",
+   "intro_html": "<p>Voor Woerden, Oudewater, Montfoort, Lopik en IJsselstein is er één streekarchief: het <strong>Regionaal Historisch Centrum Rijnstreek en Lopikerwaard</strong>, Blekerijlaan 14 in Woerden, <a href=\"mailto:rhc@woerden.nl\">rhc@woerden.nl</a>, 0348 - 42 88 46, elke werkdag 9.00-16.30. Zij melden dat alle bestaande bouwvergunningen uit hun werkgebied <strong>tot 2000 compleet en geïndexeerd</strong> zijn.</p>",
    "perioden": [
     {
-     "kop": "",
-     "van": null,
-     "tot": null,
+     "kop": "ongeveer 1903 t/m 1999",
+     "van": 1903,
+     "tot": 1999,
      "geldt_voor": "",
-     "loket": "",
+     "loket": "RHC Rijnstreek en Lopikerwaard",
      "route": "duur",
      "wij": false,
-     "html": "<p><strong>de archiefjaren</strong>: <strong>RHC Rijnstreek en Lopikerwaard</strong>, of een afspraak bij het omgevingsloket van de gemeente, tel. 14 0348. Voor het opzoeken van informatie uit het archief wordt <strong>€ 32,30</strong> in rekening gebracht (prijspeil 2026).</p>"
+     "html": "<p><strong>RHC Rijnstreek en Lopikerwaard</strong>. De reeksen beginnen rond 1903 tot 1905; van daarvóór is het meeste in de loop der tijd verloren gegaan. Voor het opzoeken wordt <strong>€ 32,30</strong> in rekening gebracht (prijspeil 2026). U kunt ook een afspraak maken bij het omgevingsloket van de gemeente, tel. 14 0348.</p>"
+    },
+    {
+     "kop": "vanaf 2000",
+     "van": 2000,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Woerden",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Woerden</strong>, omgevingsloket, tel. 14 0348.</p>"
     },
     {
      "kop": "vanaf 2013",
@@ -6717,7 +6736,7 @@
      "loket": "",
      "route": "duur",
      "wij": false,
-     "html": "<p>Bron: <a href=\"https://www.woerden.nl/Verbouwen/Bouwdossier_opvragen\" target=\"_blank\" rel=\"noopener\">https://www.woerden.nl/Verbouwen/Bouwdossier_opvragen</a>.</p>"
+     "html": "<p>Bronnen: <a href=\"https://www.woerden.nl/Verbouwen/Bouwdossier_opvragen\" target=\"_blank\" rel=\"noopener\">https://www.woerden.nl/Verbouwen/Bouwdossier_opvragen</a> en <a href=\"https://rhcrijnstreek.nl/bronnen/bouwvergunningen/overzicht-bewerkte-bronnen/\" target=\"_blank\" rel=\"noopener\">https://rhcrijnstreek.nl/bronnen/bouwvergunningen/overzicht-bewerkte-bronnen/</a>.</p>"
     }
    ]
   },
@@ -6934,11 +6953,11 @@
     "Achtmaal",
     "Klein Zundert"
    ],
-   "gecheckt": "2026-09-06",
-   "route": "wij-zelfzoeken",
+   "gecheckt": "2026-09-07",
+   "route": "wij-mail",
    "wij": true,
    "voorbehoud": "",
-   "intro_html": "",
+   "intro_html": "<p>Zundert staat evenmin in het e-loket. Dat is de zwakste van de negen West-Brabantse gemeenten: u weet pas na een mail waar u aan toe bent.</p>",
    "perioden": [
     {
      "kop": "",
@@ -6946,9 +6965,9 @@
      "tot": null,
      "geldt_voor": "",
      "loket": "",
-     "route": "wij-zelfzoeken",
+     "route": "wij-mail",
      "wij": true,
-     "html": "<p><strong>de archiefjaren</strong>: <strong>West-Brabants Archief</strong>, e-loket bouwdossiers, gratis download na goedkeuring. <a href=\"https://bouwdossiers.westbrabantsarchief.nl/\" target=\"_blank\" rel=\"noopener\">https://bouwdossiers.westbrabantsarchief.nl/</a>, <a href=\"mailto:studiezaal@westbrabantsarchief.nl\">studiezaal@westbrabantsarchief.nl</a>.</p>"
+     "html": "<p><strong>de archiefjaren</strong>: <strong>West-Brabants Archief</strong>, <a href=\"mailto:studiezaal@westbrabantsarchief.nl\">studiezaal@westbrabantsarchief.nl</a>. Vraag per mail of het dossier van dit adres digitaal beschikbaar is of alleen in de studiezaal te bekijken.</p>"
     },
     {
      "kop": "",
@@ -6966,7 +6985,7 @@
      "tot": null,
      "geldt_voor": "",
      "loket": "",
-     "route": "wij-zelfzoeken",
+     "route": "wij-mail",
      "wij": true,
      "html": "<p>Bron: <a href=\"https://westbrabantsarchief.nl/collectie/bouwvergunningen-bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://westbrabantsarchief.nl/collectie/bouwvergunningen-bouwdossiers</a>.</p>"
     }
