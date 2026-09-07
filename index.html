@@ -266,14 +266,21 @@
   .kop .eyebrow{color:#5fa2e0}
   .kop .lead{color:rgba(255,255,255,.8);max-width:40ch;margin-bottom:0}
   .kopbeeld{position:relative;min-height:280px}
+  .kopbeeld picture{position:absolute;inset:0;display:block}
   .kopbeeld img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
                 object-position:72% 46%}
   .kopbeeld::before{content:"";position:absolute;inset:0;z-index:1;
     background:linear-gradient(to right,var(--navy-deep) 0%,rgba(7,31,51,.92) 8%,
       rgba(7,31,51,.55) 22%,rgba(7,31,51,0) 44%)}
   @media(max-width:979px){
-    .kopbeeld{aspect-ratio:16/10}
-    .kopbeeld::before{background:linear-gradient(to bottom,var(--navy-deep) 0%,rgba(7,31,51,0) 22%)}
+    /* Op een breed vlak bleef links het bleke stuk pleisterwerk staan (dat op
+       de desktop onder het verloop verdwijnt) en viel de rechterstempel weg in
+       het niets. Een smaller vlak snijdt de zijkanten juist bij: het beeld
+       wordt op hoogte geschaald en met object-position kies je welk deel je
+       houdt. Nu de sparing met beide stempels. */
+    .kopbeeld{aspect-ratio:4/3}
+    .kopbeeld img{object-position:center 50%}
+    .kopbeeld::before{background:linear-gradient(to bottom,var(--navy-deep) 0%,rgba(7,31,51,0) 16%)}
   }
 
   /* ── balk met de kernpunten, direct onder de header ── */
@@ -427,9 +434,12 @@
         er direct mee verder kan.</p>
     </div>
     <div class="kopbeeld">
-      <img src="img/header-doorbraak.jpg"
-           alt="Draagmuurdoorbraak met de stalen ligger op zijn plek en de maten uit de berekening erbij"
-           width="2200" height="1435">
+      <picture>
+        <source media="(max-width:979px)" srcset="img/header-doorbraak-mobiel.jpg">
+        <img src="img/header-doorbraak.jpg"
+             alt="Draagmuurdoorbraak met de stalen ligger op zijn plek en de maten uit de berekening erbij"
+             width="2000" height="1305">
+      </picture>
     </div>
   </div>
 </header>
@@ -483,9 +493,9 @@
       <div class="projecten reveal">
         <article class="project-kaart">
           <button class="omslag" data-lb="lb-bemmel" aria-label="Bekijk alle foto's van de doorbraak in Bemmel">
-            <img src="img/projecten/bemmel-oplegging.jpg" loading="lazy"
-                 alt="Doorbraak in Bemmel, de ligger vanaf de keukenzijde">
-            <span class="telling">Bekijk de klus &middot; 4 foto's</span>
+            <img src="img/projecten/bemmel-04-gestuukt.jpg" loading="lazy"
+                 alt="De afgewerkte doorgang in Bemmel na het stucwerk">
+            <span class="telling">Bekijk de klus &middot; 6 foto's</span>
           </button>
           <div class="project-info">
             <h3>Bemmel &middot; draagmuur tussen keuken en woonkamer</h3>
@@ -528,6 +538,10 @@
             <figcaption>De sparing is open en de ligger ligt. Dezelfde hoek als de eerste foto.</figcaption></figure>
           <figure><img src="img/projecten/bemmel-oplegging.jpg" alt="De oplegging vanaf de keukenzijde" loading="lazy">
             <figcaption>Vanaf de keukenzijde: rechts landt de ligger op het penant dat blijft staan.</figcaption></figure>
+          <figure><img src="img/projecten/bemmel-04-gestuukt.jpg" alt="De woonkamer na het stucwerk, met de nieuwe doorgang" loading="lazy">
+            <figcaption>Na het stucwerk. De doorgang is afgewerkt en de ligger zit weggewerkt boven het plafond.</figcaption></figure>
+          <figure><img src="img/projecten/bemmel-05-doorgang-af.jpg" alt="De afgewerkte doorgang recht van voren" loading="lazy">
+            <figcaption>Dezelfde doorgang recht van voren. Van de constructie is niets meer te zien, en dat is precies de bedoeling.</figcaption></figure>
         </div>
         <div class="lb-voet"><button class="lb-knop lb-vorige" aria-label="Vorige foto">&#8592;</button>
           <div class="lb-stippen"></div>
