@@ -134,6 +134,20 @@
   .card .tag{font-size:.72rem;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--accent)}
   .card h3{font-size:1.5rem;margin:14px 0 11px}
   .card p{color:var(--muted);font-size:.98rem;max-width:68ch}
+  /* De drie kaarten met de langere teksten pakken elk een hele rij, want in een
+     smalle kolom worden ze torenhoog. Over de volle breedte werden ze juist
+     laag en breed, met veel lucht eronder. In twee kolommen, kop links en
+     tekst rechts, gebruiken ze de breedte die ze toch al innemen en scheelt het
+     ongeveer een derde van de hoogte. */
+  @media(min-width:860px){
+    .card.breed{display:grid;grid-template-columns:minmax(0,.34fr) minmax(0,.66fr);
+                gap:4px 44px;align-items:start}
+    .card.breed .tag{grid-column:1;grid-row:1}
+    .card.breed h3{grid-column:1;grid-row:2;margin-top:6px}
+    .card.breed p{grid-column:2;grid-row:1/span 3;max-width:62ch}
+    .card.breed p + p{grid-row:auto;margin-top:12px}
+    .card.breed .card-link{grid-column:1;grid-row:3;margin-top:14px;align-self:end}
+  }
 
   /* process */
   .steps{display:grid;grid-template-columns:1fr;border-top:1px solid var(--line)}
@@ -619,20 +633,20 @@
           <p>Een extra verdieping of dakopbouw. Alle last komt uiteindelijk op wat er al staat, dus begin ik onderaan: draagt de fundering het, en dragen de muren eronder het? Daarna pas de opbouw zelf.</p>
           <a class="card-link" href="/kosten/">Wat een opbouw kost &rarr;</a>
         </article>
-        <article class="card" style="grid-column:1/-1">
+        <article class="card breed" style="grid-column:1/-1">
           <p class="tag">Legalisatie</p>
           <h3>Al verbouwd zonder berekening?</h3>
           <p>Een doorbraak of verbouwing die al is uitgevoerd kan ik achteraf legaliseren. Ik meet de bestaande situatie op, reken haar na en lever de berekening en tekening waarmee de gemeente alsnog kan beoordelen. Speelt vaak bij verkoop, na een aankoop, of als de gemeente erom vraagt.</p>
           <a class="card-link" href="/legalisatie/">Hoe legaliseren werkt &rarr;</a>
         </article>
-        <article class="card" style="grid-column:1/-1">
+        <article class="card breed" style="grid-column:1/-1">
           <p class="tag">Bouwdossier</p>
           <h3>Waar ligt de bouwtekening van uw huis?</h3>
           <p>Bij vrijwel elk huis in Nederland ligt ergens nog het dossier van de bouw, met de plattegronden, de doorsneden en soms de constructieberekening. Bij welk archief dat ligt hangt vooral af van het jaar waarin de vergunning is verleend, en pas daarna van de gemeente. Vul uw adres in en u ziet welk loket het heeft en wat u daar moet doen. Dat kost u niets.</p>
           <p>Zoekt u het liever niet zelf uit, dan haal ik het dossier voor u op voor &euro; 100 inclusief btw. U krijgt de stukken met een leeswijzer die zegt wat erop staat en wat er ontbreekt, en alles wat er verder over uw adres bekend is en constructief van belang kan zijn: de sonderingen in de omgeving, de bodem, het funderingsbeeld van de buurt en de luchtfoto's per jaar. Laat u daarna de berekening bij mij maken, dan gaat dat bedrag eraf.</p>
           <a class="card-link" href="/bouwdossier/">Zoek het loket voor uw adres &rarr;</a>
         </article>
-        <article class="card" style="grid-column:1/-1">
+        <article class="card breed" style="grid-column:1/-1">
           <p class="tag">Samenwerking</p>
           <h3>Liever de hele doorbraak uit handen?</h3>
           <p>Ik lever de berekening en de tekening; de uitvoering doet uw eigen aannemer. Heeft u die nog niet, dan kan het ook compleet. Samen met MAREE Aanneming werk ik onder de naam De Draagmuurkoning: tekenwerk, berekening, vergunningsaanvraag, het zaagwerk en het staal, tot en met de gestuukte of geverfde wand. U heeft dan &eacute;&eacute;n aanspreekpunt voor het hele traject.</p>
