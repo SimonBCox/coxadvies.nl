@@ -149,6 +149,9 @@ em{font-style:normal;font-weight:600}
 /* footer */
 .foot{background:var(--navy-deep);color:#93a2b2;padding:40px 0}
 .foot-inner{display:flex;flex-wrap:wrap;justify-content:space-between;gap:18px}
+/* Sinds de partnerkolom erbij staat zijn het er vier. Zonder deze grens duwt de
+   brede ondertitel van het merk de vierde kolom naar een eigen regel. */
+.foot-inner>:first-child{max-width:340px}
 .foot b{display:block;font-family:"Lora",serif;color:#e9eef3;font-size:1.1rem;font-weight:600}
 .foot .meta{font-size:.85rem;line-height:1.95}
 .foot a{color:#b7c4d3;text-decoration:none}
