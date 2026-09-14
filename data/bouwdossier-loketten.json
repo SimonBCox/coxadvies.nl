@@ -1,7 +1,7 @@
 {
  "bron": "documentatie/kennis/bestaande_bouw/gebouwendossiers.md",
  "let_op": "Gegenereerd door tools/website/genereer_loketten.py. Niet met de hand wijzigen.",
- "aantal": 139,
+ "aantal": 169,
  "gemeenten": [
   {
    "gemeente": "'s-Hertogenbosch",
@@ -68,6 +68,33 @@
    ]
   },
   {
+   "gemeente": "Aalsmeer",
+   "pdok": [],
+   "kernen": [
+    "Aalsmeer",
+    "Kudelstaart",
+    "Oosteinde"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "onbekend",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1912 t/m 2010",
+     "van": 1912,
+     "tot": 2010,
+     "geldt_voor": "",
+     "loket": "Noord-Hollands Archief",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>Noord-Hollands Archief</strong>, toegang 1178. <strong>Dit bestand is in bewerking en beperkt beschikbaar.</strong> Het archief verwijst voor het raadplegen naar de <strong>gemeente Aalsmeer</strong> zelf. <a href=\"https://noord-hollandsarchief.nl/studiezaal/broninformatie/bouwdossiers-zoeken/aalsmeer\" target=\"_blank\" rel=\"noopener\">https://noord-hollandsarchief.nl/studiezaal/broninformatie/bouwdossiers-zoeken/aalsmeer</a></p>"
+    }
+   ]
+  },
+  {
    "gemeente": "Aalten",
    "pdok": [],
    "kernen": [
@@ -117,6 +144,43 @@
      "route": "duur",
      "wij": false,
      "html": "<p>Bron: <a href=\"https://www.aalten.nl/gemeentearchief\" target=\"_blank\" rel=\"noopener\">https://www.aalten.nl/gemeentearchief</a>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Alblasserdam",
+   "pdok": [],
+   "kernen": [
+    "Alblasserdam",
+    "Kinderdijk"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "onbekend",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1940 t/m 1990",
+     "van": 1940,
+     "tot": 1990,
+     "geldt_voor": "",
+     "loket": "Regionaal Archief Dordrecht",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>Regionaal Archief Dordrecht</strong> (archief 1246). Daarnaast registers van bouwaanvragen 1940-1978 en een index op adres 1932-1975, wat handig is als het dossier zelf niet te vinden is. <a href=\"https://www.regionaalarchiefdordrecht.nl/bouwvergunningen-uit-de-regiogemeenten/\" target=\"_blank\" rel=\"noopener\">https://www.regionaalarchiefdordrecht.nl/bouwvergunningen-uit-de-regiogemeenten/</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 1991",
+     "van": 1991,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Alblasserdam",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Alblasserdam</strong>.</p>"
     }
    ]
   },
@@ -335,6 +399,82 @@
      "route": "wij-mail",
      "wij": true,
      "html": "<p>Het commerciële tussenkanaal bouwarchief.nl heeft Amersfoort gepauzeerd; niet nodig ook, want het archief levert zelf gratis.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Amsterdam",
+   "pdok": [],
+   "kernen": [
+    "stadsdelen Centrum",
+    "Noord",
+    "Oost",
+    "West",
+    "Nieuw-West",
+    "Zuid",
+    "Zuidoost",
+    "Weesp"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "wij-zelfzoeken",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "<p>Twee grenzen: <strong>1905</strong> en <strong>2010</strong>. Het middenstuk staat online en is gratis te downloaden, en daar valt vrijwel de hele woningvoorraad in.</p>",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>vóór 1905</strong>: <strong>Stadsarchief Amsterdam</strong>, beeldbank. Zoek op adres; de tekening is te downloaden met het pictogram links naast de afbeelding. <a href=\"https://archief.amsterdam/beeldbank\" target=\"_blank\" rel=\"noopener\">https://archief.amsterdam/beeldbank</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "1905 t/m 2010",
+     "van": 1905,
+     "tot": 2010,
+     "geldt_voor": "",
+     "loket": "Stadsarchief Amsterdam",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Stadsarchief Amsterdam</strong>, online in de datakaart van de gemeente. Zoek op adres of postcode, kies het juiste adres en blader in de rij Adresgegevens naar het kopje <strong>Bouwdossiers</strong>. <a href=\"https://data.amsterdam.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://data.amsterdam.nl/bouwdossiers</a></p><ul><li>Deze dossiers zijn door de stadsdelen opgebouwd en daarna aan het Stadsarchief overgedragen. Eén dossier gaat vaak over een heel bouwblok.<ul><li>De gemeente noemt hier uitdrukkelijk ook <strong>funderingsinformatie</strong>. Bij een constructievraag in Amsterdam is dat meestal het eerste wat u zoekt.</li><li></li></ul></li></ul>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 2011",
+     "van": 2011,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Amsterdam",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Amsterdam</strong>, Vergunningen, Toezicht en Handhaving, telefonisch via <strong>14 020</strong>, maandag tot en met vrijdag 08.00 tot 18.00 uur.</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Niet-openbaar verklaarde panden</strong>: een deel van de panden is om veiligheidsredenen afgeschermd en komt alleen los met toestemming van de eigenaar of belanghebbende.</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p>Bronnen: <a href=\"https://www.amsterdam.nl/wonen-bouwen-verbouwen/bouwen-verbouwen/bouwtekeningen-bouwvergunningen-opvragen/\" target=\"_blank\" rel=\"noopener\">https://www.amsterdam.nl/wonen-bouwen-verbouwen/bouwen-verbouwen/bouwtekeningen-bouwvergunningen-opvragen/</a>, <a href=\"https://archief.amsterdam/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://archief.amsterdam/bouwdossiers</a>.</p>"
     }
    ]
   },
@@ -1097,6 +1237,32 @@
    ]
   },
   {
+   "gemeente": "Beverwijk",
+   "pdok": [],
+   "kernen": [
+    "Beverwijk",
+    "Wijk aan Zee"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "onbekend",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1900 t/m 2010",
+     "van": 1900,
+     "tot": 2010,
+     "geldt_voor": "",
+     "loket": "gemeente Beverwijk",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p>de dossiers zijn van de <strong>gemeente Beverwijk</strong> digitaal te krijgen via het digitaal loket \"bouwen en verbouwen\", <strong>tegen legeskosten</strong>. Het papieren dossier ligt bij het <strong>Noord-Hollands Archief</strong> en is daar op afspraak in te zien via <strong><a href=\"mailto:inlichtingen@noord-hollandsarchief.nl\">inlichtingen@noord-hollandsarchief.nl</a></strong> (toegang 1371 voor 1900-1988, 1375 voor 1989-2003, 1582 voor 2004-2010). <a href=\"https://noord-hollandsarchief.nl/studiezaal/broninformatie/bouwdossiers-zoeken/beverwijk\" target=\"_blank\" rel=\"noopener\">https://noord-hollandsarchief.nl/studiezaal/broninformatie/bouwdossiers-zoeken/beverwijk</a></p>"
+    }
+   ]
+  },
+  {
    "gemeente": "Bladel",
    "pdok": [],
    "kernen": [
@@ -1155,6 +1321,46 @@
      "route": "wij-zelfzoeken",
      "wij": true,
      "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/427\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/427</a>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Bloemendaal",
+   "pdok": [],
+   "kernen": [
+    "Bloemendaal",
+    "Overveen",
+    "Aerdenhout",
+    "Vogelenzang",
+    "Bennebroek"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "wij-zelfzoeken",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "<p>Let op de twee verschillende reeksen: het oude Bloemendaal loopt tot 1988, het geannexeerde Bennebroek tot 2008.</p>",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1902 t/m 1988 (Bloemendaal) en 1905 t/m 2008 (voormalige gemeente Bennebroek)",
+     "van": 1902,
+     "tot": 1988,
+     "geldt_voor": "voormalige gemeente Bennebroek",
+     "loket": "Noord-Hollands Archief",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Noord-Hollands Archief</strong>. Een groot deel is digitaal beschikbaar en te downloaden via het overzicht van bouwvergunningendossiers. <a href=\"https://noord-hollandsarchief.nl/studiezaal/broninformatie/bouwdossiers-zoeken/bloemendaal\" target=\"_blank\" rel=\"noopener\">https://noord-hollandsarchief.nl/studiezaal/broninformatie/bouwdossiers-zoeken/bloemendaal</a></p><ul><li>Niet alle Bennebroekse dossiers staan in het overzicht. Ontbreekt een adres, mail dan <strong><a href=\"mailto:inlichtingen@noord-hollandsarchief.nl\">inlichtingen@noord-hollandsarchief.nl</a></strong>.</li></ul>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 1989 (Bloemendaal) en vanaf 2009 (Bennebroek)",
+     "van": 2009,
+     "tot": null,
+     "geldt_voor": "Bennebroek",
+     "loket": "gemeente Bloemendaal",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Bloemendaal</strong>.</p>"
     }
    ]
   },
@@ -1795,6 +2001,78 @@
    ]
   },
   {
+   "gemeente": "Den Haag",
+   "pdok": [],
+   "kernen": [
+    "Scheveningen",
+    "Loosduinen",
+    "Ypenburg",
+    "Leidschenveen"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "balie",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "<p>Den Haag levert bouwtekeningen van vóór 2010 <strong>niet digitaal</strong>. Inzien kan alleen op afspraak aan de balie, en u zoekt daar zelf in de dozen.</p>",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1879 t/m 1900",
+     "van": 1879,
+     "tot": 1900,
+     "geldt_voor": "",
+     "loket": "Haags Gemeentearchief",
+     "route": "balie",
+     "wij": false,
+     "html": "<p><strong>Haags Gemeentearchief</strong>, voor panden die in die jaren zijn gebouwd of verbouwd. <a href=\"https://haagsgemeentearchief.nl/bronnen-en-collecties/bouwtekeningen\" target=\"_blank\" rel=\"noopener\">https://haagsgemeentearchief.nl/bronnen-en-collecties/bouwtekeningen</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "1900 t/m 2010",
+     "van": 1900,
+     "tot": 2010,
+     "geldt_voor": "",
+     "loket": "Inzagebalie Bouwtekeningen",
+     "route": "balie",
+     "wij": false,
+     "html": "<p><strong>Inzagebalie Bouwtekeningen</strong> van de gemeente. Alleen op afspraak en alleen op locatie. U krijgt binnen ongeveer twee werkdagen een bevestiging per mail; de afspraak zelf valt meestal twee tot drie weken later. <a href=\"https://www.denhaag.nl/nl/vergunningen-en-ontheffingen/inzage-bouwtekeningen-aanvragen/\" target=\"_blank\" rel=\"noopener\">https://www.denhaag.nl/nl/vergunningen-en-ontheffingen/inzage-bouwtekeningen-aanvragen/</a></p><ul><li>Inzien is gratis. Voor een kopie of scan betaalt u <strong>A0 € 4,00</strong>, <strong>A1 € 3,00</strong>, <strong>A2 € 2,50</strong>, <strong>A3 € 0,50</strong> of <strong>A4 € 0,30</strong> per afdruk, ter plaatse en alleen met pin. Bestelde scans komen meestal binnen tien werkdagen per mail.<ul><li>Een bouwtekening zit vaak in een dossier van een heel huizenblok, verdeeld over meerdere dozen. U zoekt zelf; de baliemedewerker zoekt niet mee, maar helpt wel bij het scannen.</li><li>Wilt u een tekening zien van een ander adres dan is afgesproken, dan is daar een nieuwe afspraak voor nodig.</li></ul></li></ul>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 2011",
+     "van": 2011,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "Den Haag Informatiecentrum",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>Den Haag Informatiecentrum</strong>, Spui 70 (Atrium), 2511 BT Den Haag, maandag tot en met vrijdag 08.30 tot 16.30 uur.</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "Gesloopte panden uit 1900 t/m 2010",
+     "van": 1900,
+     "tot": 2010,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "balie",
+     "wij": false,
+     "html": "<p>die tekeningen liggen bij het Haags Gemeentearchief in plaats van bij de Inzagebalie.</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "balie",
+     "wij": false,
+     "html": "<p>Bronnen: <a href=\"https://www.denhaag.nl/nl/vergunningen-en-ontheffingen/inzage-bouwtekeningen-aanvragen/\" target=\"_blank\" rel=\"noopener\">https://www.denhaag.nl/nl/vergunningen-en-ontheffingen/inzage-bouwtekeningen-aanvragen/</a> (bijgewerkt 3 juli 2026), <a href=\"https://haagsgemeentearchief.nl/bronnen-en-collecties/bouwtekeningen\" target=\"_blank\" rel=\"noopener\">https://haagsgemeentearchief.nl/bronnen-en-collecties/bouwtekeningen</a>.</p>"
+    }
+   ]
+  },
+  {
    "gemeente": "Deurne",
    "pdok": [],
    "kernen": [
@@ -2011,6 +2289,90 @@
      "route": "wij-mail",
      "wij": true,
      "html": "<p>Bron: <a href=\"https://www.regionaalarchieftilburg.nl/omgevingsvergunningen/\" target=\"_blank\" rel=\"noopener\">https://www.regionaalarchieftilburg.nl/omgevingsvergunningen/</a>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Dordrecht",
+   "pdok": [],
+   "kernen": [
+    "Dubbeldam",
+    "Sterrenburg",
+    "Stadspolders",
+    "Krispijn",
+    "Wielwijk"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "wij-zelfzoeken",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "<p>Het <strong>Regionaal Archief Dordrecht</strong> heeft alle Dordtse bouwvergunningen tot 1990. Binnen die periode maakt het auteursrecht het verschil: de oudste helft staat thuis op het scherm, de jaren daarna alleen in de studiezaal.</p>",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1900 t/m 1960",
+     "van": 1900,
+     "tot": 1960,
+     "geldt_voor": "",
+     "loket": "Regionaal Archief Dordrecht",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Regionaal Archief Dordrecht</strong>, complete bouwdossiers via de bouwvergunningenzoeker. Alles wat op de site staat is <strong>gratis te downloaden</strong>, op 300 dpi. <a href=\"https://www.regionaalarchiefdordrecht.nl/zoekwijzer-bouwvergunningen/\" target=\"_blank\" rel=\"noopener\">https://www.regionaalarchiefdordrecht.nl/zoekwijzer-bouwvergunningen/</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "1961 t/m 1980",
+     "van": 1961,
+     "tot": 1980,
+     "geldt_voor": "",
+     "loket": "alleen in de studiezaal",
+     "route": "balie",
+     "wij": false,
+     "html": "<p>wel gedigitaliseerd, maar wegens auteursrecht <strong>alleen in de studiezaal</strong> in te zien.</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "1981 t/m 1990",
+     "van": 1981,
+     "tot": 1990,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p>bij het Regionaal Archief.</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 1991",
+     "van": 1991,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Dordrecht",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Dordrecht</strong>. <a href=\"https://cms.dordrecht.nl/Inwoners/Overzicht_Inwoners/archief_en_kadaster/Bouwarchief_inzien\" target=\"_blank\" rel=\"noopener\">https://cms.dordrecht.nl/Inwoners/Overzicht_Inwoners/archief_en_kadaster/Bouwarchief_inzien</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Niet gedigitaliseerde stukken</strong> kunnen alsnog gescand worden. Het archief maakt eerst een offerte; na akkoord volgen de scans binnen drie weken en de factuur achteraf. Contact: <strong><a href=\"mailto:studiezaal@dordrecht.nl\">studiezaal@dordrecht.nl</a></strong>.</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p>Aanvragen die vóór 09.00 uur binnen zijn liggen dezelfde dag om 11.00 uur klaar, vóór 12.45 uur ingediend om 14.00 uur.</p>"
     }
    ]
   },
@@ -2907,6 +3269,124 @@
    ]
   },
   {
+   "gemeente": "Haarlem",
+   "pdok": [],
+   "kernen": [
+    "Schalkwijk",
+    "Haarlem-Noord",
+    "Spaarndam-West"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "wij-zelfzoeken",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1888 t/m 2010",
+     "van": 1888,
+     "tot": 2010,
+     "geldt_voor": "",
+     "loket": "Noord-Hollands Archief",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Noord-Hollands Archief</strong>. Het hele bestand is online doorzoekbaar en een groot deel is als scan te downloaden, gratis. Zoek via <strong>Uitgebreid zoeken</strong> op adres; de documenten in een dossier zijn afzonderlijk te downloaden. <a href=\"https://noord-hollandsarchief.nl/studiezaal/broninformatie/bouwdossiers-zoeken/haarlem\" target=\"_blank\" rel=\"noopener\">https://noord-hollandsarchief.nl/studiezaal/broninformatie/bouwdossiers-zoeken/haarlem</a></p><ul><li>Een dossier bevat de aanvraag en de vergunningverlening, meestal met bouwtekeningen en constructietekeningen in zwart-wit.<ul><li>Vragen: <strong><a href=\"mailto:inlichtingen@noord-hollandsarchief.nl\">inlichtingen@noord-hollandsarchief.nl</a></strong></li></ul></li></ul>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 2011",
+     "van": 2011,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Haarlem",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Haarlem</strong> per mail. <a href=\"https://haarlem.nl/bouwtekeningen-opvragen\" target=\"_blank\" rel=\"noopener\">https://haarlem.nl/bouwtekeningen-opvragen</a></p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Haarlemmermeer",
+   "pdok": [],
+   "kernen": [
+    "Hoofddorp",
+    "Nieuw-Vennep",
+    "Badhoevedorp",
+    "Zwanenburg",
+    "Halfweg",
+    "Spaarndam-Oost",
+    "Vijfhuizen",
+    "Lijnden",
+    "Rijsenhout",
+    "Burgerveen",
+    "de voormalige gemeente Haarlemmerliede",
+    "Spaarnwoude"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "wij-zelfzoeken",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "<p>Twee gebieden met een eigen reeks, want Haarlemmerliede en Spaarnwoude is pas in 2019 bij Haarlemmermeer gekomen. Het oude Haarlemmermeer loopt bij het archief maar tot 1973; Halfweg en Spaarnwoude tot 2010.</p>",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "Haarlemmermeer 1905 t/m 1919",
+     "van": 1905,
+     "tot": 1919,
+     "geldt_voor": "",
+     "loket": "Noord-Hollands Archief",
+     "route": "balie",
+     "wij": false,
+     "html": "<p><strong>Noord-Hollands Archief</strong>, toegang 7102. Alleen een overzicht staat online, <strong>scans zijn er niet</strong>. Het papieren dossier is op afspraak in te zien in de studiezaal aan de Jansstraat 40 in Haarlem, via <strong><a href=\"mailto:inlichtingen@noord-hollandsarchief.nl\">inlichtingen@noord-hollandsarchief.nl</a></strong>.</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "Haarlemmermeer 1920 t/m 1973",
+     "van": 1920,
+     "tot": 1973,
+     "geldt_voor": "",
+     "loket": "Noord-Hollands Archief",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Noord-Hollands Archief</strong>, toegang 7128. Een groot deel is digitaal beschikbaar en te downloaden. <a href=\"https://noord-hollandsarchief.nl/studiezaal/broninformatie/bouwdossiers-zoeken/haarlemmermeer\" target=\"_blank\" rel=\"noopener\">https://noord-hollandsarchief.nl/studiezaal/broninformatie/bouwdossiers-zoeken/haarlemmermeer</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "Haarlemmerliede en Spaarnwoude 1878 t/m 1945",
+     "van": 1878,
+     "tot": 1945,
+     "geldt_voor": "",
+     "loket": "Noord-Hollands Archief",
+     "route": "balie",
+     "wij": false,
+     "html": "<p><strong>Noord-Hollands Archief</strong>, toegang 1800. Alleen in de studiezaal, niet online.</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "Haarlemmerliede en Spaarnwoude 1946 t/m 2010",
+     "van": 1946,
+     "tot": 2010,
+     "geldt_voor": "",
+     "loket": "Noord-Hollands Archief",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Noord-Hollands Archief</strong>, digitaal op te vragen via het archievenoverzicht. <a href=\"https://noord-hollandsarchief.nl/studiezaal/broninformatie/bouwdossiers-zoeken/haarlemmerliede-en-spaarnwoude\" target=\"_blank\" rel=\"noopener\">https://noord-hollandsarchief.nl/studiezaal/broninformatie/bouwdossiers-zoeken/haarlemmerliede-en-spaarnwoude</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "Haarlemmermeer vanaf 1974",
+     "van": 1974,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Haarlemmermeer",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Haarlemmermeer</strong>.</p>"
+    }
+   ]
+  },
+  {
    "gemeente": "Halderberge",
    "pdok": [],
    "kernen": [
@@ -3006,6 +3486,67 @@
    ]
   },
   {
+   "gemeente": "Hardinxveld-Giessendam",
+   "pdok": [],
+   "kernen": [
+    "Hardinxveld",
+    "Giessendam",
+    "Boven-Hardinxveld",
+    "Neder-Hardinxveld"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "onbekend",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "<p>De twee dorpen waren tot 1957 aparte gemeenten en hebben daardoor elk hun eigen reeks. Zoek dus eerst uit aan welke kant van de Giessen het pand staat.</p>",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "Hardinxveld 1919 t/m 1956",
+     "van": 1919,
+     "tot": 1956,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p>(archief 649) en het register van bouwaanvragen <strong>1899-1919</strong> (archief 648).</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "Giessendam 1905 en 1907 t/m 1956",
+     "van": 1907,
+     "tot": 1956,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p>(archief 647), met registers vanaf 1904.</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "Hardinxveld-Giessendam 1957 t/m 1999",
+     "van": 1957,
+     "tot": 1999,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p>(archief 1287). <a href=\"https://www.regionaalarchiefdordrecht.nl/bouwvergunningen-uit-de-regiogemeenten/\" target=\"_blank\" rel=\"noopener\">https://www.regionaalarchiefdordrecht.nl/bouwvergunningen-uit-de-regiogemeenten/</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 2000",
+     "van": 2000,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Hardinxveld-Giessendam",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Hardinxveld-Giessendam</strong>.</p>"
+    }
+   ]
+  },
+  {
    "gemeente": "Hattem",
    "pdok": [],
    "kernen": [
@@ -3049,6 +3590,56 @@
      "route": "onbekend",
      "wij": false,
      "html": "<p>Bron: <a href=\"https://noordveluwsarchief.nl/\" target=\"_blank\" rel=\"noopener\">https://noordveluwsarchief.nl/</a>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Heemskerk",
+   "pdok": [],
+   "kernen": [
+    "Heemskerk"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "onbekend",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1909 t/m 2010",
+     "van": 1909,
+     "tot": 2010,
+     "geldt_voor": "",
+     "loket": "Noord-Hollands Archief",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>Noord-Hollands Archief</strong>, toegangen 2443 en 3007. Papier op afspraak in de studiezaal via <strong><a href=\"mailto:inlichtingen@noord-hollandsarchief.nl\">inlichtingen@noord-hollandsarchief.nl</a></strong>. Dezelfde dossiers zijn digitaal te raadplegen bij de <strong>gemeente Heemskerk</strong>. <a href=\"https://noord-hollandsarchief.nl/studiezaal/broninformatie/bouwdossiers-zoeken/heemskerk\" target=\"_blank\" rel=\"noopener\">https://noord-hollandsarchief.nl/studiezaal/broninformatie/bouwdossiers-zoeken/heemskerk</a></p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Heemstede",
+   "pdok": [],
+   "kernen": [
+    "Heemstede"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "onbekend",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1901 t/m 2012",
+     "van": 1901,
+     "tot": 2012,
+     "geldt_voor": "",
+     "loket": "gemeente Heemstede",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p>een groot deel is online in te zien via de <strong>gemeente Heemstede</strong>. Dossiers die als \"Historisch\" zijn aangemerkt staan daar niet bij; die liggen op papier bij het <strong>Noord-Hollands Archief</strong> en zijn op afspraak in te zien via <strong><a href=\"mailto:inlichtingen@noord-hollandsarchief.nl\">inlichtingen@noord-hollandsarchief.nl</a></strong>. <a href=\"https://noord-hollandsarchief.nl/studiezaal/broninformatie/bouwdossiers-zoeken/heemstede\" target=\"_blank\" rel=\"noopener\">https://noord-hollandsarchief.nl/studiezaal/broninformatie/bouwdossiers-zoeken/heemstede</a></p>"
     }
    ]
   },
@@ -3202,6 +3793,43 @@
      "route": "wij-formulier",
      "wij": true,
      "html": "<p>Bron: <a href=\"https://www.helmond.nl/1/bouwenenwonen/bouwplannen-en-bouwtekeningen-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.helmond.nl/1/bouwenenwonen/bouwplannen-en-bouwtekeningen-aanvragen</a>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Hendrik-Ido-Ambacht",
+   "pdok": [],
+   "kernen": [
+    "Hendrik-Ido-Ambacht",
+    "De Volgerlanden"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "onbekend",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1910 t/m 1937",
+     "van": 1910,
+     "tot": 1937,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p>(archief 1036) en <strong>1938 t/m 1990</strong> (archief 1230): <strong>Regionaal Archief Dordrecht</strong>. <a href=\"https://www.regionaalarchiefdordrecht.nl/bouwvergunningen-uit-de-regiogemeenten/\" target=\"_blank\" rel=\"noopener\">https://www.regionaalarchiefdordrecht.nl/bouwvergunningen-uit-de-regiogemeenten/</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 1991",
+     "van": 1991,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Hendrik-Ido-Ambacht",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Hendrik-Ido-Ambacht</strong>.</p>"
     }
    ]
   },
@@ -3384,6 +4012,132 @@
    ]
   },
   {
+   "gemeente": "Hilversum",
+   "pdok": [],
+   "kernen": [
+    "Hilversum",
+    "regio-archief bedient ook Huizen",
+    "Muiden",
+    "Muiderberg",
+    "Naarden",
+    "Wijdemeren"
+   ],
+   "gecheckt": "2026-09-09",
+   "route": "wij-zelfzoeken",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1901 t/m 2000",
+     "van": 1901,
+     "tot": 2000,
+     "geldt_voor": "",
+     "loket": "Archief Gooi en Vechtstreek",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Archief Gooi en Vechtstreek</strong> (Streekarchief, vestigingen Naarden en Hilversum). Circa 140.000 tekeningen en 40.000 vergunningen over deze periode zijn gedigitaliseerd en op adres doorzoekbaar via de Zoekpagina Bouwtekeningen: <a href=\"https://zoeken.archiefgooienvechtstreek.nl/\" target=\"_blank\" rel=\"noopener\">https://zoeken.archiefgooienvechtstreek.nl/</a> (rubriek \"Bouwtekeningen Hilversum\"). Downloaden van een digitale tekening is <strong>gratis</strong>; het is voor eigen gebruik, niet voor verveelvoudiging. De stukken rond de vergunningverlening zelf (aanvraag, beschikking) liggen alleen op papier en zijn met het dossiernummer in te zien in de studiezaal. <a href=\"mailto:info@archiefgooienvechtstreek.nl\">info@archiefgooienvechtstreek.nl</a>, (035) 207 3125, open ma t/m do.</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "2001 t/m april 2010",
+     "van": 2001,
+     "tot": 2010,
+     "geldt_voor": "",
+     "loket": "Archief Gooi en Vechtstreek",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p>eveneens <strong>Archief Gooi en Vechtstreek</strong>, maar dit deel is niet gedigitaliseerd: telefonisch of per mail opvragen (zelfde contact als hierboven); inzage in de studiezaal kan hier zonder afspraak.</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf april 2010",
+     "van": 2010,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Hilversum",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p><strong>gemeente Hilversum</strong> zelf. Bouwtekeningen en bijlagen van (omgevings)vergunningen zijn <strong>gratis</strong> te downloaden. Aanvragen per mail bij <strong><a href=\"mailto:puza-bo-ondersteuning@hilversum.nl\">puza-bo-ondersteuning@hilversum.nl</a></strong>, of via het algemene contactformulier <a href=\"https://hilversum.nl/contact-afspraak/contact-gemeente\" target=\"_blank\" rel=\"noopener\">https://hilversum.nl/contact-afspraak/contact-gemeente</a>, tel. 14 035.</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Gemeentelijk monument</strong>: geen apart online monumentendossier gevonden. Vragen over de monumentstatus en eventuele aanvullende stukken (redengevende omschrijving e.d.) lopen via de erfgoedadviseur: <strong><a href=\"mailto:monumenten@hilversum.nl\">monumenten@hilversum.nl</a></strong>, tel. 14 035.</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p>Bronnen: <a href=\"https://hilversum.nl/bouwen-verbouwen/bouwtekeningen\" target=\"_blank\" rel=\"noopener\">https://hilversum.nl/bouwen-verbouwen/bouwtekeningen</a>, <a href=\"https://archiefgooienvechtstreek.nl/onderzoek/hoe-zoek-ik-naar-bouwvergunningen/\" target=\"_blank\" rel=\"noopener\">https://archiefgooienvechtstreek.nl/onderzoek/hoe-zoek-ik-naar-bouwvergunningen/</a>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Hoeksche Waard",
+   "pdok": [],
+   "kernen": [
+    "Oud-Beijerland",
+    "Numansdorp",
+    "Strijen",
+    "Puttershoek",
+    "Maasdam",
+    "'s-Gravendeel",
+    "Klaaswaal",
+    "Mijnsheerenland",
+    "Westmaas",
+    "Heinenoord",
+    "Nieuw-Beijerland",
+    "Zuid-Beijerland",
+    "Piershil",
+    "Goudswaard",
+    "Cromstrijen",
+    "Binnenmaas",
+    "Korendijk"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "onbekend",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "<p>De gemeente is in 2019 ontstaan uit vijf gemeenten die zelf weer uit dorpen zijn samengesteld, en het archief is nog per oud dorp geordend. Zoek dus op de naam van de kern en niet op Hoeksche Waard.</p>",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>Regionaal Archief Dordrecht</strong> heeft per kern een eigen reeks. De meeste lopen tot <strong>1983</strong> of <strong>1990</strong>; Oud-Beijerland tot 1990, Strijen tot 1990, Cromstrijen 1994-2008. Van <strong>Binnenmaas</strong> en <strong>'s-Gravendeel</strong> heeft het archief niets. <a href=\"https://www.regionaalarchiefdordrecht.nl/bouwvergunningen-uit-de-regiogemeenten/\" target=\"_blank\" rel=\"noopener\">https://www.regionaalarchiefdordrecht.nl/bouwvergunningen-uit-de-regiogemeenten/</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>nieuwere vergunningen</strong>: het gemeentehuis in <strong>Maasdam</strong>.</p>"
+    }
+   ]
+  },
+  {
    "gemeente": "Houten",
    "pdok": [],
    "kernen": [
@@ -3478,6 +4232,93 @@
      "route": "duur",
      "wij": false,
      "html": "<p>Bron: <a href=\"https://rhcrijnstreek.nl/bronnen/bouwvergunningen/overzicht-bewerkte-bronnen/ijsselstein-bouwvergunningen-1905-1999/\" target=\"_blank\" rel=\"noopener\">https://rhcrijnstreek.nl/bronnen/bouwvergunningen/overzicht-bewerkte-bronnen/ijsselstein-bouwvergunningen-1905-1999/</a>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Kaag en Braassem",
+   "pdok": [],
+   "kernen": [
+    "Roelofarendsveen",
+    "Oude Wetering",
+    "Woubrugge",
+    "Leimuiden",
+    "Rijnsaterwoude",
+    "Hoogmade",
+    "Rijpwetering",
+    "Oud Ade",
+    "Nieuwe Wetering",
+    "Bilderdam",
+    "Kaag"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "balie",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "<p>De gemeente is in 2009 ontstaan uit Alkemade en Jacobswoude, en het archief is nog per voormalige gemeente geordend. Zoek dus eerst welke kern het betreft.</p>",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "balie",
+     "wij": false,
+     "html": "<p><strong>Erfgoed Leiden en Omstreken</strong>, per voormalige gemeente: Alkemade <strong>1905 t/m 2001</strong> en <strong>2001 t/m 2008</strong>, Jacobswoude <strong>1991 t/m 2008</strong>, Leimuiden <strong>1916 t/m 1990</strong>, Rijnsaterwoude <strong>1916 t/m 1990</strong>, Woubrugge <strong>1907 t/m 1990</strong>. <a href=\"https://www.erfgoedleiden.nl/collecties/bouwtekeningen\" target=\"_blank\" rel=\"noopener\">https://www.erfgoedleiden.nl/collecties/bouwtekeningen</a></p><ul><li><strong>Erfgoed Leiden levert geen scans of kopieën.</strong> Inzage is alleen in de studiezaal, op afspraak, en u mag daar zelf foto's maken.</li></ul>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 2009",
+     "van": 2009,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Kaag en Braassem",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Kaag en Braassem</strong>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Katwijk",
+   "pdok": [],
+   "kernen": [
+    "Katwijk aan Zee",
+    "Katwijk aan den Rijn",
+    "Rijnsburg",
+    "Valkenburg",
+    "Hoornes",
+    "Rijnsoever"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "onbekend",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1932 t/m 1945",
+     "van": 1932,
+     "tot": 1945,
+     "geldt_voor": "",
+     "loket": "Erfgoed Leiden en Omstreken",
+     "route": "balie",
+     "wij": false,
+     "html": "<p><strong>Erfgoed Leiden en Omstreken</strong>, alleen inzage in de studiezaal op afspraak; er worden geen scans of kopieën geleverd. <a href=\"https://www.erfgoedleiden.nl/collecties/bouwtekeningen\" target=\"_blank\" rel=\"noopener\">https://www.erfgoedleiden.nl/collecties/bouwtekeningen</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 1946",
+     "van": 1946,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Katwijk",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Katwijk</strong>. Dat is vrijwel de hele woningvoorraad, want Katwijk is na de oorlog gegroeid.</p>"
     }
    ]
   },
@@ -3693,6 +4534,98 @@
      "route": "wij-zelfzoeken",
      "wij": true,
      "html": "<p>Bronnen: <a href=\"https://www.gemeentelandvancuijk.nl/bouwtekeningen-uit-het-archief\" target=\"_blank\" rel=\"noopener\">https://www.gemeentelandvancuijk.nl/bouwtekeningen-uit-het-archief</a> en <a href=\"https://www.bhic.nl/onderzoeken/bouwvergunningen\" target=\"_blank\" rel=\"noopener\">https://www.bhic.nl/onderzoeken/bouwvergunningen</a>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Leiden",
+   "pdok": [],
+   "kernen": [],
+   "gecheckt": "2026-09-14",
+   "route": "wij-zelfzoeken",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "<p>Van vóór 1929 is er niets. Het Leidse stadhuis brandde in 1929 af en daarmee ging het oude bouwvergunningenarchief verloren. Voor een pand uit de negentiende eeuw is dat meteen het antwoord: het dossier bestaat niet meer.</p>",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>vóór 1929</strong>: <strong>niet meer beschikbaar</strong>, verloren bij de stadhuisbrand van 1929.</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "1929 t/m 2010",
+     "van": 1929,
+     "tot": 2010,
+     "geldt_voor": "",
+     "loket": "Erfgoed Leiden en Omstreken",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Erfgoed Leiden en Omstreken</strong>, in het e-depot. Gratis te bekijken en te downloaden via het bezoekersportaal. <a href=\"https://www.erfgoedleiden.nl/collecties/bouwtekeningen\" target=\"_blank\" rel=\"noopener\">https://www.erfgoedleiden.nl/collecties/bouwtekeningen</a></p><ul><li>Voor de vergunningaanvraag zelf of de correspondentie in een dossier moet u apart bij de studiezaal zijn: <strong><a href=\"mailto:studiezaal@erfgoedleiden.nl\">studiezaal@erfgoedleiden.nl</a></strong>.</li></ul>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 2011",
+     "van": 2011,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Leiden",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Leiden</strong>, via de gemeentesite.</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": ""
+    }
+   ]
+  },
+  {
+   "gemeente": "Leiderdorp",
+   "pdok": [],
+   "kernen": [
+    "Leiderdorp"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "onbekend",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1882 t/m 1915",
+     "van": 1882,
+     "tot": 1915,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "balie",
+     "wij": false,
+     "html": "<p>en <strong>1900 t/m 1997</strong>: <strong>Erfgoed Leiden en Omstreken</strong>, twee aparte overzichten. <strong>Erfgoed Leiden levert deze tekeningen niet digitaal</strong>; inzage is in de studiezaal op afspraak. <a href=\"https://www.erfgoedleiden.nl/collecties/bouwtekeningen\" target=\"_blank\" rel=\"noopener\">https://www.erfgoedleiden.nl/collecties/bouwtekeningen</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p>Voor de <strong>gedigitaliseerde</strong> vergunningen verwijst het archief naar de <strong>gemeente Leiderdorp</strong>.</p>"
     }
    ]
   },
@@ -4179,6 +5112,59 @@
    ]
   },
   {
+   "gemeente": "Molenlanden",
+   "pdok": [],
+   "kernen": [
+    "Bleskensgraaf",
+    "Groot-Ammers",
+    "Nieuw-Lekkerland",
+    "Streefkerk",
+    "Langerak",
+    "Nieuwpoort",
+    "Molenaarsgraaf",
+    "Brandwijk",
+    "Goudriaan",
+    "Ottoland",
+    "Oud-Alblas",
+    "Wijngaarden",
+    "Giessenburg",
+    "Hoornaar",
+    "Arkel",
+    "Hoogblokland",
+    "Noordeloos",
+    "Meerkerk"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "onbekend",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "<p>Ook hier is het archief per oud dorp geordend, en het Regionaal Archief heeft vooral de vroegste jaren. Alles wat nieuwer is ligt op het gemeentehuis in Bleskensgraaf.</p>",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>Regionaal Archief Dordrecht</strong>, per kern en meestal alleen tot de jaren dertig: Groot-Ammers 1903-1935, Langerak 1904-1936, Nieuw-Lekkerland 1903-1924, Nieuwpoort 1915-1935, Streefkerk 1903-1930, plus registers van bouwaanvragen voor Brandwijk, Molenaarsgraaf en Ottoland. Van <strong>Bleskensgraaf, Goudriaan, Oud-Alblas en Wijngaarden</strong> heeft het archief niets. <a href=\"https://www.regionaalarchiefdordrecht.nl/bouwvergunningen-uit-de-regiogemeenten/\" target=\"_blank\" rel=\"noopener\">https://www.regionaalarchiefdordrecht.nl/bouwvergunningen-uit-de-regiogemeenten/</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>al het nieuwere</strong>: het gemeentehuis in <strong>Bleskensgraaf</strong>.</p>"
+    }
+   ]
+  },
+  {
    "gemeente": "Montferland",
    "pdok": [],
    "kernen": [
@@ -4437,6 +5423,49 @@
    ]
   },
   {
+   "gemeente": "Nieuwkoop",
+   "pdok": [],
+   "kernen": [
+    "Nieuwkoop",
+    "Ter Aar",
+    "Nieuwveen",
+    "Zevenhoven",
+    "Noorden",
+    "Woerdense Verlaat",
+    "Langeraar",
+    "Papenveer"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "wij-mail",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "tot en met 2006",
+     "van": null,
+     "tot": 2006,
+     "geldt_voor": "",
+     "loket": "Erfgoed Leiden en Omstreken",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p><strong>Erfgoed Leiden en Omstreken</strong>. De vergunningen zijn op dit moment in digitalisering en daardoor niet zelf te raadplegen. Mail het adres naar <strong><a href=\"mailto:studiezaal@erfgoedleiden.nl\">studiezaal@erfgoedleiden.nl</a></strong>; zij vragen de scans op bij de digitaliseerder. Reken op <strong>ongeveer twee weken</strong>. <a href=\"https://www.erfgoedleiden.nl/collecties/bouwtekeningen\" target=\"_blank\" rel=\"noopener\">https://www.erfgoedleiden.nl/collecties/bouwtekeningen</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 2007",
+     "van": 2007,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Nieuwkoop",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Nieuwkoop</strong>.</p>"
+    }
+   ]
+  },
+  {
    "gemeente": "Nijkerk",
    "pdok": [],
    "kernen": [
@@ -4530,6 +5559,45 @@
      "route": "wij-formulier",
      "wij": true,
      "html": "<p><strong>gemeente Nijmegen</strong> zelf, tel. 14 024, contactformulier <a href=\"https://formulier.nijmegen.nl/contactformulier/startpagina/\" target=\"_blank\" rel=\"noopener\">https://formulier.nijmegen.nl/contactformulier/startpagina/</a>. Zie <a href=\"https://www.nijmegen.nl/diensten/bouwen/opvragen-bouw-of-sloopplan/\" target=\"_blank\" rel=\"noopener\">https://www.nijmegen.nl/diensten/bouwen/opvragen-bouw-of-sloopplan/</a>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Noordwijk",
+   "pdok": [],
+   "kernen": [
+    "Noordwijk-Binnen",
+    "Noordwijk aan Zee",
+    "Noordwijkerhout",
+    "De Zilk"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "onbekend",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "Noordwijk 1905 t/m 1932",
+     "van": 1905,
+     "tot": 1932,
+     "geldt_voor": "",
+     "loket": "Erfgoed Leiden en Omstreken",
+     "route": "balie",
+     "wij": false,
+     "html": "<p><strong>Erfgoed Leiden en Omstreken</strong>, alleen inzage in de studiezaal op afspraak, geen scans of kopieën. <a href=\"https://www.erfgoedleiden.nl/collecties/bouwtekeningen\" target=\"_blank\" rel=\"noopener\">https://www.erfgoedleiden.nl/collecties/bouwtekeningen</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "Noordwijk vanaf 1933",
+     "van": 1933,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p>en <strong>Noordwijkerhout vanaf 1901</strong>: <strong>gemeente Noordwijk</strong>.</p>"
     }
    ]
   },
@@ -5148,6 +6216,42 @@
    ]
   },
   {
+   "gemeente": "Papendrecht",
+   "pdok": [],
+   "kernen": [
+    "Papendrecht"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "onbekend",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1930 t/m 1990",
+     "van": 1930,
+     "tot": 1990,
+     "geldt_voor": "",
+     "loket": "Regionaal Archief Dordrecht",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>Regionaal Archief Dordrecht</strong> (archief 1244). Wat op de site staat is gratis te downloaden; de rest gaat via een offerte voor scanwerk (<strong><a href=\"mailto:studiezaal@dordrecht.nl\">studiezaal@dordrecht.nl</a></strong>), levering binnen drie weken. <a href=\"https://www.regionaalarchiefdordrecht.nl/bouwvergunningen-uit-de-regiogemeenten/\" target=\"_blank\" rel=\"noopener\">https://www.regionaalarchiefdordrecht.nl/bouwvergunningen-uit-de-regiogemeenten/</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 1991",
+     "van": 1991,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Papendrecht",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Papendrecht</strong>.</p>"
+    }
+   ]
+  },
+  {
    "gemeente": "Putten",
    "pdok": [],
    "kernen": [
@@ -5512,6 +6616,82 @@
    ]
   },
   {
+   "gemeente": "Rotterdam",
+   "pdok": [],
+   "kernen": [
+    "Hoek van Holland",
+    "Hoogvliet",
+    "Pernis",
+    "IJsselmonde",
+    "Charlois",
+    "Delfshaven",
+    "Kralingen",
+    "Overschie"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "wij-zelfzoeken",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "<p>Rotterdam is gemengd. Een deel van de dossiers levert het archief digitaal, de rest is alleen in de studiezaal in te zien. Begin bij de jaren, want daar zit hier het grootste voorbehoud.</p>",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1905 t/m 1940",
+     "van": 1905,
+     "tot": 1940,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>vrijwel alles is verbrand bij het bombardement van mei 1940.</strong> Controleren loont nog steeds, maar houd er bij een vooroorlogs pand in de binnenstad rekening mee dat er niets ligt.</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "1861 t/m oktober 2010",
+     "van": 1861,
+     "tot": 2010,
+     "geldt_voor": "",
+     "loket": "Stadsarchief Rotterdam",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Stadsarchief Rotterdam</strong>. Zoeken op straatnaam en huisnummer. <a href=\"https://stadsarchief.rotterdam.nl/bouwtekeningen\" target=\"_blank\" rel=\"noopener\">https://stadsarchief.rotterdam.nl/bouwtekeningen</a></p><ul><li>Dossiers <strong>van 1956 en later</strong> zijn auteursrechtelijk beschermd, maar de scans zijn wel te downloaden: het envelop-pictogram rechtsboven in de beschrijving levert een downloadlink per mail.<ul><li>Staat een dossier niet online, dan reserveert u het met het pictogram van het opengeklapte boekje voor inzage in de studiezaal. **Het archief stuurt die dossiers niet digitaal op.** Reserveren kan voor maximaal tien stukken tegelijk; op dezelfde dag opvragen duurt minimaal een half uur. Een afspraak maakt u telefonisch op <strong>010 267 55 55</strong>, maandag tot en met vrijdag 09.00 tot 17.00 uur.</li><li>Inzien is gratis. Voor kopieën en scans uit de periode 1861 tot oktober 2010 betaalt u wel; scans komen op een USB-stick die u ter plaatse koopt.</li><li>Voor de jaren <strong>1963 tot en met 1968</strong> vraagt het archief om contact op te nemen.</li></ul></li></ul>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf november 2010",
+     "van": 2010,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Rotterdam",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Rotterdam</strong>, online op te vragen. <a href=\"https://www.rotterdam.nl/bouwtekeningen-bekijken\" target=\"_blank\" rel=\"noopener\">https://www.rotterdam.nl/bouwtekeningen-bekijken</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p>De omliggende gemeenten hebben een eigen loket. Het Stadsarchief verwijst voor Barendrecht, Albrandswaard (Rhoon, Poortugaal), Ridderkerk en Lansingerland (Bergschenhoek, Berkel en Rodenrijs, Bleiswijk) naar de gemeente zelf.</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p>Bronnen: <a href=\"https://stadsarchief.rotterdam.nl/bouwtekeningen\" target=\"_blank\" rel=\"noopener\">https://stadsarchief.rotterdam.nl/bouwtekeningen</a>, <a href=\"https://stadsarchief.rotterdam.nl/veelgestelde-vragen-over-bouwtekeningen\" target=\"_blank\" rel=\"noopener\">https://stadsarchief.rotterdam.nl/veelgestelde-vragen-over-bouwtekeningen</a>.</p>"
+    }
+   ]
+  },
+  {
    "gemeente": "Rozendaal",
    "pdok": [],
    "kernen": [
@@ -5694,6 +6874,42 @@
      "route": "wij-mail",
      "wij": true,
      "html": "<p>Bron: <a href=\"https://www.sint-michielsgestel.nl/aanvragen-regelen-en-melden/bouwen-en-verbouwen/bouwtekening-of-bouwdossier-opvragen-of-inzien\" target=\"_blank\" rel=\"noopener\">https://www.sint-michielsgestel.nl/aanvragen-regelen-en-melden/bouwen-en-verbouwen/bouwtekening-of-bouwdossier-opvragen-of-inzien</a>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Sliedrecht",
+   "pdok": [],
+   "kernen": [
+    "Sliedrecht"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "onbekend",
+   "wij": false,
+   "voorbehoud": "de verificatie is onvolledig",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "vanaf 1902",
+     "van": 1902,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "Regionaal Archief Dordrecht",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>Regionaal Archief Dordrecht</strong> (archief 708 en verder), met registers van bouwaanvragen 1902-1917. <a href=\"https://www.regionaalarchiefdordrecht.nl/bouwvergunningen-uit-de-regiogemeenten/\" target=\"_blank\" rel=\"noopener\">https://www.regionaalarchiefdordrecht.nl/bouwvergunningen-uit-de-regiogemeenten/</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>nieuwere vergunningen</strong>: <strong>gemeente Sliedrecht</strong>.</p>"
     }
    ]
   },
@@ -6075,6 +7291,68 @@
    ]
   },
   {
+   "gemeente": "Uitgeest",
+   "pdok": [],
+   "kernen": [
+    "Uitgeest"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "onbekend",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1902 t/m 2016",
+     "van": 1902,
+     "tot": 2016,
+     "geldt_voor": "",
+     "loket": "Noord-Hollands Archief",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>Noord-Hollands Archief</strong>, toegangen 1090, 1755 en 1756. Papier op afspraak in de studiezaal via <strong><a href=\"mailto:inlichtingen@noord-hollandsarchief.nl\">inlichtingen@noord-hollandsarchief.nl</a></strong>. De informatie is ook digitaal aan te vragen bij de <strong>gemeente Uitgeest</strong>. <a href=\"https://noord-hollandsarchief.nl/studiezaal/broninformatie/bouwdossiers-zoeken/uitgeest\" target=\"_blank\" rel=\"noopener\">https://noord-hollandsarchief.nl/studiezaal/broninformatie/bouwdossiers-zoeken/uitgeest</a></p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Uithoorn",
+   "pdok": [],
+   "kernen": [
+    "Uithoorn",
+    "De Kwakel"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "onbekend",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1900 t/m 1990",
+     "van": 1900,
+     "tot": 1990,
+     "geldt_voor": "",
+     "loket": "Noord-Hollands Archief",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>Noord-Hollands Archief</strong>, toegang 1591. <strong>Dit bestand is in bewerking en beperkt beschikbaar.</strong> Het archief verwijst naar de <strong>gemeente Uithoorn</strong>. <a href=\"https://noord-hollandsarchief.nl/studiezaal/broninformatie/bouwdossiers-zoeken/uithoorn\" target=\"_blank\" rel=\"noopener\">https://noord-hollandsarchief.nl/studiezaal/broninformatie/bouwdossiers-zoeken/uithoorn</a></p><ul><li>Woningen die met overheidssteun door de gemeente zijn gebouwd zitten in een apart bestand, in het archief van het gemeentebestuur: 1906-1965 toegang 1913, 1966-1975 toegang 1914, 1976-1990 toegang 2298.</li></ul>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 1991",
+     "van": 1991,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Uithoorn",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Uithoorn</strong>.</p>"
+    }
+   ]
+  },
+  {
    "gemeente": "Utrecht",
    "pdok": [],
    "kernen": [
@@ -6345,6 +7623,48 @@
      "route": "wij-mail",
      "wij": true,
      "html": "<p>Bron: <a href=\"https://www.veldhoven.nl/bouwplannen-en-bouwvergunningen-inzien\" target=\"_blank\" rel=\"noopener\">https://www.veldhoven.nl/bouwplannen-en-bouwvergunningen-inzien</a>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Velsen",
+   "pdok": [],
+   "kernen": [
+    "IJmuiden",
+    "Velsen-Noord",
+    "Velsen-Zuid",
+    "Santpoort-Noord",
+    "Santpoort-Zuid",
+    "Driehuis",
+    "Velserbroek"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "onbekend",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1900 t/m 1991",
+     "van": 1900,
+     "tot": 1991,
+     "geldt_voor": "",
+     "loket": "Noord-Hollands Archief",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>Noord-Hollands Archief</strong>, toegang 1436. Het papieren dossier is op afspraak in te zien aan de Jansstraat 40 via <strong><a href=\"mailto:inlichtingen@noord-hollandsarchief.nl\">inlichtingen@noord-hollandsarchief.nl</a></strong>. Dezelfde informatie is digitaal aan te vragen bij de <strong>gemeente Velsen</strong>, <strong>tegen legeskosten</strong>. <a href=\"https://noord-hollandsarchief.nl/studiezaal/broninformatie/bouwdossiers-zoeken/velsen\" target=\"_blank\" rel=\"noopener\">https://noord-hollandsarchief.nl/studiezaal/broninformatie/bouwdossiers-zoeken/velsen</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 1992",
+     "van": 1992,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Velsen",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Velsen</strong>.</p>"
     }
    ]
   },
@@ -7270,6 +8590,43 @@
    ]
   },
   {
+   "gemeente": "Zandvoort",
+   "pdok": [],
+   "kernen": [
+    "Zandvoort",
+    "Bentveld"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "wij-mail",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1891 t/m 2010",
+     "van": 1891,
+     "tot": 2010,
+     "geldt_voor": "",
+     "loket": "Noord-Hollands Archief",
+     "route": "wij-mail",
+     "wij": true,
+     "html": "<p><strong>Noord-Hollands Archief</strong>. Het overzicht staat online, de dossiers zelf niet, maar ze worden wel digitaal toegestuurd. Mail het gezochte adres naar <strong><a href=\"mailto:inlichtingen@noord-hollandsarchief.nl\">inlichtingen@noord-hollandsarchief.nl</a></strong>. <a href=\"https://noord-hollandsarchief.nl/studiezaal/broninformatie/bouwdossiers-zoeken/zandvoort\" target=\"_blank\" rel=\"noopener\">https://noord-hollandsarchief.nl/studiezaal/broninformatie/bouwdossiers-zoeken/zandvoort</a></p><ul><li><strong>De constructieberekeningen uit deze periode zitten er niet bij.</strong> Die beheert de gemeente Zandvoort nog zelf en ze zijn niet in te zien bij het Noord-Hollands Archief. Voor een constructievraag is dat precies het stuk dat u nodig heeft, dus vraag het dossier bij het archief op en de berekening bij de gemeente.</li></ul>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 2011",
+     "van": 2011,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Zandvoort",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Zandvoort</strong>.</p>"
+    }
+   ]
+  },
+  {
    "gemeente": "Zeist",
    "pdok": [],
    "kernen": [
@@ -7377,6 +8734,44 @@
      "route": "onbekend",
      "wij": false,
      "html": "<p><strong>historisch (Liemers)</strong>: regionaal archief = <strong>Erfgoedcentrum Achterhoek en Liemers (ECAL)</strong>, Doetinchem, voor oudere bouwdossiers van de Liemersgemeenten. (Domein/zoeklink nog te verifiëren.)</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Zoeterwoude",
+   "pdok": [],
+   "kernen": [
+    "Zoeterwoude-Dorp",
+    "Zoeterwoude-Rijndijk",
+    "Gelderswoude"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "onbekend",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1880 t/m 1926",
+     "van": 1880,
+     "tot": 1926,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "balie",
+     "wij": false,
+     "html": "<p>(het later geannexeerde deel) en <strong>1920 t/m 1989</strong>: <strong>Erfgoed Leiden en Omstreken</strong>, twee aparte overzichten. Alleen inzage in de studiezaal op afspraak, geen scans of kopieën. <a href=\"https://www.erfgoedleiden.nl/collecties/bouwtekeningen\" target=\"_blank\" rel=\"noopener\">https://www.erfgoedleiden.nl/collecties/bouwtekeningen</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 1990",
+     "van": 1990,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Zoeterwoude",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Zoeterwoude</strong>.</p>"
     }
    ]
   },
