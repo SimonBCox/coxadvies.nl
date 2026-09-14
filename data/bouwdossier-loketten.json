@@ -1,7 +1,7 @@
 {
  "bron": "documentatie/kennis/bestaande_bouw/gebouwendossiers.md",
  "let_op": "Gegenereerd door tools/website/genereer_loketten.py. Niet met de hand wijzigen.",
- "aantal": 184,
+ "aantal": 195,
  "gemeenten": [
   {
    "gemeente": "'s-Hertogenbosch",
@@ -2130,6 +2130,57 @@
    ]
   },
   {
+   "gemeente": "Delft",
+   "pdok": [],
+   "kernen": [
+    "Tanthof",
+    "Voorhof",
+    "Buitenhof",
+    "Hof van Delft",
+    "Vrijenban"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "balie",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "<p>De grens ligt op <strong>1 oktober 2010</strong>. Daarvoor het Stadsarchief, daarna de gemeente, en die rekent er een fors bedrag voor.</p>",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "balie",
+     "wij": false,
+     "html": "<p><strong>vóór 1 oktober 2010</strong>: <strong>Stadsarchief Delft</strong>, Gantel 21 in Den Hoorn. Inzien is <strong>kosteloos</strong>, maar op locatie. Open dinsdag tot en met donderdag van 9 tot 17 uur. <strong><a href=\"mailto:stadsarchief@delft.nl\">stadsarchief@delft.nl</a></strong>, tel. 015 260 2341.</p>"
+    },
+    {
+     "bedrag": 46.65,
+     "kop": "vanaf 1 oktober 2010",
+     "van": 2010,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Delft",
+     "route": "duur",
+     "wij": false,
+     "html": "<p><strong>gemeente Delft</strong>, via het contactformulier. Binnen de inzagetermijn kosteloos; daarbuiten <strong>kost het opvragen € 46,65</strong> per aanvraag. Inzien of een toelichting bij de gemeente kost € 46,65 per half uur, en een USB-stick € 5. <a href=\"https://www.delft.nl/bouwgegevens-inzien\" target=\"_blank\" rel=\"noopener\">https://www.delft.nl/bouwgegevens-inzien</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "balie",
+     "wij": false,
+     "html": "<p>De gemeente noemt naast tekeningen uitdrukkelijk ook <strong>berekeningen</strong> en rapporten, dus het loont om die er expliciet bij te vragen.</p>"
+    }
+   ]
+  },
+  {
    "gemeente": "Den Haag",
    "pdok": [],
    "kernen": [
@@ -2592,6 +2643,50 @@
      "route": "wij-zelfzoeken",
      "wij": true,
      "html": "<p>Aanvragen die vóór 09.00 uur binnen zijn liggen dezelfde dag om 11.00 uur klaar, vóór 12.45 uur ingediend om 14.00 uur.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Drechterland",
+   "pdok": [],
+   "kernen": [
+    "Hoogkarspel",
+    "Venhuizen",
+    "Westwoud",
+    "Oosterblokker",
+    "Schellinkhout",
+    "Wijdenes",
+    "Hem",
+    "Binnenwijzend",
+    "Lutjebroek"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "wij-zelfzoeken",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "vanaf 1901 tot ongeveer twintig jaar geleden",
+     "van": 1901,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "Westfries Archief",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Westfries Archief</strong>. De gemeente is in 2006 samengegaan met Venhuizen, en het archief is per voormalige gemeente geordend; zoek dus op de kern. <a href=\"https://www.westfriesarchief.nl/bouw-en-woningonderzoek/\" target=\"_blank\" rel=\"noopener\">https://www.westfriesarchief.nl/bouw-en-woningonderzoek/</a></p><ul><li>Niet gedigitaliseerd? Vraag het gratis aan met het scanner-pictogram.</li></ul>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>de laatste twintig jaar</strong>: <strong>gemeente Drechterland</strong>.</p>"
     }
    ]
   },
@@ -3101,6 +3196,44 @@
      "route": "balie",
      "wij": false,
      "html": "<p>Bron: <a href=\"https://www.elburg.nl/Bouwen_en_verbouwen/Bouwen/Bouwtekeningen_inzage\" target=\"_blank\" rel=\"noopener\">https://www.elburg.nl/Bouwen_en_verbouwen/Bouwen/Bouwtekeningen_inzage</a>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Enkhuizen",
+   "pdok": [],
+   "kernen": [
+    "Enkhuizen",
+    "Oosterdijk",
+    "Westeinde"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "wij-zelfzoeken",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "vanaf 1901 tot ongeveer twintig jaar geleden",
+     "van": 1901,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "Westfries Archief",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Westfries Archief</strong>. Enkhuizen is een oude stad, dus reken op veel verbouwdossiers op hetzelfde adres; zoek op adres en neem de hele reeks door. <a href=\"https://www.westfriesarchief.nl/bouw-en-woningonderzoek/\" target=\"_blank\" rel=\"noopener\">https://www.westfriesarchief.nl/bouw-en-woningonderzoek/</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>de laatste twintig jaar</strong>: <strong>gemeente Enkhuizen</strong>.</p>"
     }
    ]
   },
@@ -4493,6 +4626,47 @@
    ]
   },
   {
+   "gemeente": "Hoorn",
+   "pdok": [],
+   "kernen": [
+    "Hoorn",
+    "Zwaag",
+    "Blokker",
+    "Bangert",
+    "Risdam",
+    "Kersenboogerd"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "wij-zelfzoeken",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "<p>Het <strong>Westfries Archief</strong> werkt met een vaste regel in plaats van een vast jaartal: een dossier gaat <strong>twintig jaar na dato</strong> van de gemeente naar het archief. De grens schuift dus elk jaar op. Ruim 75% van de bouwtekeningen staat online.</p>",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "vanaf 1901 tot ongeveer twintig jaar geleden",
+     "van": 1901,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "Westfries Archief",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Westfries Archief</strong>. Zoek op adres via de interactieve kaart of in de vergunningendatabase. <a href=\"https://www.westfriesarchief.nl/bouw-en-woningonderzoek/\" target=\"_blank\" rel=\"noopener\">https://www.westfriesarchief.nl/bouw-en-woningonderzoek/</a></p><ul><li>Zwaag en Blokker zijn pas in 1979 bij Hoorn gekomen en hebben een eigen reeks; zoek daar dus op de kern.<ul><li>Staat er alleen een beschrijving en geen scan, dan is het dossier nog niet gedigitaliseerd. U kunt het dan <strong>gratis laten scannen</strong> met het scanner-pictogram rechts in de beschrijving; u krijgt een mail zodra de scans klaar staan. Maximaal vijf aanvragen per persoon per week.</li><li><strong>Fundering:</strong> is het huis van vóór ongeveer 1970, dan is de kans groot dat het palenplan niet bewaard is. Zit het er wel in, dan zit het in het bouwdossier zelf.</li><li>Van vóór 1901 is er zelden iets: pas toen werd een vergunning verplicht.</li></ul></li></ul>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>de laatste twintig jaar</strong>: <strong>gemeente Hoorn</strong>.</p>"
+    }
+   ]
+  },
+  {
    "gemeente": "Houten",
    "pdok": [],
    "kernen": [
@@ -4674,6 +4848,51 @@
      "route": "onbekend",
      "wij": false,
      "html": "<p><strong>gemeente Katwijk</strong>. Dat is vrijwel de hele woningvoorraad, want Katwijk is na de oorlog gegroeid.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Koggenland",
+   "pdok": [],
+   "kernen": [
+    "Obdam",
+    "Avenhorn",
+    "De Goorn",
+    "Berkhout",
+    "Ursem",
+    "Spierdijk",
+    "Hensbroek",
+    "Oudendijk",
+    "Scharwoude",
+    "Wogmeer"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "wij-zelfzoeken",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "vanaf 1901 tot ongeveer twintig jaar geleden",
+     "van": 1901,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "Westfries Archief",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Westfries Archief</strong>. De gemeente is in 2007 ontstaan uit Obdam en Wester-Koggenland; de dossiers staan onder die oude namen. <a href=\"https://www.westfriesarchief.nl/bouw-en-woningonderzoek/\" target=\"_blank\" rel=\"noopener\">https://www.westfriesarchief.nl/bouw-en-woningonderzoek/</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>de laatste twintig jaar</strong>: <strong>gemeente Koggenland</strong>.</p>"
     }
    ]
   },
@@ -5400,6 +5619,54 @@
    ]
   },
   {
+   "gemeente": "Medemblik",
+   "pdok": [],
+   "kernen": [
+    "Medemblik",
+    "Wognum",
+    "Nibbixwoud",
+    "Wervershoof",
+    "Andijk",
+    "Abbekerk",
+    "Midwoud",
+    "Opperdoes",
+    "Twisk",
+    "Benningbroek",
+    "Sijbekarspel",
+    "Hauwert",
+    "Zwaagdijk"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "wij-zelfzoeken",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "vanaf 1901 tot ongeveer twintig jaar geleden",
+     "van": 1901,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "Westfries Archief",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Westfries Archief</strong>. Deze gemeente is in twee stappen gegroeid, in 2007 en 2011, uit Medemblik, Wognum, Noorder-Koggenland, Andijk en Wervershoof. Al die voorgangers hebben een eigen reeks, dus zoeken op de kern werkt hier het beste. <a href=\"https://www.westfriesarchief.nl/bouw-en-woningonderzoek/\" target=\"_blank\" rel=\"noopener\">https://www.westfriesarchief.nl/bouw-en-woningonderzoek/</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>de laatste twintig jaar</strong>: <strong>gemeente Medemblik</strong>.</p>"
+    }
+   ]
+  },
+  {
    "gemeente": "Meierijstad",
    "pdok": [],
    "kernen": [
@@ -5455,6 +5722,45 @@
      "route": "wij-zelfzoeken",
      "wij": true,
      "html": "<p>Bron: <a href=\"https://www.meierijstad.nl/Alle_onderwerpen/Wonen/Onderwerpen_wonen/Bouwen_en_verbouwen/Bouwtekening_en_bestemmingsplan/Bouwtekening_opvragen\" target=\"_blank\" rel=\"noopener\">https://www.meierijstad.nl/Alle_onderwerpen/Wonen/Onderwerpen_wonen/Bouwen_en_verbouwen/Bouwtekening_en_bestemmingsplan/Bouwtekening_opvragen</a>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Midden-Delfland",
+   "pdok": [],
+   "kernen": [
+    "Schipluiden",
+    "Maasland",
+    "Den Hoorn",
+    "'t Woudt"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "balie",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "balie",
+     "wij": false,
+     "html": "<p><strong>vóór 1 oktober 2010</strong>: <strong>Stadsarchief Delft</strong>, Gantel 21 in Den Hoorn, kosteloos in te zien op locatie. <strong><a href=\"mailto:stadsarchief@delft.nl\">stadsarchief@delft.nl</a></strong>, tel. 015 260 2341.</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 1 oktober 2010",
+     "van": 2010,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Midden-Delfland",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Midden-Delfland</strong>.</p>"
     }
    ]
   },
@@ -6421,6 +6727,46 @@
    ]
   },
   {
+   "gemeente": "Opmeer",
+   "pdok": [],
+   "kernen": [
+    "Opmeer",
+    "Spanbroek",
+    "Hoogwoud",
+    "De Weere",
+    "Aartswoud"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "wij-zelfzoeken",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "vanaf 1901 tot ongeveer twintig jaar geleden",
+     "van": 1901,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "Westfries Archief",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Westfries Archief</strong>. <a href=\"https://www.westfriesarchief.nl/bouw-en-woningonderzoek/\" target=\"_blank\" rel=\"noopener\">https://www.westfriesarchief.nl/bouw-en-woningonderzoek/</a></p><ul><li>Kleine gemeente met veel lintbebouwing; huisnummers zijn in de loop der tijd vaak gewijzigd. Vindt u niets, laat dan het huisnummer weg en zoek op straat.</li></ul>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>de laatste twintig jaar</strong>: <strong>gemeente Opmeer</strong>.</p>"
+    }
+   ]
+  },
+  {
    "gemeente": "Oss",
    "pdok": [],
    "kernen": [
@@ -6688,6 +7034,57 @@
      "route": "onbekend",
      "wij": false,
      "html": "<p><strong>gemeente Papendrecht</strong>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Pijnacker-Nootdorp",
+   "pdok": [],
+   "kernen": [
+    "Pijnacker",
+    "Nootdorp",
+    "Delfgauw",
+    "Oude Leede",
+    "Ypenburg-Noord"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "balie",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "balie",
+     "wij": false,
+     "html": "<p><strong>vóór 1 oktober 2010</strong>: <strong>Stadsarchief Delft</strong>, Gantel 21 in Den Hoorn, kosteloos op locatie. <strong><a href=\"mailto:stadsarchief@delft.nl\">stadsarchief@delft.nl</a></strong>, tel. 015 260 2341.</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 1 oktober 2010",
+     "van": 2010,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Pijnacker-Nootdorp",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Pijnacker-Nootdorp</strong>.</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "balie",
+     "wij": false,
+     "html": ""
     }
    ]
   },
@@ -7064,6 +7461,47 @@
      "route": "onbekend",
      "wij": false,
      "html": "<p>Bron: <a href=\"https://www.rhenen.nl/belasting-en-vergunningen/bouwtekening-opvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhenen.nl/belasting-en-vergunningen/bouwtekening-opvragen</a>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Rijswijk",
+   "pdok": [],
+   "kernen": [
+    "Rijswijk",
+    "Oud-Rijswijk",
+    "Leeuwendaal",
+    "Steenvoorde",
+    "Sion",
+    "Ypenburg-Zuid"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "balie",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "balie",
+     "wij": false,
+     "html": "<p><strong>vóór 1 oktober 2010</strong>: <strong>Stadsarchief Delft</strong>, Gantel 21 in Den Hoorn, kosteloos op locatie. <strong><a href=\"mailto:stadsarchief@delft.nl\">stadsarchief@delft.nl</a></strong>, tel. 015 260 2341.</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 1 oktober 2010",
+     "van": 2010,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Rijswijk",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Rijswijk</strong>.</p>"
     }
    ]
   },
@@ -7617,6 +8055,44 @@
      "route": "wij-zelfzoeken",
      "wij": true,
      "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/440\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/440</a>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Stede Broec",
+   "pdok": [],
+   "kernen": [
+    "Bovenkarspel",
+    "Grootebroek",
+    "Lutjebroek"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "wij-zelfzoeken",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "vanaf 1901 tot ongeveer twintig jaar geleden",
+     "van": 1901,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "Westfries Archief",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Westfries Archief</strong>. De drie dorpen waren tot 1979 aparte gemeenten en hebben elk hun eigen reeks. <a href=\"https://www.westfriesarchief.nl/bouw-en-woningonderzoek/\" target=\"_blank\" rel=\"noopener\">https://www.westfriesarchief.nl/bouw-en-woningonderzoek/</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>de laatste twintig jaar</strong>: <strong>gemeente Stede Broec</strong>.</p>"
     }
    ]
   },
