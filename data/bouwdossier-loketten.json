@@ -1,7 +1,7 @@
 {
  "bron": "documentatie/kennis/bestaande_bouw/gebouwendossiers.md",
  "let_op": "Gegenereerd door tools/website/genereer_loketten.py. Niet met de hand wijzigen.",
- "aantal": 195,
+ "aantal": 204,
  "gemeenten": [
   {
    "gemeente": "'s-Hertogenbosch",
@@ -1410,6 +1410,33 @@
      "route": "wij-zelfzoeken",
      "wij": true,
      "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/427\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/427</a>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Blaricum",
+   "pdok": [],
+   "kernen": [
+    "Blaricum",
+    "Bijvanck",
+    "Blaricummermeent"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "onbekend",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>alle jaren</strong>: <strong>gemeente Blaricum</strong>. Net als bij Laren verwijst Archief Gooi en Vechtstreek voor het opvragen naar de gemeente zelf. <a href=\"https://archiefgooienvechtstreek.nl/onderzoek/hoe-zoek-ik-naar-bouwvergunningen/\" target=\"_blank\" rel=\"noopener\">https://archiefgooienvechtstreek.nl/onderzoek/hoe-zoek-ik-naar-bouwvergunningen/</a></p>"
     }
    ]
   },
@@ -3677,6 +3704,95 @@
    ]
   },
   {
+   "gemeente": "Gooise Meren",
+   "pdok": [],
+   "kernen": [
+    "Bussum",
+    "Naarden",
+    "Muiden",
+    "Muiderberg"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "wij-zelfzoeken",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "<p>De gemeente is in 2016 ontstaan uit Bussum, Naarden en Muiden, en per kern is het anders geregeld. Bussum is hier de uitzondering: daarvan heeft het archief niets digitaal.</p>",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "Naarden 1901 t/m 1999",
+     "van": 1901,
+     "tot": 1999,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p>en <strong>Muiden en Muiderberg 1922 t/m 1995</strong>: <strong>Archief Gooi en Vechtstreek</strong>, digitaal beschikbaar via de zoekpagina bouwtekeningen. De stukken rondom de vergunning liggen op de studiezaal in Naarden. <a href=\"https://archiefgooienvechtstreek.nl/onderzoek/hoe-zoek-ik-naar-bouwvergunningen/\" target=\"_blank\" rel=\"noopener\">https://archiefgooienvechtstreek.nl/onderzoek/hoe-zoek-ik-naar-bouwvergunningen/</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "Naarden vanaf 2000",
+     "van": 2000,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p>en <strong>Muiden en Muiderberg vanaf 1996</strong>: <strong>gemeente Gooise Meren</strong>.</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>Bussum, alle jaren</strong>: <strong>gemeente Gooise Meren</strong>. Het archief heeft hiervan niets online staan.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Gouda",
+   "pdok": [],
+   "kernen": [
+    "Goverwelle",
+    "Bloemendaal",
+    "Korte Akkeren",
+    "Achterwillens"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "duur",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "<p>Gouda heeft de langste reeks van dit archief: <strong>1879</strong>, ruim twintig jaar voor de Woningwet. Alleen kost het opvragen hier geld, want het Streekarchief levert scans tegen een tarief en zet de dossiers niet online.</p>",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1879 t/m juni 2013",
+     "van": 1879,
+     "tot": 2013,
+     "geldt_voor": "",
+     "loket": "Streekarchief Midden-Holland",
+     "route": "duur",
+     "wij": false,
+     "html": "<p><strong>Streekarchief Midden-Holland</strong>, in de Chocoladefabriek. U kunt op adres opzoeken of er een dossier is en filteren op straatnaam, datering en architect. <a href=\"https://samh.nl/uitleg-over-bouwvergunningen\" target=\"_blank\" rel=\"noopener\">https://samh.nl/uitleg-over-bouwvergunningen</a></p><ul><li><strong>1879 t/m 1899 staat wel digitaal</strong>; dat is uitzonderlijk, want van vóór 1900 is vrijwel nergens iets bewaard.<ul><li>Voor de rest bestelt u scans: <strong>€ 6 startbedrag plus € 6 per scan</strong>, pdf op 200 dpi, levering binnen vijf werkdagen. Een dossier met een handvol bladen loopt dus snel op.</li><li>Liever zelf inzien: reserveer in de agenda van de studiezaal. Vraagt u het vóór 15.00 uur op een werkdag aan, dan ligt het de volgende dag klaar.</li></ul></li></ul>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf juli 2013",
+     "van": 2013,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Gouda",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Gouda</strong>, via het Omgevingsloket.</p>"
+    }
+   ]
+  },
+  {
    "gemeente": "Haarlem",
    "pdok": [],
    "kernen": [
@@ -4718,6 +4834,43 @@
    ]
   },
   {
+   "gemeente": "Huizen",
+   "pdok": [],
+   "kernen": [
+    "Huizen",
+    "Oud-Bussum"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "wij-zelfzoeken",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1900 t/m 1986",
+     "van": 1900,
+     "tot": 1986,
+     "geldt_voor": "",
+     "loket": "Archief Gooi en Vechtstreek",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Archief Gooi en Vechtstreek</strong>, digitaal beschikbaar via de zoekpagina bouwtekeningen. <a href=\"https://archiefgooienvechtstreek.nl/onderzoek/hoe-zoek-ik-naar-bouwvergunningen/\" target=\"_blank\" rel=\"noopener\">https://archiefgooienvechtstreek.nl/onderzoek/hoe-zoek-ik-naar-bouwvergunningen/</a></p><ul><li>De stukken rondom de vergunning zijn in te zien op de studiezaal in <strong>Naarden</strong>, waar de Huizer bouwdossiers liggen.</li></ul>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 1987",
+     "van": 1987,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Huizen",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Huizen</strong>. Dat is een vroege grens; de nieuwbouw van Huizermaat en Stad en Lande valt er deels buiten.</p>"
+    }
+   ]
+  },
+  {
    "gemeente": "IJsselstein",
    "pdok": [],
    "kernen": [
@@ -4893,6 +5046,43 @@
      "route": "onbekend",
      "wij": false,
      "html": "<p><strong>de laatste twintig jaar</strong>: <strong>gemeente Koggenland</strong>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Krimpen aan den IJssel",
+   "pdok": [],
+   "kernen": [
+    "Krimpen aan den IJssel",
+    "Stormpolder"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "onbekend",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "<p>Let op: van deze gemeente heeft het Streekarchief maar een heel smal venster. Vrijwel de hele woningvoorraad valt erbuiten, want Krimpen is pas na de oorlog gegroeid.</p>",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1905 t/m 1929",
+     "van": 1905,
+     "tot": 1929,
+     "geldt_voor": "",
+     "loket": "Streekarchief Midden-Holland",
+     "route": "duur",
+     "wij": false,
+     "html": "<p><strong>Streekarchief Midden-Holland</strong>. Scans kosten <strong>€ 6 plus € 6 per scan</strong>. <a href=\"https://samh.nl/uitleg-over-bouwvergunningen\" target=\"_blank\" rel=\"noopener\">https://samh.nl/uitleg-over-bouwvergunningen</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 1930",
+     "van": 1930,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Krimpen aan den IJssel",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Krimpen aan den IJssel</strong>. Dat is hier de belangrijkste route en die is nog niet uitgezocht.</p>"
     }
    ]
   },
@@ -5157,6 +5347,33 @@
      "route": "onbekend",
      "wij": false,
      "html": "<p><strong>de laatste twintig jaar</strong>: <strong>gemeente Landsmeer</strong>; die vergunningen zijn nog niet overgedragen.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Laren NH",
+   "pdok": [
+    "Laren"
+   ],
+   "kernen": [
+    "Laren"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "onbekend",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>alle jaren</strong>: <strong>gemeente Laren</strong>. Archief Gooi en Vechtstreek bewaart de bouwvergunningen wel, maar stelt er niets van digitaal beschikbaar en verwijst voor het opvragen naar de gemeente. <a href=\"https://archiefgooienvechtstreek.nl/onderzoek/hoe-zoek-ik-naar-bouwvergunningen/\" target=\"_blank\" rel=\"noopener\">https://archiefgooienvechtstreek.nl/onderzoek/hoe-zoek-ik-naar-bouwvergunningen/</a></p>"
     }
    ]
   },
@@ -8997,6 +9214,43 @@
    ]
   },
   {
+   "gemeente": "Waddinxveen",
+   "pdok": [],
+   "kernen": [
+    "Waddinxveen",
+    "Zuidplaspolder-noord"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "duur",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1900 t/m 2013",
+     "van": 1900,
+     "tot": 2013,
+     "geldt_voor": "",
+     "loket": "Streekarchief Midden-Holland",
+     "route": "duur",
+     "wij": false,
+     "html": "<p><strong>Streekarchief Midden-Holland</strong>. Opzoeken kan online, de dossiers zelf staan er niet op. Scans bestellen kost <strong>€ 6 plus € 6 per scan</strong>, levering binnen vijf werkdagen. <a href=\"https://samh.nl/uitleg-over-bouwvergunningen\" target=\"_blank\" rel=\"noopener\">https://samh.nl/uitleg-over-bouwvergunningen</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 2014",
+     "van": 2014,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Waddinxveen",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Waddinxveen</strong>, via de omgevingsvergunningpagina. <a href=\"https://www.waddinxveen.nl/omgevingsvergunning/\" target=\"_blank\" rel=\"noopener\">https://www.waddinxveen.nl/omgevingsvergunning/</a></p>"
+    }
+   ]
+  },
+  {
    "gemeente": "Wageningen",
    "pdok": [],
    "kernen": [
@@ -9333,6 +9587,47 @@
      "route": "wij-mail",
      "wij": true,
      "html": "<p>Bron: <a href=\"https://www.wijchen.nl/bouwplannen-en-bouwtekeningen-bekijken\" target=\"_blank\" rel=\"noopener\">https://www.wijchen.nl/bouwplannen-en-bouwtekeningen-bekijken</a>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Wijdemeren",
+   "pdok": [],
+   "kernen": [
+    "Loosdrecht",
+    "Kortenhoef",
+    "'s-Graveland",
+    "Ankeveen",
+    "Nederhorst den Berg",
+    "Breukeleveen"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "wij-zelfzoeken",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "<p>Van de gemeenten bij Archief Gooi en Vechtstreek is dit de best ontsloten: ruim een eeuw bouwtekeningen staat online, tot en met 2018.</p>",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1902 t/m 2018",
+     "van": 1902,
+     "tot": 2018,
+     "geldt_voor": "",
+     "loket": "Archief Gooi en Vechtstreek",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Archief Gooi en Vechtstreek</strong>, digitaal beschikbaar via de zoekpagina bouwtekeningen. <a href=\"https://archiefgooienvechtstreek.nl/onderzoek/hoe-zoek-ik-naar-bouwvergunningen/\" target=\"_blank\" rel=\"noopener\">https://archiefgooienvechtstreek.nl/onderzoek/hoe-zoek-ik-naar-bouwvergunningen/</a></p><ul><li>Online staan de <strong>tekeningen</strong>. De papieren rondom de vergunning, zoals de aanvraag en de beschikking, vraagt u apart aan via <strong><a href=\"mailto:info@archiefgooienvechtstreek.nl\">info@archiefgooienvechtstreek.nl</a></strong>. Voor een dossier jonger dan 75 jaar gelden daarbij inzagebeperkingen vanwege persoonsgegevens.<ul><li>Het archief meldt erbij dat de digitale tekeningen voor eigen gebruik zijn.</li></ul></li></ul>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 2018",
+     "van": 2018,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Wijdemeren",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Wijdemeren</strong>.</p>"
     }
    ]
   },
@@ -9969,6 +10264,45 @@
      "route": "onbekend",
      "wij": false,
      "html": "<p><strong>gemeente Zoeterwoude</strong>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Zuidplas",
+   "pdok": [],
+   "kernen": [
+    "Nieuwerkerk aan den IJssel",
+    "Moordrecht",
+    "Zevenhuizen",
+    "Moerkapelle"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "duur",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "<p>De gemeente is in 2010 ontstaan uit vier dorpen die elk hun eigen reeks hebben, met een eigen beginjaar. Zoek dus op de kern.</p>",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "duur",
+     "wij": false,
+     "html": "<p><strong>Streekarchief Midden-Holland</strong>, per voormalige gemeente: Moordrecht <strong>1903 t/m 2014</strong>, Moerkapelle <strong>1904 t/m 2014</strong>, Nieuwerkerk aan den IJssel <strong>1903 t/m 2014</strong> en Zevenhuizen <strong>1924 t/m 2014</strong>. Opzoeken kan online, scans kosten <strong>€ 6 plus € 6 per scan</strong>. <a href=\"https://samh.nl/uitleg-over-bouwvergunningen\" target=\"_blank\" rel=\"noopener\">https://samh.nl/uitleg-over-bouwvergunningen</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 2015",
+     "van": 2015,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Zuidplas",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Zuidplas</strong>. <a href=\"https://www.zuidplas.nl/omgevingsvergunning-aanvragen/\" target=\"_blank\" rel=\"noopener\">https://www.zuidplas.nl/omgevingsvergunning-aanvragen/</a></p>"
     }
    ]
   },
