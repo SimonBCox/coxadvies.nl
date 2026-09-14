@@ -1,7 +1,7 @@
 {
  "bron": "documentatie/kennis/bestaande_bouw/gebouwendossiers.md",
  "let_op": "Gegenereerd door tools/website/genereer_loketten.py. Niet met de hand wijzigen.",
- "aantal": 169,
+ "aantal": 184,
  "gemeenten": [
   {
    "gemeente": "'s-Hertogenbosch",
@@ -181,6 +181,50 @@
      "route": "onbekend",
      "wij": false,
      "html": "<p><strong>gemeente Alblasserdam</strong>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Alkmaar",
+   "pdok": [],
+   "kernen": [
+    "Alkmaar",
+    "Oudorp",
+    "Sint Pancras",
+    "Koedijk",
+    "De Rijp",
+    "Graft",
+    "Grootschermer",
+    "Schermerhorn",
+    "Stompetoren"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "wij-formulier",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "<p>Het <strong>Regionaal Archief Alkmaar</strong> heeft een eigen e-loket voor bouwdossiers. U zoekt op adres en vraagt het dossier via de site aan; het archief digitaliseert desnoods zelf. Streeftermijn <strong>drie werkdagen</strong>, langer als het dossier nog gescand moet worden.</p>",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1900 t/m 2019",
+     "van": 1900,
+     "tot": 2019,
+     "geldt_voor": "",
+     "loket": "Regionaal Archief Alkmaar",
+     "route": "wij-formulier",
+     "wij": true,
+     "html": "<p><strong>Regionaal Archief Alkmaar</strong>, e-loket. <a href=\"https://bouwdossiers.archiefalkmaar.nl/\" target=\"_blank\" rel=\"noopener\">https://bouwdossiers.archiefalkmaar.nl/</a></p><ul><li>Een dossier bevat de stukken bij de vergunningaanvraag, vaak met bouwtekeningen en soms met de constructieberekening.<ul><li>Dossiers die in openbaarheid beperkt zijn staan niet in het e-loket. Die zijn alleen met toestemming van het archief in te zien, kosteloos en op papier in de studiezaal.</li><li>Vragen: <strong><a href=\"mailto:bouwdossiers@archiefalkmaar.nl\">bouwdossiers@archiefalkmaar.nl</a></strong></li><li></li></ul></li></ul>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 2020",
+     "van": 2020,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Alkmaar",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Alkmaar</strong>.</p>"
     }
    ]
   },
@@ -937,6 +981,51 @@
      "route": "wij-zelfzoeken",
      "wij": true,
      "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/424\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/424</a>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Bergen NH",
+   "pdok": [
+    "Bergen (NH)"
+   ],
+   "kernen": [
+    "Bergen",
+    "Bergen aan Zee",
+    "Schoorl",
+    "Groet",
+    "Camperduin",
+    "Egmond aan Zee",
+    "Egmond-Binnen",
+    "Egmond aan den Hoef"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "wij-formulier",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1901 t/m 2016",
+     "van": 1901,
+     "tot": 2016,
+     "geldt_voor": "",
+     "loket": "Regionaal Archief Alkmaar",
+     "route": "wij-formulier",
+     "wij": true,
+     "html": "<p><strong>Regionaal Archief Alkmaar</strong>, e-loket. Inclusief de sloopvergunningen en de wabovergunningen, wat hier meer oplevert dan bij de meeste gemeenten. <a href=\"https://bouwdossiers.archiefalkmaar.nl/\" target=\"_blank\" rel=\"noopener\">https://bouwdossiers.archiefalkmaar.nl/</a> Vragen: <strong><a href=\"mailto:bouwdossiers@archiefalkmaar.nl\">bouwdossiers@archiefalkmaar.nl</a></strong></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 2017",
+     "van": 2017,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Bergen",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Bergen</strong>.</p>"
     }
    ]
   },
@@ -1785,6 +1874,46 @@
    ]
   },
   {
+   "gemeente": "Castricum",
+   "pdok": [],
+   "kernen": [
+    "Castricum",
+    "Bakkum",
+    "Akersloot",
+    "Limmen",
+    "De Woude"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "wij-formulier",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1905 t/m 2002",
+     "van": 1905,
+     "tot": 2002,
+     "geldt_voor": "",
+     "loket": "Regionaal Archief Alkmaar",
+     "route": "wij-formulier",
+     "wij": true,
+     "html": "<p><strong>Regionaal Archief Alkmaar</strong>, e-loket. <a href=\"https://bouwdossiers.archiefalkmaar.nl/\" target=\"_blank\" rel=\"noopener\">https://bouwdossiers.archiefalkmaar.nl/</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 2003",
+     "van": 2003,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Castricum",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Castricum</strong>. Dat is een vroege grens, dus bij een verbouwing van deze eeuw zit u al bij de gemeente.</p>"
+    }
+   ]
+  },
+  {
    "gemeente": "Cranendonck",
    "pdok": [],
    "kernen": [
@@ -2073,6 +2202,44 @@
    ]
   },
   {
+   "gemeente": "Den Helder",
+   "pdok": [],
+   "kernen": [
+    "Den Helder",
+    "Julianadorp",
+    "Huisduinen"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "wij-formulier",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1895 t/m 2010",
+     "van": 1895,
+     "tot": 2010,
+     "geldt_voor": "",
+     "loket": "Regionaal Archief Alkmaar",
+     "route": "wij-formulier",
+     "wij": true,
+     "html": "<p><strong>Regionaal Archief Alkmaar</strong>, e-loket. Dit was de eerste gemeente in het e-loket en de reeks begint vroeg. <a href=\"https://bouwdossiers.archiefalkmaar.nl/\" target=\"_blank\" rel=\"noopener\">https://bouwdossiers.archiefalkmaar.nl/</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 2011",
+     "van": 2011,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Den Helder",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Den Helder</strong>.</p>"
+    }
+   ]
+  },
+  {
    "gemeente": "Deurne",
    "pdok": [],
    "kernen": [
@@ -2131,6 +2298,58 @@
      "route": "wij-zelfzoeken",
      "wij": true,
      "html": "<p>Bron: <a href=\"https://www.rhc-eindhoven.nl/contact/nieuws/429\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/contact/nieuws/429</a>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Dijk en Waard",
+   "pdok": [],
+   "kernen": [
+    "Heerhugowaard",
+    "Broek op Langedijk",
+    "Zuid-Scharwoude",
+    "Noord-Scharwoude",
+    "Oudkarspel",
+    "Sint Pancras"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "wij-formulier",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "<p>De gemeente is in 2022 ontstaan uit Heerhugowaard en Langedijk, en het archief is nog per voormalige gemeente geordend met een eigen eindjaar.</p>",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "Heerhugowaard 1906 t/m 2015",
+     "van": 1906,
+     "tot": 2015,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-formulier",
+     "wij": true,
+     "html": "<p>en <strong>Langedijk 1905 t/m 2019</strong>: <strong>Regionaal Archief Alkmaar</strong>, e-loket, inclusief de wabovergunningen. <a href=\"https://bouwdossiers.archiefalkmaar.nl/\" target=\"_blank\" rel=\"noopener\">https://bouwdossiers.archiefalkmaar.nl/</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "Heerhugowaard vanaf 2016",
+     "van": 2016,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p>en <strong>Langedijk vanaf 2020</strong>: <strong>gemeente Dijk en Waard</strong>.</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-formulier",
+     "wij": true,
+     "html": ""
     }
    ]
   },
@@ -2514,6 +2733,62 @@
      "route": "onbekend",
      "wij": false,
      "html": "<p>Bronnen: <a href=\"https://www.duiven.nl/omgevingsvergunning\" target=\"_blank\" rel=\"noopener\">https://www.duiven.nl/omgevingsvergunning</a> en <a href=\"https://www.liemersarchief.nl/\" target=\"_blank\" rel=\"noopener\">https://www.liemersarchief.nl/</a>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Edam-Volendam",
+   "pdok": [],
+   "kernen": [
+    "Edam",
+    "Volendam",
+    "Zeevang",
+    "Oosthuizen",
+    "Kwadijk",
+    "Middelie",
+    "Warder",
+    "Beets",
+    "Hobrede",
+    "Schardam"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "onbekend",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "<p>Zeevang is in 2016 bij Edam-Volendam gekomen en is de enige kant die online staat.</p>",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "Zeevang 2000 t/m 2015",
+     "van": 2000,
+     "tot": 2015,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p>(archiefnummer 1670) en de <strong>omgevingsvergunningen 2010 t/m 2015</strong> (archiefnummer 1673): <strong>Waterlands Archief</strong>, online te bekijken en te downloaden. Adressen in Beets, Hobrede, Kwadijk, Middelie, Oosthuizen, Schardam en Warder.</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "Edam-Volendam 1902 t/m 1945, 1946 t/m 1970 en 1971 t/m 1989",
+     "van": 1902,
+     "tot": 1945,
+     "geldt_voor": "",
+     "loket": "Waterlands Archief",
+     "route": "balie",
+     "wij": false,
+     "html": "<p><strong>Waterlands Archief</strong>, drie aparte reeksen, nog niet gedigitaliseerd. Opzoeken kan online, inzage in de studiezaal op afspraak via <strong><a href=\"mailto:info@waterlandsarchief.nl\">info@waterlandsarchief.nl</a></strong>. <a href=\"https://waterlandsarchief.nl/onderzoek/hulp-bij-onderzoek/1371-gebouwen\" target=\"_blank\" rel=\"noopener\">https://waterlandsarchief.nl/onderzoek/hulp-bij-onderzoek/1371-gebouwen</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>de laatste twintig jaar</strong>: <strong>gemeente Edam-Volendam</strong>.</p>"
     }
    ]
   },
@@ -3744,6 +4019,42 @@
    ]
   },
   {
+   "gemeente": "Heiloo",
+   "pdok": [],
+   "kernen": [
+    "Heiloo"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "wij-formulier",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1917 t/m 2007",
+     "van": 1917,
+     "tot": 2007,
+     "geldt_voor": "",
+     "loket": "Regionaal Archief Alkmaar",
+     "route": "wij-formulier",
+     "wij": true,
+     "html": "<p><strong>Regionaal Archief Alkmaar</strong>, e-loket. <a href=\"https://bouwdossiers.archiefalkmaar.nl/\" target=\"_blank\" rel=\"noopener\">https://bouwdossiers.archiefalkmaar.nl/</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 2008",
+     "van": 2008,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Heiloo",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Heiloo</strong>.</p>"
+    }
+   ]
+  },
+  {
    "gemeente": "Helmond",
    "pdok": [],
    "kernen": [
@@ -4134,6 +4445,50 @@
      "route": "onbekend",
      "wij": false,
      "html": "<p><strong>nieuwere vergunningen</strong>: het gemeentehuis in <strong>Maasdam</strong>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Hollands Kroon",
+   "pdok": [],
+   "kernen": [
+    "Anna Paulowna",
+    "Wieringerwerf",
+    "Middenmeer",
+    "Slootdorp",
+    "Hippolytushoef",
+    "Den Oever",
+    "Nieuwe Niedorp",
+    "Winkel",
+    "Kreileroord"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "wij-formulier",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1902 t/m 2011",
+     "van": 1902,
+     "tot": 2011,
+     "geldt_voor": "",
+     "loket": "Regionaal Archief Alkmaar",
+     "route": "wij-formulier",
+     "wij": true,
+     "html": "<p><strong>Regionaal Archief Alkmaar</strong>, e-loket. De oude gemeenten Wieringen en Wieringermeer hebben een eigen reeks in hetzelfde loket. <a href=\"https://bouwdossiers.archiefalkmaar.nl/\" target=\"_blank\" rel=\"noopener\">https://bouwdossiers.archiefalkmaar.nl/</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 2012",
+     "van": 2012,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Hollands Kroon",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Hollands Kroon</strong>.</p>"
     }
    ]
   },
@@ -4534,6 +4889,55 @@
      "route": "wij-zelfzoeken",
      "wij": true,
      "html": "<p>Bronnen: <a href=\"https://www.gemeentelandvancuijk.nl/bouwtekeningen-uit-het-archief\" target=\"_blank\" rel=\"noopener\">https://www.gemeentelandvancuijk.nl/bouwtekeningen-uit-het-archief</a> en <a href=\"https://www.bhic.nl/onderzoeken/bouwvergunningen\" target=\"_blank\" rel=\"noopener\">https://www.bhic.nl/onderzoeken/bouwvergunningen</a>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Landsmeer",
+   "pdok": [],
+   "kernen": [
+    "Landsmeer",
+    "Den Ilp",
+    "Purmerland"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "onbekend",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1970 t/m 1990",
+     "van": 1970,
+     "tot": 1990,
+     "geldt_voor": "",
+     "loket": "Waterlands Archief",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Waterlands Archief</strong>, online te bekijken en te downloaden. <a href=\"https://waterlandsarchief.nl/onderzoek/hulp-bij-onderzoek/1371-gebouwen\" target=\"_blank\" rel=\"noopener\">https://waterlandsarchief.nl/onderzoek/hulp-bij-onderzoek/1371-gebouwen</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vóór 1970 en 1991 t/m ongeveer 2005",
+     "van": 1991,
+     "tot": 2005,
+     "geldt_voor": "",
+     "loket": "of",
+     "route": "balie",
+     "wij": false,
+     "html": "<p>wel bij het Waterlands Archief, maar nog niet gedigitaliseerd. U kunt op adres opzoeken <strong>of</strong> er een dossier is; inzage gaat in de studiezaal, op afspraak via <strong><a href=\"mailto:info@waterlandsarchief.nl\">info@waterlandsarchief.nl</a></strong>, dinsdag tot en met donderdag van 9 tot 16 uur. Grootformaat scans kunt u daar bestellen volgens de tarievenlijst.</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>de laatste twintig jaar</strong>: <strong>gemeente Landsmeer</strong>; die vergunningen zijn nog niet overgedragen.</p>"
     }
    ]
   },
@@ -5981,6 +6385,42 @@
    ]
   },
   {
+   "gemeente": "Oostzaan",
+   "pdok": [],
+   "kernen": [
+    "Oostzaan"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "wij-zelfzoeken",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "ongeveer 1900 t/m 1999",
+     "van": 1900,
+     "tot": 1999,
+     "geldt_voor": "",
+     "loket": "Gemeentearchief Zaanstad",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Gemeentearchief Zaanstad</strong>. Oostzaan loopt daar langer door dan de Zaangemeenten zelf, tot en met 1999. <a href=\"https://archief.zaanstad.nl/gebouwen/zoektips-gebouwen\" target=\"_blank\" rel=\"noopener\">https://archief.zaanstad.nl/gebouwen/zoektips-gebouwen</a></p><ul><li>Net als bij Zaanstad bevat de index bouwtekeningen én constructieberekeningen. Is het dossier gedigitaliseerd, dan opent het als pdf; zo niet, dan reserveert u het voor de studiezaal.</li></ul>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 2000",
+     "van": 2000,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Oostzaan",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Oostzaan</strong>.</p>"
+    }
+   ]
+  },
+  {
    "gemeente": "Oss",
    "pdok": [],
    "kernen": [
@@ -6248,6 +6688,70 @@
      "route": "onbekend",
      "wij": false,
      "html": "<p><strong>gemeente Papendrecht</strong>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Purmerend",
+   "pdok": [],
+   "kernen": [
+    "Purmerend",
+    "Beemster",
+    "Middenbeemster",
+    "Zuidoostbeemster",
+    "Noordbeemster",
+    "Westbeemster",
+    "Weidevenne"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "onbekend",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "<p>Beemster is in 2022 bij Purmerend gekomen en heeft een eigen reeks. Van Purmerend zelf staat nog niets online.</p>",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "Beemster 1970 t/m 1990",
+     "van": 1970,
+     "tot": 1990,
+     "geldt_voor": "",
+     "loket": "Waterlands Archief",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Waterlands Archief</strong>, online te bekijken en te downloaden.</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "Purmerend, alle jaren tot ongeveer 2005",
+     "van": null,
+     "tot": 2005,
+     "geldt_voor": "",
+     "loket": "Waterlands Archief",
+     "route": "balie",
+     "wij": false,
+     "html": "<p><strong>Waterlands Archief</strong>, maar nog niet gedigitaliseerd. Via de ingang <strong>Gebouwen</strong> ziet u op adres of er een dossier is; inzage in de studiezaal, op afspraak via <strong><a href=\"mailto:info@waterlandsarchief.nl\">info@waterlandsarchief.nl</a></strong>, dinsdag tot en met donderdag van 9 tot 16 uur. <a href=\"https://waterlandsarchief.nl/onderzoek/hulp-bij-onderzoek/1371-gebouwen\" target=\"_blank\" rel=\"noopener\">https://waterlandsarchief.nl/onderzoek/hulp-bij-onderzoek/1371-gebouwen</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>de laatste twintig jaar</strong>: <strong>gemeente Purmerend</strong>.</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": ""
     }
    ]
   },
@@ -6786,6 +7290,51 @@
      "route": "wij-zelfzoeken",
      "wij": true,
      "html": "<p>Bron: <a href=\"https://westbrabantsarchief.nl/collectie/bouwvergunningen-bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://westbrabantsarchief.nl/collectie/bouwvergunningen-bouwdossiers</a>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Schagen",
+   "pdok": [],
+   "kernen": [
+    "Schagen",
+    "Warmenhuizen",
+    "Tuitjenhorn",
+    "Dirkshorn",
+    "Callantsoog",
+    "'t Zand",
+    "Petten",
+    "Burgerbrug",
+    "Sint Maarten",
+    "Waarland"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "wij-formulier",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1901 t/m 2010",
+     "van": 1901,
+     "tot": 2010,
+     "geldt_voor": "",
+     "loket": "Regionaal Archief Alkmaar",
+     "route": "wij-formulier",
+     "wij": true,
+     "html": "<p><strong>Regionaal Archief Alkmaar</strong>, e-loket. De voormalige gemeenten <strong>Zijpe</strong> en <strong>Harenkarspel</strong> zitten in dezelfde reeks; zoek dus gerust op de kern. <a href=\"https://bouwdossiers.archiefalkmaar.nl/\" target=\"_blank\" rel=\"noopener\">https://bouwdossiers.archiefalkmaar.nl/</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 2011",
+     "van": 2011,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Schagen",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Schagen</strong>.</p>"
     }
    ]
   },
@@ -8041,6 +8590,50 @@
    ]
   },
   {
+   "gemeente": "Waterland",
+   "pdok": [],
+   "kernen": [
+    "Monnickendam",
+    "Broek in Waterland",
+    "Ilpendam",
+    "Marken",
+    "Katwoude",
+    "Watergang",
+    "Uitdam",
+    "Zuiderwoude",
+    "Overleek"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "balie",
+   "wij": false,
+   "voorbehoud": "",
+   "intro_html": "",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "tot ongeveer 2005",
+     "van": null,
+     "tot": 2005,
+     "geldt_voor": "",
+     "loket": "Waterlands Archief",
+     "route": "balie",
+     "wij": false,
+     "html": "<p><strong>Waterlands Archief</strong>. Van deze gemeente staat nog niets online. Via de ingang <strong>Gebouwen</strong> kunt u op adres opzoeken of er een dossier is; het dossier zelf ziet u in de studiezaal, op afspraak via <strong><a href=\"mailto:info@waterlandsarchief.nl\">info@waterlandsarchief.nl</a></strong>, dinsdag tot en met donderdag van 9 tot 16 uur. Grootformaat scans bestelt u daar volgens de tarievenlijst. <a href=\"https://waterlandsarchief.nl/onderzoek/hulp-bij-onderzoek/1371-gebouwen\" target=\"_blank\" rel=\"noopener\">https://waterlandsarchief.nl/onderzoek/hulp-bij-onderzoek/1371-gebouwen</a></p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>de laatste twintig jaar</strong>: <strong>gemeente Waterland</strong>.</p>"
+    }
+   ]
+  },
+  {
    "gemeente": "West Betuwe",
    "pdok": [],
    "kernen": [
@@ -8486,6 +9079,47 @@
    ]
   },
   {
+   "gemeente": "Wormerland",
+   "pdok": [],
+   "kernen": [
+    "Wormer",
+    "Jisp",
+    "Neck",
+    "Oostknollendam",
+    "Spijkerboor",
+    "Wijdewormer"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "wij-zelfzoeken",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "<p>Van de vijf gemeenten bij het Waterlands Archief is Wormerland de enige die er bijna helemaal online staat. Een eeuw bouwtekeningen is er zonder bezoek uit te halen.</p>",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "1905 t/m 2000",
+     "van": 1905,
+     "tot": 2000,
+     "geldt_voor": "",
+     "loket": "Waterlands Archief",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Waterlands Archief</strong>, inclusief de voorgangers van de gemeente. De bouwtekeningen zijn op de site te bekijken en te downloaden. <a href=\"https://waterlandsarchief.nl/onderzoek/hulp-bij-onderzoek/1371-gebouwen\" target=\"_blank\" rel=\"noopener\">https://waterlandsarchief.nl/onderzoek/hulp-bij-onderzoek/1371-gebouwen</a></p><ul><li>Zoek in de ingang <strong>Gebouwen</strong> op adres. Vindt u niets, laat het huisnummer dan weg: blokken nieuwbouw staan vaak als reeks ingevoerd, bijvoorbeeld \"2 t/m 128\".<ul><li>De dossiers staan op het <strong>oorspronkelijke</strong> adres. Straten zijn hernoemd en vóór 1940 werd vaak met wijk- en huisnummers gewerkt, zoals \"E no 009\".</li><li>Een deel is om privacyredenen niet online; dat is alleen in de studiezaal in te zien en niet te downloaden.</li></ul></li></ul>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 2001",
+     "van": 2001,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Wormerland",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Wormerland</strong>.</p>"
+    }
+   ]
+  },
+  {
    "gemeente": "Woudenberg",
    "pdok": [],
    "kernen": [
@@ -8529,6 +9163,93 @@
      "route": "onbekend",
      "wij": false,
      "html": "<p>Bron: <a href=\"https://www.archiefeemland.nl/bronnen/bouwtekeningen/\" target=\"_blank\" rel=\"noopener\">https://www.archiefeemland.nl/bronnen/bouwtekeningen/</a>.</p>"
+    }
+   ]
+  },
+  {
+   "gemeente": "Zaanstad",
+   "pdok": [],
+   "kernen": [
+    "Zaandam",
+    "Koog aan de Zaan",
+    "Zaandijk",
+    "Wormerveer",
+    "Krommenie",
+    "Assendelft",
+    "Westzaan",
+    "Nauerna"
+   ],
+   "gecheckt": "2026-09-14",
+   "route": "wij-zelfzoeken",
+   "wij": true,
+   "voorbehoud": "",
+   "intro_html": "<p>Het <strong>Gemeentearchief Zaanstad</strong> is voor een constructeur een van de betere archieven van het land: de index noemt niet alleen bouwtekeningen maar ook <strong>constructieberekeningen</strong>, en alles tot en met 1997 staat online.</p>",
+   "perioden": [
+    {
+     "bedrag": null,
+     "kop": "ongeveer 1900 t/m 1973",
+     "van": 1900,
+     "tot": 1973,
+     "geldt_voor": "",
+     "loket": "Gemeentearchief Zaanstad",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Gemeentearchief Zaanstad</strong>, per voormalige Zaangemeente. Assendelft, Koog aan de Zaan, Krommenie, Westzaan, Wormerveer, Zaandam en Zaandijk hebben elk hun eigen reeks. <a href=\"https://archief.zaanstad.nl/gebouwen/zoektips-gebouwen\" target=\"_blank\" rel=\"noopener\">https://archief.zaanstad.nl/gebouwen/zoektips-gebouwen</a></p><ul><li>Is een dossier gedigitaliseerd, dan ziet u de eerste scan meteen in het detailscherm staan; klikken opent het hele dossier als pdf.<ul><li>Is het dat niet, dan reserveert u het thuis en bekijkt u het in de studiezaal.</li></ul></li></ul>"
+    },
+    {
+     "bedrag": null,
+     "kop": "1974 t/m 1997",
+     "van": 1974,
+     "tot": 1997,
+     "geldt_voor": "",
+     "loket": "Gemeentearchief Zaanstad",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>Gemeentearchief Zaanstad</strong>, reeks van de gemeente Zaanstad. Voor de gedigitaliseerde tekeningen uit deze jaren klikt u in het detailscherm op <strong>Bevat</strong>.</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p><strong>vóór ongeveer 1900</strong>: meestal niets. Het bewaren van bouwdossiers werd pas rond 1900 verplicht; daarvoor gingen de tekeningen terug naar de aanvrager. Van een ouder pand bestaan vaak wel tekeningen van latere verbouwingen.</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "vanaf 1998",
+     "van": 1998,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "gemeente Zaanstad",
+     "route": "onbekend",
+     "wij": false,
+     "html": "<p><strong>gemeente Zaanstad</strong>, online op te vragen via zaanstad.nl, zoeken op \"bouwtekening\".</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p>Ook de <strong>hinderwetvergunningen</strong> van de voormalige Zaangemeenten tot en met 1974 zitten in dezelfde index. Handig bij een pand met een bedrijfsverleden.</p>"
+    },
+    {
+     "bedrag": null,
+     "kop": "",
+     "van": null,
+     "tot": null,
+     "geldt_voor": "",
+     "loket": "",
+     "route": "wij-zelfzoeken",
+     "wij": true,
+     "html": "<p>Het archief helpt zoeken naar het juiste adres, maar geeft geen bouwkundig advies; u bepaalt zelf welke tekeningen u nodig heeft.</p>"
     }
    ]
   },
