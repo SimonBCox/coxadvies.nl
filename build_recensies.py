@@ -112,7 +112,24 @@ def bouw_blok(data: dict) -> str:
         raise SystemExit("Geen zichtbare recensies: zet minstens een keer 'tonen' op true.")
 
     kaarten = "\n\n".join(kaart(r) for r in zichtbaar)
-    aantal = len(data["recensies"])
+
+    # De kop zegt "N beoordelingen op Google", dus N is een gegeven van Google en niet
+    # het aantal kaarten dat wij toevallig hebben. Een beoordeling zonder tekst telt bij
+    # Google wel mee en levert hier geen kaart op; stond hier len(recensies), dan liep de
+    # kop stil achter. Vandaar een eigen veld dat je bijwerkt als je op het profiel kijkt.
+    aantal = data.get("aantal_op_google")
+    if aantal is None:
+        raise SystemExit(
+            "aantal_op_google ontbreekt in recensies.json. Kijk op het Google-profiel\n"
+            "  hoeveel beoordelingen er staan en zet dat getal erin, met de datum in\n"
+            "  aantal_gecontroleerd_op. Raden mag niet: de kop is een uitspraak over Google."
+        )
+    if aantal < len(data["recensies"]):
+        raise SystemExit(
+            f"aantal_op_google is {aantal}, maar er staan {len(data['recensies'])} recensies\n"
+            "  in het bestand. Een van de twee klopt niet; kijk het na op het profiel."
+        )
+
     leesurl = data.get("profiel_leesurl") or data["profiel_url"]
     scores = [r.get("sterren", 5) for r in data["recensies"]]
     cijfer = f"{sum(scores) / len(scores):.1f}".replace(".", ",")
@@ -162,6 +179,14 @@ def main() -> int:
         doel.write_text(patroon.sub(lambda _: blok, tekst), encoding="utf-8")
         zichtbaar = sum(1 for r in data["recensies"] if r.get("tonen", True))
         print(f"  {doel.name}: {zichtbaar} van {len(data['recensies'])} recensies geplaatst")
+
+    gat = data["aantal_op_google"] - len(data["recensies"])
+    if gat:
+        gecontroleerd = data.get("aantal_gecontroleerd_op", "datum onbekend")
+        print(f"\n  De kop meldt {data['aantal_op_google']} beoordelingen op Google "
+              f"(gecontroleerd {gecontroleerd}),")
+        print(f"  en daarvan hebben we de tekst van {len(data['recensies'])}. "
+              f"{gat} zonder tekst of nog niet opgehaald.")
 
     if onbevestigd:
         print("\n  LET OP, projectkoppeling nog niet bevestigd voor: " + ", ".join(onbevestigd))
