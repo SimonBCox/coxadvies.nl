@@ -19,7 +19,7 @@
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
 {"@type":"Question","name":"Wat kost een constructeur voor een draagmuur?","acceptedAnswer":{"@type":"Answer","text":"Een constructieberekening voor een draagmuurdoorbraak kost bij Cox Constructieadvies € 850 inclusief btw. Daar zit de complete berekening én de constructietekening bij, klaar voor de omgevingsvergunning. De prijs staat vooraf vast."}},
 {"@type":"Question","name":"Zit de constructietekening bij de prijs in?","acceptedAnswer":{"@type":"Answer","text":"Ja. Berekening en tekening zijn één pakket. U krijgt een constructieberekening en een bijbehorende constructietekening op A3, waarmee u de omgevingsvergunning aanvraagt en waarmee uw aannemer direct aan de slag kan."}},
-{"@type":"Question","name":"Hoe lang duurt een constructieberekening?","acceptedAnswer":{"@type":"Answer","text":"Standaard vijf werkdagen nadat alle gegevens compleet zijn. Heeft u haast, dan kan een doorbraak binnen 48 uur. Dat kost 30% extra, dus € 1.100 in plaats van € 850. Bij een aanbouw of nieuwbouw is 48 uur niet realistisch; daar spreken we vooraf een haalbare datum af, met dezelfde toeslag."}},
+{"@type":"Question","name":"Hoe lang duurt een constructieberekening?","acceptedAnswer":{"@type":"Answer","text":"Een doorbraak is vijf werkdagen nadat alle gegevens compleet zijn. Heeft u haast, dan kan het binnen 48 uur. Dat kost 30% extra, dus € 1.100 in plaats van € 850. Bij een uitbouw of nieuwbouw noem ik geen termijn maar een datum, want hoeveel tijd dat werk kost hangt af van het aantal constructieve onderdelen. Die datum staat in de offerte, dus u weet het voordat u opdracht geeft."}},
 {"@type":"Question","name":"Heb ik een constructeur nodig voor een draagmuurdoorbraak?","acceptedAnswer":{"@type":"Answer","text":"Als de muur draagt wel. Of uw gemeente nu een vergunning of een melding vraagt, u moet altijd met een constructieberekening aantonen dat de nieuwe situatie veilig is. Weet u niet zeker of uw muur draagt? Stuur een foto of plattegrond, dan kijk ik vrijblijvend mee."}},
 {"@type":"Question","name":"Wat heeft de constructeur van mij nodig?","acceptedAnswer":{"@type":"Answer","text":"Het liefst een plattegrond en de bestaande bouwtekeningen. Heeft u die niet, dan is dat geen probleem: ik kan ze opzoeken of opvragen bij de gemeente. Foto's van de situatie en de globale maten zijn vaak al genoeg om te starten."}},
 {"@type":"Question","name":"Waarom lopen de prijzen van constructeurs uiteen?","acceptedAnswer":{"@type":"Answer","text":"Het grootste verschil zit in wat er wel en niet bij zit. Een losse berekening zonder tekening is goedkoper, maar dan moet de tekening er alsnog komen. Ook het aantal constructieve onderdelen telt: één ligger is minder werk dan een doorbraak met nieuwe fundering, kolommen en een aangepaste gevel."}}
@@ -45,7 +45,7 @@
   .antwoord-noot{font-size:.85rem;color:var(--muted);margin-top:14px}
 
   .tabel-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid var(--line);border-radius:var(--r);background:var(--surface)}
-  table.prijs{width:100%;border-collapse:collapse;min-width:560px;font-size:.97rem}
+  table.prijs{width:100%;border-collapse:collapse;min-width:700px;font-size:.97rem}
   table.prijs th,table.prijs td{text-align:left;padding:15px 20px;border-bottom:1px solid var(--line);vertical-align:top}
   table.prijs thead th{font-family:"Hanken Grotesk",sans-serif;font-size:.74rem;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--accent);background:var(--bg)}
   table.prijs tbody tr:last-child td{border-bottom:none}
@@ -53,6 +53,7 @@
   table.prijs .scope{display:block;font-weight:400;color:var(--muted);font-size:.9rem;margin-top:4px;max-width:46ch}
   table.prijs .incl{white-space:nowrap;font-weight:700;color:var(--ink)}
   table.prijs .ex{white-space:nowrap;color:var(--muted);font-size:.9rem}
+  table.prijs .lever{white-space:nowrap;color:var(--muted);font-size:.9rem}
   .btw-noot{font-size:.88rem;color:var(--muted);margin-top:14px;max-width:60ch}
 
   .lijst{list-style:none;display:grid;gap:11px;margin-top:8px}
@@ -108,7 +109,7 @@
         <span class="bedrag">€ 850</span>
         <p><b>Een constructieberekening voor een draagmuurdoorbraak</b> kost € 850 inclusief btw, met de constructietekening erbij en klaar voor uw omgevingsvergunning.</p>
       </div>
-      <p class="antwoord-noot">Prijs staat vast zodra we weten wat u wilt. Levertijd vijf werkdagen.</p>
+      <p class="antwoord-noot">Prijs staat vast zodra we weten wat u wilt. Een doorbraak heeft u vijf werkdagen nadat alle gegevens compleet zijn.</p>
     </div>
   </section>
 
@@ -124,32 +125,38 @@
       <div class="tabel-wrap reveal">
         <table class="prijs">
           <thead>
-            <tr><th scope="col">Wat</th><th scope="col">Prijs</th></tr>
+            <tr><th scope="col">Wat</th><th scope="col">Prijs</th><th scope="col">Klaar in</th></tr>
           </thead>
           <tbody>
             <tr>
               <td><span class="dienst">Draagmuurdoorbraak</span><span class="scope">Eén stalen ligger, met de opleggingen en penanten of een kolom. De bestaande fundering wordt getoetst.</span></td>
               <td class="incl">€ 850</td>
+              <td class="lever">5 werkdagen</td>
             </tr>
             <tr>
               <td><span class="dienst">Doorbraak met stabiliteitsportaal</span><span class="scope">Als de muur ook noodzakelijk is voor de stabiliteit van de woning. Dan komt er een portaal in plaats van een losse ligger op opleggingen.</span></td>
               <td class="incl">€ 1.100</td>
+              <td class="lever">5 werkdagen</td>
             </tr>
             <tr>
               <td><span class="dienst">Doorbraak, uitgebreid</span><span class="scope">Twee of drie liggers, of een nieuwe fundering of kolommen op poeren.</span></td>
               <td class="incl">€ 1.250</td>
+              <td class="lever">5 werkdagen</td>
             </tr>
             <tr>
               <td><span class="dienst">Uitbouw, aanbouw of dakopbouw</span><span class="scope">Volledige constructieve uitwerking: liggers, kolommen, funderingen, spanten en verbindingen.</span></td>
               <td class="incl">€ 1.500 – 2.500</td>
+              <td class="lever">datum in overleg</td>
             </tr>
             <tr>
               <td><span class="dienst">Nieuwbouw woning</span><span class="scope">De complete draagconstructie van fundering tot dak, inclusief stabiliteit en zo nodig een paalfundering.</span></td>
               <td class="incl">€ 2.500 – 4.500</td>
+              <td class="lever">datum in overleg</td>
             </tr>
             <tr>
               <td><span class="dienst">Second opinion</span><span class="scope">Beoordeling van een bestaande berekening of een al uitgevoerde situatie, met schriftelijke bevinding.</span></td>
-              <td class="incl">€ 300</td>
+              <td class="incl">€ 450</td>
+              <td class="lever">5 werkdagen</td>
             </tr>
           </tbody>
         </table>
@@ -218,7 +225,7 @@
         </details>
         <details>
           <summary>Hoe lang duurt een constructieberekening?</summary>
-          <div class="a"><p>Standaard vijf werkdagen nadat alle gegevens compleet zijn. Heeft u haast, dan kan een doorbraak binnen 48 uur. Dat kost 30% extra, dus € 1.100 in plaats van € 850. Bij een aanbouw of nieuwbouw is 48 uur niet realistisch; daar spreken we vooraf een haalbare datum af, met dezelfde toeslag.</p><p>Ontbreekt er iets, dan hoort u binnen één werkdag wat ik nog nodig heb, zodat u niet zit te wachten zonder het te weten.</p></div>
+          <div class="a"><p>Een doorbraak is vijf werkdagen nadat alle gegevens compleet zijn. Heeft u haast, dan kan het binnen 48 uur. Dat kost 30% extra, dus € 1.100 in plaats van € 850.</p><p>Bij een uitbouw of nieuwbouw noem ik geen termijn maar een datum. Hoeveel tijd dat werk kost hangt af van het aantal constructieve onderdelen, en een uitbouw in vijf dagen beloven zou ik later moeten terugnemen. Die datum staat in de offerte, dus u weet hem voordat u opdracht geeft. Wilt u eerder, dan kijk ik wat er kan, tegen dezelfde toeslag van 30%.</p><p>Ontbreekt er iets, dan hoort u binnen één werkdag wat ik nog nodig heb, zodat u niet zit te wachten zonder het te weten.</p></div>
         </details>
         <details>
           <summary>Heb ik wel een constructeur nodig?</summary>
