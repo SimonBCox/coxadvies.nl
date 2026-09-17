@@ -1,0 +1,192 @@
+/* De opmaak van de bouwdossierzoeker en zijn antwoordkaart.
+
+   Stond tot 17 september 2026 inline in /bouwdossier/index.html. Sinds de Engelse
+   pagina /en/building-file/ dezelfde zoeker draait, staat hij hier: twee kopieen van
+   honderdzestig regels css lopen uit elkaar zodra er aan een van beide iets verandert,
+   en dat is precies wat er met de prijs op de Engelse pagina gebeurde.
+
+   De tokens (--navy, --line, --accent) komen uit /css/style.css; dit bestand voegt
+   alleen toe wat deze twee pagina's nodig hebben. */
+  .zelf-slot{font-weight:600;color:var(--ink);border-left:2px solid var(--accent);
+    padding-left:16px;max-width:62ch}
+
+  /* Het beeld van het voorbeelddossier. De miniaturen zijn met opzet zo klein dat er
+     niets van te lezen valt; zie de commentaarregel bij de generator. */
+  .vb-beeld{margin:26px 0 30px;max-width:1000px}
+  .vb-beeld img{width:100%;height:auto;display:block;border:1px solid var(--line);
+    border-radius:var(--r);box-shadow:var(--shadow)}
+  .vb-beeld figcaption{margin-top:10px;font-size:.86rem;color:var(--muted)}
+
+  /* De dichtgeklapte gemeentelijst. */
+  .gemeenten{margin:0 0 12px;max-width:760px}
+  .gemeenten summary{cursor:pointer;font-weight:600;color:var(--accent);
+    padding:10px 0;list-style:none}
+  .gemeenten summary::-webkit-details-marker{display:none}
+  .gemeenten summary::before{content:"›";display:inline-block;margin-right:10px;
+    transition:transform .15s}
+  .gemeenten[open] summary::before{transform:rotate(90deg)}
+  .gemeenten > p{margin:4px 0 12px;color:var(--muted);font-size:.94rem}
+
+  /* Gemeentetabel. Wordt door genereer_gemeentepaginas.py gevuld tussen de
+     merktekens; met de hand wijzigen heeft geen zin. */
+  .tabelwrap{overflow-x:auto;margin:0 0 10px}
+  /* De hele lijst openklappen duwt de rest van de pagina buiten beeld;
+     de lijst scrollt daarom in zichzelf. */
+  .gemeenten .tabelwrap{max-height:60vh;overflow-y:auto}
+  .gemeentetabel{border-collapse:collapse;width:100%;max-width:760px;font-size:.95rem}
+  .gemeentetabel th,.gemeentetabel td{text-align:left;padding:9px 14px 9px 0;
+    border-bottom:1px solid var(--line);vertical-align:top}
+  .gemeentetabel th{font-size:.78rem;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--muted);font-weight:700}
+  .gemeentetabel td:last-child{color:var(--muted);white-space:nowrap}
+
+  /* Zoekveld */
+  .zoek{max-width:620px}
+  .zoek label{display:block;font-weight:600;margin-bottom:6px}
+  .zoek-veld{position:relative}
+  .zoek input{width:100%;padding:14px 16px;font:inherit;color:var(--ink);
+    background:var(--surface);border:1px solid var(--line);border-radius:var(--r)}
+  .zoek input:focus{outline:2px solid var(--accent);outline-offset:2px}
+  .sug{position:absolute;z-index:900;left:0;right:0;top:calc(100% + 6px);margin:0;padding:6px;
+    list-style:none;background:var(--surface);border:1px solid var(--line);
+    border-radius:var(--r);box-shadow:var(--shadow)}
+  .sug:empty{display:none}
+  .sug li{padding:10px 12px;border-radius:10px;cursor:pointer}
+  .sug li:hover{background:var(--bg)}
+  .zoek .noot{margin-top:10px;color:var(--muted);font-size:.92rem}
+  .sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+  /* Antwoordkaart */
+  .uitslag{margin-top:28px}
+  /* Het antwoord is waar de bezoeker voor komt; het was smaller dan de uitleg eronder. */
+  .aw{max-width:1000px;background:var(--surface);border:1px solid var(--line);
+    border-radius:var(--r);box-shadow:var(--shadow);overflow:hidden}
+
+  .aw-hoofd{background:var(--navy);color:#fff;padding:26px clamp(20px,4vw,34px) 28px;
+    border-bottom:3px solid var(--warm)}
+  .aw-adres{font-size:.9rem;color:#b7c4d3;margin:0 0 14px}
+  .aw-jaar{font-size:.74rem;font-weight:600;letter-spacing:.18em;text-transform:uppercase;
+    color:#9cc3ea;margin:0 0 7px}
+  .aw-kop{font-family:"Lora",Georgia,serif;font-weight:500;letter-spacing:-.01em;
+    font-size:clamp(1.5rem,4vw,2.15rem);line-height:1.14;color:#fff;margin:0}
+  .aw-zin{color:#b7c4d3;margin:13px 0 0;max-width:46ch}
+
+  .aw-doen{padding:24px clamp(20px,4vw,34px) 26px}
+  .aw-doen>p{max-width:58ch}
+  /* De kleur staat er expliciet bij. Zonder erft het blok de tekstkleur van zijn sectie,
+     en in de donkere cta-sectie werd dat lichtgrijs op de crème achtergrond: onleesbaar. */
+  .aw-letop{border-left:3px solid var(--warm);background:var(--bg);color:var(--ink);
+    border-radius:0 10px 10px 0;padding:13px 17px;margin:0 0 18px;font-size:.95rem}
+  .aw-actie{margin:18px 0 0}
+  .aw-fijn{margin:14px 0 0;font-size:.92rem;color:var(--muted);max-width:60ch}
+  .aw-fijn a,.aw-inhoud a{color:var(--accent)}
+  .aw-doen ul{padding-left:20px;max-width:60ch}
+  .aw-doen li{margin-bottom:8px}
+  .aw-gecheckt{margin:20px 0 0;padding-top:15px;border-top:1px solid var(--line);
+    font-size:.85rem;color:var(--muted)}
+
+  .aw-meer{border-top:1px solid var(--line)}
+  .aw-meer>summary{cursor:pointer;list-style:none;display:flex;align-items:center;
+    justify-content:space-between;gap:16px;padding:16px clamp(20px,4vw,34px);
+    font-weight:600;font-size:.97rem}
+  .aw-meer>summary::-webkit-details-marker{display:none}
+  .aw-meer>summary::after{content:"+";color:var(--accent);font-size:1.35rem;
+    font-weight:400;line-height:1;flex:none}
+  .aw-meer[open]>summary::after{content:"\2212"}
+  .aw-meer>summary:hover{background:var(--bg)}
+  .aw-meer>summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+  .aw-meer[open]>summary{border-bottom:1px solid var(--line)}
+  .aw-inhoud{padding:18px clamp(20px,4vw,34px) 24px;color:var(--muted);font-size:.96rem}
+  .aw-inhoud ul{padding-left:20px}
+  .aw-periodes{list-style:none;display:grid;gap:20px;margin:16px 0 0;padding:0}
+  .aw-periode{border-left:2px solid var(--line);padding-left:16px}
+  .aw-jaren{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--muted);margin:0 0 4px}
+  .aw-periode .aw-body{color:var(--ink)}
+  .aw-periode .aw-body p{margin:0 0 8px}
+  /* Hoger dan de oorspronkelijke 230, want op een perceelgrens moet je iets kunnen zien. */
+  .aw-kaart{height:320px;border:1px solid var(--line);border-radius:10px;background:var(--bg)}
+  .aw-kaart .leaflet-container{border-radius:10px;font:inherit}
+
+  /* Dit is de enige zin op de pagina waar iets wordt aangeboden. Hij stond op .92rem
+     in de grijstint van een voetnoot, en las daardoor als kleine lettertjes onder een
+     antwoord. Nu gewoon in de leeskleur en op leesgrootte; verder niets, want een knop
+     of een kader eromheen maakt er een banner van. */
+  .aw-uit{margin:0;padding:17px clamp(20px,4vw,34px);background:var(--bg);
+    border-top:1px solid var(--line);font-size:1rem;color:var(--ink)}
+  .aw-uit a{color:var(--accent);font-weight:600}
+
+  /* De bronnen die in het dossier komen. Zelfde ritme als de periodelijst, want de
+     pagina heeft al twee manieren om een reeks te tonen en dat zijn er genoeg. */
+  .bron-lijst{list-style:none;display:grid;gap:16px;margin:14px 0 22px;padding:0;
+    max-width:62ch}
+  .bron-lijst li{border-left:2px solid var(--line);padding-left:16px}
+  .bron-lijst b{display:block}
+
+  /* Het voorbeelddossier: vier vergunningen onder elkaar, met het jaartal als anker.
+     Zelfde vorm als de periodelijst in de antwoordkaart, zodat de pagina niet nog een
+     derde manier krijgt om een reeks te tonen. */
+  .vb-lijst{list-style:none;display:grid;gap:20px;margin:22px 0 26px;padding:0;
+    max-width:62ch}
+  .vb-item{border-left:2px solid var(--line);padding-left:16px}
+  .vb-item p{margin:0}
+  .vb-jaar{font-size:.72rem;font-weight:700;letter-spacing:.12em;
+    color:var(--muted);margin-bottom:4px}
+  #voorbeeld ul:not(.vb-lijst){max-width:62ch;padding-left:20px}
+  #voorbeeld ul:not(.vb-lijst) li{margin-bottom:10px}
+
+  /* De huisstijl maakt .sec-head p, .card p en .step p op, maar een losse alinea in een
+     sectie krijgt niets: geen ruimte eronder en geen maximale regellengte. Vier alinea's
+     achter elkaar werden daardoor één blok tekst van honderdvijftig tekens breed. */
+  .section .wrap > p{max-width:62ch;margin:0 0 18px}
+  .section .wrap > p:last-child{margin-bottom:0}
+
+  /* Het bedrag staat op één lijn met de belknop, in dezelfde hoogte als de knop zelf,
+     zodat het antwoord op "wat kost het" er niet als een voetnoot bij hangt. */
+  .prijs{margin:0;align-self:center;font-size:1.05rem;color:var(--ink)}
+  .prijs b{font-size:1.35rem}
+  #aanbod-nee{margin-top:6px}
+
+  /* De jaargangen luchtfoto naast elkaar, met de foto's op ware verhouding. Ze worden
+     op 240 breed opgehaald en op 180 getoond, zodat ze op een scherp scherm scherp zijn. */
+  .tl{display:flex;gap:10px;overflow-x:auto;padding:4px 2px 12px}
+  .tl-jaar{flex:0 0 auto;padding:0;border:1px solid var(--line);background:#fff;
+    border-radius:8px;overflow:hidden;cursor:pointer;font:inherit;line-height:0}
+  .tl-jaar img{display:block;width:180px;height:135px;object-fit:cover;background:var(--bg)}
+  .tl-jaar span{display:block;padding:6px 8px;font-size:.82rem;font-weight:600;
+    line-height:1.2;color:var(--ink);text-align:center}
+  .tl-jaar:hover{border-color:var(--accent)}
+  .tl-jaar[aria-current="true"]{border-color:var(--accent);
+    box-shadow:inset 0 0 0 2px var(--accent)}
+  .tl-jaar[aria-current="true"] span{color:var(--accent)}
+  .tl-meer{flex:0 0 auto;align-self:stretch;padding:0 18px;border:1px dashed var(--line);
+    background:none;border-radius:8px;cursor:pointer;font:inherit;font-size:.9rem;
+    font-weight:600;color:var(--accent)}
+  .tl-meer:hover{border-color:var(--accent);background:var(--bg)}
+  #tijdlijnblok>summary{background:var(--bg)}
+
+  /* Geen scherp antwoord: dezelfde kaart, zonder de stelligheid van navy. */
+  .aw--onzeker .aw-hoofd{background:var(--bg);color:var(--ink);
+    border-bottom:3px solid var(--warm)}
+  .aw--onzeker .aw-adres,.aw--onzeker .aw-zin{color:var(--muted)}
+  .aw--onzeker .aw-jaar{color:var(--accent)}
+  .aw--onzeker .aw-kop{color:var(--navy)}
+
+  @media(max-width:520px){ .aw-doen .btn{width:100%;justify-content:center} }
+
+/* De Nederlandse registertekst op de Engelse pagina. Hij blijft staan zoals hij is,
+   met de links en de zoektermen die de bezoeker op de site van het archief nodig
+   heeft, en krijgt een regel erboven die zegt wat er volgt. Ingesprongen en in de
+   grijstint, zodat te zien is waar het citaat begint en waar het ophoudt. */
+.aw-nl-kop{margin:14px 0 6px;font-size:.9rem;color:var(--muted)}
+.aw-nl{border-left:2px solid var(--line);padding-left:14px;color:var(--muted)}
+.aw-nl p{margin:0 0 8px}
+.aw-nl p:last-child{margin-bottom:0}
+.aw-nl a{color:var(--accent)}
+
+/* De steden waarvoor een Engelse pagina bestaat. */
+.steden{list-style:none;display:flex;flex-wrap:wrap;gap:10px 14px;margin:14px 0 0;padding:0}
+.steden a{display:inline-block;padding:7px 14px;border:1px solid var(--line);
+  border-radius:999px;background:var(--surface);color:var(--accent);font-weight:600;
+  font-size:.95rem;text-decoration:none}
+.steden a:hover{border-color:var(--accent)}

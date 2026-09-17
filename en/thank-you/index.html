@@ -11,7 +11,10 @@
 <link rel="apple-touch-icon" href="/img/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<!-- Inter en Lora, net als de rest van de site sinds de herstijling van 7 september.
+     Deze pagina laadde nog Hanken Grotesk, een lettertype dat style.css nergens meer
+     aanroept, en haalde dus een bestand op dat niets deed. -->
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/style.css">
 <style>
   .stappen{margin:26px 0 0;padding:0;list-style:none;max-width:60ch}
@@ -49,10 +52,14 @@
         from the archive until it has come in.</p>
 
       <div class="betaal">
-        <p class="bedrag">&euro; 100 including VAT</p>
-        <!-- Zelfde betaalverzoek als op de Nederlandse bedankpagina. Vervalt 4 september
-             2028; vervang hem dan op beide pagina's. -->
-        <p><a class="btn" id="betaalknop" href="https://betaalverzoek.rabobank.nl/betaalverzoek/?id=6oxUH-R4RmmM9tU50YNJ4Q">Pay by iDEAL</a></p>
+        <p class="bedrag">&euro; 150 including VAT</p>
+        <!-- Zelfde betaalverzoek als op /bedankt-bouwdossier/, aangemaakt 2026-09-14 op
+             150,00. Deze pagina stond tot 17-09-2026 nog op de link van 100,00, terwijl
+             de Nederlandse al op 150 zat: een Engelse aanvrager betaalde dus vijftig euro
+             te weinig. Het bedrag zit vast in de link, dus bij een prijswijziging moeten
+             beide pagina's mee.
+             LET OP: deze link verloopt op 13 september 2028. -->
+        <p><a class="btn" id="betaalknop" href="https://betaalverzoek.rabobank.nl/betaalverzoek/?id=3SzZ8bJZSi6-VSD9hb-rhw">Pay by iDEAL</a></p>
         <p class="hero-hint" style="margin:0">iDEAL works with any Dutch bank account. No Dutch
           account? Reply to the confirmation email and we will send you bank details instead.</p>
       </div>
@@ -71,7 +78,7 @@
       </ol>
 
       <p class="lead" style="max-width:58ch;margin-top:28px">Have us do the structural calculation
-        afterwards and this &euro; 100 is deducted from it.</p>
+        afterwards and this &euro; 150 comes off it.</p>
 
       <div class="hero-cta">
         <a class="btn btn-ghost" href="/en/building-file/">Back to the page</a>

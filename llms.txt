@@ -25,3 +25,5 @@ Voor klanten die niet alleen een berekening willen, maar de volledige uitvoering
 
 - Home: https://www.coxadvies.nl/
 - Lokale dienstverlening: Diensten beschikbaar door heel Nederland, met een sterke focus op de regio Gelderland, Nijmegen, Arnhem, en omliggende steden.
+- Bouwdossier opvragen: https://www.coxadvies.nl/bouwdossier/ Vul een adres in en de pagina laat zien bij welk archief of loket het bouwdossier van die woning ligt, per periode, voor 205 gemeenten uitgezocht en gedateerd. Opvragen laten doen kost € 150 incl. btw per adres.
+- In English: https://www.coxadvies.nl/en/building-file/ Dezelfde zoeker en dezelfde dienst, in het Engels, voor Engelstalige woningeigenaren in Nederland. Per gemeente een eigen Engelse pagina voor Amsterdam, Rotterdam, Utrecht, Haarlem, Leiden, Amersfoort, Eindhoven en Amstelveen. Rapporten en tekeningen worden in het Nederlands geleverd, want dat vraagt de gemeente bij een vergunningaanvraag.

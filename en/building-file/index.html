@@ -3,35 +3,43 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Building file of your Dutch house: we request it for you | Cox Constructieadvies</title>
-<meta name="description" content="The original drawings of your Dutch house are almost certainly still in a public archive. We find the right one, request the file in Dutch, and send it to you with a reader's guide in English. EUR 100 including VAT.">
+<title>Building file of your Dutch house: find the archive, or have it requested | Cox Constructieadvies</title>
+<meta name="description" content="Enter your address and see which Dutch archive holds the permit file of your house, per period, with the link. For 204 municipalities, checked and dated. Or have it requested for you for EUR 150 including VAT.">
 <link rel="canonical" href="https://www.coxadvies.nl/en/building-file/">
 <link rel="alternate" hreflang="nl" href="https://www.coxadvies.nl/bouwdossier/">
 <link rel="alternate" hreflang="en" href="https://www.coxadvies.nl/en/building-file/">
 <link rel="alternate" hreflang="x-default" href="https://www.coxadvies.nl/bouwdossier/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Where are the drawings of your Dutch house?">
-<meta property="og:description" content="We find the right archive, request the file in Dutch, and send it to you with a reader's guide in English.">
+<meta property="og:description" content="Enter your address and see which archive holds the file. Or have it requested for you, with a reader's guide in English.">
 <meta property="og:locale" content="en_GB">
 <meta property="og:url" content="https://www.coxadvies.nl/en/building-file/">
+<meta property="og:image" content="https://www.coxadvies.nl/img/woningdossier.png">
 <link rel="icon" type="image/png" href="/img/favicon.png">
 <link rel="apple-touch-icon" href="/img/favicon.png">
 
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+{"@type":"ListItem","position":1,"name":"Home","item":"https://www.coxadvies.nl/"},
+{"@type":"ListItem","position":2,"name":"Building file","item":"https://www.coxadvies.nl/en/building-file/"}]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"Where do I request the original drawings of my Dutch house?","acceptedAnswer":{"@type":"Answer","text":"That depends on the year the permit was granted, not only on the municipality. Older files usually sit at a regional or district archive, files from the last few decades at the municipality itself, and the most recent ones at a regional environmental service. One address in Huissen has three different counters: everything up to 2000 at the Regionaal Archief Nijmegen, 2001 to 2014 at the municipality of Lingewaard, and everything after that at the Omgevingsdienst Groene Metropool."}},
+{"@type":"Question","name":"Do Dutch archives work in English?","acceptedAnswer":{"@type":"Answer","text":"Mostly not. The counters, their search screens and the files themselves are in Dutch, and older drawings are handwritten in Dutch. Some archives answer an English email, but the request forms, the index terms and the permit documents are Dutch throughout."}},
+{"@type":"Question","name":"Does the building file say whether I can remove a wall?","acceptedAnswer":{"@type":"Answer","text":"No. The file shows what was permitted and what was drawn at the time. Whether a wall can be removed follows from a structural calculation on the house as it stands today, which is separate work."}},
+{"@type":"Question","name":"What does it cost to have a Dutch building file requested?","acceptedAnswer":{"@type":"Answer","text":"EUR 150 including VAT per address at Cox Constructieadvies, with up to EUR 10 of the archive's own search or scanning fees included. If the archive charges more you hear about it first. If the archive holds nothing, you get your money back."}}]}
+</script>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/style.css">
-
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="/css/bouwdossier.css">
 <style>
-  .taal{font-size:.9rem;color:var(--muted)}
+  .taal{font-size:.9rem;color:var(--muted);margin-top:16px}
   .taal a{color:var(--accent);font-weight:600}
-  .prijs{margin:0;align-self:center;font-size:1.05rem;color:var(--ink)}
-  .prijs b{font-size:1.35rem}
-  .section .wrap > p{max-width:62ch;margin:0 0 18px}
-  .section .wrap > p:last-child{margin-bottom:0}
-  .stap{list-style:none;display:grid;gap:20px;margin:22px 0 26px;padding:0;max-width:62ch}
-  .stap li{border-left:2px solid var(--line);padding-left:16px}
-  .stap b{display:block;margin-bottom:2px}
 </style>
 </head>
 <body id="top">
@@ -40,95 +48,229 @@
   <div class="wrap nav-inner">
     <a class="brand" href="/"><img src="/img/logo.png" alt="Cox Constructieadvies"></a>
     <nav class="nav-links" aria-label="Menu">
+      <a href="#find">Find the archive</a>
       <a href="#what-you-get">What you get</a>
-      <a href="#price">Price</a>
-      <a href="#request">Request</a>
-      <a href="/bouwdossier/">Nederlands</a>
+      <a href="#why">Why it is hard</a>
+      <a href="#contact">Request</a>
+      <a href="/bouwdossier/" hreflang="nl">Nederlands</a>
     </nav>
-    <a class="btn" href="#request">Request a file</a>
+    <a class="btn" href="#contact">Request a file</a>
   </div>
 </header>
 
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <div class="wrap breadcrumb-inner">
+    <a href="/">Home</a><span aria-hidden="true"> &rsaquo; </span><span>Building file</span>
+  </div>
+</nav>
+
 <main>
-  <section class="hero">
+
+  <section class="section" id="find">
     <div class="wrap">
-      <p class="eyebrow">For English speakers who own a Dutch house</p>
-      <h1 class="visual-head" style="max-width:20ch">Where are the <em>drawings</em> of your house?</h1>
-      <p class="lead" style="max-width:58ch">If your house was built with a permit, and almost every
-        Dutch house was, the original drawings are still in a public archive. We find the right
-        archive, request the file in Dutch, and send you what arrives with a reader's guide in
-        English.</p>
-      <p class="taal">Liever in het Nederlands? <a href="/bouwdossier/">Ga naar de Nederlandse pagina</a>,
-        waar u het archief ook zelf kunt opzoeken.</p>
+      <p class="eyebrow">Free tool</p>
+      <h1 class="visual-head">Where are the <em>drawings</em> of your Dutch house?</h1>
+      <p class="lead">If your house was built with a permit, and almost every Dutch house was,
+        the original drawings are still in a public archive. Enter your address. I look up the
+        year it was built and show you which archive or counter holds the file.</p>
+
+      <div class="zoek">
+        <label for="adres">Address</label>
+        <div class="zoek-veld">
+          <input id="adres" type="text" autocomplete="off" spellcheck="false"
+                 placeholder="For example Berg en Dalseweg 5 Nijmegen"
+                 role="combobox" aria-expanded="false"
+                 aria-controls="sug" aria-autocomplete="list">
+          <ul class="sug" id="sug" role="listbox" aria-label="Addresses found"></ul>
+        </div>
+        <p class="noot">Type street, number and town the way the Dutch address register writes
+          them, then pick your address from the list.</p>
+      </div>
+
+      <p class="sr" id="melding" role="status" aria-live="polite"></p>
+      <div class="uitslag" id="uitslag" hidden></div>
+
+      <!-- steden:start -->
+      <p>The search above covers every municipality I have worked out. For these, the whole page is in English:</p>
+      <ul class="steden">
+        <li><a href="/en/building-file/amersfoort/">Amersfoort</a></li>
+        <li><a href="/en/building-file/amstelveen/">Amstelveen</a></li>
+        <li><a href="/en/building-file/amsterdam/">Amsterdam</a></li>
+        <li><a href="/en/building-file/eindhoven/">Eindhoven</a></li>
+        <li><a href="/en/building-file/haarlem/">Haarlem</a></li>
+        <li><a href="/en/building-file/leiden/">Leiden</a></li>
+        <li><a href="/en/building-file/rotterdam/">Rotterdam</a></li>
+        <li><a href="/en/building-file/utrecht/">Utrecht</a></li>
+      </ul>
+      <!-- steden:eind -->
+
+      <p class="taal">Liever in het Nederlands? <a href="/bouwdossier/" hreflang="nl">Ga naar de
+        Nederlandse pagina</a>.</p>
+    </div>
+  </section>
+
+  <!-- Dit blok en #aanbod hieronder worden door de zoeker verborgen zodra het loket niet
+       aan mij levert. Een prijs noemen bij een archief dat daarna niet kan leveren is de
+       duurste fout op deze pagina. -->
+  <section class="section cta" id="aanbod-kort">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow cta-eye">Hand it over</p>
+        <h2>Or I request it for you</h2>
+        <p>I collect what there is to be had about your address, read it, and write down what
+          is in it and what is missing. That way your architect, draughtsman or engineer does
+          not start out with a file that has a hole in it.</p>
+      </div>
+      <div class="cta-row">
+        <p class="prijs"><b>&euro; 150</b> per address, including VAT.</p>
+        <a class="btn" href="#contact">Request the file</a>
+        <a class="btn btn-ghost" href="tel:+31615902335">Rather call? +31 6 1590 2335</a>
+      </div>
+      <p>Have me do the structural calculation afterwards and this amount comes off it. If the
+        archive holds nothing, you get your money back.</p>
     </div>
   </section>
 
   <section class="section" id="what-you-get">
     <div class="wrap">
       <div class="sec-head">
-        <p class="eyebrow">What you get</p>
-        <h2>The documents, and a guide to reading them</h2>
+        <p class="eyebrow">An example</p>
+        <h2>What such a file looks like</h2>
       </div>
-      <p>A Dutch building file is not one drawing. It is every permit ever granted for the
-        address: the original construction, later extensions, a dormer window, sometimes the
-        structural calculation. You receive all of it digitally.</p>
-      <p>With it comes a reader's guide of about one page, written in English:</p>
-      <ul class="stap">
-        <li><b>What is in the file.</b> Which years, which permit, and what is drawn on which
-          sheet.</li>
-        <li><b>Where the structural information sits.</b> The floor joists and their direction,
-          the cross section, the foundation drawing, the steel beam above an opening.</li>
-        <li><b>What is missing.</b> Archives have gaps. Knowing what you do not have is worth as
-          much as knowing what you do.</li>
+      <p>This is a real file, requested for a terraced house from 1963. Four permits, thirteen
+        documents, twenty-eight pages, three of them structural calculations. On the right is
+        the reader's guide I wrote to go with it.</p>
+
+      <figure class="vb-beeld">
+        <img src="/img/woningdossier.png" width="2340" height="1500" loading="lazy"
+          alt="Twenty-eight scanned pages from a 1963 Dutch building file, side by side with the reader's guide that belongs to it">
+        <figcaption>The address, the names and the plot number have been left out. Not a letter
+          of the scanned documents is legible on purpose; the guide on the right is my own text.</figcaption>
+      </figure>
+
+      <p>Three things stood in that guide, and they are exactly what you would not see yourself
+        in that stack of scans:</p>
+
+      <ul>
+        <li>The 1963 permit is not about this house but about the whole block of six, and it is
+          filed under the street name as it was written then. That name has since changed.
+          Search your own address and you find nothing.</li>
+        <li>The document the archive index calls a structural calculation opens with the
+          municipality's list of objections: twelve points that had to be changed before the
+          permit was granted. The drawing shows purlins of 8 by 18, that list says 8 by 20. What
+          was built follows from the drawing plus the list.</li>
+        <li>What is not in it: the calculations of the concrete beams and lintels, one excepted,
+          and nothing at all from after 1974.</li>
       </ul>
-      <p>One real example, from a terraced house built in 1963: four permits between 1963 and
-        1974, thirteen documents. The oldest permit covers the whole block of six houses and is
-        filed under a street name that no longer exists. The document the archive calls a
-        structural calculation opens with a list of twelve changes the municipality required
-        before granting the permit, and those changes are what was actually built. None of that
-        is visible to someone searching their own address.</p>
+
+      <p>The guide describes what is there and what is missing. It does not judge. Which wall
+        carries load, and what may come out, follows from a calculation on the measurements and
+        the condition of the house as it stands now, not from old drawings.</p>
     </div>
   </section>
 
-  <section class="section" id="why">
+  <section class="section tint" id="why">
     <div class="wrap">
       <div class="sec-head">
         <p class="eyebrow">Why this is harder than it looks</p>
         <h2>The archive does not know your address</h2>
       </div>
       <p>Which archive holds the file depends on the <em>year</em> the permit was granted, not
-        only on the municipality. One address can have three different counters: a regional
-        archive for the oldest permits, the municipality for the middle decades, and a regional
-        environmental service for anything recent.</p>
-      <p>On top of that, older files are often registered under the plan for an entire block, and
-        under the street name as it was written at the time. Search your own address and you find
-        nothing, and you conclude there is nothing.</p>
-      <p>And the archives work in Dutch. That is the part we take off your hands.</p>
+        only on the municipality. One address can have three counters: a regional archive for
+        the oldest permits, the municipality for the middle decades, and a regional
+        environmental service for anything recent. Municipalities have also merged. Search for
+        Lekkerkerk and you end up in Krimpenerwaard, while the old files sit at the district
+        archive in Gouda.</p>
+
+      <p>That is why the tool above looks up the year your house was built, from the national
+        register of addresses and buildings. That gives you the file of the original
+        construction, which is usually what you want. For a later alteration, the year of
+        <em>that</em> permit counts.</p>
+
+      <p>Requesting it is not the hard part. An archive delivers what you name. Ask for the
+        building drawing and you get the building drawing. The structural calculation is often
+        a separate document under a different name, and the situation as altered sits in a file
+        from twenty years later.</p>
+
+      <p class="zelf-slot">And the archives work in Dutch. The search screens, the index terms
+        and the documents themselves, including the handwriting on a 1930s drawing. That is the
+        part I take off your hands.</p>
     </div>
   </section>
 
-  <section class="section cta" id="request">
+  <section class="section cta" id="contact">
     <div class="wrap">
       <div class="sec-head">
-        <p class="eyebrow" id="price">What it costs</p>
-        <h2>We request the file for you</h2>
-        <p>Give us the address and we do the rest.</p>
+        <p class="eyebrow cta-eye">Request</p>
+        <h2>Knowing you have all of it</h2>
+        <p>Working it out above is free. This is what you get if you hand the requesting over.</p>
       </div>
 
-      <div class="cta-row">
-        <p class="prijs"><b>&euro; 100</b> per address, including VAT.</p>
-        <a class="btn btn-ghost" href="tel:+31615902335">Rather call? +31 6 1590 2335</a>
+      <div id="aanbod">
+        <div class="cta-row">
+          <p class="prijs"><b>&euro; 150</b> per address, including VAT.</p>
+          <a class="btn btn-ghost" href="tel:+31615902335">Rather call? +31 6 1590 2335</a>
+        </div>
+
+        <p><b>What goes into it:</b></p>
+        <ul class="bron-lijst">
+          <li><b>The building file.</b> Every permit granted at the address, from the original
+            construction to the last alteration, with the drawings and, where they survive, the
+            structural calculations.</li>
+          <li><b>The ground underneath.</b> The cone penetration tests carried out nearby and
+            the soil profile at the location, from the national subsurface register. That is
+            the first thing an engineer looks up when a question touches the foundation.</li>
+          <li><b>The foundation picture of the neighbourhood.</b> The risk of pile rot and of
+            differential settlement according to the national climate atlas, with the caveat
+            that those figures describe the neighbourhood and not your house.</li>
+          <li><b>The building itself.</b> Year of construction, floor area, whether it stands in
+            a row and how many homes share the building, from the national register of addresses
+            and buildings. That last one often explains why the file covers a whole block.</li>
+          <li><b>The plot.</b> The cadastral boundaries with the plot number, and whether the
+            building has monument status.</li>
+          <li><b>The timeline.</b> Aerial photographs year by year, so you can see when something
+            changed, with the permits published about it. This is also where you check whether
+            there are solar panels on the roof and since when: those rarely appear in a building
+            file, while they do count for the roof structure.</li>
+        </ul>
+
+        <p><b>And two things that turn that stack into something usable:</b></p>
+        <ul class="bron-lijst">
+          <li><b>The reader's guide, in English.</b> What those documents say and where the
+            structural information sits, in plain language.</li>
+          <li><b>The list of what is not there.</b> This is the part you cannot produce
+            yourself, because you only know what is missing once you know how such a file is
+            supposed to be put together.</li>
+        </ul>
+
+        <p>Have me do the structural calculation afterwards and this amount comes off it. That
+          applies to the same address, within twelve months.</p>
+        <p>If the archive charges for searching or scanning, up to &euro; 10 is included in the
+          amount. If it comes out higher you hear about it first and you decide whether to go
+          ahead. If the archive holds nothing, you get your money back.</p>
+        <p>That does happen. Buildings from before permits were required have no file, and part
+          of the older archives was lost in the war or destroyed before it was ever scanned. You
+          then get from me, in writing, which archives I consulted and why there is nothing
+          there.</p>
       </div>
-      <p>If the archive charges for searching or scanning, up to &euro; 10 is included in that
-        amount. If it comes out higher you hear about it first and you decide whether to go ahead.
-        If the archive has nothing, you get your money back.</p>
-      <p>Have us do the structural calculation afterwards and this amount is deducted from it.</p>
+
+      <div id="aanbod-nee" hidden>
+        <div class="aw-letop"><b>This is one I cannot request for you.</b>
+          <span id="aanbod-nee-zin"></span> You can still ask your question below. I will look
+          with you for another route, and that costs you nothing.</div>
+      </div>
 
       <form class="form" action="https://api.web3forms.com/submit" method="POST">
+        <!-- Eigen sleutel voor de bouwdossierpagina's, aangemaakt 2026-09-06 op
+             bouwdossier@coxadvies.nl, zodat het dossierpostvak alleen dossierpost bevat. -->
         <input type="hidden" name="access_key" value="72156026-a7c9-459a-b834-e70d25d1e6ea">
         <input type="hidden" name="subject" value="Aanvraag bouwdossier via coxadvies.nl (EN)">
         <input type="hidden" name="from_name" value="coxadvies.nl">
-        <input type="hidden" name="redirect" value="https://www.coxadvies.nl/en/thank-you/">
+        <!-- De bedankpagina met de betaallink verschijnt alleen als het loket ook echt aan mij
+             levert; anders gaat het naar de Engelse bedankpagina zonder betaalverzoek. -->
+        <input type="hidden" name="redirect" id="f-redirect" value="https://www.coxadvies.nl/en/thank-you/">
+        <input type="hidden" name="gevonden_loket" id="f-loket" value="">
+        <input type="hidden" name="route" id="f-route" value="">
         <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
         <div class="rij">
           <div><label for="f-naam">Your name</label><input id="f-naam" name="naam" required autocomplete="name"></div>
@@ -159,39 +301,38 @@
           </div>
         </div>
         <button class="btn" type="submit">Send request</button>
-        <p class="noot">On the next page you pay by iDEAL. Nothing is requested from the archive
-          until the payment has come in. How long an archive takes differs per municipality, from
-          a few days to a few weeks; we keep track of it and tell you where it stands. What
-          happens to your data is set out in the <a href="/privacy/">privacy statement</a>, which
-          is in Dutch.</p>
+        <p class="noot">On the next page you pay by iDEAL, and the request goes out the same
+          day. How long an archive takes differs per municipality, from a few days to a few
+          weeks; I keep track of it and tell you where it stands. What happens to your data is
+          set out in the <a href="/privacy/" hreflang="nl">privacy statement</a>, which is in
+          Dutch.</p>
       </form>
 
-      <p class="cta-note">Two things so you know where you stand. We cannot guarantee that the
+      <p class="cta-note">Two things so you know where you stand. I cannot guarantee that the
         file exists or that it is complete; archives have gaps, and sometimes only the front
-        elevation survived. And this is a document service, not structural advice: whether that
-        wall can be removed is not in the file. That is a calculation, and we are glad to make it
-        separately.</p>
+        elevation survived. And you get documents with their source and their date, not a
+        verdict on your house. Whether that wall can come out follows from a calculation on the
+        situation as it is now, and that is separate work.</p>
       <p class="cta-note">One more thing worth knowing. If that calculation follows, the report
-        and the drawing are delivered in Dutch, because that is what the municipality needs for a
-        permit application. We will of course explain them to you in English.</p>
+        and the drawing are delivered in Dutch, because that is what the municipality needs for
+        a permit application. I will of course go through them with you in English.</p>
     </div>
   </section>
+
 </main>
 
 <footer class="foot">
   <div class="wrap foot-inner">
     <div><b>Cox Constructieadvies</b><div class="meta">Structural calculations &amp; structural drawings &middot; the Netherlands</div></div>
-    <nav class="meta foot-nav" aria-label="Alle pagina's">
-      <a href="/">Home</a><br>
-      <a href="/#diensten">Diensten</a><br>
-      <a href="/bouwdossier/">Bouwdossier opvragen</a><br>
-      <a href="/legalisatie/">Legalisatie achteraf</a><br>
-      <a href="/kosten/">Kosten</a><br>
-      <a href="/projecten/">Projecten</a><br>
-      <a href="/faq/">Veelgestelde vragen</a><br>
-      <a href="/#werkwijze">Werkwijze</a>
+    <nav class="meta foot-nav" aria-label="All pages">
+      <a href="/en/building-file/">Building file</a><br>
+      <a href="/" hreflang="nl">Home (Dutch)</a><br>
+      <a href="/bouwdossier/" hreflang="nl">Bouwdossier opvragen</a><br>
+      <a href="/kosten/" hreflang="nl">Prices</a><br>
+      <a href="/projecten/" hreflang="nl">Projects</a><br>
+      <a href="/faq/" hreflang="nl">Questions</a>
     </nav>
-    <div class="meta">Rijksweg 44, 6581 EN Malden<br><a href="mailto:bouwdossier@coxadvies.nl">bouwdossier@coxadvies.nl</a><br><a href="tel:+31615902335">+31 6 1590 2335</a><br><a href="/privacy/">Privacy statement</a><br><a href="/bouwdossier/">Nederlands</a><br>Chamber of Commerce 86134191</div>
+    <div class="meta">Rijksweg 44, 6581 EN Malden<br><a href="mailto:bouwdossier@coxadvies.nl">bouwdossier@coxadvies.nl</a><br><a href="tel:+31615902335">+31 6 1590 2335</a><br><a href="/privacy/" hreflang="nl">Privacy statement</a><br><a href="/bouwdossier/" hreflang="nl">Nederlands</a><br>Chamber of Commerce 86134191</div>
     <div class="meta">
       Partners<br>
       <a href="https://rpetersbouwadvies.nl/" target="_blank" rel="noopener">R. Peters Bouwadvies</a><br>
@@ -201,11 +342,9 @@
   </div>
 </footer>
 
-<script>
-  var nav=document.getElementById('navbar');
-  var onScroll=function(){nav.classList.toggle('scrolled',window.scrollY>12)};
-  onScroll();window.addEventListener('scroll',onScroll,{passive:true});
-</script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="/js/bouwdossier.js"></script>
+<script src="/js/main.js"></script>
 <script src="/js/tellen.js" async></script>
 </body>
 </html>
