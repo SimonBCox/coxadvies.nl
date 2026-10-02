@@ -90,7 +90,8 @@
       verbouwingTekst: "Dan telt het jaar van d&iacute;e vergunning en niet het bouwjaar van " +
         "de woning. Voor deze gemeente zijn dat de volgende periodes.",
       aanbod: 'Liever niet zelf uitzoeken en aanvragen? <a href="#contact">Ik vraag het ' +
-        'dossier voor u op voor &euro; 150.</a>',
+        'dossier voor u op voor &euro; 150</a>, en geef op de plattegrond aan welke wanden ' +
+        'dragend zijn.',
       aanbodZonderJaar: " Valt het bouwjaar buiten de periodes die ik heb vastgelegd, of is " +
         "het onbekend, dan weet ik pas na het opzoeken zeker welk loket het is; blijkt het " +
         "dossier daar niet op te vragen, dan krijgt u het bedrag terug.",
@@ -186,7 +187,7 @@
       verbouwingTekst: "Then the year of <em>that</em> permit counts, not the year the house " +
         "was built. For this municipality those are the periods below.",
       aanbod: 'Rather not do this yourself? <a href="#contact">I will request the file for ' +
-        'you for &euro; 150.</a>',
+        'you for &euro; 150</a>, and mark on the floor plan which walls carry load.',
       aanbodZonderJaar: " If the year falls outside the periods I have recorded, or is not " +
         "known, I only know for certain which counter it is once I start looking; if the file " +
         "turns out not to be available there, you get your money back.",
