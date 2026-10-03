@@ -12,6 +12,8 @@
 
   /* Het beeld van het voorbeelddossier. De miniaturen zijn met opzet zo klein dat er
      niets van te lezen valt; zie de commentaarregel bij de generator. */
+  .aanbod-top{display:flex;flex-wrap:wrap;align-items:center;gap:12px 20px;margin:6px 0 24px;max-width:72ch}
+  .aanbod-top p{margin:0;flex:0 1 52ch}
   .vb-beeld{margin:26px 0 30px;max-width:1000px}
   .vb-beeld img{width:100%;height:auto;display:block;border:1px solid var(--line);
     border-radius:var(--r);box-shadow:var(--shadow)}

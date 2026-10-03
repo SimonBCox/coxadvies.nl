@@ -265,6 +265,8 @@
        staan bij een loket dat niet levert, dan leest de bezoeker een aanbod dat ik niet
        waar kan maken, en dat is precies de fout die hierboven beschreven staat. */
     if (kort) kort.hidden = !kan;
+    var top = document.getElementById("aanbod-top");
+    if (top) top.hidden = !kan;
     document.getElementById("aanbod-nee-zin").textContent = T.route[route] || T.route.onbekend;
     if (formRoute) formRoute.value = route || "";
     if (formRedirect) formRedirect.value = kan ? T.bedanktWel : T.bedanktNiet;

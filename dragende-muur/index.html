@@ -36,6 +36,8 @@
   .lijst li{position:relative;padding-left:30px;color:var(--muted)}
   .lijst li b{color:var(--ink);font-weight:600}
   .lijst li::before{content:"";position:absolute;left:6px;top:.62em;width:8px;height:8px;border-radius:50%;background:var(--accent)}
+  .hero-media .photo.voorbeeld{aspect-ratio:auto;height:auto;object-fit:contain;background:#fff}
+  .hero-media .float-card{position:static;margin-top:14px;max-width:none}
   .vb-beeld{margin:28px 0 30px;max-width:1000px}
   .vb-beeld img{width:100%;height:auto;display:block;border:1px solid var(--line);border-radius:var(--r);background:#fff}
   .vb-beeld figcaption{margin-top:10px;font-size:.88rem;color:var(--muted);max-width:66ch}
@@ -68,13 +70,28 @@
 
 <main>
   <section class="hero">
-    <div class="wrap">
+    <div class="wrap hero-grid">
       <div class="reveal">
         <p class="eyebrow">Dragende muren</p>
         <h1 class="visual-head" style="max-width:18ch">Is deze muur <em>dragend</em>?</h1>
-        <p class="lead" style="max-width:62ch">Een muur is dragend als er iets op rust: de vloer
-          erboven, een muur op de verdieping of het dak. Dat ziet u zelden aan de muur zelf. Het
-          zit in wat erboven en eronder ligt, en het staat vaak op de bouwtekening van uw huis.</p>
+        <p class="lead">Een muur is dragend als er iets op rust: de vloer erboven, een muur op
+          de verdieping of het dak. Hieronder staat hoe u dat ziet.</p>
+        <p class="lead">Wilt u het zeker weten zonder zelf te zoeken? Voor
+          <b>&euro;&nbsp;150</b> inclusief btw vraag ik het bouwdossier van uw huis op en zet ik
+          de dragende wanden op de plattegrond, zoals op het voorbeeld.</p>
+        <div class="hero-cta">
+          <a class="btn" href="/bouwdossier/#contact">Vraag het bouwdossier aan</a>
+        </div>
+        <p class="hero-hint">Gaat er daarna een muur uit, dan gaat de &euro;&nbsp;150 af van de
+          berekening.</p>
+      </div>
+      <div class="hero-media reveal">
+        <a href="/img/dragende-wanden-voorbeeld.png"><img src="/img/dragende-wanden-voorbeeld.png" class="photo voorbeeld" width="1739" height="1235"
+          alt="Voorbeeldblad: plattegrond van de begane grond van een hoekwoning uit 1963 met de wanden in kleur, rood voor dragend, en per wand de reden ernaast"></a>
+        <div class="float-card">
+          <div class="fc-k">Voorbeeld</div>
+          <div class="fc-v">Hoekwoning uit 1963: de binnenmuur van 11 cm draagt de vloer.</div>
+        </div>
       </div>
     </div>
   </section>
@@ -169,16 +186,11 @@
           metselwerk meestal gevuld getekend, en een kozijn met dunne lijnen.</p>
       </div>
 
-      <figure class="vb-beeld reveal">
-        <a href="/img/dragende-wanden-voorbeeld.png"><img src="/img/dragende-wanden-voorbeeld.png" width="1739" height="1235" loading="lazy"
-          alt="Plattegrond van de begane grond van een hoekwoning uit 1963 met de wanden in kleur: rood voor dragend, oranje voor de gevelpenanten, groen voor niet dragend, paars waar de tekening het niet zegt, en per wand de reden ernaast"></a>
-        <figcaption>Een voorbeeld uit een bouwdossier van 1963: de begane grond van een
-          hoekwoning, met per wand of hij draagt en op welk blad uit het archief dat staat. De
-          binnenmuur van 11 centimeter (3) draagt de verdiepingvloer. Adres en namen zijn
-          weggelaten.</figcaption>
-      </figure>
-
       <div class="tekst reveal">
+        <p>Het voorbeeld bovenaan deze pagina komt uit zo'n dossier, van 1963. Op blad 2 staat
+          de balklaag, en daaruit volgt dat de binnenmuur van 11 centimeter tussen woonkamer en
+          keuken de verdiepingvloer draagt. Per wand staat erop of hij draagt en op welk blad
+          dat staat. Adres en namen zijn weggelaten.</p>
         <p>Een tekening laat zien wat er is aangevraagd. Wat er gebouwd is en wat er later is
           veranderd, kan afwijken. Bij een herenhuis in Utrecht stond de gangmuur op de
           tekening van 2009 nog over de volle diepte, terwijl er inmiddels zo'n drieënhalve

@@ -71,6 +71,15 @@
       <p class="lead">Vul uw adres in. Ik zoek het bouwjaar erbij en laat u zien bij welk
         archief of loket het dossier van uw woning ligt.</p>
 
+      <!-- 2026-10-03: het aanbod staat hier, direct onder de inleiding, omdat Simon vond dat je
+           te ver moest scrollen voor je wist wat er te koop is. zetAanbod() verbergt het bij
+           een loket dat niet aan mij levert, net als #aanbod onderaan. -->
+      <div class="aanbod-top" id="aanbod-top">
+        <p>Liever niet zelf zoeken? Voor <b>&euro;&nbsp;150</b> vraag ik het dossier voor u op
+          en geef ik op de plattegrond aan <a href="#wanden">welke wanden dragend zijn</a>.</p>
+        <a class="btn" href="#contact">Vraag het aan</a>
+      </div>
+
       <div class="zoek">
         <label for="adres">Adres</label>
         <div class="zoek-veld">
@@ -319,26 +328,6 @@
        dat formulier. Dit blok wordt door zetAanbod() samen met #aanbod verborgen zodra
        het loket niet aan mij levert. Een prijs noemen bij een loket dat daarna niet kan
        leveren is de duurste fout op deze pagina. -->
-  <!-- 2026-10-02: van een donker blok met twee knoppen naar een licht blok met één knop.
-       Simon vond de pagina te veel op verkoop gericht. -->
-  <section class="section tint" id="aanbod-kort">
-    <div class="wrap">
-      <div class="sec-head">
-        <p class="eyebrow">Uit handen geven</p>
-        <h2>Of ik vraag het voor u op</h2>
-        <p>Ik haal op wat er over uw adres te krijgen is, lees het door en geef op de
-          plattegrond aan welke wanden dragend zijn. Erbij schrijf ik wat er in het dossier
-          staat en wat eraan ontbreekt.</p>
-      </div>
-      <div class="cta-row">
-        <p class="prijs"><b>&euro; 150</b> per adres, inclusief btw.</p>
-        <a class="btn" href="#contact">Vraag het dossier aan</a>
-      </div>
-      <p>Laat u daarna de constructieberekening bij mij maken, dan wordt dit bedrag
-        verrekend. Levert het archief niets, dan krijgt u uw geld terug.</p>
-    </div>
-  </section>
-
   <section class="section" id="voorbeeld">
     <div class="wrap">
       <div class="sec-head">
