@@ -90,8 +90,9 @@
       verbouwingTekst: "Dan telt het jaar van d&iacute;e vergunning en niet het bouwjaar van " +
         "de woning. Voor deze gemeente zijn dat de volgende periodes.",
       aanbod: 'Liever niet zelf uitzoeken en aanvragen? <a href="#contact">Ik vraag het ' +
-        'dossier voor u op voor &euro; 175</a>, en breng de draagstructuur van uw huis ' +
-        'in kaart: welke muren dragen, de kap, de fundering en de stabiliteit.',
+        'dossier voor u op voor &euro; 145</a>, met een leeswijzer. Voor &euro; 295 breng ik ' +
+        'ook de draagstructuur van uw huis in kaart: welke muren dragen, de kap, de ' +
+        'fundering en de stabiliteit.',
       aanbodZonderJaar: " Valt het bouwjaar buiten de periodes die ik heb vastgelegd, of is " +
         "het onbekend, dan weet ik pas na het opzoeken zeker welk loket het is; blijkt het " +
         "dossier daar niet op te vragen, dan krijgt u het bedrag terug.",
@@ -187,8 +188,9 @@
       verbouwingTekst: "Then the year of <em>that</em> permit counts, not the year the house " +
         "was built. For this municipality those are the periods below.",
       aanbod: 'Rather not do this yourself? <a href="#contact">I will request the file for ' +
-        'you for &euro; 175</a>, and map the load-bearing structure of the house: the ' +
-        'walls that carry load, the roof, the foundation and what keeps it stable.',
+        'you for &euro; 145</a>, with a reader's guide. For &euro; 295 I also map the ' +
+        'load-bearing structure of the house: the walls that carry load, the roof, the ' +
+        'foundation and what keeps it stable.',
       aanbodZonderJaar: " If the year falls outside the periods I have recorded, or is not " +
         "known, I only know for certain which counter it is once I start looking; if the file " +
         "turns out not to be available there, you get your money back.",
@@ -893,6 +895,18 @@
   invoer.addEventListener("keydown", function (e) {
     if (e.key === "Escape") toonSuggesties([]);
   });
+
+  /* Trap 2 en 3 hebben elk een eigen bedrag en dus een eigen betaalverzoek; de
+     bedankpagina kiest het juiste met ?trap=. Dat gaat alleen mee als het loket levert:
+     de bedankpagina zonder betaalverzoek heeft geen trap nodig. */
+  var aanvraag = formRedirect && formRedirect.form;
+  if (aanvraag) {
+    aanvraag.addEventListener("submit", function () {
+      var keus = aanvraag.querySelector('input[name="trap"]:checked');
+      var basis = formRedirect.value.split("?")[0];
+      formRedirect.value = (keus && basis === T.bedanktWel) ? basis + "?trap=" + keus.value : basis;
+    });
+  }
 
   haalLoketten().catch(function (e) {
     if (window.console) console.warn("loketten laden mislukt:", e);

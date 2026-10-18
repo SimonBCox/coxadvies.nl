@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Request received | Cox Constructieadvies</title>
-<meta name="description" content="Your request has been received. You will hear from Cox Constructieadvies within one working day.">
+<meta name="description" content="Your request has been received. The next step is the payment.">
 <meta name="robots" content="noindex">
 <link rel="canonical" href="https://www.coxadvies.nl/en/thank-you/">
 <link rel="icon" type="image/png" href="/img/favicon.png">
@@ -24,10 +24,11 @@
   .stappen li::before{content:"";position:absolute;left:-6px;top:5px;width:11px;height:11px;
     border-radius:50%;background:var(--accent)}
   .stappen b{display:block}
-  .betaal{margin-top:28px;padding:22px clamp(18px,4vw,28px);background:var(--bg);
+  .betaal{margin-top:28px;padding:22px clamp(18px,4vw,28px);background:rgba(255,255,255,.07);
     border:1px solid var(--line);border-radius:12px;max-width:60ch}
   .betaal p{margin:0 0 14px}
-  .betaal .bedrag{font-size:1.5rem;font-weight:700;color:var(--navy)}
+  .betaal .bedrag{font-size:1.5rem;font-weight:700;color:#fff}
+  [hidden]{display:none!important}
 </style>
 </head>
 <body id="top">
@@ -48,44 +49,62 @@
     <div class="wrap">
       <p class="eyebrow">Request received</p>
       <h1 class="visual-head" style="max-width:20ch">Your request is on the list.</h1>
-      <p class="lead" style="max-width:58ch">One step to go: the payment. Nothing is requested
-        from the archive until it has come in.</p>
+      <p class="lead" style="max-width:58ch">One step to go: the payment. Nothing is
+        <span data-trap="1">compiled</span><span data-trap="2 3 geen">requested from the archive</span>
+        until it has come in.</p>
 
       <div class="betaal">
-        <p class="bedrag">&euro; 175 including VAT</p>
-        <!-- LINK-175-NOG-VERVANGEN: sinds 2026-10-03 is de prijs 175. Niet pushen zolang
-             deze regel er staat. -->
-        <!-- Zelfde betaalverzoek als op /bedankt-bouwdossier/, aangemaakt 2026-09-14 op
-             150,00. Deze pagina stond tot 17-09-2026 nog op de link van 100,00, terwijl
-             de Nederlandse al op 150 zat: een Engelse aanvrager betaalde dus vijftig euro
-             te weinig. Het bedrag zit vast in de link, dus bij een prijswijziging moeten
-             beide pagina's mee.
-             LET OP: deze link verloopt op 13 september 2028. -->
-        <p><a class="btn" id="betaalknop" href="https://betaalverzoek.rabobank.nl/betaalverzoek/?id=3SzZ8bJZSi6-VSD9hb-rhw">Pay by iDEAL</a></p>
+        <p class="bedrag" data-trap="1">&euro; 95 including VAT</p>
+        <p class="bedrag" data-trap="2">&euro; 145 including VAT</p>
+        <p class="bedrag" data-trap="3">&euro; 295 including VAT</p>
+        <!-- Een betaalverzoek per trap, want het bedrag zit vast in de link. Dezelfde drie
+             links staan op /bedankt-bouwdossier/; bij een prijswijziging gaan beide mee.
+             Zolang er VUL_ staat, vervangt het script onderaan de knop door een zin.
+             De oude link van 150,00 (aangemaakt 2026-09-14, id 3SzZ8bJZSi6-VSD9hb-rhw)
+             hoort bij geen van de trappen meer. Noteer bij elke nieuwe link wanneer hij
+             verloopt. De drie links hieronder zijn aangemaakt op 2026-10-18 en verlopen op
+             17 oktober 2028. -->
+        <p data-trap="1"><a class="btn betaalknop" href="https://betaalverzoek.rabobank.nl/betaalverzoek/?id=-OInsGuUSgiVytxrKfOlxg">Pay by iDEAL</a></p>
+        <p data-trap="2"><a class="btn betaalknop" href="https://betaalverzoek.rabobank.nl/betaalverzoek/?id=n0zaRbYxRnSgXoJ8ihNayw">Pay by iDEAL</a></p>
+        <p data-trap="3"><a class="btn betaalknop" href="https://betaalverzoek.rabobank.nl/betaalverzoek/?id=DHKobBOFT9OhH84RgiVnVA">Pay by iDEAL</a></p>
+        <p data-trap="geen">The payment request follows by email.</p>
         <p class="hero-hint" style="margin:0">iDEAL works with any Dutch bank account. No Dutch
-          account? Reply to the confirmation email and we will send you bank details instead.</p>
+          account? Reply to the confirmation email and I will send you bank details instead.</p>
       </div>
 
-      <ol class="stappen">
-        <li><b>We submit the request</b>at the counter that belongs to your address and the year
-          the permit was granted, on the day the payment comes in.</li>
-        <li><b>We keep track of it</b>and tell you if the archive stays quiet. How long it takes
-          differs per municipality, from a few days to a few weeks. That waiting time belongs to
-          the archive and not to us, so we do not promise a date.</li>
-        <li><b>You receive the file</b>digitally, with the load-bearing structure of the house:
-          the load-bearing walls on each floor, the roof, the foundation and what keeps it
-          stable. And a reader's guide in English: which years are in it, what is drawn on which
-          sheet, and what is missing.</li>
-        <li><b>If the archive has nothing</b>, you get your money back. What is there may still
-          disappoint; sometimes only the front elevation survived. That is then the file, and
-          there is nothing we can do about it.</li>
+      <ol class="stappen" data-trap="1">
+        <li><b>I compile the report</b>from the public registers once the payment has come in.</li>
+        <li><b>You receive it by email</b>as a PDF: the building, the foundation risk in the
+          neighbourhood, the soil, the building files in the archive and the heritage rules, each
+          with its source.</li>
       </ol>
 
-      <p class="lead" style="max-width:58ch;margin-top:28px">Have us do the structural calculation
-        afterwards and this &euro; 175 comes off it.</p>
+      <ol class="stappen" data-trap="2 3 geen">
+        <li><b>I submit the request</b>at the counter that belongs to your address and the year
+          the permit was granted, on the day the payment comes in.</li>
+        <li><b>I keep track of it</b>and tell you if the archive stays quiet. How long it takes
+          differs per municipality, from a few days to a few weeks. That waiting time belongs to
+          the archive and not to me, so I do not promise a date.</li>
+        <li><b>You receive the file</b>digitally, with a reader's guide in English: which years
+          are in it, what is drawn on which sheet, what it says about the foundation and what is
+          missing. <span data-trap="3">With it comes the load-bearing structure of the house:
+          the load-bearing walls on each floor, the roof, the foundation and what keeps it
+          stable.</span></li>
+        <li><b>If the archive has nothing,</b>you get your money back. What is there may still
+          disappoint; sometimes only the front elevation survived. That is then the file, and
+          there is nothing I can do about it.</li>
+      </ol>
+
+      <p class="lead" style="max-width:58ch;margin-top:28px" data-trap="2">Have me do the
+        structural calculation for the same address within twelve months and this &euro; 145
+        comes off it.</p>
+      <p class="lead" style="max-width:58ch;margin-top:28px" data-trap="3">Have me do the
+        structural calculation for the same address within twelve months and this &euro; 295
+        comes off it.</p>
 
       <div class="hero-cta">
-        <a class="btn btn-ghost" href="/en/building-file/">Back to the page</a>
+        <a class="btn btn-ghost" href="/en/building-file/" data-trap="2 3 geen">Back to the page</a>
+        <a class="btn btn-ghost" href="/en/address-report/" data-trap="1">Back to the page</a>
       </div>
       <p class="hero-hint">Questions in the meantime? Call or write:
         <a href="tel:+31615902335">+31 6 1590 2335</a>,
@@ -121,6 +140,23 @@
   var nav=document.getElementById('navbar');
   var onScroll=function(){nav.classList.toggle('scrolled',window.scrollY>12)};
   onScroll();window.addEventListener('scroll',onScroll,{passive:true});
+
+  /* Het formulier stuurt ?trap=1, 2 of 3 mee. Zonder trap tonen we geen bedrag en geen
+     knop: een verkeerd bedrag betalen is erger dan even op de mail wachten. */
+  var trap=(/[?&]trap=([123])\b/.exec(location.search)||[])[1]||'geen';
+  [].forEach.call(document.querySelectorAll('[data-trap]'),function(el){
+    el.hidden=el.getAttribute('data-trap').split(' ').indexOf(trap)<0;
+  });
+
+  /* Een knop die naar een niet-ingevulde link wijst is erger dan geen knop: de bezoeker
+     denkt dat hij betaald heeft. Zolang de link niet is ingevuld staat hier de reden. */
+  [].forEach.call(document.querySelectorAll('.betaalknop'),function(knop){
+    if(knop.getAttribute('href').indexOf('VUL_')!==0) return;
+    var p=document.createElement('span');
+    p.textContent='The payment link has not been set up yet. Call or email, and I will send '+
+      'you the payment request directly.';
+    knop.parentNode.replaceChild(p,knop);
+  });
 </script>
 <script src="/js/tellen.js" async></script>
 </body>

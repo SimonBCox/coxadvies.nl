@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Aanvraag ontvangen | Cox Constructieadvies</title>
-<meta name="description" content="Uw aanvraag voor het bouwdossier is ontvangen. Na de betaling gaat de aanvraag dezelfde dag naar het archief.">
+<meta name="description" content="Uw aanvraag is ontvangen. De volgende stap is de betaling.">
 <meta name="robots" content="noindex">
 <link rel="canonical" href="https://www.coxadvies.nl/bedankt-bouwdossier/">
 <link rel="icon" type="image/png" href="/img/favicon.png">
@@ -25,6 +25,7 @@
     border:1px solid rgba(255,255,255,.22);border-radius:12px;max-width:60ch}
   .betaal p{margin:0 0 14px}
   .betaal .bedrag{font-size:1.5rem;font-weight:700;color:#fff}
+  [hidden]{display:none!important}
 </style>
 </head>
 <body id="top">
@@ -50,46 +51,61 @@
     <div class="wrap">
       <p class="eyebrow">Aanvraag ontvangen</p>
       <h1 class="visual-head" style="max-width:20ch">Uw aanvraag staat bij mij op de lijst.</h1>
-      <p class="lead" style="max-width:58ch">Nog &eacute;&eacute;n stap: de betaling. Zodra die
-        binnen is gaat de aanvraag dezelfde dag naar het archief.</p>
+      <p class="lead" style="max-width:58ch">Nog &eacute;&eacute;n stap: de betaling.
+        <span data-trap="1">Zodra die binnen is, stel ik het rapport op.</span><span data-trap="2 3 geen">Zodra
+        die binnen is gaat de aanvraag dezelfde dag naar het archief.</span></p>
 
       <div class="betaal">
-        <p class="bedrag">&euro; 175 inclusief btw</p>
-        <!-- Rabo Betaalverzoek Zakelijk, aangemaakt 2026-09-14 met de optie "vaker
-             betalen", omschrijving "Opvragen gebouwdossier", bedrag 150,00.
-             LINK-175-NOG-VERVANGEN: sinds 2026-10-03 is de prijs 175; Simon maakt een nieuw
-             betaalverzoek. Niet pushen zolang deze regel er staat.
-             Vervangt de link van 05-09 die op 100,00 stond; die hoorde niet meer bij de
-             prijs op de pagina. Let op: het bedrag zit vast in de link, dus bij een
-             volgende prijswijziging moet hier een nieuwe link in.
-             LET OP: deze link verloopt op 13 september 2028. Maak dan een nieuwe aan en
-             vervang hem hier, anders staat er een dode betaalknop op de site.
-             Zolang hier VUL_BETAALLINK_IN staat, verbergt het script onderaan de knop. -->
-        <p><a class="btn" id="betaalknop"
-              href="https://betaalverzoek.rabobank.nl/betaalverzoek/?id=3SzZ8bJZSi6-VSD9hb-rhw">Betaal
-          met iDEAL</a></p>
+        <p class="bedrag" data-trap="1">&euro; 95 inclusief btw</p>
+        <p class="bedrag" data-trap="2">&euro; 145 inclusief btw</p>
+        <p class="bedrag" data-trap="3">&euro; 295 inclusief btw</p>
+        <!-- Rabo Betaalverzoek Zakelijk, een per trap met de optie "vaker betalen", want het
+             bedrag zit vast in de link. Dezelfde drie links staan op /en/thank-you/; bij een
+             prijswijziging gaan beide pagina's mee.
+             Zolang er VUL_ staat, vervangt het script onderaan de knop door een zin.
+             De oude link van 150,00 (aangemaakt 2026-09-14, id 3SzZ8bJZSi6-VSD9hb-rhw,
+             verloopt 13 september 2028) hoort bij geen van de trappen meer.
+             Noteer bij elke nieuwe link wanneer hij verloopt, anders staat er op een dag
+             een dode betaalknop op de site.
+             De drie links hieronder zijn aangemaakt op 2026-10-18 en verlopen op
+             17 oktober 2028. -->
+        <p data-trap="1"><a class="btn betaalknop" href="https://betaalverzoek.rabobank.nl/betaalverzoek/?id=-OInsGuUSgiVytxrKfOlxg">Betaal met iDEAL</a></p>
+        <p data-trap="2"><a class="btn betaalknop" href="https://betaalverzoek.rabobank.nl/betaalverzoek/?id=n0zaRbYxRnSgXoJ8ihNayw">Betaal met iDEAL</a></p>
+        <p data-trap="3"><a class="btn betaalknop" href="https://betaalverzoek.rabobank.nl/betaalverzoek/?id=DHKobBOFT9OhH84RgiVnVA">Betaal met iDEAL</a></p>
+        <p data-trap="geen">Het betaalverzoek krijgt u per mail.</p>
         <p class="hero-hint" style="margin:0">Liever overmaken of achteraf betalen? Bel of mail
           gerust, dan regelen we het zo.</p>
       </div>
 
-      <ol class="stappen">
+      <ol class="stappen" data-trap="1">
+        <li><b>Ik stel het rapport op</b>uit de openbare registers, zodra de betaling binnen is.</li>
+        <li><b>U krijgt het per mail</b>als pdf: het pand, het funderingsrisico in de buurt, de
+          bodem, de bouwdossiers in het archief en de regels voor monument en stadsgezicht, elk
+          met de bron erbij.</li>
+      </ol>
+
+      <ol class="stappen" data-trap="2 3 geen">
         <li><b>Ik dien de aanvraag in</b>bij het loket dat bij uw adres en bouwjaar hoort,
           op de dag dat de betaling binnen is.</li>
         <li><b>Ik houd hem in de gaten</b>en laat het u weten als het archief lang stil
           blijft. Hoe lang het duurt verschilt sterk per gemeente, van een paar dagen tot
           een paar weken. Die doorlooptijd is van het archief en niet van mij, dus ik beloof
           er geen datum bij.</li>
-        <li><b>U krijgt het dossier</b>digitaal doorgestuurd, met de draagstructuur van het
-          huis: per verdieping de dragende muren, de kap, de fundering en de stabiliteit. En
-          een leeswijzer: welke jaren erin zitten, wat er op welk blad staat en wat er
-          ontbreekt.</li>
-        <li><b>Levert het archief niets</b>, dan krijgt u het bedrag terug. Wat er w&eacute;l
+        <li><b>U krijgt het dossier</b>digitaal doorgestuurd, met een leeswijzer: welke jaren
+          erin zitten, wat er op welk blad staat, wat het over de fundering zegt en wat er
+          ontbreekt. <span data-trap="3">Met de draagstructuur van het huis erbij: per
+          verdieping de dragende muren, de kap, de fundering en de stabiliteit.</span></li>
+        <li><b>Levert het archief niets,</b>dan krijgt u het bedrag terug. Wat er w&eacute;l
           ligt kan tegenvallen; soms is alleen het gevelaanzicht bewaard gebleven. Dat is
           dan het dossier, en daar kan ik niets aan veranderen.</li>
       </ol>
 
-      <p class="lead" style="max-width:58ch;margin-top:28px">Laat u de constructieberekening
-        daarna bij mij maken, dan gaat deze &euro; 175 er weer af.</p>
+      <p class="lead" style="max-width:58ch;margin-top:28px" data-trap="2">Laat u binnen twaalf
+        maanden de constructieberekening voor hetzelfde adres bij mij maken, dan gaat deze
+        &euro; 145 er weer af.</p>
+      <p class="lead" style="max-width:58ch;margin-top:28px" data-trap="3">Laat u binnen twaalf
+        maanden de constructieberekening voor hetzelfde adres bij mij maken, dan gaat deze
+        &euro; 295 er weer af.</p>
 
       <div class="hero-cta">
         <a class="btn btn-ghost" href="/kosten/">Bekijk de tarieven</a>
@@ -131,14 +147,20 @@
 
   /* Een knop die naar een niet-ingevulde link wijst is erger dan geen knop: de bezoeker
      denkt dat hij betaald heeft. Zolang de link niet is ingevuld staat hier de reden. */
-  var knop=document.getElementById('betaalknop');
-  if(knop && knop.getAttribute('href').indexOf('VUL_')===0){
-    var p=document.createElement('p');
-    p.style.margin='0';
+  /* Het formulier stuurt ?trap=1, 2 of 3 mee. Zonder trap tonen we geen bedrag en geen
+     knop: een verkeerd bedrag betalen is erger dan even op de mail wachten. */
+  var trap=(/[?&]trap=([123])\b/.exec(location.search)||[])[1]||'geen';
+  [].forEach.call(document.querySelectorAll('[data-trap]'),function(el){
+    el.hidden=el.getAttribute('data-trap').split(' ').indexOf(trap)<0;
+  });
+
+  [].forEach.call(document.querySelectorAll('.betaalknop'),function(knop){
+    if(knop.getAttribute('href').indexOf('VUL_')!==0) return;
+    var p=document.createElement('span');
     p.textContent='De betaallink staat nog niet ingesteld. Bel of mail even, dan stuur ik '+
       'u het betaalverzoek rechtstreeks.';
     knop.parentNode.replaceChild(p,knop);
-  }
+  });
 </script>
 <script src="/js/tellen.js" async></script>
 </body>
