@@ -3,15 +3,15 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bouwdossier opvragen: waar vindt u de bouwtekening van uw huis? | Cox Constructieadvies</title>
-<meta name="description" content="Vul uw adres in. Ik zoek het bouwjaar op en laat zien bij welk archief of loket het bouwdossier van uw woning ligt, met de link erbij. Voor 205 gemeenten uitgezocht en gedateerd.">
+<title>Bouwtekeningen van uw huis opvragen, en wat erop staat | Cox Constructieadvies</title>
+<meta name="description" content="Vul uw adres in en zie bij welk archief de bouwtekeningen van uw huis liggen, voor 205 gemeenten uitgezocht. Of laat ze opvragen en lezen: wat er is gebouwd, veranderd en vergund. € 145.">
 <link rel="canonical" href="https://www.coxadvies.nl/bouwdossier/">
 <link rel="alternate" hreflang="nl" href="https://www.coxadvies.nl/bouwdossier/">
 <link rel="alternate" hreflang="en" href="https://www.coxadvies.nl/en/building-file/">
 <link rel="alternate" hreflang="x-default" href="https://www.coxadvies.nl/bouwdossier/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Waar vindt u de bouwtekening van uw huis? | Cox Constructieadvies">
-<meta property="og:description" content="Vul uw adres in. Ik zoek het bouwjaar op en laat zien bij welk loket het bouwdossier ligt, met de link erbij.">
+<meta property="og:title" content="De bouwtekeningen van uw huis, en wat erop staat | Cox Constructieadvies">
+<meta property="og:description" content="Welk archief de tekeningen van uw huis heeft, en wat erin staat: wat er is gebouwd, veranderd en vergund.">
 <meta property="og:locale" content="nl_NL">
 <meta property="og:url" content="https://www.coxadvies.nl/bouwdossier/">
 <meta property="og:image" content="https://www.coxadvies.nl/img/simon.jpg">
@@ -37,6 +37,7 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 
 <link rel="stylesheet" href="/css/bouwdossier.css">
+<link rel="stylesheet" href="/css/adresrapport.css">
 </head>
 <body>
 
@@ -52,7 +53,6 @@
       <a href="/#over">Over</a>
       <a href="#contact">Contact</a>
     </nav>
-    <a class="btn" href="#contact">Neem contact op</a>
   </div>
 </header>
 
@@ -66,22 +66,34 @@
 
   <section class="section">
     <div class="wrap">
-      <p class="eyebrow">Gratis hulpmiddel</p>
-      <h1 class="visual-head">Waar vindt u de <em>bouwtekening</em> van uw huis?</h1>
-      <p class="lead">Vul uw adres in. Ik zoek het bouwjaar erbij en laat u zien bij welk
-        archief of loket het dossier van uw woning ligt.</p>
+      <!-- 2026-10-18: ingang A uit documentatie/proef_adresrapport/POSITIONERING.md. De kop
+           gaat over de tekeningen en wat erop staat; de zoeker blijft eronder staan. Geen
+           bestelknop in de kop of de navigatie, het formulier staat één keer, onderaan. -->
+      <p class="eyebrow">Bouwtekeningen opvragen</p>
+      <h1 class="visual-head">De bouwtekeningen van uw huis, en wat <em>erop staat</em></h1>
+      <p class="lead">U geeft het adres. Ik zoek uit welk archief de tekeningen heeft, vraag ze
+        op en lees ze voor u: wat er oorspronkelijk is gebouwd, wat er later is veranderd en wat
+        daarvoor vergund is. Nagekeken door ir. S.B. Cox. &euro;&nbsp;145.</p>
+      <p style="max-width:68ch">Meestal begint het zo: u heeft een huis gekocht of wilt
+        verbouwen, en de aannemer vraagt om tekeningen. Bij de verkoop zaten ze er niet bij.
+        Welk archief ze heeft verschilt per gemeente, de levertijd loopt van een paar minuten
+        tot drie weken, en wat u krijgt is een map oude scans zonder uitleg.</p>
+      <p style="max-width:68ch">Wilt u een muur weghalen, dan is dit het begin. Een berekening
+        voor hetzelfde adres binnen twaalf maanden bouwt erop voort, en wat u voor de tekeningen
+        betaalde gaat daarvan af. <a href="#voorbeeld">Zo ziet dat eruit bij een huis in
+        Amsterdam</a>.</p>
 
-      <!-- 2026-10-03: het aanbod staat hier, direct onder de inleiding, omdat Simon vond dat je
-           te ver moest scrollen voor je wist wat er te koop is. zetAanbod() verbergt het bij
-           een loket dat niet aan mij levert, net als #aanbod onderaan. -->
+      <h2 style="margin-top:34px">Waar liggen de tekeningen van uw huis?</h2>
+      <p style="max-width:68ch">Zelf zoeken kan ook. Vul uw adres in; ik zoek het bouwjaar
+        erbij en laat zien bij welk archief of loket het dossier ligt.</p>
+
+      <!-- zetAanbod() verbergt dit blok bij een loket dat niet aan mij levert, net als
+           #aanbod onderaan. Sinds 18-10 zonder knop. -->
       <div class="aanbod-top" id="aanbod-top">
-        <p>Liever niet zelf zoeken? Voor <b>&euro;&nbsp;95</b> zet ik in het
-          <a href="/adresrapport/">adresrapport</a> op een rij wat de openbare registers over
-          het adres zeggen. Voor <b>&euro;&nbsp;145</b> vraag ik er het dossier bij op, met een
-          leeswijzer. Voor <b>&euro;&nbsp;295</b> breng ik ook
-          <a href="#wanden">de draagstructuur van uw huis</a> in kaart: welke muren dragen, de
-          kap, de fundering en de stabiliteit.</p>
-        <a class="btn" href="#contact">Vraag het aan</a>
+        <p>Liever niet zelf zoeken? Ik vraag het dossier op en lees het voor &euro;&nbsp;145.
+          Alleen het openbare beeld, zonder het archief, kan ook: het
+          <a href="/adresrapport/">adresrapport</a> voor &euro;&nbsp;95. Wat er bij elk bedrag
+          hoort, staat <a href="#contact">onderaan bij het formulier</a>.</p>
       </div>
 
       <div class="zoek">
@@ -336,9 +348,59 @@
     <div class="wrap">
       <div class="sec-head">
         <p class="eyebrow">Een voorbeeld</p>
-        <h2>Hoe zo'n dossier eruitziet</h2>
+        <h2>Uit de tekeningen van een huis in Amsterdam</h2>
+        <p>Bij het Stadsarchief liggen zes dossiers over dit huis, van 1912 tot 2004. Dit
+          staat erin.</p>
       </div>
-      <p>Dit is een echt dossier, opgevraagd voor een rijtjeshuis uit 1963. Vier
+
+      <!-- Gelezen op 18-10 uit de scans van alle zes dossiers; zie POSITIONERING.md. Namen
+           van aanvrager, architect, constructeur en ambtenaren blijven van de pagina. -->
+      <div class="ar-vs ar-vs-gelezen" role="table" aria-label="Wat er in het dossier staat en wat u ermee doet">
+        <div class="ar-vs-kop" role="row">
+          <span role="columnheader">In het dossier</span>
+          <span role="columnheader">Wat u ermee doet</span>
+        </div>
+        <div class="ar-vs-rij" role="row">
+          <div class="ar-bron" role="cell"><span>2002, fundering</span>In mei 2002 heeft een
+            ingenieursbureau de voorgevel en de vloer van de eerste verdieping waterpas gemeten.
+            De voorgevel loopt over de breedte van het huis 12 mm af, de vloer op één punt 34 mm.
+            De gemeente stempelde erop dat er voor fundering en constructie geen bezwaar was. In
+            de zes dossiers is dit het enige stuk over de fundering.</div>
+          <div class="ar-uitleg" role="cell">Dit is een nulmeting. Laat u dezelfde punten opnieuw
+            meten, dan ziet u of er sinds 2002 iets is veranderd.</div>
+        </div>
+        <div class="ar-vs-rij" role="row">
+          <div class="ar-bron" role="cell"><span>2003, balkons</span>De vier balkons aan de
+            achtergevel zijn in 2003 gebouwd voordat er een vergunning was. Bouwtoezicht legde
+            het werk stil, en op 19 november 2003 is de vergunning alsnog verleend. De berekening
+            gaat over de balkonbalk: hout 75 x 175, versterkt met een stalen hoekprofiel.</div>
+          <div class="ar-uitleg" role="cell">De balkons zijn vergund. Wilt u er een vervangen of
+            vergroten, dan begint u hier. De gevel waaraan ze hangen is toen niet
+            doorgerekend.</div>
+        </div>
+        <div class="ar-vs-rij" role="row">
+          <div class="ar-bron" role="cell"><span>2003, kozijnen</span>De welstandscommissie keurde
+            nieuwe kozijnen in de voorgevel eerst af, omdat de roeden verdwenen. Met roeden kregen
+            ze geen bezwaar.</div>
+          <div class="ar-uitleg" role="cell">Vervangt u de ramen aan de straatkant, houd dan de
+            roeden aan.</div>
+        </div>
+        <div class="ar-vs-rij" role="row">
+          <div class="ar-bron" role="cell"><span>2004, splitsing</span>Het huis is gesplitst in
+            vier appartementen. Het splitsingsplan laat zien welke verdieping bij welke woning
+            hoort: souterrain en begane grond samen, dan één woning per verdieping, en de bovenste
+            met de zolder.</div>
+          <div class="ar-uitleg" role="cell">Welke delen gemeenschappelijk zijn staat in de akte
+            van splitsing bij het Kadaster. Het dossier heeft de tekening die erbij hoort.</div>
+        </div>
+      </div>
+      <p class="ar-samen" style="margin:26px 0 0;max-width:70ch">In de index van het archief
+        heet een map uit 2002 "Berekeningen". Wie hem opent vindt een kopie van de
+        balkonberekening van 2003. Over de vloeren en de fundering staat in geen van de dossiers
+        een berekening.</p>
+
+      <h3 style="margin-top:40px">Hoe zo'n dossier binnenkomt</h3>
+      <p>Dit is een ander echt dossier, opgevraagd voor een rijtjeshuis uit 1963. Vier
         vergunningen, dertien documenten, achtentwintig pagina's. Rechts staat de
         leeswijzer die ik erbij schreef.</p>
 
@@ -435,51 +497,44 @@
     <div class="wrap">
       <div class="sec-head">
         <p class="eyebrow cta-eye">Aanvragen</p>
-        <h2>Zeker weten dat u alles heeft</h2>
-        <p>Het uitzoeken hierboven is gratis. Dit is wat u krijgt als u het aanvragen uit
+        <h2>De tekeningen opvragen en laten lezen</h2>
+        <p>Het zoeken hierboven is gratis. Dit is wat u krijgt als u het opvragen en lezen uit
           handen geeft.</p>
       </div>
 
       <div id="aanbod">
         <div class="cta-row">
-          <p class="prijs"><b>&euro; 95</b> zonder het archief (het
-            <a href="/adresrapport/">adresrapport</a>), <b>&euro; 145</b> met het dossier en de
-            leeswijzer, <b>&euro; 295</b> met de draagstructuur, inclusief btw.</p>
+          <p class="prijs"><b>&euro; 145</b> met het dossier, gelezen en nagekeken door
+            ir. S.B. Cox, <b>&euro; 295</b> met de draagstructuur erbij, inclusief btw. Alleen het
+            openbare beeld zonder het archief kan ook: het <a href="/adresrapport/">adresrapport</a>
+            voor <b>&euro; 95</b>.</p>
         </div>
         <p>Wilt u eerst iets vragen, bel dan gerust: <a href="tel:+31615902335">06 1590 2335</a>.</p>
 
-        <p><b>Wat erin komt:</b></p>
+        <p><b>Wat u voor &euro; 145 krijgt:</b></p>
         <ul class="bron-lijst">
-          <li><b>Het bouwdossier.</b> Alle vergunningen die er op het adres zijn verleend, van
-            de oorspronkelijke bouw tot de laatste verbouwing, met de tekeningen en waar
-            aanwezig de constructieberekening.</li>
-          <li><b>De ondergrond.</b> De sonderingen die in de omgeving zijn uitgevoerd en de
-            bodemopbouw ter plaatse, uit de Basisregistratie Ondergrond. Dat is wat een
-            constructeur als eerste opzoekt bij een vraag over de fundering.</li>
-          <li><b>Het funderingsbeeld van de buurt.</b> Het risico op paalrot en op
-            verschilzetting volgens de Klimaateffectatlas, met de kanttekening dat die cijfers
-            voor de buurt gelden en niet voor uw huis.</li>
-          <li><b>Het pand zelf.</b> Bouwjaar, oppervlakte, of het in een rij staat en met
-            hoeveel woningen het pand wordt gedeeld, uit de Basisregistratie Adressen en
-            Gebouwen. Dat laatste verklaart vaak waarom het dossier over een heel blok gaat.</li>
-          <li><b>Het perceel.</b> De kadastrale grenzen met het perceelnummer, en of het pand
-            een monumentenstatus heeft.</li>
-          <li><b>De tijdlijn.</b> Luchtfoto's per jaar, zodat te zien is wanneer er aan het
-            huis iets is veranderd, plus de vergunningen die daarover zijn gepubliceerd.
-            Kijk hier ook of er zonnepanelen op het dak liggen en sinds welk jaar: die
-            staan vaak niet in een bouwdossier, terwijl ze voor de dakconstructie wel
-            meetellen.</li>
-        </ul>
-
-        <p><b>En wat van die stapel iets bruikbaars maakt:</b></p>
-        <ul class="bron-lijst">
-          <li><b>De leeswijzer.</b> Wat er in die stukken staat en waar de constructieve
-            informatie zit, in gewone taal.</li>
+          <li><b>De tekeningen en vergunningen.</b> Alle vergunningen die er op het adres zijn
+            verleend, van de oorspronkelijke bouw tot de laatste verbouwing, met de tekeningen
+            en waar aanwezig de constructieberekening.</li>
+          <li><b>De lezing.</b> Tekeningen en vergunningen zijn maar papier zonder uitleg. Per
+            stuk wat erin staat, wat er is gebouwd en veranderd, wat er vergund is en waar u op
+            let, in gewone taal. Nagekeken door ir. S.B. Cox.</li>
           <li><b>De fundering.</b> Wat het dossier erover zegt. Bij huizen van vóór de oorlog
             is dat vaak weinig, en dan staat dat er ook.</li>
           <li><b>De lijst van wat er niet is.</b> Dit is het deel dat u zelf niet kunt maken,
             want u weet pas wat er ontbreekt als u weet hoe zo'n dossier hoort te zijn
             opgebouwd.</li>
+        </ul>
+
+        <p><b>En alles uit het <a href="/adresrapport/">adresrapport</a> van &euro; 95:</b></p>
+        <ul class="bron-lijst">
+          <li><b>Het pand en het perceel.</b> Bouwjaar, oppervlakte, met hoeveel woningen het
+            pand wordt gedeeld, de kadastrale grenzen en of het een monument is.</li>
+          <li><b>De ondergrond en de buurt.</b> De sonderingen in de omgeving en het risico op
+            paalrot en verschilzetting volgens de Klimaateffectatlas, met de kanttekening dat
+            die cijfers voor de buurt gelden en niet voor uw huis.</li>
+          <li><b>De tijdlijn.</b> Luchtfoto's per jaar, zodat te zien is wanneer er aan het huis
+            iets is veranderd, ook zonnepanelen die vaak niet in een bouwdossier staan.</li>
         </ul>
 
         <p><b>Voor &euro; 295 ook:</b></p>
@@ -543,9 +598,9 @@
         </div>
         <fieldset class="keus">
           <legend>Wat wilt u?</legend>
-          <label><input type="radio" name="trap" value="2" required> Het dossier met de
-            leeswijzer, &euro; 145</label>
-          <label><input type="radio" name="trap" value="3"> Het dossier, de leeswijzer en de
+          <label><input type="radio" name="trap" value="2" required> Het dossier, opgevraagd en
+            gelezen, &euro; 145</label>
+          <label><input type="radio" name="trap" value="3"> Het dossier, gelezen, met de
             draagstructuur, &euro; 295</label>
         </fieldset>
         <div>
@@ -563,14 +618,15 @@
         <button class="btn" type="submit">Aanvraag versturen</button>
         <p class="noot">Op de volgende pagina betaalt u met iDEAL, en dezelfde dag gaat de
           aanvraag de deur uit. Hoe lang het archief erover doet verschilt per gemeente, van
-          een paar dagen tot een paar weken; ik houd het in de gaten en laat u weten waar het
+          een paar minuten tot drie weken; ik houd het in de gaten en laat u weten waar het
           staat. Wat er met uw gegevens gebeurt staat in de
           <a href="/privacy/">privacyverklaring</a>.</p>
       </form>
 
       <p class="cta-note">Twee dingen vooraf. Ik kan niet garanderen dat het dossier bestaat
         of compleet is; archieven hebben gaten, en soms is alleen het gevelaanzicht bewaard
-        gebleven. En u krijgt gegevens met hun bron en hun datum, geen oordeel over uw woning.
+        gebleven. En er komt niemand langs en er wordt niets aan het huis zelf bekeken: u krijgt
+        wat er in de stukken staat, met de bron en de datum, en geen oordeel over de constructie.
         Of die muur eruit kan volgt uit een berekening op de huidige situatie, en dat is een
         aparte opdracht.</p>
     </div>

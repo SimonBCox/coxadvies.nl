@@ -1,0 +1,111 @@
+/* Adresrapport (/adresrapport/ en /en/address-report/). Een eigen blad naast
+   style.css en bouwdossier.css, omdat deze twee pagina's een eigen opbouw hebben:
+   de kop met het voorbeeldrapport, de tabel register tegen uitleg, en de drie
+   trappen als tijdlijn. Beide talen gebruiken dezelfde klassen. */
+
+/* kop */
+.ar-hero-grid{display:grid;grid-template-columns:1fr;gap:clamp(34px,5vw,64px);align-items:center}
+@media(min-width:920px){.ar-hero-grid{grid-template-columns:1.2fr .8fr}}
+.ar-hero .visual-head{max-width:22ch;font-size:clamp(2.1rem,4.2vw,3rem)}
+.ar-hero .lead{max-width:52ch}
+.ar-hero .cta-row{margin:6px 0 30px}
+.ar-feiten{list-style:none;display:grid;gap:10px;margin:0;padding:0;font-size:.95rem;
+  color:rgba(255,255,255,.78)}
+.ar-feiten li{padding-left:16px;border-left:2px solid var(--warm)}
+.ar-feiten b{color:#fff;font-weight:600}
+.ar-hero-pag{display:block;justify-self:center;max-width:380px;width:100%;
+  transform:rotate(1.6deg);border-radius:6px;overflow:hidden;background:#fff;
+  box-shadow:0 30px 60px -28px rgba(0,0,0,.65),0 0 0 1px rgba(255,255,255,.12)}
+.ar-hero-pag img{display:block;width:100%;height:auto}
+@media(max-width:919px){.ar-hero-pag{max-width:280px}}
+
+/* register tegen uitleg */
+.ar-vs{border:1px solid var(--line);border-radius:var(--r);overflow:hidden;background:var(--surface)}
+.ar-vs-kop,.ar-vs-rij{display:grid;grid-template-columns:.8fr 1.2fr}
+.ar-vs-kop span{padding:14px 22px;font-size:.72rem;font-weight:700;letter-spacing:.13em;
+  text-transform:uppercase;color:var(--muted);background:var(--bg);border-bottom:1px solid var(--line)}
+.ar-vs-kop span+span{color:var(--accent)}
+.ar-vs-rij+.ar-vs-rij{border-top:1px solid var(--line)}
+.ar-bron{padding:20px 22px;background:var(--bg);color:var(--muted);
+  font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:.86rem;line-height:1.55}
+.ar-bron span{display:block;font-family:"Inter",system-ui,sans-serif;font-size:.68rem;
+  font-weight:700;letter-spacing:.12em;text-transform:uppercase;margin-bottom:6px;color:#8a929d}
+.ar-uitleg{padding:20px 22px;font-size:.98rem}
+/* Op /bouwdossier/ staat links wat er in het dossier staat, en dat is lopende tekst. */
+.ar-vs-gelezen .ar-vs-kop,.ar-vs-gelezen .ar-vs-rij{grid-template-columns:1.25fr .75fr}
+.ar-vs-gelezen .ar-bron{font-family:inherit;font-size:.95rem;color:var(--ink)}
+@media(max-width:700px){
+  .ar-vs-kop{display:none}
+  .ar-vs-rij{grid-template-columns:1fr}
+  .ar-uitleg{padding-top:14px}
+}
+
+/* hoofdstukken */
+.ar-hoofdstukken{display:grid;grid-template-columns:1fr;gap:16px}
+@media(min-width:760px){.ar-hoofdstukken{grid-template-columns:1fr 1fr}}
+.ar-hoofdstukken>div{position:relative;padding:22px 24px 22px 70px;background:var(--surface);
+  border:1px solid var(--line);border-radius:4px;color:var(--muted);font-size:.98rem}
+.ar-hoofdstukken b{color:var(--ink)}
+.ar-nr{position:absolute;left:22px;top:20px;width:32px;height:32px;border-radius:50%;
+  background:var(--navy);color:#fff;font-family:"Lora",serif;display:grid;place-items:center}
+.ar-hoofdstukken .ar-actie{grid-column:1/-1;padding-left:24px;border-color:transparent;
+  border-left:4px solid var(--warm);background:#fbf3e9;color:var(--ink)}
+.ar-grens{margin-top:22px;color:var(--muted);font-size:.92rem;max-width:70ch}
+
+/* voorbeeldpagina's */
+.vb-pag{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:0 0 10px}
+.vb-pag a{display:block;border:1px solid var(--line);border-radius:6px;overflow:hidden;
+  background:#fff;box-shadow:var(--shadow)}
+.vb-pag img{display:block;width:100%;height:auto}
+@media(max-width:620px){.vb-pag{grid-template-columns:1fr}.vb-pag a:not(:first-child){display:none}}
+
+/* drie trappen */
+.ar-trappen{display:grid;grid-template-columns:1fr;gap:22px;align-items:stretch}
+@media(min-width:880px){.ar-trappen{grid-template-columns:1.1fr 1fr 1fr}}
+.ar-trap{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);
+  border-radius:4px;padding:28px 26px 30px}
+.ar-trap .tag{font-size:.72rem;font-weight:700;letter-spacing:.13em;text-transform:uppercase;color:var(--accent)}
+.ar-trap h3{font-size:1.45rem;margin:12px 0 4px}
+.ar-bedrag{font-family:"Lora",serif;font-size:2.1rem;color:var(--ink);margin-bottom:14px}
+.ar-wat{color:var(--muted);font-size:.98rem;flex:1}
+.ar-wanneer{margin-top:14px;font-size:.9rem;font-weight:600;color:var(--ink)}
+.ar-trap .btn,.ar-trap .card-link{align-self:flex-start;margin-top:18px}
+.ar-trap-eerst{background:var(--navy);border-color:var(--navy);color:#fff;box-shadow:var(--shadow)}
+.ar-trap-eerst .tag{color:var(--warm)}
+.ar-trap-eerst h3,.ar-trap-eerst .ar-bedrag,.ar-trap-eerst .ar-wanneer{color:#fff}
+.ar-trap-eerst .ar-wat{color:rgba(255,255,255,.8)}
+.ar-trap-eerst .btn{background:#fff;color:var(--navy)}
+.ar-trap-eerst .btn:hover{background:#dce8f3}
+.ar-noot{margin-top:20px;color:var(--muted);font-size:.9rem}
+.ar-noot a{color:var(--accent)}
+
+/* wie */
+.ar-wie{max-width:68ch}
+.ar-wie h2{font-size:clamp(1.7rem,3.2vw,2.4rem);margin:13px 0 18px}
+.ar-wie p{color:var(--muted);margin-bottom:14px;font-size:1.04rem}
+
+/* vragen */
+.ar-faq{max-width:760px;border-top:1px solid var(--line)}
+.ar-faq details{border-bottom:1px solid var(--line)}
+.ar-faq summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;
+  gap:16px;padding:18px 0;font-weight:600;font-size:1.02rem}
+.ar-faq summary::-webkit-details-marker{display:none}
+.ar-faq summary::after{content:"+";color:var(--accent);font-size:1.3rem;line-height:1}
+.ar-faq details[open] summary::after{content:"\2212"}
+.ar-faq details p{color:var(--muted);padding:0 0 20px;max-width:64ch}
+
+/* taalregel onder het formulier */
+.taal{font-size:.9rem;color:var(--muted);margin-top:16px}
+.taal a{color:var(--accent);font-weight:600}
+.cta .taal{color:#93a2b2}
+.cta .taal a{color:#cfe0f0}
+
+/* Het adresveld is wit op het donkere bestelblok; de plaatshouder en de noot eronder
+   kregen de kleuren van de donkere velden en vielen weg. */
+.cta .zoek input::placeholder{color:#8a929d}
+.cta .zoek .noot{color:#93a2b2}
+.ar-trappen+.noot.ar-noot{margin-top:20px}
+
+/* wat de vijf regels samen zeggen, onder de tabel */
+.section .wrap>.ar-vs+.ar-samen{margin:26px 0 0;max-width:70ch;font-size:1.04rem;color:var(--ink)}
+.ar-trap-eerst .card-link{color:#fff}
