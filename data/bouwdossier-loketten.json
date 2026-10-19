@@ -20,7 +20,7 @@
    "wij": true,
    "voorbehoud": "",
    "intro_html": "",
-   "en_html": "",
+   "en_html": "<p>In 's-Hertogenbosch the files up to 1980 are fully online. Later years are requested from Erfgoed 's-Hertogenbosch or from the municipality.</p>",
    "perioden": [
     {
      "bedrag": null,
@@ -33,7 +33,7 @@
      "route": "wij-zelfzoeken",
      "wij": true,
      "html": "<p><strong>Erfgoed 's-Hertogenbosch</strong>, volledig en direct online in te zien op <a href=\"https://www.erfgoedshertogenbosch.nl/onderzoek/hulp-bij-onderzoek/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.erfgoedshertogenbosch.nl/onderzoek/hulp-bij-onderzoek/bouwdossiers</a>.</p>",
-     "en_html": ""
+     "en_html": "<p>From 1898 to 1980 Erfgoed 's-Hertogenbosch holds the files, and they can be viewed in full and directly online.</p>"
     },
     {
      "bedrag": null,
@@ -46,7 +46,7 @@
      "route": "wij-mail",
      "wij": true,
      "html": "<p>ook bij Erfgoed 's-Hertogenbosch, maar afgeschermd om reden van privacy en auteursrecht. Tekeningen en berekeningen opvragen per mail bij <strong><a href=\"mailto:erfgoed@s-hertogenbosch.nl\">erfgoed@s-hertogenbosch.nl</a></strong>, tel. (073) 615 51 55.</p>",
-     "en_html": ""
+     "en_html": "<p>From 1981 to 2012 the files are also with Erfgoed 's-Hertogenbosch, but screened off for reasons of privacy and copyright. Drawings and calculations are requested by email from <a href=\"mailto:erfgoed@s-hertogenbosch.nl\">erfgoed@s-hertogenbosch.nl</a>.</p>"
     },
     {
      "bedrag": null,
@@ -59,7 +59,7 @@
      "route": "onbekend",
      "wij": false,
      "html": "<p><strong>gemeente 's-Hertogenbosch</strong>, met het formulier op <a href=\"https://formulier.s-hertogenbosch.nl/opvragen-archiefgegevens/startpagina\" target=\"_blank\" rel=\"noopener\">https://formulier.s-hertogenbosch.nl/opvragen-archiefgegevens/startpagina</a>. Hieraan zijn kosten verbonden volgens de legesverordening; het bedrag staat in het formulier.</p>",
-     "en_html": ""
+     "en_html": "<p>From 2013 the municipality handles it through a form. A fee applies under the municipal fee regulation; the form states the amount.</p>"
     },
     {
      "bedrag": null,
@@ -72,7 +72,7 @@
      "route": "wij-zelfzoeken",
      "wij": true,
      "html": "<p>Het archief dekt ook de voormalige gemeenten Rosmalen, Nuland en Maasdonk.</p>",
-     "en_html": ""
+     "en_html": "<p>The archive also covers the former municipalities of Rosmalen, Nuland and Maasdonk.</p>"
     }
    ]
   },
@@ -1456,7 +1456,7 @@
    "wij": true,
    "voorbehoud": "",
    "intro_html": "<p>Let op: van Best is nog niets gedigitaliseerd. Alles van vóór 2000 is papier, en dat kost extra tijd.</p>",
-   "en_html": "",
+   "en_html": "<p>Nothing from Best has been digitised yet. Everything before 2000 is on paper, and that takes extra time.</p>",
    "perioden": [
     {
      "bedrag": null,
@@ -1469,7 +1469,7 @@
      "route": "wij-formulier",
      "wij": true,
      "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), in twee reeksen (1906 t/m 1946 en 1947 t/m 1999), allebei analoog en nog niet gedigitaliseerd. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, zonder inloggen, tel. (040) 264 99 40. Reken op een langere doorlooptijd dan bij een gedigitaliseerde gemeente.</p>",
-     "en_html": ""
+     "en_html": "<p>From 1906 to 1999 the Regionaal Historisch Centrum Eindhoven (RHCe) holds the files, in two series, 1906 to 1946 and 1947 to 1999, both on paper and not yet digitised. Requests go through the form on the RHCe website, without logging in. Expect a longer processing time than in a municipality that has digitised.</p>"
     },
     {
      "bedrag": null,
@@ -1482,7 +1482,7 @@
      "route": "onbekend",
      "wij": false,
      "html": "<p><strong>gemeente Best</strong>, via het omgevingsloket op hun website.</p>",
-     "en_html": ""
+     "en_html": "<p>From 2000 the municipality of Best handles it, through the omgevingsloket on its website.</p>"
     },
     {
      "bedrag": null,
@@ -1860,7 +1860,7 @@
    "wij": true,
    "voorbehoud": "",
    "intro_html": "<p>Breda is een van de weinige gemeenten waar vrijwel het hele archief zonder tussenkomst te raadplegen is. In 2025 zijn 850.000 dossiers in een publiek portaal gezet.</p>",
-   "en_html": "",
+   "en_html": "<p>Breda is one of the few municipalities where almost the entire archive can be consulted without anyone in between. In 2025 some 850,000 files were put in a public portal.</p>",
    "perioden": [
     {
      "bedrag": null,
@@ -1873,7 +1873,7 @@
      "route": "wij-zelfzoeken",
      "wij": true,
      "html": "<p><strong>Stadsarchief Breda</strong>, direct online in te zien via het publieksportaal <a href=\"https://archief.stadsarchiefbreda.nl/vergunningen\" target=\"_blank\" rel=\"noopener\">https://archief.stadsarchiefbreda.nl/vergunningen</a>. Kosteloos. Panden met een veiligheidsrisico, zoals politiebureaus en het stadhuis, zijn afgeschermd.</p>",
-     "en_html": ""
+     "en_html": "<p>Up to 2013 the Stadsarchief Breda holds the files, and they can be viewed directly online in its public portal, free of charge. Buildings with a security risk, such as police stations and the town hall, are screened off.</p>"
     },
     {
      "bedrag": null,
@@ -1886,7 +1886,7 @@
      "route": "onbekend",
      "wij": false,
      "html": "<p><strong>gemeente Breda</strong>, met een digitaal formulier op <a href=\"https://www.breda.nl/bouwdossier-inzien\" target=\"_blank\" rel=\"noopener\">https://www.breda.nl/bouwdossier-inzien</a>. Handig om bij de hand te hebben: het zaaknummer in de vorm Z plus jaartal plus zes cijfers, anders straat en huisnummer.</p>",
-     "en_html": ""
+     "en_html": "<p>From 2014, and for permits still in progress, the municipality of Breda handles it through a digital form. It helps to have the case number at hand, in the form Z followed by the year and six digits; otherwise the street and house number.</p>"
     },
     {
      "bedrag": null,
@@ -5268,7 +5268,7 @@
    "wij": true,
    "voorbehoud": "",
    "intro_html": "",
-   "en_html": "",
+   "en_html": "<p>Hilversum has digitised a large part of its building drawings. The Archief Gooi en Vechtstreek covers the years up to April 2010, the municipality the years after.</p>",
    "perioden": [
     {
      "bedrag": null,
@@ -5281,7 +5281,7 @@
      "route": "wij-zelfzoeken",
      "wij": true,
      "html": "<p><strong>Archief Gooi en Vechtstreek</strong> (Streekarchief, vestigingen Naarden en Hilversum). Circa 140.000 tekeningen en 40.000 vergunningen over deze periode zijn gedigitaliseerd en op adres doorzoekbaar via de Zoekpagina Bouwtekeningen: <a href=\"https://zoeken.archiefgooienvechtstreek.nl/\" target=\"_blank\" rel=\"noopener\">https://zoeken.archiefgooienvechtstreek.nl/</a> (rubriek \"Bouwtekeningen Hilversum\"). Downloaden van een digitale tekening is <strong>gratis</strong>; het is voor eigen gebruik, niet voor verveelvoudiging. De stukken rond de vergunningverlening zelf (aanvraag, beschikking) liggen alleen op papier en zijn met het dossiernummer in te zien in de studiezaal. <a href=\"mailto:info@archiefgooienvechtstreek.nl\">info@archiefgooienvechtstreek.nl</a>, (035) 207 3125, open ma t/m do.</p>",
-     "en_html": ""
+     "en_html": "<p>From 1901 to 2000 the Archief Gooi en Vechtstreek holds the files. Around 140,000 drawings and 40,000 permits from this period are digitised and searchable by address on its search page for building drawings. Downloading a digital drawing is free; it is for personal use, not for reproduction. The documents around the permit itself, such as the application and the decision, are only on paper and can be viewed in the reading room with the file number.</p>"
     },
     {
      "bedrag": null,
@@ -5294,7 +5294,7 @@
      "route": "wij-mail",
      "wij": true,
      "html": "<p>eveneens <strong>Archief Gooi en Vechtstreek</strong>, maar dit deel is niet gedigitaliseerd: telefonisch of per mail opvragen (zelfde contact als hierboven); inzage in de studiezaal kan hier zonder afspraak.</p>",
-     "en_html": ""
+     "en_html": "<p>From 2001 to April 2010 the files are also with the Archief Gooi en Vechtstreek, but this part is not digitised. They are requested by phone or email.</p>"
     },
     {
      "bedrag": null,
@@ -5307,7 +5307,7 @@
      "route": "wij-mail",
      "wij": true,
      "html": "<p><strong>gemeente Hilversum</strong> zelf. Bouwtekeningen en bijlagen van (omgevings)vergunningen zijn <strong>gratis</strong> te downloaden. Aanvragen per mail bij <strong><a href=\"mailto:puza-bo-ondersteuning@hilversum.nl\">puza-bo-ondersteuning@hilversum.nl</a></strong>, of via het algemene contactformulier <a href=\"https://hilversum.nl/contact-afspraak/contact-gemeente\" target=\"_blank\" rel=\"noopener\">https://hilversum.nl/contact-afspraak/contact-gemeente</a>, tel. 14 035.</p>",
-     "en_html": ""
+     "en_html": "<p>From April 2010 the municipality of Hilversum itself handles it. Building drawings and attachments of permits can be downloaded free of charge. Requests go by email to <a href=\"mailto:puza-bo-ondersteuning@hilversum.nl\">puza-bo-ondersteuning@hilversum.nl</a>.</p>"
     },
     {
      "bedrag": null,
@@ -5320,7 +5320,7 @@
      "route": "wij-zelfzoeken",
      "wij": true,
      "html": "<p><strong>Gemeentelijk monument</strong>: geen apart online monumentendossier gevonden. Vragen over de monumentstatus en eventuele aanvullende stukken (redengevende omschrijving e.d.) lopen via de erfgoedadviseur: <strong><a href=\"mailto:monumenten@hilversum.nl\">monumenten@hilversum.nl</a></strong>, tel. 14 035.</p>",
-     "en_html": ""
+     "en_html": "<p>For a municipal monument there is no separate online file. Questions about the monument status and any further documents go to the heritage adviser at <a href=\"mailto:monumenten@hilversum.nl\">monumenten@hilversum.nl</a>.</p>"
     },
     {
      "bedrag": null,
@@ -7375,7 +7375,7 @@
    "wij": true,
    "voorbehoud": "",
    "intro_html": "",
-   "en_html": "",
+   "en_html": "<p>Nijmegen has digitised almost everything. The Digitaal Gebouwenarchief Nijmegen can be searched by address, and drawings from the archive arrive free of charge as a download link by email.</p>",
    "perioden": [
     {
      "bedrag": null,
@@ -7387,8 +7387,8 @@
      "loket": "",
      "route": "wij-formulier",
      "wij": true,
-     "html": "<p><strong>Vrijwel alles is gedigitaliseerd</strong> en op adres doorzoekbaar via het <strong>Digitaal Gebouwenarchief Nijmegen</strong>: <a href=\"https://studiezaal.nijmegen.nl/digitaalgebouwenarchiefnijmegen.php\" target=\"_blank\" rel=\"noopener\">https://studiezaal.nijmegen.nl/digitaalgebouwenarchiefnijmegen.php</a> (adres exact invoeren). Bouwvergunningen van gesloopte panden + 19e-eeuws: collectie 1335 \"Bouwvergunningen gemeente Nijmegen 1816–2005\", via <a href=\"https://studiezaal.nijmegen.nl/bouwvergunningen\" target=\"_blank\" rel=\"noopener\">https://studiezaal.nijmegen.nl/bouwvergunningen</a>.</p>",
-     "en_html": ""
+     "html": "<p><strong>Vrijwel alles is gedigitaliseerd</strong> en op adres doorzoekbaar via het <strong>Digitaal Gebouwenarchief Nijmegen</strong>: <a href=\"https://studiezaal.nijmegen.nl/digitaalgebouwenarchiefnijmegen.php\" target=\"_blank\" rel=\"noopener\">https://studiezaal.nijmegen.nl/digitaalgebouwenarchiefnijmegen.php</a> (adres exact invoeren). Bouwvergunningen van gesloopte panden + 19e-eeuws: collectie 1335 \"Bouwvergunningen gemeente Nijmegen 1816-2005\", via <a href=\"https://studiezaal.nijmegen.nl/bouwvergunningen\" target=\"_blank\" rel=\"noopener\">https://studiezaal.nijmegen.nl/bouwvergunningen</a>.</p>",
+     "en_html": "<p>Almost everything is digitised and searchable by address in the Digitaal Gebouwenarchief Nijmegen; the address has to be entered exactly. Permits for demolished buildings and from the nineteenth century are in collection 1335, the building permits of the municipality of Nijmegen from 1816 to 2005.</p>"
     },
     {
      "bedrag": null,
@@ -7401,7 +7401,7 @@
      "route": "wij-zelfzoeken",
      "wij": true,
      "html": "<p><strong>Regionaal Archief Nijmegen</strong>. In de praktijk gaat dit via het Digitaal Gebouwenarchief hierboven: daar zoekt u op adres, vinkt u de gewenste stukken aan en komt de downloadlink gratis per mail. Lukt dat niet, dan per mail: <a href=\"mailto:hetarchief@nijmegen.nl\">hetarchief@nijmegen.nl</a>, (024) 329 23 07, <a href=\"https://regionaalarchiefnijmegen.nl\" target=\"_blank\" rel=\"noopener\">https://regionaalarchiefnijmegen.nl</a>.</p>",
-     "en_html": ""
+     "en_html": "<p>Up to the end of 2023 the Regionaal Archief Nijmegen holds the files. In practice this goes through the Digitaal Gebouwenarchief: search by address, tick the documents you want, and the download link comes by email, free of charge. For what is not digitised the archive can be reached at <a href=\"mailto:hetarchief@nijmegen.nl\">hetarchief@nijmegen.nl</a> or (024) 329 23 07.</p>"
     },
     {
      "bedrag": null,
@@ -7414,7 +7414,7 @@
      "route": "wij-formulier",
      "wij": true,
      "html": "<p><strong>gemeente Nijmegen</strong> zelf, tel. 14 024, contactformulier <a href=\"https://formulier.nijmegen.nl/contactformulier/startpagina/\" target=\"_blank\" rel=\"noopener\">https://formulier.nijmegen.nl/contactformulier/startpagina/</a>. Zie <a href=\"https://www.nijmegen.nl/diensten/bouwen/opvragen-bouw-of-sloopplan/\" target=\"_blank\" rel=\"noopener\">https://www.nijmegen.nl/diensten/bouwen/opvragen-bouw-of-sloopplan/</a>.</p>",
-     "en_html": ""
+     "en_html": "<p>From 1 January 2024 the municipality of Nijmegen itself handles it, by phone on 14 024 or through its contact form.</p>"
     }
    ]
   },
@@ -9406,7 +9406,7 @@
    "wij": true,
    "voorbehoud": "",
    "intro_html": "",
-   "en_html": "",
+   "en_html": "<p>In Son en Breugel the files up to 1989 are digitised and searchable online at the regional archive in Eindhoven.</p>",
    "perioden": [
     {
      "bedrag": null,
@@ -9419,7 +9419,7 @@
      "route": "wij-zelfzoeken",
      "wij": true,
      "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), gedigitaliseerd en online doorzoekbaar op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>. Aanvragen kan ook met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, tel. (040) 264 99 40.</p>",
-     "en_html": ""
+     "en_html": "<p>From 1900 to 1989 the Regionaal Historisch Centrum Eindhoven (RHCe) holds the files, digitised and searchable online. Requests can also go through the form on the RHCe website.</p>"
     },
     {
      "bedrag": null,
@@ -9432,7 +9432,7 @@
      "route": "onbekend",
      "wij": false,
      "html": "<p><strong>gemeente Son en Breugel</strong>, via hun archiefportaal.</p>",
-     "en_html": ""
+     "en_html": "<p>From 1990 the municipality of Son en Breugel handles it, through its archive portal.</p>"
     },
     {
      "bedrag": null,
@@ -10081,7 +10081,7 @@
    "wij": true,
    "voorbehoud": "",
    "intro_html": "",
-   "en_html": "",
+   "en_html": "<p>In Veldhoven the older files are with the regional archive in Eindhoven and have not been digitised yet, so expect a longer wait. Recent years come from the municipality by email.</p>",
    "perioden": [
     {
      "bedrag": null,
@@ -10094,7 +10094,7 @@
      "route": "wij-formulier",
      "wij": true,
      "html": "<p><strong>Regionaal Historisch Centrum Eindhoven</strong> (RHCe), in twee reeksen (1906 t/m 1945 en 1946 t/m 1990), allebei analoog en nog niet gedigitaliseerd. De oudste reeks is alleen via kadastraal onderzoek te vinden, niet op adres. Aanvragen met het formulier op <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers-aanvragen</a>, tel. (040) 264 99 40, en reken op een langere doorlooptijd.</p>",
-     "en_html": ""
+     "en_html": "<p>From 1906 to 1990 the Regionaal Historisch Centrum Eindhoven (RHCe) holds the files, in two series, 1906 to 1945 and 1946 to 1990. Both are on paper and not yet digitised. The oldest series can only be found through cadastral research, not by address. Requests go through the form on the RHCe website; expect a longer processing time.</p>"
     },
     {
      "bedrag": 10.55,
@@ -10107,7 +10107,7 @@
      "route": "duur",
      "wij": false,
      "html": "<p><strong>de recente jaren</strong>: <strong>gemeente Veldhoven</strong>, per mail bij <a href=\"mailto:omgevingsloket@veldhoven.nl\">omgevingsloket@veldhoven.nl</a>. Zet erbij welke bouwplannen of vergunningen u wilt, uw naam met voorletters, adres en een telefoonnummer overdag. Reactie binnen twee weken, per mail. De startprijs is <strong>€ 10,55</strong>, en voor meer dossiers komt er per dossier iets bij.</p>",
-     "en_html": ""
+     "en_html": "<p>For recent years the municipality of Veldhoven handles it by email at <a href=\"mailto:omgevingsloket@veldhoven.nl\">omgevingsloket@veldhoven.nl</a>. The reply comes by email within two weeks. The starting price is € 10,55, with a little more for each additional file.</p>"
     },
     {
      "bedrag": null,
@@ -10565,7 +10565,7 @@
    "wij": true,
    "voorbehoud": "",
    "intro_html": "<p>Een van de prettigste loketten in de regio: gratis, digitaal, en de dossiers bevatten regelmatig berekeningen en sonderingen.</p>",
-   "en_html": "",
+   "en_html": "<p>One of the more pleasant archives in the region: free, digital, and the files regularly include calculations and cone penetration tests.</p>",
    "perioden": [
     {
      "bedrag": null,
@@ -10578,7 +10578,7 @@
      "route": "wij-formulier",
      "wij": true,
      "html": "<p><strong>gemeentearchief Wageningen</strong>. Kijk eerst in het digitale overzicht van bouwdossiers op de gemeentesite; vul daarna het contactformulier in met straatnaam en huisnummer, en u krijgt de tekeningen als pdf per mail. De originelen liggen in het stadhuis en zijn gratis in te zien na afspraak, dinsdag en woensdag 10.00-16.00. <a href=\"mailto:gemeentearchief@wageningen.nl\">gemeentearchief@wageningen.nl</a>, (0317) 49 29 11.</p>",
-     "en_html": ""
+     "en_html": "<p>From 1902 to 2005 the gemeentearchief Wageningen holds the files. The municipal website has a digital overview of building files; after a request through the contact form with street name and house number, the drawings come as a pdf by email. The originals are kept in the town hall and can be viewed free of charge by appointment, on Tuesday and Wednesday from 10.00 to 16.00.</p>"
     },
     {
      "bedrag": null,
@@ -10591,7 +10591,7 @@
      "route": "wij-mail",
      "wij": true,
      "html": "<p>constructietekeningen zijn er wel, maar via een afspraak bij het archief.</p>",
-     "en_html": ""
+     "en_html": "<p>From 2006 structural drawings exist, but through an appointment with the archive.</p>"
     },
     {
      "bedrag": null,
@@ -10604,7 +10604,7 @@
      "route": "balie",
      "wij": false,
      "html": "<p>papieren serie van de bouwpolitie, niet gedigitaliseerd.</p>",
-     "en_html": ""
+     "en_html": "<p>For demolished buildings from 1902 to 1980 there is a paper series of the building inspectorate, which has not been digitised.</p>"
     },
     {
      "bedrag": null,
@@ -10617,7 +10617,7 @@
      "route": "wij-formulier",
      "wij": true,
      "html": "<p>In de dossiers zitten de aanvraag, de bouwtekeningen en soms berekeningen of sonderingen. Riolering en elektra staan er meestal niet in.</p>",
-     "en_html": ""
+     "en_html": "<p>The files contain the application, the building drawings and sometimes calculations or cone penetration tests. Drainage and electrics are usually not included.</p>"
     },
     {
      "bedrag": null,
