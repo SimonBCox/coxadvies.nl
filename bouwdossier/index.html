@@ -27,7 +27,8 @@
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
 {"@type":"Question","name":"Waar vraag ik de bouwtekening van mijn huis op?","acceptedAnswer":{"@type":"Answer","text":"Dat hangt niet alleen af van de gemeente maar vooral van het jaar waarin de bouwvergunning is verleend. Oudere dossiers liggen meestal bij een regionaal of streekarchief, dossiers van de laatste decennia bij de gemeente zelf, en de recentste bij de omgevingsdienst. Voor een woning uit 1962 in Huissen is dat bijvoorbeeld het Regionaal Archief Nijmegen, terwijl een vergunning uit 2018 op hetzelfde adres bij de Omgevingsdienst Groene Metropool ligt."}},
 {"@type":"Question","name":"Is het opvragen van een bouwdossier gratis?","acceptedAnswer":{"@type":"Answer","text":"Inzage is bij de meeste archieven gratis. Voor scans rekenen sommige archieven wel kosten. Het Streekarchief Midden-Holland in Gouda vraagt bijvoorbeeld zes euro opdrachtkosten plus zes euro per blad, en daar moet u het dossier bovendien ter plaatse inzien om aan te wijzen welke bladen gescand worden."}},
-{"@type":"Question","name":"Staat er altijd een constructieberekening in het bouwdossier?","acceptedAnswer":{"@type":"Answer","text":"Nee. Een dossier kan onvolledig zijn. Het komt regelmatig voor dat alleen de gevelaanzichten en de plattegrond bewaard zijn gebleven en de constructieve gegevens ontbreken. Bij oudere woningen ontbreekt soms het hele dossier, bijvoorbeeld door oorlogsschade of doordat het pand later is herbouwd."}}]}
+{"@type":"Question","name":"Staat er altijd een constructieberekening in het bouwdossier?","acceptedAnswer":{"@type":"Answer","text":"Nee. Een dossier kan onvolledig zijn. Het komt regelmatig voor dat alleen de gevelaanzichten en de plattegrond bewaard zijn gebleven en de constructieve gegevens ontbreken. Bij oudere woningen ontbreekt soms het hele dossier, bijvoorbeeld door oorlogsschade of doordat het pand later is herbouwd."}},
+{"@type":"Question","name":"Kan iemand de bouwtekeningen van mijn huis voor mij opvragen?","acceptedAnswer":{"@type":"Answer","text":"Ja, met een machtiging van de eigenaar. Bij 141 van de 205 gemeenten op deze pagina kan Cox Constructieadvies het dossier voor u ophalen, met uitleg over wat erin staat, voor 145 euro inclusief btw. Hoe lang het archief erover doet verschilt per gemeente, van een paar minuten tot drie weken. De overige loketten leveren alleen aan de eigenaar zelf."}}]}
 </script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -94,6 +95,17 @@
       <p class="lees taalregel" lang="en">Reading this for someone who does not
         speak Dutch? The same tool is at <a href="/en/building-file/" hreflang="en">where are
         the drawings of your Dutch house</a>.</p>
+
+      <!-- 2026-10-19: de vraag die AI-assistenten krijgen en waar Cox nergens stond
+           (documentatie/proef_adresrapport/LLM_METING.md, vraag 5). De getallen 141 en 205
+           zet genereer_gemeentepaginas.py bij, samen met de FAQ-vraag in de kop. -->
+      <h2 id="voor-u-opvragen" style="margin-top:36px">Kan iemand de bouwtekeningen voor u opvragen?</h2>
+      <p style="max-width:64ch">Ja, met een machtiging van de eigenaar. Bij 141 van de 205
+        gemeenten in de tabel hieronder kan ik het dossier voor u ophalen, en u krijgt de
+        tekeningen met uitleg over wat erin staat voor &euro;&nbsp;145. Hoe lang het archief
+        erover doet verschilt per gemeente, van een paar minuten tot drie weken. De overige
+        loketten leveren alleen aan de eigenaar zelf. <a href="/bouwdossier/opvragen/">Zo ziet
+        het dossier met uitleg eruit</a>.</p>
 
       <!-- gemeenten:start -->
       <p>Van 205 gemeenten heb ik de loketten uitgezocht en per periode
