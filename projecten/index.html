@@ -29,7 +29,8 @@
 <style>
   /* de drie fasen naast elkaar, vanaf hetzelfde standpunt gefotografeerd */
   .reeks{display:grid;grid-template-columns:1fr;gap:26px;margin-top:8px}
-  @media(min-width:860px){.reeks{grid-template-columns:repeat(3,1fr);gap:22px}}
+  @media(min-width:860px){.reeks{grid-template-columns:repeat(3,1fr);gap:22px}
+    .reeks-vijf{grid-template-columns:repeat(6,1fr)}.reeks-vijf .fase{grid-column:span 2}.reeks-vijf .fase:nth-child(n+4){grid-column:span 3}}
   .fase{margin:0}
   .fase img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;border-radius:var(--r);box-shadow:var(--shadow);display:block;background:var(--line)}
   .fase figcaption{display:flex;gap:11px;align-items:baseline;margin-top:13px;font-size:.92rem;color:var(--muted);line-height:1.5}
@@ -143,7 +144,7 @@
         <p>De ligger zelf was niet het lastige deel. Wat eerst als een gelijkmatige last over de hele muurlengte naar beneden ging, komt na de doorbraak op twee plekken samen: op het metselwerk aan weerszijden van de opening en op de bestaande strookfundering daaronder. Die twee heb ik apart nagerekend, want daar zit bij een doorbraak meestal de grens.</p>
       </div>
 
-      <div class="reeks reveal">
+      <div class="reeks reeks-vijf reveal">
         <figure class="fase">
           <img src="/img/projecten/bemmel-01-dichte-wand.jpg" width="1200" height="800" loading="lazy" decoding="async" alt="Woonkamer met de dragende binnenwand nog dicht, met een deur naar de keuken">
           <figcaption><span class="n" aria-hidden="true">1</span><span><b>Zoals het was.</b> De dragende wand met de deur naar de keuken.</span></figcaption>
@@ -155,6 +156,14 @@
         <figure class="fase">
           <img src="/img/projecten/bemmel-03-ligger.jpg" width="1200" height="800" loading="lazy" decoding="async" alt="Dezelfde ruimte met de wand verwijderd en de stalen ligger op zijn plaats boven de opening">
           <figcaption><span class="n" aria-hidden="true">3</span><span><b>Ligger erin.</b> Vanaf hier neemt het staal over wat de muur deed.</span></figcaption>
+        </figure>
+        <figure class="fase">
+          <img src="/img/projecten/bemmel-04-gestuukt.jpg" width="1500" height="1125" loading="lazy" decoding="async" alt="De woonkamer na het stucwerk, met de nieuwe doorgang">
+          <figcaption><span class="n" aria-hidden="true">4</span><span><b>Gestuukt.</b> De doorgang is afgewerkt en de ligger zit weggewerkt boven het plafond.</span></figcaption>
+        </figure>
+        <figure class="fase">
+          <img src="/img/projecten/bemmel-05-doorgang-af.jpg" width="1500" height="1125" loading="lazy" decoding="async" alt="De afgewerkte doorgang recht van voren">
+          <figcaption><span class="n" aria-hidden="true">5</span><span><b>Recht van voren.</b> Van de constructie is niets meer te zien.</span></figcaption>
         </figure>
       </div>
 
@@ -376,8 +385,7 @@
       <div class="proj-intro reveal">
         <p class="eyebrow">Voor de volledigheid</p>
         <h2>Wat hier niet staat</h2>
-        <p>Op deze pagina staan twee projecten. Dat is niet alles wat ik heb gedaan, maar wel alles waarvan de foto&rsquo;s, de berekening en de tekening bij elkaar te vinden zijn. Van ouder werk liggen er foto&rsquo;s zonder dat vastligt welke berekening erbij hoort, en dan hoort er ook geen maat bij.</p>
-        <p>U ziet hier ook geen opgeleverde kamer. Bij beide projecten stonden de stempels er nog toen deze opnamen gemaakt werden. Zodra er een foto van het eindresultaat ligt, komt die erbij.</p>
+        <p>Hierboven staan twee projecten met de berekening en de tekening ernaast, en vier in beeld. Dat is niet alles wat ik heb gedaan, maar wel alles waarvan de foto&rsquo;s en de stukken bij elkaar te vinden zijn. Van ouder werk liggen er foto&rsquo;s zonder dat vastligt welke berekening erbij hoort, en dan hoort er ook geen maat bij.</p>
       </div>
     </div>
   </section>
@@ -405,6 +413,7 @@
       </div>
       <div class="cta-row reveal">
         <a class="btn btn-ghost" href="tel:+31615902335">Liever bellen? 06 1590 2335</a>
+        <a class="btn btn-ghost" href="https://wa.me/31615902335" target="_blank" rel="noopener"><svg width="19" height="19" viewBox="0 0 24 24" fill="#25D366" aria-hidden="true" style="flex:none"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>Foto's via WhatsApp</a>
       </div>
       <form class="form reveal" action="https://api.web3forms.com/submit" method="POST">
         <input type="hidden" name="access_key" value="8a8702ac-508a-4135-b189-6002a71b4bb7">
