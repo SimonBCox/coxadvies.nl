@@ -199,3 +199,30 @@
 .form .keus legend{font-size:.84rem;font-weight:600;color:#e9eef3;padding:0 6px}
 .form .keus label{display:flex;gap:10px;align-items:baseline;font-weight:400;font-size:.95rem;margin:8px 0 0;color:#fff}
 .form .keus input{width:auto;flex:none;margin:0}
+
+/* Drie tegels onder de zoeker, het adresrapport voorop (2026-10-19). Op een smal scherm
+   een rij die opzij veegt, zodat de zoeker en het antwoord bovenaan de pagina houden. */
+.tegels{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.tegel{display:flex;flex-direction:column;gap:8px;padding:24px;background:var(--surface,#fff);
+  border:1px solid var(--line);border-radius:var(--r);color:inherit;text-decoration:none;
+  transition:border-color .15s}
+.tegel:hover{border-color:var(--accent)}
+.tegel[hidden]{display:none}
+.tegel h3{font-size:1.12rem;line-height:1.3}
+.tegel p{color:var(--muted);font-size:.95rem;line-height:1.55}
+.tegel .tegel-prijs{color:var(--navy);font-size:1.5rem;font-weight:700;line-height:1}
+.tegel-verder{margin-top:auto;padding-top:6px;color:var(--accent);font-weight:600;font-size:.95rem}
+.tegel-verder::after{content:" \203A"}
+@media (max-width:760px){
+  .tegels{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;
+    margin:0 calc(-1*var(--pad));padding:4px var(--pad) 14px;scroll-padding:0 var(--pad)}
+  .tegel{flex:0 0 82%;scroll-snap-align:start}
+}
+
+/* De reset in style.css zet elke marge op nul. In het lange ctablok van
+   /bouwdossier/opvragen/ liepen de alinea's daardoor tegen elkaar aan. */
+.opvragen-tekst p + p, .opvragen-tekst ul + p, .opvragen-tekst p + ul{margin-top:12px}
+.opvragen-tekst .form{margin-top:22px}
+
+/* De regel voor Engelstaligen onder de zoeker: een verwijzing, geen tekst om te lezen. */
+.taalregel{max-width:64ch;font-size:.88rem;color:var(--muted)}

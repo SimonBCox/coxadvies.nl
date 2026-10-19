@@ -46,6 +46,9 @@
       mislukt: "Het opzoeken lukte niet.",
       bedanktWel: "https://www.coxadvies.nl/bedankt-bouwdossier/",
       bedanktNiet: "https://www.coxadvies.nl/bedankt/",
+      /* Sinds 2026-10-19 staat het formulier op een eigen pagina. De Engelse pagina
+         houdt het formulier onderaan, dus daar blijft de link #contact. */
+      aanvraagPad: "/bouwdossier/opvragen/",
       route: {
         duur: "Dit archief levert wel aan mij, maar rekent meer dan de tien euro die in " +
               "het bedrag zit. Vraagt u dit aan, dan bel ik u eerst over wat het archief kost.",
@@ -142,6 +145,7 @@
       mislukt: "The lookup failed.",
       bedanktWel: "https://www.coxadvies.nl/en/thank-you/",
       bedanktNiet: "https://www.coxadvies.nl/en/question-received/",
+      aanvraagPad: "",
       route: {
         duur: "This archive does supply me, but it charges more than the ten euros included " +
               "in the price. If you request it, I will call you first about what the archive " +
@@ -188,7 +192,7 @@
       verbouwingTekst: "Then the year of <em>that</em> permit counts, not the year the house " +
         "was built. For this municipality those are the periods below.",
       aanbod: 'Rather not do this yourself? <a href="#contact">I will request the file for ' +
-        'you for &euro; 145</a>, with a reader's guide. For &euro; 295 I also map the ' +
+        'you for &euro; 145</a>, with a reader&rsquo;s guide. For &euro; 295 I also map the ' +
         'load-bearing structure of the house: the walls that carry load, the roof, the ' +
         'foundation and what keeps it stable.',
       aanbodZonderJaar: " If the year falls outside the periods I have recorded, or is not " +
@@ -249,7 +253,30 @@
   var formRoute = document.getElementById("f-route");
   var formRedirect = document.getElementById("f-redirect");
 
-  if (!invoer || !uitslag) return;
+  /* Trap 2 en 3 hebben elk een eigen bedrag en dus een eigen betaalverzoek; de
+     bedankpagina kiest het juiste met ?trap=. Dat gaat alleen mee als het loket levert:
+     de bedankpagina zonder betaalverzoek heeft geen trap nodig. */
+  var aanvraag = formRedirect && formRedirect.form;
+  if (aanvraag) {
+    aanvraag.addEventListener("submit", function () {
+      var keus = aanvraag.querySelector('input[name="trap"]:checked');
+      var basis = formRedirect.value.split("?")[0];
+      formRedirect.value = (keus && basis === T.bedanktWel) ? basis + "?trap=" + keus.value : basis;
+    });
+  }
+
+  /* /bouwdossier/opvragen/ heeft het formulier en geen zoeker. Kwam de bezoeker uit de
+     zoeker, dan staan adres, jaar, loket en route in de link; zonder route blijft het
+     aanbod gewoon staan. */
+  if (!invoer) {
+    var mee = new URLSearchParams(location.search);
+    if (formAdres && mee.get("adres")) formAdres.value = mee.get("adres");
+    if (formJaar && mee.get("jaar")) formJaar.value = mee.get("jaar");
+    if (formLoket && mee.get("loket")) formLoket.value = mee.get("loket");
+    if (mee.get("route")) zetAanbod(mee.get("route"));
+    return;
+  }
+  if (!uitslag) return;
 
   /* Wie de aanvraag mag doen, staat per periode in het register. Alleen bij een route
      die met "wij-" begint bied ik het aan; bij DigiD levert het loket alleen aan de
@@ -261,6 +288,20 @@
     var ja = document.getElementById("aanbod");
     var nee = document.getElementById("aanbod-nee");
     var kort = document.getElementById("aanbod-kort");
+    /* Alles met data-aanbod hoort bij trap 2 en 3: de twee tegels op /bouwdossier/, de
+       keuze en de machtiging in het formulier. Verborgen velden mogen het versturen van
+       een vraag niet tegenhouden, dus required gaat mee uit en weer aan. */
+    document.querySelectorAll("[data-aanbod]").forEach(function (el) {
+      el.hidden = !kan;
+      el.querySelectorAll("input").forEach(function (inp) {
+        if (!inp.hasAttribute("data-verplicht")) {
+          inp.setAttribute("data-verplicht", inp.required ? "ja" : "nee");
+        }
+        inp.required = kan && inp.getAttribute("data-verplicht") === "ja";
+      });
+    });
+    if (formRoute) formRoute.value = route || "";
+    if (formRedirect) formRedirect.value = kan ? T.bedanktWel : T.bedanktNiet;
     if (!ja || !nee) return;
     ja.hidden = !kan;
     nee.hidden = !!kan;
@@ -270,9 +311,28 @@
     if (kort) kort.hidden = !kan;
     var top = document.getElementById("aanbod-top");
     if (top) top.hidden = !kan;
-    document.getElementById("aanbod-nee-zin").textContent = T.route[route] || T.route.onbekend;
-    if (formRoute) formRoute.value = route || "";
-    if (formRedirect) formRedirect.value = kan ? T.bedanktWel : T.bedanktNiet;
+    var zin = document.getElementById("aanbod-nee-zin");
+    if (zin) zin.textContent = T.route[route] || T.route.onbekend;
+  }
+
+  /* Op /bouwdossier/ staat het formulier niet meer onder de zoeker. De links in het
+     antwoord en de twee tegels gaan dan naar /bouwdossier/opvragen/, met wat de zoeker
+     heeft gevonden erbij, zodat het formulier daar al is ingevuld. */
+  function koppelAanvraag(adres, jaar, loket, route) {
+    if (!T.aanvraagPad) return;
+    var q = new URLSearchParams({
+      adres: adres || "", jaar: jaar ? String(jaar) : "", loket: loket || "", route: route || ""
+    }).toString();
+    uitslag.querySelectorAll('a[href="#contact"]').forEach(function (a) {
+      a.href = T.aanvraagPad + "?" + q + "#aanvragen";
+    });
+    document.querySelectorAll("a.tegel[data-aanbod]").forEach(function (a) {
+      if (!a.hasAttribute("data-anker")) {
+        a.setAttribute("data-anker", a.getAttribute("href").split("#")[1] || "");
+      }
+      var anker = a.getAttribute("data-anker");
+      a.href = T.aanvraagPad + "?" + q + (anker ? "#" + anker : "");
+    });
   }
 
   /* Het laatst opgezochte adres en de funderingsgegevens erbij. Klikt de bezoeker
@@ -649,6 +709,8 @@
       hangTijdlijnOp(puntUitWkt(rec.centroide_ll), jaar);
       if (formLoket) formLoket.value = rec.gemeentenaam + " (nog niet uitgezocht)";
       zetAanbod("onbekend");
+      koppelAanvraag(rec.weergavenaam, jaar, rec.gemeentenaam + " (nog niet uitgezocht)",
+                     "onbekend");
       zeg(T.nietUitgezocht(rec.gemeentenaam));
       return;
     }
@@ -762,10 +824,10 @@
     hangTijdlijnOp(puntUitWkt(rec.centroide_ll), jaar);
     // Deze regel gaat als verborgen veld mee in de aanvraagmail en wordt door mij
     // gelezen, niet door de bezoeker. Dus altijd de Nederlandse periodekop.
-    if (formLoket) {
-      formLoket.value = g.gemeente + (p ? " / " + p.kop : "") +
-        " (gecontroleerd " + g.gecheckt + ")";
-    }
+    var loketTekst = g.gemeente + (p ? " / " + p.kop : "") +
+      " (gecontroleerd " + g.gecheckt + ")";
+    if (formLoket) formLoket.value = loketTekst;
+    koppelAanvraag(rec.weergavenaam, jaar, loketTekst, route);
     zeg(T.gevonden(rec.weergavenaam));
   }
 
@@ -803,6 +865,7 @@
       '</p></header><div class="aw-doen"><p class="aw-actie">' +
       '<a class="btn" href="#contact">' + T.onbekendKnop + '</a></p></div></article>';
     uitslag.hidden = false;
+    koppelAanvraag("", null, "", "onbekend");
     zeg(T.mislukt);
     if (window.console) console.warn("bouwdossier-zoeker:", e);
   }
@@ -895,18 +958,6 @@
   invoer.addEventListener("keydown", function (e) {
     if (e.key === "Escape") toonSuggesties([]);
   });
-
-  /* Trap 2 en 3 hebben elk een eigen bedrag en dus een eigen betaalverzoek; de
-     bedankpagina kiest het juiste met ?trap=. Dat gaat alleen mee als het loket levert:
-     de bedankpagina zonder betaalverzoek heeft geen trap nodig. */
-  var aanvraag = formRedirect && formRedirect.form;
-  if (aanvraag) {
-    aanvraag.addEventListener("submit", function () {
-      var keus = aanvraag.querySelector('input[name="trap"]:checked');
-      var basis = formRedirect.value.split("?")[0];
-      formRedirect.value = (keus && basis === T.bedanktWel) ? basis + "?trap=" + keus.value : basis;
-    });
-  }
 
   haalLoketten().catch(function (e) {
     if (window.console) console.warn("loketten laden mislukt:", e);
