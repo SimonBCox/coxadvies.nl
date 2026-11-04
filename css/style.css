@@ -25,7 +25,9 @@ em{font-style:normal;font-weight:600}
 /* header */
 .nav-bar{position:sticky;top:0;z-index:40;transition:background .3s ease,box-shadow .3s ease,border-color .3s}
 .nav-bar.scrolled{background:rgba(247,245,240,.9);backdrop-filter:saturate(150%) blur(10px);border-bottom:1px solid var(--line)}
-.nav-inner{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:18px 0}
+/* zijmarge zoals op de homepage: op desktop ongewijzigd, op de telefoon niet tegen de rand */
+.nav-inner{display:flex;align-items:center;justify-content:space-between;gap:24px;
+           max-width:none;padding:18px max(var(--pad),calc((100vw - var(--maxw))/2))}
 .brand{display:flex;align-items:center;text-decoration:none;line-height:1}
 .brand img{height:36px;width:auto;display:block}
 .nav-links{display:none;gap:30px}

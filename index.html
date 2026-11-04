@@ -270,7 +270,8 @@
   .kop{position:relative;background:var(--navy-deep);color:#fff;display:flex;
        flex-direction:column;min-height:min(74vh,660px);overflow:hidden}
   .kop > .wrap{width:100%}
-  .kop .nav-inner{padding:20px 0}
+  /* zelfde zijmarge als de koptekst, anders staat het logo op de telefoon tegen de rand */
+  .kop .nav-inner{max-width:none;padding:20px max(var(--pad),calc((100vw - var(--maxw))/2))}
   .kop .brand img{filter:brightness(0) invert(1)}
   .kop .nav-links a{color:rgba(255,255,255,.82)}
   .kop .nav-links a:hover{color:#fff}
@@ -312,7 +313,7 @@
   .kernbalk .chip{color:rgba(255,255,255,.92);background:rgba(255,255,255,.05);
                   border-color:rgba(255,255,255,.2)}
   .kernbalk .chip b{color:#9fc6ec}
-  .kernacties{display:flex;flex-wrap:wrap;gap:12px;flex:0 0 auto}
+  .kernacties{display:flex;flex-wrap:wrap;gap:12px;flex:0 1 auto}
   .kernacties .btn{background:#fff;color:var(--navy-deep);border:1.5px solid #fff}
   .kernacties .btn:hover{background:transparent;color:#fff}
   .kernacties .btn-ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.45)}
@@ -455,8 +456,6 @@
       <p class="hero-hint">Ook als u nog niet zeker weet of uw muur wel draagt. Even meekijken kost niets.</p>
       <div class="chips">
         <span class="chip"><b>&euro;&nbsp;850</b>incl. btw voor een doorbraak</span>
-        <span class="chip"><b>&#10003;</b>Berekening &eacute;n tekening</span>
-        <span class="chip"><b>&#10003;</b>Bereikbaar tijdens de hele bouw</span>
       </div>
     </div>
     <div class="kernacties">
@@ -1077,7 +1076,7 @@
       <div class="sec-head reveal">
         <p class="eyebrow cta-eye">Contact</p>
         <h2>Vertel me wat u wilt verbouwen</h2>
-        <p>Dan zeg ik u wat er constructief moet gebeuren en wat het kost. Blijkt uw muur niet te dragen, dan hoort u dat ook. Dat scheelt u een berekening.</p>
+        <p>Dan zeg ik u wat er constructief moet gebeuren en wat het kost. Twijfelt u nog of de muur draagt, dan hoort u eerst wat ik ervan verwacht.</p>
       </div>
       <div class="cta-row reveal">
         <a class="btn btn-ghost" href="tel:+31615902335">Liever bellen? 06 1590 2335</a>
