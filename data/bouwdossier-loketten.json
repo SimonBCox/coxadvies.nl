@@ -267,7 +267,7 @@
     "Almere Poort",
     "Almere Hout"
    ],
-   "gecheckt": "2026-07-10",
+   "gecheckt": "2026-11-04",
    "route": "balie",
    "wij": false,
    "voorbehoud": "",
@@ -288,16 +288,16 @@
      "en_html": ""
     },
     {
-     "bedrag": null,
+     "bedrag": 26.65,
      "kop": "vanaf 1998",
      "kop_en": "From 1998",
      "van": 1998,
      "tot": null,
      "geldt_voor": "",
      "loket": "",
-     "route": "digid",
+     "route": "duur",
      "wij": false,
-     "html": "<p>(digitaal): gemeente Almere, afdeling Vergunningen, Toezicht &amp; Handhaving: digitaal formulier met DigiD, afhandeling ± 25 werkdagen. Kosten <strong>€ 26,65</strong> per adres (zoekopdracht). <a href=\"https://www.almere.nl/vergunningen-toezicht-handhaving/inzage-bouwarchief\" target=\"_blank\" rel=\"noopener\">https://www.almere.nl/vergunningen-toezicht-handhaving/inzage-bouwarchief</a> Tel. 14 036, <a href=\"mailto:info@almere.nl\">info@almere.nl</a>.</p>",
+     "html": "<p>(digitaal): gemeente Almere, afdeling Vergunningen, Toezicht &amp; Handhaving: digitaal formulier met DigiD, afhandeling ± 25 werkdagen. U hoeft geen eigenaar van het pand te zijn om het bouwarchief op te vragen. Kosten <strong>€ 26,65</strong> per adres (zoekopdracht). <a href=\"https://www.almere.nl/vergunningen-toezicht-handhaving/inzage-bouwarchief\" target=\"_blank\" rel=\"noopener\">https://www.almere.nl/vergunningen-toezicht-handhaving/inzage-bouwarchief</a> Tel. 14 036, <a href=\"mailto:info@almere.nl\">info@almere.nl</a>.</p>",
      "en_html": ""
     }
    ]
@@ -507,12 +507,12 @@
    "gemeente": "Amstelveen",
    "pdok": [],
    "kernen": [],
-   "gecheckt": "2026-09-17",
+   "gecheckt": "2026-11-04",
    "route": "wij-zelfzoeken",
    "wij": true,
    "voorbehoud": "",
-   "intro_html": "<p>De grens ligt op <strong>1 oktober 2010</strong>. Alles daarvóór is door de gemeente aan het Stadsarchief Amsterdam overgedragen en staat daar online, met scans die te downloaden zijn. Wat daarna is vergund zit bij de gemeente zelf, en dat loket wil DigiD.</p>",
-   "en_html": "<p>Amstelveen has one boundary, 1 October 2010. Everything before it was handed over to the Amsterdam city archive and is online there, with scans you can download. What was permitted after that sits with the municipality, behind a Dutch DigiD login.</p>",
+   "intro_html": "<p>De grens ligt op <strong>1 oktober 2010</strong>. Alles daarvóór is door de gemeente aan het Stadsarchief Amsterdam overgedragen en staat daar online, met scans die te downloaden zijn. Wat daarna is vergund zit bij de gemeente zelf en vraagt u aan met een formulier.</p>",
+   "en_html": "<p>Amstelveen has one boundary, 1 October 2010. Everything before it was handed over to the Amsterdam city archive and is online there, with scans you can download. What was permitted after that sits with the municipality and is requested with an online form.</p>",
    "perioden": [
     {
      "bedrag": null,
@@ -535,10 +535,10 @@
      "tot": null,
      "geldt_voor": "",
      "loket": "gemeente Amstelveen",
-     "route": "digid",
-     "wij": false,
-     "html": "<p><strong>gemeente Amstelveen</strong>, Loket Bouwen en Vergunningen, online aan te vragen <strong>met DigiD</strong>. De gemeente streeft ernaar de stukken binnen tien werkdagen te mailen. Tel. 020 540 49 11. <a href=\"https://loket.amstelveen.nl/aanvraag?schema=registratie_b1100_loketbouwenvergunningen\" target=\"_blank\" rel=\"noopener\">https://loket.amstelveen.nl/aanvraag?schema=registratie_b1100_loketbouwenvergunningen</a></p>",
-     "en_html": "<p>From 1 October 2010 the municipality handles it, and its online counter requires a Dutch DigiD login, which I cannot do on your behalf. They aim to send the documents within ten working days.</p>"
+     "route": "wij-formulier",
+     "wij": true,
+     "html": "<p><strong>gemeente Amstelveen</strong>, Loket Bouwen en Vergunningen, online aan te vragen met het contactformulier van dat loket. Inloggen met DigiD mag, maar het formulier is ook zonder inloggen in te vullen. De gemeente streeft ernaar de stukken binnen tien werkdagen te mailen. Tel. 020 540 49 11. <a href=\"https://loket.amstelveen.nl/aanvraag?schema=registratie_b1100_loketbouwenvergunningen\" target=\"_blank\" rel=\"noopener\">https://loket.amstelveen.nl/aanvraag?schema=registratie_b1100_loketbouwenvergunningen</a></p>",
+     "en_html": "<p>From 1 October 2010 the municipality handles it, through the contact form of its building permits desk. Logging in is optional. They aim to send the documents within ten working days.</p>"
     },
     {
      "bedrag": null,
@@ -723,9 +723,9 @@
     "Schaarsbergen",
     "Elden"
    ],
-   "gecheckt": "2026-09-05",
-   "route": "onbekend",
-   "wij": false,
+   "gecheckt": "2026-11-04",
+   "route": "wij-digid",
+   "wij": true,
    "voorbehoud": "",
    "intro_html": "",
    "en_html": "",
@@ -751,9 +751,9 @@
      "tot": 2012,
      "geldt_voor": "",
      "loket": "gemeente Arnhem",
-     "route": "digid",
-     "wij": false,
-     "html": "<p><strong>gemeente Arnhem</strong>, online per adres via <a href=\"https://eloket.arnhem.nl/f/95814\" target=\"_blank\" rel=\"noopener\">https://eloket.arnhem.nl/f/95814</a>. Eén aanvraag per adres; het dossier staat binnen 5 werkdagen klaar in MijnArnhem, en daar komt alleen de eigenaar zelf met zijn DigiD in. Deze periode is dus niet namens iemand anders op te halen. Vragen: 0800-1809.</p>",
+     "route": "wij-digid",
+     "wij": true,
+     "html": "<p><strong>gemeente Arnhem</strong>, online per adres via <a href=\"https://eloket.arnhem.nl/f/95814\" target=\"_blank\" rel=\"noopener\">https://eloket.arnhem.nl/f/95814</a>. Voor het formulier logt u in met DigiD of eHerkenning. Eén aanvraag per adres, en het dossier staat binnen vijf werkdagen klaar in MijnArnhem van degene die het aanvroeg. Vragen: 0800-1809.</p>",
      "en_html": ""
     },
     {
@@ -777,8 +777,8 @@
      "tot": null,
      "geldt_voor": "",
      "loket": "",
-     "route": "onbekend",
-     "wij": false,
+     "route": "wij-digid",
+     "wij": true,
      "html": "<p>Dossiers bevatten volgens de gemeentepagina ook constructieberekeningen. Bij dossiers jonger dan 5 jaar worden contactgegevens en kosten afgeschermd, en sommige dossiers vragen toestemming van de eigenaar.</p>",
      "en_html": ""
     }
@@ -3628,8 +3628,8 @@
     "Tongelre",
     "Acht"
    ],
-   "gecheckt": "2026-09-06",
-   "route": "onbekend",
+   "gecheckt": "2026-11-04",
+   "route": "duur",
    "wij": false,
    "voorbehoud": "",
    "intro_html": "<p>De grens ligt op <strong>1989</strong>. Wat ouder is ligt bij het regionaal archief en is gewoon aan te vragen; wat jonger is ligt bij de gemeente zelf.</p>",
@@ -3649,17 +3649,17 @@
      "en_html": "<p>Requested with the form on the archive's own site, no login needed. The archive supplies the technical documents only: building drawings, structural drawings and calculations, and nothing else from the file. Reckon on about a fortnight for an answer. Their reading room opens on Tuesdays and Thursdays by appointment.</p>"
     },
     {
-     "bedrag": null,
+     "bedrag": 34.0,
      "kop": "vanaf 1989",
      "kop_en": "From 1989",
      "van": 1989,
      "tot": null,
      "geldt_voor": "",
      "loket": "gemeente Eindhoven",
-     "route": "digid",
+     "route": "duur",
      "wij": false,
-     "html": "<p><strong>gemeente Eindhoven</strong>. Alleen online in te zien na inloggen met DigiD of eHerkenning. Kosten € 34 per dossier, levering binnen vijf werkdagen via beveiligde mail; de factuur volgt ongeveer twee weken later. Wie geen van beide heeft, maakt een afspraak via <a href=\"mailto:vergunningen@eindhoven.nl\">vergunningen@eindhoven.nl</a>.</p>",
-     "en_html": "<p>From 1989 the municipality supplies it, and its own counter asks for a Dutch DigiD or eHerkenning login, which I cannot do on your behalf. The municipality charges € 34 per file.</p>"
+     "html": "<p><strong>gemeente Eindhoven</strong>, via het formulier op <a href=\"https://www.eindhoven.nl/bouwdossier-opvragen\" target=\"_blank\" rel=\"noopener\">https://www.eindhoven.nl/bouwdossier-opvragen</a>, zonder inloggen en voor ten hoogste drie adressen per aanvraag. Kosten <strong>€ 34,00 per dossier</strong>, levering binnen ongeveer vijf werkdagen via beveiligde mail; de factuur volgt later. Vragen: <a href=\"mailto:vergunningen@eindhoven.nl\">vergunningen@eindhoven.nl</a>.</p>",
+     "en_html": "<p>From 1989 the municipality supplies it, through a plain online form without a login. The municipality charges € 34,00 per file and sends it by secure mail in about five working days. That is more than the ten euros included in my price, so I will call you about it before anything is requested.</p>"
     },
     {
      "bedrag": null,
@@ -3669,7 +3669,7 @@
      "tot": null,
      "geldt_voor": "",
      "loket": "",
-     "route": "onbekend",
+     "route": "duur",
      "wij": false,
      "html": "<p>Het RHCe beheert de bouwdossiers van twintig gemeenten in Zuidoost-Brabant, waaronder Helmond, Veldhoven, Nuenen, Best, Geldrop-Mierlo, Deurne en Valkenswaard. De jaargrens verschilt per gemeente en staat per gemeente op de site van het archief.</p>",
      "en_html": ""
@@ -3682,7 +3682,7 @@
      "tot": null,
      "geldt_voor": "",
      "loket": "",
-     "route": "onbekend",
+     "route": "duur",
      "wij": false,
      "html": "<p>Bronnen: <a href=\"https://www.eindhoven.nl/bouwen/vergunningen/bouwdossier-opvragen\" target=\"_blank\" rel=\"noopener\">https://www.eindhoven.nl/bouwen/vergunningen/bouwdossier-opvragen</a> en <a href=\"https://www.rhc-eindhoven.nl/bouwdossiers\" target=\"_blank\" rel=\"noopener\">https://www.rhc-eindhoven.nl/bouwdossiers</a>.</p>",
      "en_html": ""
@@ -6504,7 +6504,7 @@
     "Laren",
     "Exel"
    ],
-   "gecheckt": "2026-09-06",
+   "gecheckt": "2026-11-04",
    "route": "wij-zelfzoeken",
    "wij": true,
    "voorbehoud": "",
@@ -6532,9 +6532,9 @@
      "tot": null,
      "geldt_voor": "",
      "loket": "gemeente Lochem",
-     "route": "digid",
-     "wij": false,
-     "html": "<p><strong>gemeente Lochem</strong>, via het beveiligde portaal <a href=\"https://mijn.lochem.nl/f/2022\" target=\"_blank\" rel=\"noopener\">https://mijn.lochem.nl/f/2022</a>, en daar komt u alleen met DigiD in. Lopende aanvragen kunt u niet laten kopiëren, wel op afspraak inzien.</p>",
+     "route": "wij-digid",
+     "wij": true,
+     "html": "<p><strong>gemeente Lochem</strong>, via het formulier \"Inzageverzoek bouw- en milieuarchief\" op <a href=\"https://mijn.lochem.nl/f/2022\" target=\"_blank\" rel=\"noopener\">https://mijn.lochem.nl/f/2022</a>. Voor het formulier logt u in met DigiD. Digitale kopieën van vergunningen zijn gratis. Lopende aanvragen kunt u niet laten kopiëren, wel op afspraak inzien.</p>",
      "en_html": ""
     },
     {
