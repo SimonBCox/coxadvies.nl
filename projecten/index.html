@@ -4,11 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Draagmuurdoorbraak en aanbouw in foto's | Cox Constructieadvies</title>
-<meta name="description" content="Zes projecten die ik heb berekend en getekend, in foto's van de bouw met de maten uit de berekening: doorbraken, een aanbouw op palen en nieuwbouw.">
+<meta name="description" content="Een kaart met mijn opdrachten per plaats en per soort, en doorbraken, een aanbouw op palen en nieuwbouw in foto's van de bouw, met de maten uit de berekening.">
 <link rel="canonical" href="https://www.coxadvies.nl/projecten/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Draagmuurdoorbraak en aanbouw in foto's | Cox Constructieadvies">
-<meta property="og:description" content="Van dichte muur tot geplaatst staal. Foto's van de bouw, met de maten en profielen uit de berekening erbij.">
+<meta property="og:description" content="Van dichte muur tot geplaatst staal. Foto's van de bouw met de maten uit de berekening, en een kaart met de opdrachten per plaats.">
 <meta property="og:locale" content="nl_NL">
 <meta property="og:url" content="https://www.coxadvies.nl/projecten/">
 <meta property="og:image" content="https://www.coxadvies.nl/img/projecten/bemmel-03-ligger.jpg">
@@ -26,6 +26,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/css/style.css">
 <link rel="stylesheet" href="/css/lightbox.css">
+<link rel="stylesheet" href="/css/projectenkaart.css">
 <style>
   /* de drie fasen naast elkaar, vanaf hetzelfde standpunt gefotografeerd */
   .reeks{display:grid;grid-template-columns:1fr;gap:26px;margin-top:8px}
@@ -120,6 +121,7 @@
         <h1 class="visual-head" style="max-width:17ch">Van dichte muur tot <em>geplaatst staal</em>.</h1>
         <p class="lead">Twee verbouwingen die ik heb berekend en getekend, gefotografeerd op de bouw. De maten en de profielen die u erbij ziet staan komen uit de berekening van datzelfde project, niet uit een voorbeeld.</p>
         <div class="chips">
+          <span class="chip"><a href="#kaart" style="text-decoration:none">Projecten op de kaart</a></span>
           <span class="chip"><a href="#doorbraak" style="text-decoration:none">Draagmuurdoorbraak</a></span>
           <span class="chip"><a href="#aanbouw" style="text-decoration:none">Aanbouw op palen</a></span>
         </div>
@@ -130,6 +132,29 @@
           <div class="fc-k">Aanbouw op palen</div>
           <div class="fc-v">De heistelling moest over de schutting naar binnen</div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- KAART: data uit tools/website/projectenkaart.py, script in /js/projectenkaart.js -->
+  <section class="section pk" id="kaart">
+    <div class="wrap">
+      <div class="sec-head reveal">
+        <p class="eyebrow">Op de kaart</p>
+        <h2>Waar ik heb gewerkt</h2>
+        <p>Op de kaart staan <span data-pk="aantal">66</span> opdrachten die ik heb uitgevoerd of nu onder handen heb, in <span data-pk="plaatsen">38</span> plaatsen. Een symbool staat op het midden van de woonplaats en nooit op het adres zelf.</p>
+      </div>
+      <div class="pk-filters" id="pk-filters" role="group" aria-label="Soort project"></div>
+      <div class="pk-main">
+        <div class="pk-stage" id="pk-stage">
+          <svg id="pk-kaart" role="group" aria-label="Kaart van Nederland met de projecten per woonplaats"></svg>
+          <div id="pk-overlay"></div>
+        </div>
+        <aside class="pk-paneel" id="pk-paneel" aria-live="polite"></aside>
+      </div>
+      <div class="pk-plaatsen">
+        <h3>Alle plaatsen</h3>
+        <div class="pk-plchips" id="pk-plchips"></div>
       </div>
     </div>
   </section>
@@ -413,7 +438,7 @@
       <div class="proj-intro reveal">
         <p class="eyebrow">Voor de volledigheid</p>
         <h2>Wat hier niet staat</h2>
-        <p>Hierboven staan twee projecten met de berekening en de tekening ernaast, en vijf in beeld. Dat is niet alles wat ik heb gedaan, maar wel alles waarvan de foto&rsquo;s en de stukken bij elkaar te vinden zijn. Van ouder werk liggen er foto&rsquo;s zonder dat vastligt welke berekening erbij hoort, en dan hoort er ook geen maat bij.</p>
+        <p>Hierboven staan twee projecten met de berekening en de tekening ernaast, en vijf in beeld. Op de kaart staan de opdrachten uit mijn administratie, met de woonplaats en de soort werk, maar zonder naam of adres. Foto&rsquo;s staan er alleen bij als vastligt welke berekening erbij hoort. Van ouder werk liggen er foto&rsquo;s zonder die koppeling, en dan hoort er ook geen maat bij.</p>
       </div>
     </div>
   </section>
@@ -505,6 +530,8 @@
 
 <script src="/js/main.js"></script>
 <script src="/js/lightbox.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js" defer></script>
+<script src="/js/projectenkaart.js" defer></script>
 <script src="/js/tellen.js" async></script>
 </body>
 </html>

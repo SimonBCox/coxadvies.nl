@@ -1,0 +1,103 @@
+/* Projectenkaart op /projecten/, bij js/projectenkaart.js. Alles heet pk-, want de
+   pagina heeft zelf al .proj, .bron en .chip. Op de donkere kaart staan lichtere tinten
+   (in het script); hieronder de tinten voor de lichte achtergrond van de site. */
+.pk{--pk-doorbraak:#E4572E;--pk-uitbreiding:#17A398;--pk-vloer:#E0A100;--pk-advies:#6A4C93;--pk-stage:#05090f}
+.pk .sec-head{margin-bottom:clamp(22px,3vw,32px)}
+.pk-sym{width:15px;height:15px;flex:none;display:block}
+.pk button:focus-visible,.pk a:focus-visible{outline:2px solid var(--navy);outline-offset:2px}
+
+/* filters */
+.pk-filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 16px}
+.pk-chip{appearance:none;display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:7px 13px 7px 10px;font:500 .84rem/1 "Inter",system-ui,sans-serif;cursor:pointer;transition:opacity .15s,border-color .15s}
+.pk-chip:hover{border-color:#c9c4b8}
+.pk-chip[aria-pressed="false"]{opacity:.45}
+.pk-chip[aria-pressed="false"] .pk-sym{filter:grayscale(1)}
+.pk-chip.pk-loopt{color:var(--navy)}
+.pk-chip.pk-loopt[aria-pressed="false"]{opacity:.7}
+.pk-chip.pk-loopt[aria-pressed="true"]{border-color:var(--navy);box-shadow:inset 0 0 0 1px var(--navy)}
+.pk-n{font-size:.76rem;font-weight:500;color:var(--muted);font-variant-numeric:tabular-nums}
+.pk-sep{width:1px;height:22px;background:var(--line);margin:0 4px}
+
+/* kaart en paneel naast elkaar */
+.pk-main{display:grid;grid-template-columns:minmax(0,1fr) 350px;gap:20px;align-items:start;container-type:inline-size}
+.pk-stage{position:relative;border-radius:var(--r);overflow:hidden;background:var(--pk-stage);box-shadow:0 1px 2px rgba(0,0,0,.08),0 10px 34px rgba(7,31,51,.18);
+  aspect-ratio:1000/1120;max-height:max(440px,calc(100vh - 140px));max-height:max(440px,calc(100svh - 140px))}
+/* de kaart vult de kolom; is het scherm te laag, dan staat het land in het midden met donker ernaast */
+@supports (height:1cqw){
+  .pk-stage{aspect-ratio:auto;max-height:none;height:min(calc((100cqw - 370px) * 1.12),max(440px,calc(100svh - 140px)))}
+}
+.pk-stage svg{display:block;width:100%;height:100%;touch-action:pan-y;user-select:none;-webkit-user-select:none}
+.pk-stage text{font-family:"Inter",system-ui,sans-serif}
+.pk-ov{position:absolute;display:flex;gap:6px;flex-wrap:wrap;z-index:2}
+.pk-ov-tl{top:12px;left:12px;right:12px}
+.pk-ov-bl{bottom:12px;left:12px}
+.pk-ovk{appearance:none;border:1px solid rgba(160,200,255,.35);background:rgba(8,18,32,.74);color:#e3eeff;border-radius:999px;padding:7px 13px;font:500 .8rem/1 "Inter",system-ui,sans-serif;cursor:pointer;-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px)}
+.pk-ovk:hover{border-color:rgba(190,215,255,.6)}
+.pk-ovk[aria-pressed="true"]{background:rgba(120,170,255,.28);border-color:rgba(190,215,255,.7)}
+.pk .pk-ovk:focus-visible{outline-color:#9cc3ee}
+.pk-teller{display:inline-block;font:500 .78rem/1 "Inter",system-ui,sans-serif;font-variant-numeric:tabular-nums;color:#cfe0ff;background:rgba(8,18,32,.74);border:1px solid rgba(160,200,255,.3);border-radius:999px;padding:8px 12px}
+.pk-teller b{font-weight:600;color:#fff}
+.pk-melding{position:absolute;left:16px;right:16px;top:50%;transform:translateY(-50%);text-align:center;color:#cfe0ff;font-size:.95rem}
+
+/* symbolen op de kaart; de transform staat als attribuut, dus hier geen CSS-transform op de groep */
+.pk-pl{cursor:pointer;outline:none}
+.pk-sel{opacity:0;transition:opacity .18s}
+.pk-pl.actief .pk-sel,.pk-pl:focus-visible .pk-sel{opacity:1}
+.pk-puls{transform-box:fill-box;transform-origin:center;animation:pk-puls 1.8s ease-out infinite}
+@keyframes pk-puls{from{transform:scale(1);opacity:.95}to{transform:scale(2.7);opacity:0}}
+
+/* paneel */
+.pk-paneel{position:sticky;top:88px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:20px;max-height:calc(100vh - 104px);overflow:auto;overscroll-behavior:contain}
+.pk-paneel h3{font-size:1.45rem;margin:0}
+.pk-pkopregel{display:flex;align-items:baseline;justify-content:space-between;gap:10px}
+.pk-terug{appearance:none;border:0;background:none;color:var(--accent);font:500 .84rem/1 "Inter",system-ui,sans-serif;cursor:pointer;padding:4px 0}
+.pk-terug:hover{text-decoration:underline}
+.pk-ondert{color:var(--muted);font-size:.86rem;margin:4px 0 12px}
+.pk-leeg{color:var(--muted);font-size:.9rem;margin:8px 0 14px}
+.pk-proj{border-top:1px solid var(--line);padding:13px 0}
+.pk-proj:first-of-type{border-top:0;padding-top:2px}
+.pk-pkop{display:flex;gap:10px;align-items:flex-start}
+.pk-pkop .pk-sym{width:18px;height:18px;margin-top:2px}
+.pk-ptitel{font-weight:600;line-height:1.3}
+.pk-psub{font-size:.86rem;color:var(--muted);line-height:1.4}
+.pk-badge{margin-left:auto;font-size:.72rem;font-weight:600;color:var(--navy);border:1px dashed var(--navy);border-radius:999px;padding:4px 8px;white-space:nowrap}
+.pk-geen{margin:6px 0 0 28px;font-size:.86rem;color:var(--muted)}
+.pk-fotos{display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;margin:10px 0 0;padding-bottom:6px}
+.pk-fotos figure{flex:0 0 84%;margin:0;scroll-snap-align:start}
+.pk-fotos img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:10px;background:var(--line)}
+.pk-fotos figcaption{font-size:.82rem;line-height:1.45;color:var(--muted);margin-top:6px}
+.pk-link{appearance:none;display:inline-block;margin:8px 0 0;border:0;background:none;padding:0;color:var(--accent);font:600 .86rem/1.3 "Inter",system-ui,sans-serif;cursor:pointer;text-decoration:none}
+.pk-link:hover{text-decoration:underline}
+.pk-kaartjes{display:grid;gap:10px}
+.pk-kaartje{appearance:none;display:grid;grid-template-columns:86px 1fr;gap:12px;align-items:center;text-align:left;border:1px solid var(--line);background:transparent;color:var(--ink);border-radius:12px;padding:8px;cursor:pointer;font:inherit;transition:border-color .15s}
+.pk-kaartje:hover{border-color:var(--navy)}
+.pk-kaartje img{width:86px;height:64px;object-fit:cover;border-radius:8px;display:block;background:var(--line)}
+.pk-kaartje b{display:block;font-size:.9rem;font-weight:600;line-height:1.3}
+.pk-kaartje span span{font-size:.8rem;color:var(--muted)}
+
+/* alle plaatsen onder de kaart */
+.pk-plaatsen{margin-top:22px}
+.pk-plaatsen h3{font-family:"Inter",system-ui,sans-serif;font-size:.95rem;font-weight:600;letter-spacing:0;margin:0 0 10px}
+.pk-plchips{display:flex;flex-wrap:wrap;gap:8px}
+.pk-plchip{appearance:none;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:10px;padding:7px 10px;cursor:pointer;font:500 .84rem/1.1 "Inter",system-ui,sans-serif;display:inline-flex;gap:8px;align-items:center;transition:border-color .15s}
+.pk-plchip:hover{border-color:#c9c4b8}
+.pk-plchip.actief{border-color:var(--navy);box-shadow:inset 0 0 0 1px var(--navy)}
+.pk-dots{display:inline-flex;gap:2px;flex-wrap:wrap;max-width:64px}
+.pk-dots i{width:6px;height:6px;border-radius:50%;display:block}
+
+@media (max-width:980px){
+  .pk-main{grid-template-columns:minmax(0,1fr)}
+  .pk-paneel{position:static;max-height:none}
+  @supports (height:1cqw){ .pk-stage{height:min(calc(100cqw * 1.12),max(440px,calc(100svh - 140px)))} }
+}
+@media (max-width:640px){
+  .pk-ovk{padding:6px 10px;font-size:.75rem}
+  .pk-ov-tl{top:10px;left:10px;right:10px}
+  .pk-ov-bl{bottom:10px;left:10px}
+  .pk-sep{display:none}
+  .pk-paneel{padding:16px}
+}
+@media (prefers-reduced-motion:reduce){
+  .pk-puls{animation:none;opacity:.8}
+  .pk-sel,.pk-chip{transition:none}
+}
